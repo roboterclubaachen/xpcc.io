@@ -55,7 +55,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         try:
             cache_file = open('latex.cache', 'r+')
             for line in cache_file.readlines():
-                key, val = line.strip("\n").split(" ")
+                key, val = line.strip("\n").split("$")
                 self.cached[key] = val
         except IOError:
             pass
@@ -195,12 +195,13 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         new_cache = {}
         id = 0
         for reg, math_mode, expr in tex_expr:
+            b64_expr = base64.b64encode(expr)
             simp_expr = filter(unicode.isalnum, expr)
-            if simp_expr in self.cached:
-                data = self.cached[simp_expr]
+            if b64_expr in self.cached:
+                data = self.cached[b64_expr]
             else:
                 data = self._latex_to_base64(expr, math_mode)
-                new_cache[simp_expr] = data
+                new_cache[b64_expr] = data
             expr = expr.replace('"', "").replace("'", "")
             id += 1
             img = IMG_EXPR % (str(math_mode).lower(), simp_expr, simp_expr[:15] + "_" + str(id), data)
@@ -219,7 +220,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         # Cache our data
         cache_file = open('latex.cache', 'a')
         for key, value in new_cache.items():
-            cache_file.write("%s %s\n" % (key, value))
+            cache_file.write("%s$%s\n" % (key, value))
         cache_file.close()
 
         # Make sure to resplit the lines
