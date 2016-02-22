@@ -40,7 +40,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
     cached = {}
 
     # Basic LaTex Setup as well as our list of expressions to parse
-    tex_preamble = r"""\documentclass[border=1pt]{standalone}
+    tex_preamble = r"""\documentclass[]{article}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
@@ -66,6 +66,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         self.config[("delimiters", "text")] = "%"
         self.config[("delimiters", "math")] = "$"
         self.config[("delimiters", "preamble")] = "%%"
+        self.config[("delimiters", "equation")] = "$$"
 
         try:
             import ConfigParser
@@ -87,12 +88,14 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         self.re_textmode = build_regexp(self.config[("delimiters", "text")])
         # $MATH$ mode which is the typical LaTeX math mode.
         self.re_mathmode = build_regexp(self.config[("delimiters", "math")])
+        # $$EQUATION$$ mode which is the typical LaTeX equation mode.
+        self.re_equationmode = build_regexp(self.config[("delimiters", "equation")])
         # %%PREAMBLE%% text that modifys the LaTeX preamble for the document
         self.re_preamblemode = build_regexp(self.config[("delimiters", "preamble")])
 
     """The TeX preprocessor has to run prior to all the actual processing
     and can not be parsed in block mode very sanely."""
-    def _latex_to_svg(self, tex, math_mode):
+    def _latex_to_svg(self, tex, mode):
         """Generates a SVG representation of TeX string"""
         # Generate the temporary file
         tempfile.tempdir = ""
@@ -101,11 +104,14 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         tmp_file.write(self.tex_preamble)
 
         # Figure out the mode that we're in
-        if math_mode:
-            tmp_file.write("$%s$" % tex)
+        if mode == "math":
+            ftex = "\\relscale{1.1}\n$ %s $" % tex
+        elif mode == "equation":
+            ftex = "\\relscale{1.5}\n\[ %s \]" % tex
         else:
-            tmp_file.write("%s" % tex)
+            ftex = "%s" % tex
 
+        tmp_file.write(ftex)
         tmp_file.write('\n\end{document}')
         tmp_file.close()
 
@@ -193,11 +199,12 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         for preamble in preambles:
             self.tex_preamble += preamble + "\n"
             page = self.re_preamblemode.sub("", page, 1)
-        self.tex_preamble += "\n\\begin{document}\\relscale{1.1}\n"
+        self.tex_preamble += "\n\\begin{document}"
 
         # Figure out our text strings and math-mode strings
-        tex_expr = [(self.re_textmode, False, x) for x in self.re_textmode.findall(page)]
-        tex_expr += [(self.re_mathmode, True, x) for x in self.re_mathmode.findall(page)]
+        tex_expr = [(self.re_textmode, "text", x) for x in self.re_textmode.findall(page)]
+        tex_expr += [(self.re_equationmode, "equation", x) for x in self.re_equationmode.findall(page)]
+        tex_expr += [(self.re_mathmode, "math", x) for x in self.re_mathmode.findall(page) if x[1:] not in [bx[2] for bx in tex_expr]]
 
         # No sense in doing the extra work
         if not len(tex_expr):
@@ -206,17 +213,22 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         # Parse the expressions
         new_cache = {}
         id = 0
-        for reg, math_mode, expr in tex_expr:
+        for reg, mode, expr in tex_expr:
+            print reg, mode, expr
             b64_expr = base64.b64encode(expr)
             simp_expr = filter(unicode.isalnum, expr)
             if b64_expr in self.cached:
                 data = self.cached[b64_expr]
             else:
-                data = self._latex_to_svg(expr, math_mode)
+                data = self._latex_to_svg(expr, mode)
                 new_cache[b64_expr] = data
             expr = expr.replace('"', "").replace("'", "")
             id += 1
-            img = IMG_EXPR % (str(math_mode).lower(), simp_expr, simp_expr[:15] + "_" + str(id), data)
+            img = IMG_EXPR % (
+                    'true' if mode in ['math', 'equation'] else 'false',
+                    simp_expr,
+                    simp_expr[:15] + "_" + str(id),
+                    data)
             # print img
             page = reg.sub(img, page, 1)
 
