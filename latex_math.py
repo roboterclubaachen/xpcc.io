@@ -125,6 +125,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         pdf_crp = "%s-crop.pdf" % path
         png = "%s.png" % path
         svg = "%s.svg" % path
+        svgo = "%s-opt.svg" % path
 
         cmd = "pdfcrop %s" % (pdf)
         status = call(cmd.split(), stdout=PIPE)
@@ -135,7 +136,6 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
             raise Exception("Couldn't crop PDF-LaTeX." +
                     "Please read '%s.log' for more detail." % path)
 
-
         cmd = "pdf2svg %s %s" % (pdf_crp, svg)
         status = call(cmd.split(), stdout=PIPE)
 
@@ -143,6 +143,15 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         if status:
             self._cleanup(path, err=True)
             raise Exception("Couldn't convert cropped PDF-LaTeX to SVG." +
+                    "Please read '%s.log' for more detail." % path)
+
+        cmd = "svgo %s %s" % (svg, svgo)
+        status = call(cmd.split(), stdout=PIPE)
+
+        # clean up if we couldn't make the above work
+        if status:
+            self._cleanup(path, err=True)
+            raise Exception("Couldn't optimize SVG." +
                     "Please read '%s.log' for more detail." % path)
 
         # Read the png and encode the data
@@ -162,7 +171,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
 
     def _cleanup(self, path, err=False):
         # don't clean up the log if there's an error
-        extensions = ["", ".aux", "-crop.pdf", ".pdf", ".svg", ".log"]
+        extensions = ["", ".aux", "-crop.pdf", ".pdf", "-opt.svg", ".svg", ".log"]
         if err:
             extensions.pop()
 
