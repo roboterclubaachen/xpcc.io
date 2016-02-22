@@ -1,6 +1,9 @@
 site_name: 'xpcc guidebook and reference manual'
 site_author: 'Roboterclub Aachen e.V.'
 site_url: 'http://docs.xpcc.io'
+# Repository
+repo_name: 'xpcc'
+repo_url: 'https://github.com/RoboterclubAachen/xpcc'
 
 theme: 'material'
 
