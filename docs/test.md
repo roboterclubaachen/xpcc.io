@@ -15,9 +15,7 @@ Content Cell  | Content Cell
 
 When $a \neq 0$ and $\min_1(4x + e^4)$ and therefore $\|F(x^0) + F'(x^0)(x - x^0)\|_2 \rightarrow \min$.
 
-$blablub(4)$
-
-$f_\text{out} = \frac{f_\text{in}}{2^n}$
+<center>$$f_\text{out} = \frac{f_\text{in}}{2^n}$$</center>
 
 The HTML specification
 is maintained by the W3C.
