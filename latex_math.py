@@ -28,8 +28,7 @@ from subprocess import call, PIPE
 
 
 # Defines our basic inline image
-IMG_EXPR = "<img class='latex-inline math-%s' alt='%s' id='%s'" + \
-        " src=\"data:image/svg+xml;base64,%s\">"
+IMG_EXPR = "<img class=\"latex-inline math-%s\" alt=\"%s\" id=\"%s\" src=\"data:image/svg+xml,%s\">"
 
 
 # Base CSS template
@@ -93,8 +92,8 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
 
     """The TeX preprocessor has to run prior to all the actual processing
     and can not be parsed in block mode very sanely."""
-    def _latex_to_base64(self, tex, math_mode):
-        """Generates a base64 representation of TeX string"""
+    def _latex_to_svg(self, tex, math_mode):
+        """Generates a SVG representation of TeX string"""
         # Generate the temporary file
         tempfile.tempdir = ""
         tmp_file_fd, path = tempfile.mkstemp()
@@ -147,10 +146,14 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
                     "Please read '%s.log' for more detail." % path)
 
         # Read the png and encode the data
-        svg = open(svg, "rb")
-        data = svg.read()
-        # print data
-        data = base64.b64encode(data)
+        svg = open(svgo, "rb")
+        data = svg.read() \
+            .replace('\n', '') \
+            .replace('"', "'") \
+            .replace('%', '%25') \
+            .replace('>', '%3E') \
+            .replace('<', '%3C') \
+            .replace('#', '%23')
         svg.close()
 
         self._cleanup(path)
@@ -200,7 +203,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
             if b64_expr in self.cached:
                 data = self.cached[b64_expr]
             else:
-                data = self._latex_to_base64(expr, math_mode)
+                data = self._latex_to_svg(expr, math_mode)
                 new_cache[b64_expr] = data
             expr = expr.replace('"', "").replace("'", "")
             id += 1
