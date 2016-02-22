@@ -1,0 +1,26 @@
+site_name: 'xpcc framework'
+site_description: 'guidebook and reference manual'
+site_author: 'Roboterclub Aachen e.V.'
+site_url: 'http://docs.xpcc.io'
+
+theme: 'material'
+
+copyright: 'Copyright &copy 2016 Roboterclub Aachen e.V.'
+
+markdown_extensions:
+  - codehilite(css_class=code)
+  - toc:
+      permalink: '¶'
+  - admonition
+  - sane_lists
+  - abbr
+  - tables
+  - attr_list
+  - footnotes
+  - def_list
+
+extra:
+  logo: 'images/logo.svg'
+  author:
+    github: 'RoboterclubAachen'
+    twitter: 'RCA_eV'
