@@ -32,3 +32,9 @@ markdown_extensions:
   - def_list
   - latex_math
 
+pages:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Guidebook:
+    - Overview: guidebook/overview.md
+    - Testing: guidebook/testing.md
