@@ -1,100 +1,124 @@
 
-# xpcc: C++ microcontroller framework <span style="float:right;">[![Build Status](https://travis-ci.org/roboterclubaachen/xpcc.svg?branch=develop)](https://travis-ci.org/roboterclubaachen/xpcc)</span>
+# xpcc: C++ microcontroller framework <span style="float:right;"><a href="https://travis-ci.org/roboterclubaachen/xpcc" style="border-bottom:none">![Build Status](https://travis-ci.org/roboterclubaachen/xpcc.svg?branch=develop)</a></span>
 
 The xpcc framework consists of powerful hardware abstraction layers for many
-different microcontrollers, a set of drivers for various external chips,
-a communication library for transparent communication over CAN, TCP/IP and TIPC
-and a general purpose toolbox for building hardware orientated applications.
+different microcontrollers, a set of drivers for various external targets and a general purpose toolbox for building hardware orientated applications.
 
-The main goal of xpcc is to provide a simple API for barebone microcontroller programming,
+The main goal of xpcc is to provide a usable API for barebone microcontroller programming,
 which is efficient enough to be deployed on a small ATtiny, yet powerful enough to make
 use of advanced capabilities found on the 32bit ARM Cortex-M.
 
-TL;DR:
+- [Feast your eyes on lots of working examples][examples].
+- [API documentation is available too][doxygen].
+- [We have continuous integration as well][travis_ci].
+- [And we care a lot about testing][testing].
 
-- [This project has a homepage](http://xpcc.io) with [install instructions](http://xpcc.io/install.html) and [a technical blog](http://blog.xpcc.io).
-- [Feast your eyes on lots of working examples](examples).
-- [API documentation is available too](http://xpcc.io/api/modules.html).
-- [We have Continuous Integration as well](https://travis-ci.org/roboterclubaachen/xpcc).
-- You have questions? [Ask them on our mailing list](http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev)
-or [have a look at the archive](http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel).
-- You found a bug? [Open up an issue, we don't bite](https://github.com/roboterclubaachen/xpcc/issues).
-- You want to contribute? [Read the contribution guidelines](CONTRIBUTING.md) and [open a pull request so we can merge it](https://github.com/roboterclubaachen/xpcc/pulls).
+This project also has [guidebook for developers][guidebook] as well as a [technical blog][blog] to document larger design concepts.
 
-The source code is freely available, so adapt it to your needs.
+- You have questions? [Ask them on our mailing list][mailing_list]
+or [have a look at the archive][mailing_archive].
+- You found a bug? [Open up an issue, we don't bite][issues].
+- You want to contribute? [Read the contribution guidelines][contributing] and [open a pull request so we can merge it][prs].
+
+The source code is freely available under a 3-clause BSD license, so feel free to fork this project and adapt it to your needs.
 The only thing we ask of you is to contribute your changes back.
-That way everyone can profit from it.
+That way everyone can profit.
 
 Have fun!
 
-## Main features
+## Features
 
-- efficient object-oriented C++11 API:
-    - new- and delete-operators
-    - STL-containers
-    - IO-stream interface to hardware (console, RS232, CAN)
-- support of AVR and ARM Cortex-M based microcontrollers from Atmel, ST and NXP,
-- build system based on SCons and Jinja2 template engine,
-- cross platform peripheral interfaces (incl. bit banging):
-    - GPIO,
-    - ADC,
-    - UART, I2C, SPI,
+- Efficient and fast object-oriented C++11 API.
+- Support of AVR and ARM Cortex-M based microcontrollers from Atmel, ST and NXP.
+- Build system based on SCons and extendable using Python.
+- Data-driven HAL generation using Jinja2 template engine.
+- No memory allocations in HAL with very low overall RAM consumption.
+- Cross platform peripheral interfaces incl. bit banging:
+    - GPIO & GPIO expanders
+    - ADC
+    - UART, I2C, SPI
     - CAN
-- write once, run anywhere external IC drivers using these interfaces,
-- Debug/Logging system,
-- lightweight, non-blocking workflow using timers and cooperative multitasking  with protothreads and resumable functions,
-- integration of RTOS (currently only FreeRTOS and boost::thread),
-- useful mathematical and geometric algorithms optimized for microcontrollers,
-- lightweight unit testing system (suitable for 8-bit microcontrollers),
-- graphical user interface for small screens.
+- Interfaces for external I2C and SPI device drivers.
+- Debug/logging system with IOStream interface.
+- Lightweight, stackless threads and resumable functions using cooperative multitasking,
+- Useful mathematical and geometric algorithms optimized for microcontrollers,
+- Lightweight unit testing system (suitable for AVRs),
+- Graphical user interface for small binary displays.
 
 
-## Hardware support
+## Supported hardware
 
-Here is a list of supported **and tested** microcontrollers (with development boards):
+Here is a list of supported **and tested** microcontrollers and development boards:
 
-- AT90CAN
-- ATtiny44, ATtiny85
-- ATmega16, ATmega164, ATmega644
-- ATmega328p (Arduino Uno)
-- ATmega1280 (Arduino Mega)
-- STM32F072 (STM32F072 Discovery Board)
-- STM32F100 (STM32F1 Discovery Board)
-- STM32F103 (STM32F103 Nucleo Board)
-- STM32F303 (STM32F3 Discovery Board)
-- STM32F407 (STM32F4 Discovery Board)
-- STM32F429 (STM32F429 Discovery Board)
-- STM32F469 (STM32F469 Discovery Board)
-- STM32F746 (STM32F7 Discovery Board)
-- LPC11C24 (LPCxpresso Board)
-- LPC1115 (LPCxpresso Board)
+| Controller | Development Board         | Support                             |
+|:-----------|:--------------------------|:------------------------------------|
+| AT90can    | custom                    | &#9733;&#9733;&#9733;               |
+| ATtiny44a  | custom                    | &#9733;&#9733;&#9733;               |
+| ATtiny85   | custom                    | &#9733;&#9733;&#9733;               |
+| ATmega328p | Arduino Uno               | &#9733;&#9733;&#9733;               |
+| ATmega1280 | Arduino Mega              | &#9733;&#9733;&#9733;               |
+| STM32F072  | STM32F072 Discovery Board | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F100  | STM32F1 Discovery Board   | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F103  | STM32F103 Nucleo Board    | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F303  | STM32F3 Discovery Board   | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F407  | STM32F4 Discovery Board   | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F429  | STM32F429 Discovery Board | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F469  | STM32F469 Discovery Board | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F746  | STM32F7 Discovery Board   | &#9733;&#9733;&#9733;&#9733;        |
+| LPC11C24   | LPCxpresso Board          | &#9733;&#9733;                      |
+| LPC1115    | LPCxpresso Board          | &#9733;&#9733;                      |
 
-Please see [our examples for a complete list](examples) of tested projects.
+All of these targets are compiling and booting correctly
+(&#9733;)
+and have GPIO and UART working
+(&#9733;&#9733;).
+Most targets have support for basic peripherals, like I2C, SPI and ADC
+(&#9733;&#9733;&#9733;)
+as well as complicated peripherals, like Timers, CAN and external memory
+(&#9733;&#9733;&#9733;&#9733;).
+We also use a few targets in everyday development, which are very well tested
+(&#9733;&#9733;&#9733;&#9733;&#9733;).
+
+Please see [our examples for a complete list][examples] of tested projects.
+
+### Your target
 
 While the xpcc API is designed to be extremely portable, we are only a small team of developers and are limited in the amount of platforms we can support and test in hardware.
 The following microcontrollers should be able to compile, but *have not been tested extensively* in hardware:
 
-- All AT90 chips
-- All ATtiny chips
-- All ATmega chips
-- All STM32F3 chips
-- All STM32F4 chips
+- All AT90 targets
+- All ATtiny targets
+- All ATmega targets
+- All STM32F0 targets
+- All STM32F1 targets
+- All STM32F3 targets
+- All STM32F4 targets
+- All STM32F7 targets
 
-There are more platforms which we have prepared, but currently not finished support for (Xmega, STM32F0, STM32F1, STM32F2, STM32F7).
+There are more platforms which we have prepared, but currently not finished support for (Xmega, STM32F2, STM32L).
+[Drop us an email][mailing_list] to ask if your specific target is supported out-of-the-box and what you can do if it's not.
 
-[Drop us an email](http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev), if you want to get your hands dirty and help us finish the support.
+## Who we are
 
-## How can I contribute?
+During the last decade the [Roboterclub Aachen e.V.][rca_ev] has developed a software library for communication among components that are distributed on PCs and microcontrollers. This library was used in autonomous robots for the [EUROBOT][] competition.
 
-The easiest way for you and the best way for us to see if something is unclear or missing, is if you use the library and [give us some feedback](http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev).
+In 2009, xpcc became a separate project and since then focussed on a new approach to cross target microcontroller libraries. Over the years xpcc grew from a communication library to a general purpose framework suitable for all kinds of embedded applications.
 
-You may of course [file a bug report](https://github.com/roboterclubaachen/xpcc/issues) or if you have a fix already, [open a pull request](https://github.com/roboterclubaachen/xpcc/pulls).
+The xpcc project is maintained by:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for our contributing guidelines.
+- Niklas Hauser ([@salkinium](https://github.com/salkinium))
+- Kevin Läufer ([@ekiwi](https://github.com/ekiwi))
 
-
-
-
-[virtualbox]: https://www.virtualbox.org/wiki/Downloads
-[vagrant]: http://www.vagrantup.com/downloads.html
-[rca-vm]: https://github.com/roboterclubaachen/rca-vm
+[prs]: https://github.com/roboterclubaachen/xpcc/pulls
+[contributing]: https://github.com/roboterclubaachen/xpcc/tree/develop/CONTRIBUTING.md
+[issues]: https://github.com/roboterclubaachen/xpcc/issues
+[rca_ev]: http://www.roboterclub.rwth-aachen.de/
+[eurobot]: http://www.eurobot.org/
+[travis_ci]: https://travis-ci.org/roboterclubaachen/xpcc
+[doxygen]: http://xpcc.io/api/modules.html
+[testing]: guidebook/testing
+[mailing_archive]: http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel
+[examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
+[mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
+[guidebook]: guidebook
+[blog]: http://blog.xpcc.io
