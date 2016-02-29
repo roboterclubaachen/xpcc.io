@@ -1,13 +1,23 @@
-site_name: 'xpcc guidebook and reference manual'
+site_name: 'xpcc microcontroller framework'
 site_author: 'Roboterclub Aachen e.V.'
 site_url: 'http://docs.xpcc.io'
-# Repository
-repo_name: 'xpcc'
+repo_name: GitHub
 repo_url: 'https://github.com/RoboterclubAachen/xpcc'
+copyright: 'Copyright &copy 2016 Roboterclub Aachen e.V.'
 
 theme: 'material'
+extra:
+  palette:
+    primary: 'indigo'
+    accent: 'light blue'
+  logo: 'images/logo.svg'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  author:
+    github: 'RoboterclubAachen'
+    twitter: 'RCA_eV'
 
-copyright: 'Copyright &copy 2016 Roboterclub Aachen e.V.'
 
 markdown_extensions:
   - codehilite(css_class=code)
@@ -22,8 +32,3 @@ markdown_extensions:
   - def_list
   - latex_math
 
-extra:
-  logo: 'images/logo.svg'
-  author:
-    github: 'RoboterclubAachen'
-    twitter: 'RCA_eV'
