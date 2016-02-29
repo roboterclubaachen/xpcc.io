@@ -40,8 +40,9 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
     cached = {}
 
     # Basic LaTex Setup as well as our list of expressions to parse
-    tex_preamble = r"""\documentclass[]{article}
+    tex_preamble = r"""\documentclass[a3paper]{article}
 \usepackage{amsmath}
+\usepackage[left=0cm,top=0cm,right=0cm, bottom=0cm]{geometry}
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{bm}
@@ -79,19 +80,25 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         except ConfigParser.NoSectionError:
             pass
 
-        def build_regexp(delim):
+        def build_regexp_single(delim):
             delim = re.escape(delim)
+            regexp = '(?:[^{1}]){1}([^{1}]*){1}|{1}([^{1}]*){1}(?:[^{1}])|^{}([^{1}]*){1}'.format(delim)
+            return re.compile(regexp, re.MULTILINE | re.DOTALL)
+
+        def build_regexp_double(delim):
+            delim = re.escape(delim)
+            # (?<!\{)\{\w+\}(?!\})  matches {foo}, but not {{foo}}
             regexp = r'(?<!\\)' + delim + r'(.+?)(?<!\\)' + delim
             return re.compile(regexp, re.MULTILINE | re.DOTALL)
 
         # %TEXT% mode which is the default LaTeX mode.
-        self.re_textmode = build_regexp(self.config[("delimiters", "text")])
+        self.re_textmode = re.compile(r'(?:[^\%])\%([^\%]*)\%|\%([^\%]*)\%(?:[^\%])|^\%([^\%]*)\%', re.MULTILINE | re.DOTALL)
         # $MATH$ mode which is the typical LaTeX math mode.
-        self.re_mathmode = build_regexp(self.config[("delimiters", "math")])
+        self.re_mathmode = re.compile(r'(?:[^\$])\$([^\$]*)\$|\$([^\$]*)\$(?:[^\$])|^\$([^\$]*)\$', re.MULTILINE | re.DOTALL)
         # $$EQUATION$$ mode which is the typical LaTeX equation mode.
-        self.re_equationmode = build_regexp(self.config[("delimiters", "equation")])
+        self.re_equationmode = build_regexp_double(self.config[("delimiters", "equation")])
         # %%PREAMBLE%% text that modifys the LaTeX preamble for the document
-        self.re_preamblemode = build_regexp(self.config[("delimiters", "preamble")])
+        self.re_preamblemode = build_regexp_double(self.config[("delimiters", "preamble")])
 
     """The TeX preprocessor has to run prior to all the actual processing
     and can not be parsed in block mode very sanely."""
@@ -204,7 +211,13 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         # Figure out our text strings and math-mode strings
         tex_expr = [(self.re_textmode, "text", x) for x in self.re_textmode.findall(page)]
         tex_expr += [(self.re_equationmode, "equation", x) for x in self.re_equationmode.findall(page)]
-        tex_expr += [(self.re_mathmode, "math", x) for x in self.re_mathmode.findall(page) if x[1:] not in [bx[2] for bx in tex_expr]]
+
+        # for x in self.re_mathmode.findall(page):
+        #     if x[0] != "":
+        #         print "math:", len(x), x[0]
+        #         tex_expr.append( (self.re_mathmode, "math", x[0]) )
+
+        tex_expr += [(self.re_mathmode, "math", x[0]) for x in self.re_mathmode.findall(page) if x[0] != '']
 
         # No sense in doing the extra work
         if not len(tex_expr):
@@ -214,7 +227,7 @@ class LaTeXPreprocessor(markdown.preprocessors.Preprocessor):
         new_cache = {}
         id = 0
         for reg, mode, expr in tex_expr:
-            print reg, mode, expr
+            # print reg, mode, expr
             b64_expr = base64.b64encode(expr)
             simp_expr = filter(unicode.isalnum, expr)
             if b64_expr in self.cached:
