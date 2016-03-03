@@ -13,7 +13,7 @@ use of advanced capabilities found on the 32bit ARM Cortex-M.
 - [We have continuous integration as well][travis_ci].
 - [And we care a lot about testing][testing].
 
-This project also has [guidebook for developers][guidebook] as well as a [technical blog][blog] to document larger design concepts.
+This project also has [guide for developers][guide] as well as a [technical blog][blog] to document larger design concepts.
 
 - You have questions? [Ask them on our mailing list][mailing_list]
 or [have a look at the archive][mailing_archive].
@@ -116,9 +116,9 @@ The xpcc project is maintained by:
 [eurobot]: http://www.eurobot.org/
 [travis_ci]: https://travis-ci.org/roboterclubaachen/xpcc
 [doxygen]: http://xpcc.io/api/modules.html
-[testing]: guidebook/testing
+[testing]: guide/testing
 [mailing_archive]: http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
 [mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
-[guidebook]: guidebook
+[guide]: guide/overview
 [blog]: http://blog.xpcc.io
