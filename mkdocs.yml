@@ -8,8 +8,8 @@ copyright: 'Copyright &copy 2016 Roboterclub Aachen e.V.'
 theme: 'material'
 extra:
   palette:
-    primary: 'indigo'
-    accent: 'light blue'
+    primary: 'deep purple'
+    accent: 'cyan'
   logo: 'images/logo.svg'
   font:
     text: 'Ubuntu'
@@ -22,7 +22,7 @@ extra:
 markdown_extensions:
   - codehilite(css_class=code)
   - toc:
-      permalink: '¶'
+      permalink: '#'
   - admonition
   - sane_lists
   - abbr
