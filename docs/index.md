@@ -1,4 +1,3 @@
-
 # xpcc: C++ microcontroller framework <span style="float:right;"><a href="https://travis-ci.org/roboterclubaachen/xpcc" style="border-bottom:none">![Build Status](https://travis-ci.org/roboterclubaachen/xpcc.svg?branch=develop)</a></span>
 
 The xpcc framework consists of powerful hardware abstraction layers for many
@@ -8,8 +7,13 @@ The main goal of xpcc is to provide a usable API for barebone microcontroller pr
 which is efficient enough to be deployed on a small ATtiny, yet powerful enough to make
 use of advanced capabilities found on the 32bit ARM Cortex-M.
 
+xpcc is [literally battle-tested](#who-we-are) in the real-world, highly competitive
+environment of the [Eurobot][] competition.
+It is the foundation of all of [@RCA_eV][rca]'s robot code, and is the
+culmination of a decade worth of effort, experience and improvements.
+
 - [Feast your eyes on lots of working examples][examples].
-- [API documentation is available too][doxygen].
+- [API reference is available too][reference].
 - [We have continuous integration as well][travis_ci].
 - [And we care a lot about testing][testing].
 
@@ -20,11 +24,10 @@ or [have a look at the archive][mailing_archive].
 - You found a bug? [Open up an issue, we don't bite][issues].
 - You want to contribute? [Read the contribution guidelines][contributing] and [open a pull request so we can merge it][prs].
 
-The source code is freely available under a 3-clause BSD license, so feel free to fork this project and adapt it to your needs.
+The source code is freely available under a 3-clause BSD license, so feel
+free to fork this project and adapt it to your needs.
 The only thing we ask of you is to contribute your changes back.
 That way everyone can profit.
-
-Have fun!
 
 ## Features
 
@@ -44,7 +47,6 @@ Have fun!
 - Useful mathematical and geometric algorithms optimized for microcontrollers,
 - Lightweight unit testing system (suitable for AVRs),
 - Graphical user interface for small binary displays.
-
 
 ## Supported hardware
 
@@ -100,7 +102,7 @@ There are more platforms which we have prepared, but currently not finished supp
 
 ## Who we are
 
-During the last decade the [Roboterclub Aachen e.V.][rca_ev] has developed a software library for communication among components that are distributed on PCs and microcontrollers. This library was used in autonomous robots for the [EUROBOT][] competition.
+During the last decade the [Roboterclub Aachen e.V.][rca_ev] has developed a software library for communication among components that are distributed on PCs and microcontrollers. This library was used in autonomous robots for the [Eurobot][] competition.
 
 In 2009, xpcc became a separate project and since then focussed on a new approach to cross target microcontroller libraries. Over the years xpcc grew from a communication library to a general purpose framework suitable for all kinds of embedded applications.
 
@@ -109,16 +111,24 @@ The xpcc project is maintained by:
 - Niklas Hauser ([@salkinium](https://github.com/salkinium))
 - Kevin Läufer ([@ekiwi](https://github.com/ekiwi))
 
+Have a look at the quarter finals of the Eurobot 2015 competition.
+Both our robots are running xpcc and starting from the right:
+
+<div class="videoWrapper">
+  <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/K7obV0avUoQ?start=25925&amp;end=26075" frameborder="0" allowfullscreen></iframe>
+</div>
+
 [prs]: https://github.com/roboterclubaachen/xpcc/pulls
 [contributing]: https://github.com/roboterclubaachen/xpcc/tree/develop/CONTRIBUTING.md
 [issues]: https://github.com/roboterclubaachen/xpcc/issues
 [rca_ev]: http://www.roboterclub.rwth-aachen.de/
 [eurobot]: http://www.eurobot.org/
 [travis_ci]: https://travis-ci.org/roboterclubaachen/xpcc
-[doxygen]: http://xpcc.io/api/modules.html
 [testing]: guide/testing
 [mailing_archive]: http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
 [mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
-[guide]: guide/overview
+[guide]: guide/introduction
+[reference]: reference/introduction
 [blog]: http://blog.xpcc.io
+[rca]: http://www.roboterclub.rwth-aachen.de
