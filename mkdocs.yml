@@ -36,7 +36,7 @@ markdown_extensions:
 
 pages:
   - Home: index.md
-  - Getting started: getting-started.md
+  - Installation: installation.md
   - Guide:
-    - Overview: guide/overview.md
+    - Introduction: guide/introduction.md
     - Testing: guide/testing.md

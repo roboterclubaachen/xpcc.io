@@ -1,30 +1,30 @@
-# Getting started
+# Installation
 
-Get the source code is by cloning the repository:
+## Virtual machine
+
+If you just want to try out xpcc or do not want to install the build tools on
+your machine just yet, we provide you with a [configured headless
+virtual machine](https://github.com/roboterclubaachen/rca-vm/) running Ubuntu
+14.04LTS with all the build tools installed.
+
+You only need to install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+and [Vagrant](http://www.vagrantup.com/downloads.html) on your system, and can
+then easily boot the VM and ssh into it:
 
 	git clone https://github.com/roboterclubaachen/xpcc.git
-
-
-## Quickstart
-
-If you just want to try out xpcc, we provide you with a [configured headless
-virtual machine](https://github.com/roboterclubaachen/rca-vm/) so you only
-need to install [Virtualbox](https://www.virtualbox.org/wiki/Downloads) and
-[Vagrant](http://www.vagrantup.com/downloads.html) on your system.
-
 	cd xpcc
 	vagrant up
 	vagrant ssh
 
-Vagrant will download the virtual machine, import it into VirtualBox and boot
-it, before logging into to it. There will be a shared folder located at
-`/vagrant` which contains the xpcc source code on your local file system.
+Vagrant will download the virtual machine (~1.2GB), import it into VirtualBox
+and boot it, before logging into to it. There will be a shared folder located
+at `/vagrant` which contains the xpcc source code on your local file system.
 This means you can use an editor of your choice to view and edit the source
-code, and then use the virtual machine to compile it.
+code on you native OS, and then use the virtual machine to compile it.
 
 So if you have an Arduino Uno lying around, you can then compile and program
 the [LED blinking example](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/blink/main.cpp):
-```
+```sh
 cd /vagrant/examples/arduino_uno/basic/blink/
 scons program
 [...]
@@ -41,7 +41,7 @@ Data:          0 bytes (0.0% used)
 
 You can compile and program every other example the same way.
 Here is the output of the STM32F4 Discovery Board [LED blinking example](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/blink/main.cpp):
-```
+```sh
 cd /vagrant/examples/stm32f4_discovery/blink/
 scons program
 [...]
@@ -59,82 +59,8 @@ Heap:     131060 bytes (66.7% available)
 (.heap1 + .heap2 + .heap3)
 ```
 
-## Basic APIs
 
-All of this code works the same on all platforms, however, the pin and module names may need to be adapted.
-
-### GPIO
-
-```cpp
-using Led = GpioOutputB0;
-Led::setOutput();
-Led::set();    // 1 instruction on AVR
-Led::reset();  // 3 instructions on Cortex-M
-Led::toggle();
-
-using Button = GpioInputB0;
-Button::setInput(Gpio::InputType::PullUp);
-bool state = Button::read();
-```
-
-### Buffered UART
-
-```cpp
-using Uart = Uart0;
-// configure and initialize UART to 115.2kBaud
-GpioOutputD1::connect(Uart::Tx);
-GpioInputD0::connect(Uart::Rx);
-Uart::initialize<systemClock, 115200>();
-
-Uart::write('H');  // Ohai there
-Uart::write('i');
-
-uint8_t buffer;
-while(1) {
-    // create a simple loopback
-    if (Uart::read(buffer)) {
-        Uart::write(buffer);
-    }
-}
-```
-
-### IOStream
-
-```cpp
-using Uart = Uart0;
-// Create a IODevice with the Uart
-xpcc::IODeviceWrapper<Uart> device;
-xpcc::IOStream stream(device);
-
-GpioOutputD1::connect(Uart::Tx);
-Uart::initialize<systemClock, 115200>();
-
-stream << 24 << " is a nice number!" << xpcc::endl;
-```
-
-### Software Timers
-
-```cpp
-using Led = GpioOutputB0;
-xpcc::Timeout timeout(10000);   // 10s timeout
-xpcc::PeriodicTimer timer(250); // 250ms period
-
-Led::setOutput(xpcc::Gpio::High);
-
-while(1) {
-    if (timeout.execute()) {
-        timer.stop();
-        Led::reset();
-    }
-    if (timer.execute()) {
-        Led::toggle();
-    }
-}
-```
-
-Have a look at the [`xpcc/examples/` folder][examples] for more advanced use cases.
-
-## Toolchain installation
+## Native installation
 
 Compiling the code in our virtual machine can be slower than compiling it
 natively. To install the toolchain on your system, this is the
