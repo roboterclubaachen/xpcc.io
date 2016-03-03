@@ -40,3 +40,5 @@ pages:
   - Guide:
     - Introduction: guide/introduction.md
     - Testing: guide/testing.md
+  - Reference:
+    - Introduction: reference/introduction.md
