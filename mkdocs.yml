@@ -33,6 +33,7 @@ markdown_extensions:
   - footnotes
   - def_list
   - latex_math
+  - markdeep_diagram
 
 pages:
   - Home: index.md
