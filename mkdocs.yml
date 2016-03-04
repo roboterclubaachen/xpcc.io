@@ -36,6 +36,7 @@ markdown_extensions:
 
 pages:
   - Home: index.md
+  - Why use xpcc?: why-use-xpcc.md
   - Installation: installation.md
   - Guide:
     - Introduction: guide/introduction.md
