@@ -7,13 +7,13 @@ The main goal of xpcc is to provide a usable API for barebone microcontroller pr
 which is efficient enough to be deployed on a small ATtiny, yet powerful enough to make
 use of advanced capabilities found on the 32bit ARM Cortex-M.
 
-xpcc is [literally battle-tested](#who-we-are) in the real-world, highly competitive
-environment of the [Eurobot][] competition.
+xpcc is [battle-tested](#who-we-are) in the real-world, highly competitive
+environment of [Eurobot][].
 It is the foundation of all of [@RCA_eV][rca]'s robot code, and is the
 culmination of a decade worth of effort, experience and improvements.
 
 - [Feast your eyes on lots of working examples][examples].
-- [API reference is available too][reference].
+- [API reference is available here][reference].
 - [We have continuous integration as well][travis_ci].
 - [And we care a lot about testing][testing].
 
@@ -102,7 +102,7 @@ There are more platforms which we have prepared, but currently not finished supp
 
 ## Who we are
 
-During the last decade the [Roboterclub Aachen e.V.][rca_ev] has developed a software library for communication among components that are distributed on PCs and microcontrollers. This library was used in autonomous robots for the [Eurobot][] competition.
+During the last decade the [Roboterclub Aachen e.V.][rca_ev] has developed a software library for communication among components that are distributed on PCs and microcontrollers. This library was used in autonomous robots for the [Eurobot competition][eurobot].
 
 In 2009, xpcc became a separate project and since then focussed on a new approach to cross target microcontroller libraries. Over the years xpcc grew from a communication library to a general purpose framework suitable for all kinds of embedded applications.
 
@@ -111,11 +111,11 @@ The xpcc project is maintained by:
 - Niklas Hauser ([@salkinium](https://github.com/salkinium))
 - Kevin Läufer ([@ekiwi](https://github.com/ekiwi))
 
-Have a look at the quarter finals of the Eurobot 2015 competition.
+Have a look at the quarter finals of the [Eurobot 2015 competition][eurobot].
 Both our robots are running xpcc and starting from the right:
 
 <div class="videoWrapper">
-  <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/K7obV0avUoQ?start=25925&amp;end=26075" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/K7obV0avUoQ?start=25925&amp;end=26071" frameborder="0" allowfullscreen></iframe>
 </div>
 
 [prs]: https://github.com/roboterclubaachen/xpcc/pulls
