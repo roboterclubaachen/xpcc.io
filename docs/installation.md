@@ -110,14 +110,14 @@ This installs `doxygen` without LaTeX support, which saves ~600MB of disk space.
 ### Installing on OS X
 
 First install [`homebrew`](http://mxcl.github.com/homebrew/), a great packet
-manager for OSX, then use it to install the minimum build system:
+manager for OS X, then use it to install the minimum build system:
 
 	brew install python scons git
 	pip install --user jinja2
 
 Install the AVR toochain:
 
-	brew tap osx-cross/avr
+	brew tap larsimmisch/avr
 	brew install avr-libc avrdude
 
 And the ARM toolchain as well:
@@ -125,7 +125,7 @@ And the ARM toolchain as well:
 	brew tap ARMmbed/homebrew-formulae
 	brew install arm-none-eabi-gcc
 
-To program and debug your Cortex-M device, you need to install the latest
+To program and debug your ARM Cortex-M device, you need to install the latest
 [OpenOCD](http://openocd.org) version:
 
 	brew install openocd --HEAD --enable-ft2232_libftdi \
