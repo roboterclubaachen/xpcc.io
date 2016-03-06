@@ -22,6 +22,7 @@ import string
 import base64
 import tempfile
 import markdown
+import hashlib
 from selenium import webdriver
 
 from subprocess import call, PIPE
@@ -64,7 +65,7 @@ class MarkdeepDiagramPreprocessor(markdown.preprocessors.Preprocessor):
         except IOError:
             pass
 
-        self.re_diagram = re.compile(r'<markdeep-diagram>(?P<code>.*?)</markdeep-diagram>', re.MULTILINE | re.DOTALL)
+        self.re_diagram = re.compile(r'<markdeep-diagram>[\n\r]*(?P<code>.*?)[\n\r]*</markdeep-diagram>', re.MULTILINE | re.DOTALL)
 
 
     def _diagram_to_svg(self, markdeep):
@@ -78,7 +79,7 @@ class MarkdeepDiagramPreprocessor(markdown.preprocessors.Preprocessor):
         tempfile.tempdir = ""
         tmp_file_fd, path = tempfile.mkstemp()
         with open(path + ".html", "w") as fd:
-            fd.write(self.markdeep_preamble.format(markdeep))
+            fd.write(self.markdeep_preamble.format(markdeep + " "))
 
         driver = webdriver.PhantomJS() # or add to your PATH
         driver.set_window_size(1024*2, 768*2) # optional
@@ -137,14 +138,13 @@ class MarkdeepDiagramPreprocessor(markdown.preprocessors.Preprocessor):
         id = 0
         for reg, expr in tex_expr:
             # print reg, mode, expr
-            b64_expr = base64.b64encode(expr)
-            simp_expr = filter(unicode.isalnum, expr)
-            if b64_expr in self.cached:
-                data = self.cached[b64_expr]
+            hash_expr = hashlib.sha1(expr).hexdigest()
+            if hash_expr in self.cached:
+                data = self.cached[hash_expr]
             else:
                 print expr
                 data = self._diagram_to_svg(expr)
-                new_cache[b64_expr] = data
+                new_cache[hash_expr] = data
             id += 1
             diagram = DIAGRAM_EXPR.format(data)
             page = reg.sub(diagram, page, 1)
