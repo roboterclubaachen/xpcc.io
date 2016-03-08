@@ -11,10 +11,12 @@ You only need to install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 and [Vagrant](http://www.vagrantup.com/downloads.html) on your system, and can
 then easily boot the VM and ssh into it:
 
-	git clone https://github.com/roboterclubaachen/xpcc.git
-	cd xpcc
-	vagrant up
-	vagrant ssh
+```sh
+git clone https://github.com/roboterclubaachen/xpcc.git
+cd xpcc
+vagrant up
+vagrant ssh
+```
 
 Vagrant will download the virtual machine (~1.2GB), import it into VirtualBox
 and boot it, before logging into to it. There will be a shared folder located
