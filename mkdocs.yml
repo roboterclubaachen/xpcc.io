@@ -40,7 +40,7 @@ pages:
   - Why use xpcc?: why-use-xpcc.md
   - Installation: installation.md
   - Guide:
-    - Introduction: guide/introduction.md
+    - Getting started: guide/getting-started.md
     - Testing: guide/testing.md
   - Reference:
     - Introduction: reference/introduction.md
