@@ -106,10 +106,13 @@ During the last decade the [Roboterclub Aachen e.V.][rca_ev] has developed a sof
 
 In 2009, xpcc became a separate project and since then focussed on a new approach to cross target microcontroller libraries. Over the years xpcc grew from a communication library to a general purpose framework suitable for all kinds of embedded applications.
 
-The xpcc project is maintained by:
-
-- Niklas Hauser ([@salkinium](https://github.com/salkinium))
-- Kevin Läufer ([@ekiwi](https://github.com/ekiwi))
+The xpcc project is maintained by
+Niklas Hauser ([@salkinium](https://github.com/salkinium)) and
+Kevin Läufer ([@ekiwi](https://github.com/ekiwi)) with significant contributions from
+Fabian Greif ([@dergraaf](https://github.com/dergraaf)),
+Daniel Krebs ([@daniel-k](https://github.com/daniel-k)),
+[@georgi-g](https://github.com/georgi-g) and
+[@thundernail](https://github.com/thundernail).
 
 Have a look at the quarter finals of the [Eurobot 2015 competition][eurobot].
 Both our robots are running xpcc and starting from the right:
@@ -117,6 +120,7 @@ Both our robots are running xpcc and starting from the right:
 <div class="videoWrapper">
   <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/K7obV0avUoQ?start=25925&amp;end=26071" frameborder="0" allowfullscreen></iframe>
 </div>
+
 
 [prs]: https://github.com/roboterclubaachen/xpcc/pulls
 [contributing]: https://github.com/roboterclubaachen/xpcc/tree/develop/CONTRIBUTING.md
@@ -128,7 +132,7 @@ Both our robots are running xpcc and starting from the right:
 [mailing_archive]: http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
 [mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
-[guide]: guide/introduction
+[guide]: guide/getting-started
 [reference]: reference/introduction
 [blog]: http://blog.xpcc.io
 [rca]: http://www.roboterclub.rwth-aachen.de
