@@ -24,11 +24,11 @@ at `/vagrant` which contains the xpcc source code on your local file system.
 This means you can use an editor of your choice to view and edit the source
 code on you native OS, and then use the virtual machine to compile it.
 
-So if you have an Arduino Uno lying around, you can then compile and program
+So if you have an Arduino Uno lying around, you can then compile
 the [LED blinking example](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/blink/main.cpp):
 ```sh
 cd /vagrant/examples/arduino_uno/basic/blink/
-scons program
+scons
 [...]
 AVR Memory Usage
 ----------------
@@ -41,11 +41,11 @@ Data:          0 bytes (0.0% used)
 (.bss + .data + .noinit)
 ```
 
-You can compile and program every other example the same way.
+You can compile every other example the same way.
 Here is the output of the STM32F4 Discovery Board [LED blinking example](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/blink/main.cpp):
 ```sh
 cd /vagrant/examples/stm32f4_discovery/blink/
-scons program
+scons
 [...]
 Memory Usage
 ------------
@@ -61,6 +61,9 @@ Heap:     131060 bytes (66.7% available)
 (.heap1 + .heap2 + .heap3)
 ```
 
+To program your board, just connect your board the the virtual machine and
+type `scons program`.
+Have a quick look at [the available build system commands](reference/build-system/#build-commands) so you know what else you can do.
 
 ## Native installation
 
@@ -143,6 +146,6 @@ To program and debug your ARM Cortex-M device, you need to install the latest
 
 We're sorry, but since we do not have enough experience with Windows to provide
 honest support, we recommend the use of our virtual machine.
-Pull requests welcome!
+[Pull requests welcome!](https://github.com/roboterclubaachen/xpcc/pulls)
 
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
