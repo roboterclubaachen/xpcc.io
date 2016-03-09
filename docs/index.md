@@ -10,7 +10,7 @@ use of advanced capabilities found on the 32bit ARM Cortex-M.
 xpcc is [battle-tested](#who-we-are) in the real-world, highly competitive
 environment of [Eurobot][].
 It is the foundation of all of [@RCA_eV][rca]'s robot code, and is the
-culmination of a decade worth of effort, experience and improvements.
+culmination of many years worth of effort, experience and improvements.
 
 - [Feast your eyes on lots of working examples][examples].
 - [API reference is available here][reference].
@@ -52,23 +52,23 @@ That way everyone can profit.
 
 Here is a list of supported **and tested** microcontrollers and development boards:
 
-| Controller | Development Board         | Support                             |
-|:-----------|:--------------------------|:------------------------------------|
-| AT90can    | custom                    | &#9733;&#9733;&#9733;               |
-| ATtiny44a  | custom                    | &#9733;&#9733;&#9733;               |
-| ATtiny85   | custom                    | &#9733;&#9733;&#9733;               |
-| ATmega328p | Arduino Uno               | &#9733;&#9733;&#9733;               |
-| ATmega1280 | Arduino Mega              | &#9733;&#9733;&#9733;               |
-| STM32F072  | STM32F072 Discovery Board | &#9733;&#9733;&#9733;&#9733;        |
-| STM32F100  | STM32F1 Discovery Board   | &#9733;&#9733;&#9733;&#9733;        |
-| STM32F103  | STM32F103 Nucleo Board    | &#9733;&#9733;&#9733;&#9733;        |
-| STM32F303  | STM32F3 Discovery Board   | &#9733;&#9733;&#9733;&#9733;&#9733; |
-| STM32F407  | STM32F4 Discovery Board   | &#9733;&#9733;&#9733;&#9733;&#9733; |
-| STM32F429  | STM32F429 Discovery Board | &#9733;&#9733;&#9733;&#9733;&#9733; |
-| STM32F469  | STM32F469 Discovery Board | &#9733;&#9733;&#9733;&#9733;        |
-| STM32F746  | STM32F7 Discovery Board   | &#9733;&#9733;&#9733;&#9733;        |
-| LPC11C24   | LPCxpresso Board          | &#9733;&#9733;                      |
-| LPC1115    | LPCxpresso Board          | &#9733;&#9733;                      |
+| Controller | Development Board       | Support                             |
+|:-----------|:------------------------|:------------------------------------|
+| AT90can    | custom                  | &#9733;&#9733;&#9733;               |
+| ATtiny44a  | custom                  | &#9733;&#9733;&#9733;               |
+| ATtiny85   | custom                  | &#9733;&#9733;&#9733;               |
+| ATmega328p | [Arduino Uno][]         | &#9733;&#9733;&#9733;               |
+| ATmega1280 | [Arduino Mega][]        | &#9733;&#9733;&#9733;               |
+| STM32F072  | [STM32F072 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F100  | [STM32F1 Discovery][]   | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F103  | [STM32F103 Nucleo][]    | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F303  | [STM32F3 Discovery][]   | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F407  | [STM32F4 Discovery][]   | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F429  | [STM32F429 Discovery][] | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F469  | [STM32F469 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F746  | [STM32F7 Discovery][]   | &#9733;&#9733;&#9733;&#9733;        |
+| LPC11C24   | [LPCxpresso][]          | &#9733;&#9733;                      |
+| LPC1115    | [LPCxpresso][]          | &#9733;&#9733;                      |
 
 All of these targets are compiling and booting correctly
 (&#9733;)
@@ -136,3 +136,15 @@ Both our robots are running xpcc and starting from the right:
 [reference]: reference/introduction
 [blog]: http://blog.xpcc.io
 [rca]: http://www.roboterclub.rwth-aachen.de
+
+[Arduino Uno]: https://www.arduino.cc/en/Main/ArduinoBoardUno
+[Arduino Mega]: https://www.arduino.cc/en/Main/ArduinoBoardMega
+[STM32F072 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF259724
+[STM32F1 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF250863
+[STM32F103 Nucleo]: http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847/PF259875
+[STM32F3 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF254044
+[STM32F4 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF252419
+[STM32F429 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF259090
+[STM32F469 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF262395
+[STM32F7 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF261641
+[LPCxpresso]: https://www.lpcware.com/LPCXpressoV1Boards
