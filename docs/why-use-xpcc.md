@@ -233,7 +233,7 @@ private:
 };
 ReaderThread reader;    // Protothread is statically allocated!
 
-int xpcc_main() // Execution entry point.
+int main() // Execution entry point.
 {
     while(true)
     {   // the main loop with implicit round robin cooperative scheduling.
