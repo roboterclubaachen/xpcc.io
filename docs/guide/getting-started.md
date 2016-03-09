@@ -36,37 +36,6 @@ Here are some additional examples of displays and sensors we like:
 - [HD44780 over I2C-GPIO expander](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/display/hd44780/main.cpp): Draws text via native GPIO port or I2C-GPIO expander port.
 
 
-## Build system basics
-
-xpcc uses the [SCons][] build system to generate, build and program your application.
-We've extended it with many utilities to allow a smooth integration of embedded tools.
-
-You can use these command in all our examples to get a feel of how it works.
-
-### Common
-
-- `build`: Generates the HAL and compiles your program into an executable.
-- `size`: Displays the static Flash and RAM consumption.
-- `program`: Writes the executable onto your target.
-
-By default `scons` executes `scons build size`.
-
-- `listing`: Decompiles your executable into an annotated assembly listing.
-- `symbols`: Displays the symbol table for your executable.
-
-
-### AVR only:
-
-- `fuse`: Writes the fuse bits onto your target.
-- `eeprom`: Writes the EEPROM memory onto your target.
-
-### ARM Cortex-M only:
-
-- `debug`: Starts the GDB debug session of your current application in text UI mode. You must execute `openocd-debug` or `lpclink-debug` in before running this command!
-- `openocd-debug`: Starts the OpenOCD debug server for your target.
-- `lpclink-debug`: Starts the LPC-Link debug server for your target.
-- `lpclink-init`: Initialize the LPC-Link with its proprietary firmware.
-
 ## Your own project
 
 Start your own project by forking and cloning our `blinky` project on GitHub:
