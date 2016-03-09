@@ -10,7 +10,7 @@ extra_css: [extra.css]
 theme: 'material'
 extra:
   palette:
-    primary: 'deep purple'
+    primary: 'indigo'
     accent: 'cyan'
   logo: 'images/logo.svg'
   font:
