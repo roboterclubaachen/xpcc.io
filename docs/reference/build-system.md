@@ -1,9 +1,9 @@
 # Build system
 
-## Build commands
-
-xpcc uses the [SCons][] build system to generate, build and program your application.
+xpcc uses the [SCons build system][scons] to generate, build and program your application.
 We've extended it with many utilities to allow a smooth integration of embedded tools.
+
+## Build commands
 
 You can use these command in all our examples to get a feel of how it works.
 

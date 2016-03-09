@@ -44,4 +44,4 @@ pages:
     - Testing: guide/testing.md
   - Reference:
     - Introduction: reference/introduction.md
-    - Build system: reference/build_system.md
+    - Build system: reference/build-system.md
