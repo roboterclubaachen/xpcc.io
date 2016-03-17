@@ -17,6 +17,8 @@ By default `scons` executes `scons build size`.
 
 - `listing`: Decompiles your executable into an annotated assembly listing.
 - `symbols`: Displays the symbol table for your executable.
+- `-c`: Cleans the project's build files.
+- `verbose=1`: Makes the printout more verbose.
 
 
 ### AVR only:
@@ -34,22 +36,68 @@ By default `scons` executes `scons build size`.
 
 ## Project configuration
 
+Your `project.cfg` file contains configuration information for your target.
+For the device identify naming scheme, see the [Device File reference](../reference/device-files/#device-identifier).
+
 ```ini
-[general]
-name = blinky
-
 [build]
-device = stm32f407vg
+# use a predefined board config file from xpcc/architecture/platform/board/
+# it defines the configuration for a board, which you can overwrite here.
+board = stm32f4_discovery
 
+# declare the name of your project. Default is enclosing folder name.
+name = blinky
+# the target of your project, use the full name of the device here
+device = stm32f407vg
+# AVR only: declare the clock frequency in Hz
+clock = 16000000
+# overwrite the default `./build/` folder path
+buildpath = ../../build/${name}
+
+# parametrize HAL drivers here, see section on Parameters
 [parameters]
 uart.stm32.3.tx_buffer = 2048
 uart.stm32.3.rx_buffer = 256
 
-[defines]
-YOUR_AMAZING_DEFINE = 42
+# AVR only: declare fuse bits for use with  $ scons fuse
+[fusebits]
+# only the fuses declared here are written
+efuse = 0x41
+hfuse = 0x42
+lfuse = 0x43
 
+# AVR only: configure avrdude for  $ scons program
+# Consult the avrdude documentation for options.
+[avrdude]
+# using the AVR ISP mk2 programmer
+port = usb
+programmer = avrispmkII
+# or using a serial bootloader
+port = /dev/ttyUSB0
+programmer = arduino
+# baudrate only required for serial bootloaders
+baudrate = 115200
+
+# ARM only: configure OpenOCD for  $ scons program
 [openocd]
+# OpenOCD has predefined configs in its searchpaths
 configfile = board/stm32f4discovery.cfg
+# but you can also use your own special config file
+configfile = openocd.cfg
+# the commands to run on  $ scons program. Defaults are:
+commands =
+	init
+	reset halt
+	flash write_image erase $SOURCE
+	reset run
+	shutdown
+
+# LPC targets with LPC-Linkv2 programmer only
+[lpclink]
+# base path of the lpcxpresso installation
+# Default on Linux: /opt/lpcxpresso/
+# Default on OS X: /Applications/lcpxpresso_*/ (first match)
+basepath = ../lpcxpresso
 ```
 
 ### Parameters
