@@ -41,16 +41,18 @@ Here are some additional examples of displays and sensors we like:
 Have a look at [the build system commands](../reference/build-system/#build-commands) to see how
 to compile and program your targets.
 
+
 ## Your own project
 
 Start your own project by cloning [our `getting-started` project][getting-started] from GitHub:
 
 ```sh
-git clone --recursive https://github.com/roboterclubaachen/xpcc-getting-started.git
-cd xpcc-getting-started
+git clone --recursive https://github.com/roboterclubaachen/getting-started-with-xpcc.git
+cd getting-started-with-xpcc
 tree
 .
-├── Readme.md
+├── LICENSE
+├── README.md
 ├── Vagrantfile
 ├── hello-world
 │   ├── SConstruct
@@ -61,45 +63,50 @@ tree
 
 The example contains the xpcc framework as a git submodule, a `Vagrantfile`
 to enable use of [our virtual machine](../installation/#virtual-machine),
-a `SConstruct` file for our build system, a project configuration file and
-the source code of course:
+a `SConstruct` file for [our build system](../reference/build-system/#build-commands),
+a project configuration file and of course the source code:
 
 ```cpp
 #include <xpcc/architecture/platform.hpp>
 
-using Led = Board::Led1;
-
 int main()
 {
     Board::initialize();
+    Board::Leds::setOutput();
 
-	Led::setOutput(xpcc::Gpio::Low);
-
-	while (1)
-	{
-		Led::toggle();
-		xpcc::delayMilliseconds(500);
-	}
-	return 0;
+    while (1)
+    {
+        Board::Leds::toggle();
+        xpcc::delayMilliseconds(Board::Button::read() ? 250 : 500);
+#ifdef XPCC_BOARD_HAS_LOGGER
+        static uint32_t counter(0);
+        XPCC_LOG_INFO << "Loop counter: " << (counter++) << xpcc::endl;
+#endif
+    }
+    return 0;
 }
 ```
 
+You can change the development board for which you want to compile the example
+for in the `project.cfg` file:
+
 ```ini
 [build]
-target = stm32f4discovery
-
-[parameters]
-uart.stm32.3.tx_buffer = 2048
-uart.stm32.3.rx_buffer = 256
-
-[defines]
-YOUR_AMAZING_DEFINE = 42
+board = stm32f4_discovery
+#board = arduino_uno
+#board = nucleo_f103rb
+#board = stm32f072_discovery
+#board = stm32f1_discovery
+#board = stm32f3_discovery
+#board = stm32f429_discovery
+#board = stm32f469_discovery
+#board = stm32f7_discovery
 ```
 
 When you create you own project, you need to adapt the `xpccpath` inside the
 `SConstruct` to point to the location of the xpcc framework.
-Note that this allows you to use different xpcc frameworks (your own fork?) for
-different projects.
+Note that this allows you to use different versions of the xpcc frameworks
+(your own fork?) for your projects.
 
 ```python
 # path to the xpcc root directory (modify as needed!)
@@ -108,8 +115,86 @@ xpccpath = '../xpcc'
 execfile(xpccpath + '/scons/SConstruct')
 ```
 
+## Show me the basics
+
+All of this code works the same on all platforms, however, the pin and module
+names may need to be adapted.
+
+### GPIO
+
+```cpp
+using Led = GpioOutputB0;
+Led::setOutput();
+Led::set();    // 1 instruction on AVR
+Led::reset();  // 3 instructions on Cortex-M
+Led::toggle();
+
+using Button = GpioInputB0;
+Button::setInput(Gpio::InputType::PullUp);
+bool state = Button::read();
+```
+
+### Buffered UART
+
+```cpp
+using Uart = Uart0;
+// configure and initialize UART to 115.2kBaud
+GpioOutputD1::connect(Uart::Tx);
+GpioInputD0::connect(Uart::Rx);
+Uart::initialize<systemClock, 115200>();
+
+Uart::write('H');  // Ohai there
+Uart::write('i');
+
+uint8_t buffer;
+while(1) {
+    // create a simple loopback
+    if (Uart::read(buffer)) {
+        Uart::write(buffer);
+    }
+}
+```
+
+### IOStream
+
+```cpp
+using Uart = Uart0;
+// Create a IODevice with the Uart
+xpcc::IODeviceWrapper<Uart> device;
+xpcc::IOStream stream(device);
+
+GpioOutputD1::connect(Uart::Tx);
+Uart::initialize<systemClock, 115200>();
+
+stream << 42 << " is a nice number!" << xpcc::endl;
+```
+
+### Software Timers
+
+```cpp
+using Led = GpioOutputB0;
+xpcc::Timeout timeout(10000);   // 10s timeout
+xpcc::PeriodicTimer timer(250); // 250ms period
+
+Led::setOutput(xpcc::Gpio::High);
+
+while(1) {
+    if (timeout.execute()) {
+        timer.stop();
+        Led::reset();
+    }
+    if (timer.execute()) {
+        Led::toggle();
+    }
+}
+```
+
+Have a look at the [`xpcc/examples/` folder][examples] for more advanced use cases.
+
+[doxygen]: http://xpcc.io/api/modules.html
+[examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
 
 
 
-[getting-started]: https://github.com/roboterclubaachen/xpcc-getting-started
+[getting-started]: https://github.com/roboterclubaachen/getting-started-with-xpcc
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
