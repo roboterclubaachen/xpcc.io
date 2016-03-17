@@ -43,5 +43,5 @@ pages:
     - Getting started: guide/getting-started.md
     - Testing: guide/testing.md
   - Reference:
-    - Introduction: reference/introduction.md
+    - API reference: reference/api.md
     - Build system: reference/build-system.md
