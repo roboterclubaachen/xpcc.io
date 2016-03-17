@@ -41,7 +41,7 @@ pages:
   - Installation: installation.md
   - Guide:
     - Getting started: guide/getting-started.md
-    - Testing: guide/testing.md
+#    - Testing: guide/testing.md
   - Reference:
     - API reference: reference/api.md
     - Build system: reference/build-system.md
