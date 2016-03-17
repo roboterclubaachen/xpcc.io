@@ -58,7 +58,6 @@ Here is a list of supported **and tested** microcontrollers and development boar
 | ATtiny44a  | custom                  | &#9733;&#9733;&#9733;               |
 | ATtiny85   | custom                  | &#9733;&#9733;&#9733;               |
 | ATmega328p | [Arduino Uno][]         | &#9733;&#9733;&#9733;               |
-| ATmega1280 | [Arduino Mega][]        | &#9733;&#9733;&#9733;               |
 | STM32F072  | [STM32F072 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F100  | [STM32F1 Discovery][]   | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F103  | [STM32F103 Nucleo][]    | &#9733;&#9733;&#9733;&#9733;        |
@@ -68,7 +67,6 @@ Here is a list of supported **and tested** microcontrollers and development boar
 | STM32F469  | [STM32F469 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F746  | [STM32F7 Discovery][]   | &#9733;&#9733;&#9733;&#9733;        |
 | LPC11C24   | [LPCxpresso][]          | &#9733;&#9733;                      |
-| LPC1115    | [LPCxpresso][]          | &#9733;&#9733;                      |
 
 All of these targets are compiling and booting correctly
 (&#9733;)
@@ -85,7 +83,7 @@ Please see [our examples for a complete list][examples] of tested projects.
 
 ### Your target
 
-While the xpcc API is designed to be extremely portable, we are only a small team of developers and are limited in the amount of platforms we can support and test in hardware.
+While the xpcc API is designed to be portable, we are only a small team of developers and are limited in the amount of platforms we can support and test in hardware.
 The following microcontrollers should be able to compile, but *have not been tested extensively* in hardware:
 
 - All AT90 targets
@@ -138,7 +136,6 @@ Both our robots are running xpcc and starting from the right:
 [rca]: http://www.roboterclub.rwth-aachen.de
 
 [Arduino Uno]: https://www.arduino.cc/en/Main/ArduinoBoardUno
-[Arduino Mega]: https://www.arduino.cc/en/Main/ArduinoBoardMega
 [STM32F072 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF259724
 [STM32F1 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF250863
 [STM32F103 Nucleo]: http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847/PF259875
