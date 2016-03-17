@@ -45,3 +45,4 @@ pages:
   - Reference:
     - API reference: reference/api.md
     - Build system: reference/build-system.md
+    - Device files: reference/device-files.md
