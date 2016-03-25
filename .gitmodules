@@ -2,3 +2,6 @@
 	path = xpcc
 	url = https://github.com/roboterclubaachen/xpcc.git
 	branch = develop
+[submodule "mkdocs-material"]
+	path = mkdocs-material
+	url = https://github.com/squidfunk/mkdocs-material.git
