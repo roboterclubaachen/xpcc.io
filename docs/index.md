@@ -131,7 +131,7 @@ Both our robots are running xpcc and starting from the right:
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
 [mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
 [guide]: guide/getting-started
-[reference]: reference/introduction
+[reference]: reference/api
 [blog]: http://blog.xpcc.io
 [rca]: http://www.roboterclub.rwth-aachen.de
 
