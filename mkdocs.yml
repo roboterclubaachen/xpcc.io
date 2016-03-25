@@ -7,6 +7,7 @@ copyright: 'Copyright &copy 2016 Roboterclub Aachen e.V.'
 
 extra_css: [extra.css]
 
+theme_dir: 'mkdocs-material/material'
 theme: 'material'
 extra:
   palette:
