@@ -4,4 +4,4 @@
 	branch = develop
 [submodule "mkdocs-material"]
 	path = mkdocs-material
-	url = https://github.com/squidfunk/mkdocs-material.git
+	url = https://github.com/salkinium/mkdocs-material.git
