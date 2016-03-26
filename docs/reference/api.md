@@ -14,11 +14,11 @@ We therefore chose to only include the HAL API for `ATtiny85`, the `ATmega328p`
 and the `STM32F407vg` online.
 The rest of the xpcc API is documented without limitations.
 
-## Your device
+<!-- ## Your device
 
 We recommend that you generate the documentation for your own project locally.
 To do so, simply execute our documentation command `scons doc` inside your project folder.
-This will build the xpcc documentation with your specific project configuration in `build/doc/`.
+This will build the xpcc documentation with your specific project configuration in `build/doc/`. -->
 
 If you are stuck, don't hesitate to [send us an email with your questions][mailing_list].
 

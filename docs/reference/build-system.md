@@ -12,7 +12,7 @@ You can use these command in all our examples to get a feel of how it works.
 - `build`: Generates the HAL and compiles your program into an executable.
 - `size`: Displays the static Flash and RAM consumption.
 - `program`: Writes the executable onto your target.
-- `doc`: Generates the doxygen documentation for xpcc with your configuration.
+<!-- - `doc`: Generates the doxygen documentation for xpcc with your configuration. -->
 
 By default `scons` executes `scons build size`.
 
