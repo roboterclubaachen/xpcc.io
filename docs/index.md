@@ -43,9 +43,9 @@ That way everyone can profit.
     - CAN
 - Interfaces for external I2C and SPI device drivers.
 - Debug/logging system with IOStream interface.
-- Lightweight, stackless threads and resumable functions using cooperative multitasking,
-- Useful mathematical and geometric algorithms optimized for microcontrollers,
-- Lightweight unit testing system (suitable for AVRs),
+- Lightweight, stackless threads and resumable functions using cooperative multitasking.
+- Useful mathematical and geometric algorithms optimized for microcontrollers.
+- Lightweight unit testing system (suitable for AVRs).
 - Graphical user interface for small binary displays.
 
 ## Supported hardware
