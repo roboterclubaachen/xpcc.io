@@ -2,7 +2,7 @@
 
 xpcc is a relatively large framework with many APIs and advanced concepts.
 We are annotating our APIs using Doxygen and are trying to provide conceptual
-design documentation on [our project blog](blog.xpcc.io).
+design documentation on [our project blog](http://blog.xpcc.io).
 However, this is a slow and difficult process, and the results are not perfect.
 
 The most complete and most up-to-date API documentation is definitely the
