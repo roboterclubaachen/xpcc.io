@@ -10,25 +10,25 @@ Here are our favorite examples for our supported development boards:
 - Arduino Uno:
 [Blinky](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/blink/main.cpp),
 [Button & Serial](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/digital_read_serial/main.cpp),
-[Analog & Serial](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/read_analog_voltage/main.cpp)
+[Analog & Serial](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/read_analog_voltage/main.cpp).
 - NUCLEO-F103RB:
-[Blinky & Serial](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/nucleo_f103rb/blink/main.cpp)
+[Blinky & Serial](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/nucleo_f103rb/blink/main.cpp).
 - STM32F072 Discovery:
 [Blinky](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/blink/main.cpp),
 [CAN](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/can/main.cpp),
-[Gyroscope](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/rotation/main.cpp)
+[Gyroscope](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/rotation/main.cpp).
 - STM32F3 Discovery:
 [Blinky](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/blink/main.cpp),
 [CAN](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/can/main.cpp),
 [Accelerometer](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/accelerometer/main.cpp),
 [Gyroscope](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/rotation/main.cpp),
-[Debugging with GDB](https://github.com/roboterclubaachen/xpcc/tree/develop/examples/stm32f3_discovery/gdb)
+[Debugging with GDB](https://github.com/roboterclubaachen/xpcc/tree/develop/examples/stm32f3_discovery/gdb).
 - STM32F4 Discovery:
 [Blinky](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/blink/main.cpp),
 [CAN](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/can/main.cpp),
 [Accelerometer](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/accelerometer/main.cpp),
 [Timer & LED Animations](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/timer/main.cpp),
-[Debugging hard faults](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/hard_fault/main.cpp),
+[Debugging hard faults](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/hard_fault/main.cpp).
 
 Here are some additional examples of displays and sensors we like:
 
