@@ -1,20 +1,3 @@
-"""
-Licensed under Public Domain Mark 1.0.
-See http://creativecommons.org/publicdomain/mark/1.0/
-Author: Justin Bruce Van Horne <justinvh@gmail.com>
-"""
-
-
-"""
-Python-Markdown LaTeX Extension
-
-Adds support for $math mode$ and %text mode%. This plugin supports
-multiline equations/text.
-
-The actual image generation is done via LaTeX/DVI output.
-It encodes data as base64 so there is no need for images directly.
-All the work is done in the preprocessor.
-"""
 
 import re
 import os
