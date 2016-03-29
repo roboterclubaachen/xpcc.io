@@ -111,6 +111,10 @@ Set the software queue size for CAN messages for peripheral instance `N` in addi
 - `can.stm32.N.tx_buffer ∈ [0,254] = 32`
 - `can.stm32.N.rx_buffer ∈ [0,254] = 32`
 
+Sets the main stack size. Note that the linkerscript may increase this to satisfy alignment requirements, especially with the vector table mapped to RAM. Default size is `3kB - 32B`.
+
+- `core.cortex.0.main_stack_size ∈ [512, 8192] = 3040`
+
 Places the vector table in RAM. When your stack and interrupt vector table reside in the same RAM section, this will decrease interrupt response time! The default setting is the fastest setting.
 
 - `core.cortex.0.vector_table_in_ram ∈ bool = false (true on STM32F3/STM32F7)`
