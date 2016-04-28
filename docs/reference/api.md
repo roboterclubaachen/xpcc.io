@@ -24,4 +24,4 @@ If you are stuck, don't hesitate to [send us an email with your questions][maili
 
 [doxygen]: http://xpcc.io/api/modules.html
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
-[mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
+[mailing_list]: https://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev

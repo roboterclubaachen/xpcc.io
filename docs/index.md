@@ -129,7 +129,7 @@ Both our robots are running xpcc and starting from the right:
 [testing]: guide/testing
 [mailing_archive]: http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
-[mailing_list]: http://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
+[mailing_list]: https://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
 [guide]: guide/getting-started
 [reference]: reference/api
 [blog]: http://blog.xpcc.io
