@@ -64,13 +64,12 @@ Unit tests for hosted can be run with
 
 ## Unit tests on target
 
-A very unique feature of the xpcc unit test framework is that the unit tests can be run on the target platform. This matters because in most cases xpcc is used for cross compiling and the target platform differs at least in one of the following features
+A very unique feature of the xpcc unit test framework is that the unit tests can be run on the target platform. This matters because in most cases xpcc is used for cross compiling and the target platform differs at least in one of the following features:
 
 - compiler
-  - gcc for x86 vs. arm-none-eabi-gcc vs. avr-gcc
+  - gcc/clang for x86 vs. arm-none-eabi-gcc vs. avr-gcc
 - word size
-  - 64 bits vs. 8 or 32 bits
-- endianness
+  - 64 bits vs. 8 bits or 32 bits
 - presence of a FPU
   - i7 vs. AVR vs. ARM Cortex-M4f
 
@@ -80,7 +79,7 @@ To cross-compile the set of unit tests for STM32 run
 
 This will create a binary `xpcc/build/unittest_stm32/executable.elf` that can be manually programmed to STM32 F4 Discovery board. After reset, the unit tests are run and the result of the test is echoed to the serial console (USART2 in case of the STM32 F4 Discovery Board, see runner.cpp for details). The test runner is created from `xpcc/templates/unittest/runner_stm32.cpp.in` and located in `xpcc/build/unittest_stm32/runner.cpp`
 
-Theses tests have not been run for a long time at the time of writing this document. These test must be run and interpreted manually.
+These tests are not automatically run and must therefore be run and interpreted manually from time to time.
 
 All platform and hardware drivers still lack these kind of tests, including external stimuli and waveform verification.
 
@@ -89,4 +88,4 @@ All platform and hardware drivers still lack these kind of tests, including exte
 
 ## Conclusions and Outlook
 
-xpcc has a varity of testing strategies in place, is being used on a regular basis by Roboterclub Aachen, receives updates and bug fixes frequently and test coverage is constantly improved.
+xpcc has a varity of testing strategies in place, is being used on a regular basis by Roboterclub Aachen e. V., receives updates and bug fixes frequently and test coverage is constantly improved.
