@@ -42,6 +42,7 @@ pages:
   - Installation: installation.md
   - Guide:
     - Getting started: guide/getting-started.md
+    - Qt Creator: guide/qtcreator.md
     - Testing: guide/testing.md
   - Reference:
     - API reference: reference/api.md
