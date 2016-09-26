@@ -60,12 +60,17 @@ Here is a list of supported **and tested** microcontrollers and development boar
 | ATmega328p | [Arduino Uno][]         | &#9733;&#9733;&#9733;               |
 | STM32F072  | [STM32F072 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F100  | [STM32F1 Discovery][]   | &#9733;&#9733;&#9733;&#9733;        |
-| STM32F103  | [STM32F103 Nucleo][]    | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F103  | [Nucleo F103RB][]       | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F103  | [STM32F1 Blue Pill][]   | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F303  | [STM32F3 Discovery][]   | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F303  | [Nucleo F303K8][]       | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F407  | [STM32F4 Discovery][]   | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F411  | [Nucleo F411RE][]       | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F429  | [STM32F429 Discovery][] | &#9733;&#9733;&#9733;&#9733;&#9733; |
+| STM32F429  | [Nucleo F429ZI][]       | &#9733;&#9733;&#9733;&#9733;        |
 | STM32F469  | [STM32F469 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
-| STM32F746  | [STM32F7 Discovery][]   | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F746  | [STM32F746 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
+| STM32F769  | [STM32F769 Discovery][] | &#9733;&#9733;&#9733;&#9733;        |
 | LPC11C24   | [LPCxpresso][]          | &#9733;&#9733;                      |
 
 All of these targets are compiling and booting correctly
@@ -127,7 +132,7 @@ Both our robots are running xpcc and starting from the right:
 [eurobot]: http://www.eurobot.org/
 [travis_ci]: https://travis-ci.org/roboterclubaachen/xpcc
 [testing]: guide/testing
-[mailing_archive]: http://blog.gmane.org/gmane.comp.hardware.arm.cortex.xpcc.devel
+[mailing_archive]: https://www.mail-archive.com/xpcc-dev@lists.rwth-aachen.de
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
 [mailing_list]: https://mailman.rwth-aachen.de/mailman/listinfo/xpcc-dev
 [guide]: guide/getting-started
@@ -138,10 +143,15 @@ Both our robots are running xpcc and starting from the right:
 [Arduino Uno]: https://www.arduino.cc/en/Main/ArduinoBoardUno
 [STM32F072 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF259724
 [STM32F1 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF250863
-[STM32F103 Nucleo]: http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847/PF259875
+[Nucleo F103RB]: http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847/PF259875
+[STM32F1 Blue Pill]: http://wiki.stm32duino.com/index.php?title=Blue_Pill
 [STM32F3 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF254044
+[Nucleo F303K8]: http://www.st.com/en/evaluation-tools/nucleo-f303k8.html
 [STM32F4 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF252419
+[Nucleo F411RE]: http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847/PF260320
 [STM32F429 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF259090
+[Nucleo F429ZI]: http://www.st.com/web/en/catalog/tools/PF262637
 [STM32F469 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF262395
-[STM32F7 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF261641
+[STM32F746 Discovery]: http://www.st.com/web/catalog/tools/FM116/CL1620/SC959/SS1532/LN1848/PF261641
+[STM32F769 Discovery]: http://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-eval-tools/stm32-mcu-eval-tools/stm32-mcu-discovery-kits/32f769idiscovery.html
 [LPCxpresso]: https://www.lpcware.com/LPCXpressoV1Boards
