@@ -132,23 +132,23 @@ After all, just because you *can* use `int` doesn't mean you *should*.
 
 We transparently show you how much static memory your application is using,
 so you get an idea of how much certain functionality costs you in resources.
-This is the size of the accelerometer example on the STM32F3 discovery board:
+This is the size of the accelerometer example on the STM32F4 discovery board:
 ```sh
-cd examples/stm32f3_discovery/accelerometer
+cd examples/stm32f4_discovery/accelerometer
 scons
 [...]
 Memory Usage
 ------------
-Device: stm32f303vc
+Device: stm32f407vg
 
-Program:    5188 bytes (2.0% used)
-(.data + .reset + .rodata + .text)
+Program:    5372 bytes (0.5% used)
+(.data + .fastdata + .reset + .rodata + .text)
 
-Data:       3092 bytes (6.3% used) = 852 bytes static (1.7%) + 2240 bytes stack (4.6%)
-(.bss + .data + .noinit + .stack)
+Data:       3380 bytes (1.7% used) = 308 bytes static (0.2%) + 3072 bytes stack (1.5%)
+(.bss + .data + .fastdata + .noinit + .stack)
 
-Heap:      38352 bytes (78.0% available)
-(.heap1)
+Heap:     197324 bytes (98.3% available)
+(.heap0 + .heap1 + .heap2 + .heap5)
 ```
 
 ## Compile-time assertions
