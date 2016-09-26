@@ -15,7 +15,12 @@ from subprocess import call, PIPE
 DIAGRAM_EXPR = "<center class=\"md\">{}</center>"
 
 # Base CSS template
-DIAGRAM_CSS = "<style scoped>svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;}.md</style>"
+DIAGRAM_CSS = r"""<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+"""
 
 
 class MarkdeepDiagramPreprocessor(markdown.preprocessors.Preprocessor):
