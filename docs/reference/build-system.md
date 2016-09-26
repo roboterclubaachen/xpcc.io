@@ -115,7 +115,7 @@ Sets the main stack size. Note that the linkerscript may increase this to satisf
 
 - `core.cortex.0.main_stack_size ∈ [512, 8192] = 3040`
 
-Places the vector table in RAM. When your stack and interrupt vector table reside in the same RAM section, this will decrease interrupt response time! The default setting is the fastest setting.
+Places the vector table in RAM. When your stack and interrupt vector table reside in the _same_ RAM section, this will _increase_ interrupt response time! The default setting is the fastest setting.
 
 - `core.cortex.0.vector_table_in_ram ∈ bool = false (true on STM32F3/STM32F7)`
 
