@@ -53,10 +53,11 @@ Use the following settings:
 
 - Startup mode: *Startup in TCP/IP Mode*
 - Executable file: Path to OpenOCD binary: `/usr/local/bin/openocd` (OS X), or `/usr/bin/openocd` (Linux)
-- Root scripts directory: Absolute path to OpenOCD script directory: `/usr/local/Cellar/open-ocd/HEAD/share/openocd/scripts` (OS X, installed with homebrew), or `/usr/share/openocd/scripts` (Linux)
+- Root scripts directory: Absolute path to OpenOCD script directory: `/usr/local/share/openocd/scripts` (OS X), or `/usr/share/openocd/scripts` (Linux)
 - Configuration File: `board/stm32f4discovery.cfg`
 
 If you want to use other targets, create an *OpenOCD provider*, *Device* and *Kit* for each or them.
+Have a look at the OpenOCD script directory to find a configuration file for your target.
 
 ### Add target device
 
