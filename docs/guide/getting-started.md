@@ -29,6 +29,14 @@ Here are our favorite examples for our supported development boards:
 [Accelerometer](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/accelerometer/main.cpp),
 [Timer & LED Animations](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/timer/main.cpp),
 [Debugging hard faults](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/hard_fault/main.cpp).
+- STM32F469 Discovery:
+[Blinky](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/blink/main.cpp),
+[Drawing on display](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/display/main.cpp),
+[Touchscreen inputs](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/touchscreen/main.cpp),
+[Multi-heap with external 16MB memory](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/tlsf-allocator/main.cpp)
+- STM32F769 Discovery:
+[FPU with double precision](https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f769i_discovery/blink/main.cpp)
+
 
 Here are some additional examples of displays and sensors we like:
 
