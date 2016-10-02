@@ -18,4 +18,4 @@ scons doc
 
 # copy the xpcc doc to the right place
 cd ../
-cp -r xpcc/doc/build/api site/
+cp -r xpcc/doc/build/api docs/
