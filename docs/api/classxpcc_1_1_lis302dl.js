@@ -1,0 +1,26 @@
+var classxpcc_1_1_lis302dl =
+[
+    [ "Lis302dl", "classxpcc_1_1_lis302dl.html#af3d2b51a42d5c3527e244f31a7695917", null ],
+    [ "configureBlocking", "classxpcc_1_1_lis302dl.html#a2b5ec8f7ecd37a4167a5398404006234", null ],
+    [ "configure", "classxpcc_1_1_lis302dl.html#ac71c6e3f94fdef0f79575627db819384", null ],
+    [ "updateControlRegister", "classxpcc_1_1_lis302dl.html#a62c399f995c15938433cc1101b67287a", null ],
+    [ "updateControlRegister", "classxpcc_1_1_lis302dl.html#a7274b0801b33e516421e75f28540699d", null ],
+    [ "updateControlRegister", "classxpcc_1_1_lis302dl.html#a549e162a7fe23891c17e7f0bf7d50417", null ],
+    [ "writeInterruptSource", "classxpcc_1_1_lis302dl.html#ab7695a93f1589ceaedb13f345a15de12", null ],
+    [ "updateFreeFallConfiguration", "classxpcc_1_1_lis302dl.html#a1bbbe92119d0c567546a1c276a295382", null ],
+    [ "readFreeFallSource", "classxpcc_1_1_lis302dl.html#a57c91f4f14f11b93ac7217c23ccb3c73", null ],
+    [ "setFreeFallThreshold", "classxpcc_1_1_lis302dl.html#a51169b91f65063e45bd98beb74ac62d3", null ],
+    [ "setFreeFallDuration", "classxpcc_1_1_lis302dl.html#aeef03b7c4a2c84f098506c0b27630f9f", null ],
+    [ "updateClickConfiguration", "classxpcc_1_1_lis302dl.html#ad18cb47c73468ada52bd4fa67aa0d8ac", null ],
+    [ "readClickSource", "classxpcc_1_1_lis302dl.html#a8cb3a4d33b55a23efe2a0e7f8752361a", null ],
+    [ "setClickThreshold", "classxpcc_1_1_lis302dl.html#a5e89128e8b935bfdff01ddf9066647f3", null ],
+    [ "setClickTimeLimit", "classxpcc_1_1_lis302dl.html#accd7ab44f7e29a84dacd3fa33905f59a", null ],
+    [ "setClickLatency", "classxpcc_1_1_lis302dl.html#a69d20b5f492109a20fb8500323a0a3d7", null ],
+    [ "setClickWindow", "classxpcc_1_1_lis302dl.html#af2593b1b683f000d568d722b8d53b3bd", null ],
+    [ "readAcceleration", "classxpcc_1_1_lis302dl.html#a317f0be4a1c82bc0e57a15bd4e90a235", null ],
+    [ "getStatus", "classxpcc_1_1_lis302dl.html#a37d0c9e28818588945f5bf98a1b3e863", null ],
+    [ "getControl1", "classxpcc_1_1_lis302dl.html#abde0e861ab5dd0b0047fcab813bfb7c5", null ],
+    [ "getControl2", "classxpcc_1_1_lis302dl.html#a3c81eea85c8bb8c0b0b111152a65232d", null ],
+    [ "getControl3", "classxpcc_1_1_lis302dl.html#ad3bb729829fb17e392fcfe7eee04d3d8", null ],
+    [ "getData", "classxpcc_1_1_lis302dl.html#ae47dbd182044ba027740f9ef17916678", null ]
+];

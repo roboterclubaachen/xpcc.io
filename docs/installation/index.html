@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Installation - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/installation/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/installation/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/installation//../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../None">
+    <link rel="icon" type="image/x-icon" href="../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../assets/fonts/icon.eot?52m981');
+      	src: url('../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script src="../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        Installation
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Why use xpcc?" href="../why-use-xpcc/">
+      Why use xpcc?
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="current" title="Installation" href="./">
+      Installation
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Installing on Linux" href="#installing-on-linux">
+                Installing on Linux
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Installing on OS X" href="#installing-on-os-x">
+                Installing on OS X
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Installing on Windows" href="#installing-on-windows">
+                Installing on Windows
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Getting started" href="../guide/getting-started/">
+      Getting started
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Qt Creator" href="../guide/qtcreator/">
+      Qt Creator
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Testing" href="../guide/testing/">
+      Testing
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../reference/api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Build system" href="../reference/build-system/">
+      Build system
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Device files" href="../reference/device-files/">
+      Device files
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">#</a></h1>
+<p>This is the minimum required software for the xpcc build system:</p>
+<ul>
+<li><a href="http://www.python.org/">Python 2.7.x</a></li>
+<li><a href="http://www.scons.org/">Software Construct</a></li>
+<li><a href="http://jinja.pocoo.org/">Jinja2 Template Engine</a></li>
+<li>AVR toolchain: <a href="http://www.nongnu.org/avr-libc">avr-gcc</a> and <a href="http://www.nongnu.org/avrdude">avrdude</a></li>
+<li>ARM toolchain: <a href="https://launchpad.net/gcc-arm-embedded">arm-none-eabi-gcc</a> and <a href="http://openocd.sourceforge.net/">openocd</a></li>
+</ul>
+<p>To start actively developing on xpcc, you will also need these packages:</p>
+<ul>
+<li><a href="http://lxml.de/">python-lxml</a></li>
+<li><a href="http://www.stack.nl/~dimitri/doxygen">doxygen</a></li>
+</ul>
+<h2 id="installing-on-linux">Installing on Linux<a class="headerlink" href="#installing-on-linux" title="Permanent link">#</a></h2>
+<p>For Ubuntu 14.04LTS, these commands install the basic build system:</p>
+<div class="code"><pre><span></span>sudo apt-get install python python-jinja2 scons git
+</pre></div>
+
+
+<p>Install the AVR toochain:</p>
+<div class="code"><pre><span></span>sudo apt-get install gcc-avr binutils-avr avr-libc avrdude
+</pre></div>
+
+
+<p>And the ARM toolchain as well:</p>
+<div class="code"><pre><span></span>sudo add-apt-repository ppa:team-gcc-arm-embedded/ppa
+sudo apt-get update
+sudo apt-get install gcc-arm-embedded openocd
+</pre></div>
+
+
+<p>To compile programs for x86 systems install the following packets:</p>
+<div class="code"><pre><span></span>sudo apt-get install gcc build-essential libboost-thread-dev \
+                     libboost-system-dev libasio-dev
+</pre></div>
+
+
+<p>For active xpcc development install these packets too:</p>
+<div class="code"><pre><span></span>sudo apt-get --no-install-recommends install doxygen
+pip install --user lxml
+</pre></div>
+
+
+<p>This installs <code>doxygen</code> without LaTeX support, which saves ~600MB of disk space.</p>
+<h2 id="installing-on-os-x">Installing on OS X<a class="headerlink" href="#installing-on-os-x" title="Permanent link">#</a></h2>
+<p>First install <a href="http://mxcl.github.com/homebrew/"><code>homebrew</code></a>, a great packet
+manager for OS X, then use it to install the minimum build system:</p>
+<div class="code"><pre><span></span>brew install python scons git
+pip install --user jinja2
+</pre></div>
+
+
+<p>Install the AVR toochain:</p>
+<div class="code"><pre><span></span>brew tap larsimmisch/avr
+brew install avr-libc avrdude
+</pre></div>
+
+
+<p>And the ARM toolchain as well:</p>
+<div class="code"><pre><span></span>brew tap ARMmbed/homebrew-formulae
+brew install arm-none-eabi-gcc
+</pre></div>
+
+
+<p>To program and debug your ARM Cortex-M device, you need to install the latest
+<a href="http://openocd.org">OpenOCD</a> version:</p>
+<div class="code"><pre><span></span>brew install openocd --HEAD --enable-ft2232_libftdi \
+                     --enable-jlink --enable-stlink
+</pre></div>
+
+
+<p>For active xpcc development install these packets too:</p>
+<div class="code"><pre><span></span>brew install doxygen
+pip install --user lxml
+</pre></div>
+
+
+<h2 id="installing-on-windows">Installing on Windows<a class="headerlink" href="#installing-on-windows" title="Permanent link">#</a></h2>
+<p>We're sorry, we do not have enough experience with Windows to provide
+honest support.
+<a href="https://github.com/roboterclubaachen/xpcc/pulls">Pull requests welcome!</a></p>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../why-use-xpcc/" title="Why use xpcc?">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Why use xpcc?
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../guide/getting-started/" title="Getting started">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Getting started
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>

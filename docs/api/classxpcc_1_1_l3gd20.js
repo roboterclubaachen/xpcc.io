@@ -1,0 +1,26 @@
+var classxpcc_1_1_l3gd20 =
+[
+    [ "L3gd20", "classxpcc_1_1_l3gd20.html#a998aded6dc3002a6891811379775c8e6", null ],
+    [ "configureBlocking", "classxpcc_1_1_l3gd20.html#aa40e3bc6259bacaa5b781ee84be1f20f", null ],
+    [ "configure", "classxpcc_1_1_l3gd20.html#adcaed2e8c33fed4b3074630f25674c75", null ],
+    [ "updateControl", "classxpcc_1_1_l3gd20.html#a39888e7a07614f0a147edd2fce05fad9", null ],
+    [ "updateControl", "classxpcc_1_1_l3gd20.html#aa8de55481612cf11bab13559696c395a", null ],
+    [ "updateControl", "classxpcc_1_1_l3gd20.html#a85f8aebeaf45f5124307c2544a5ae92d", null ],
+    [ "updateControl", "classxpcc_1_1_l3gd20.html#a1878881d399d2c489b3eded66cd61391", null ],
+    [ "updateControl", "classxpcc_1_1_l3gd20.html#ab39a4bb42c22a736fcf4b4dc32956cd2", null ],
+    [ "updateFifoControl", "classxpcc_1_1_l3gd20.html#ad6adef0fdeb121ea80112d957605a37f", null ],
+    [ "updateInterruptConfiguration", "classxpcc_1_1_l3gd20.html#a4d83b2d30dd5de6e19c910dd5b26c44b", null ],
+    [ "readRotation", "classxpcc_1_1_l3gd20.html#a29f8e142bb0cd81ab4f1ce9b68e3eaab", null ],
+    [ "getControl1", "classxpcc_1_1_l3gd20.html#a77a2e255dd74462113adea0f667c27a1", null ],
+    [ "getControl2", "classxpcc_1_1_l3gd20.html#a65abf78e237c84a77c7bd6daf8834a59", null ],
+    [ "getControl3", "classxpcc_1_1_l3gd20.html#abffa8a1850d7826e856a1fe101e435a8", null ],
+    [ "getControl4", "classxpcc_1_1_l3gd20.html#a47232461e4ac8560a0f7563eafb389b6", null ],
+    [ "getControl5", "classxpcc_1_1_l3gd20.html#a0689f6cd2b6f4b68a395ae45785b2995", null ],
+    [ "getReference", "classxpcc_1_1_l3gd20.html#ad7424e9145055a154e01e08e045013f7", null ],
+    [ "getFifoControl", "classxpcc_1_1_l3gd20.html#af6ccd290ee9f6fdb138431cbe8e85b27", null ],
+    [ "getIntConfig", "classxpcc_1_1_l3gd20.html#a09988204be9a868728d2cfb82c882198", null ],
+    [ "getStatus", "classxpcc_1_1_l3gd20.html#a201948a9e3a6bf48f1e4432e7366e441", null ],
+    [ "getFifoSource", "classxpcc_1_1_l3gd20.html#a15183be81bf3649026cbb996aeb8dffa", null ],
+    [ "getIntSource", "classxpcc_1_1_l3gd20.html#ab8eeb19cfde533bd2b7083d89ba9e1b9", null ],
+    [ "getData", "classxpcc_1_1_l3gd20.html#afce0951de8974905892ba668a03a2267", null ]
+];

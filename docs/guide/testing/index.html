@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Testing - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/guide/testing/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/guide/testing/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/guide/testing//../../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../None">
+    <link rel="icon" type="image/x-icon" href="../../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../../assets/fonts/icon.eot?52m981');
+      	src: url('../../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script src="../../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Guide <i class="icon icon-link"></i>
+              
+            
+          </span>
+        
+        Testing
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Why use xpcc?" href="../../why-use-xpcc/">
+      Why use xpcc?
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Installation" href="../../installation/">
+      Installation
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Getting started" href="../getting-started/">
+      Getting started
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Qt Creator" href="../qtcreator/">
+      Qt Creator
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="Testing" href="./">
+      Testing
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Manual tests" href="#manual-tests">
+                Manual tests
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Manual integration tests" href="#manual-integration-tests">
+                Manual integration tests
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Continous integration" href="#continous-integration">
+                Continous integration
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Release test" href="#release-test">
+                Release test
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Unit tests on hosted" href="#unit-tests-on-hosted">
+                Unit tests on hosted
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Unit tests on target" href="#unit-tests-on-target">
+                Unit tests on target
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Conclusions and Outlook" href="#conclusions-and-outlook">
+                Conclusions and Outlook
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../../reference/api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Build system" href="../../reference/build-system/">
+      Build system
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Device files" href="../../reference/device-files/">
+      Device files
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="testing-xpcc">Testing xpcc<a class="headerlink" href="#testing-xpcc" title="Permanent link">#</a></h1>
+<p>xpcc has seen some significant changes in the past and the level of
+maturity varies between "does not compile" and "very reliable".</p>
+<p>There are different explicit and implicit test strategies in place for
+testing xpcc.</p>
+<h2 id="manual-tests">Manual tests<a class="headerlink" href="#manual-tests" title="Permanent link">#</a></h2>
+<p>When some new drivers were developed the developer often (not always!) tests the new driver with some real hardware (eval board) and a real peripheral at least on one platform with one compiler. The results on different platforms (AVR instead of ARM) and different hardware (eval board) may vary, although by design should not.</p>
+<p>Mostly, these tests are only conducted when the development takes place.</p>
+<h2 id="manual-integration-tests">Manual integration tests<a class="headerlink" href="#manual-integration-tests" title="Permanent link">#</a></h2>
+<p>xpcc is the major platform for all programming efforts of the Robot Association Aachen (Roboterclub Aachen, RCA) at RWTH Aachen University. Some parts of xpcc run on real robots in real competitions. The maturity of these parts at least for RCA's hardware can be expected to be very high. This includes:</p>
+<ul>
+<li>The XPCC communication protocol</li>
+<li>The target platforms used in the specific season, e.g.</li>
+<li>STM32F407 in seasons 2014ff, but only under very specific test conditions, e.g.<ul>
+<li>external 8 MHz oscillator</li>
+<li>core running at 168 MHz</li>
+<li>only using UART0, not UART1</li>
+</ul>
+</li>
+<li>the hardware drivers build in the robots (e.g. CAN, VL6180, ...)</li>
+</ul>
+<p>The test coverage is unknown but the system has proved to be reliable under conditions of the competition. Nevertheless, some unforseen problems may still occur at any time. Always fasten your seatbelt.</p>
+<h2 id="continous-integration">Continous integration<a class="headerlink" href="#continous-integration" title="Permanent link">#</a></h2>
+<p>xpcc on Github uses TravisCI for CI. A set of test jobs is run with every commit. These include release tests and unit tests.</p>
+<h2 id="release-test">Release test<a class="headerlink" href="#release-test" title="Permanent link">#</a></h2>
+<p>xpcc covers many different platforms and a huge number of chips. To make sure that at the code at least compiles for all platforms a TravisCI test job is in place as part of the Continous Integration. This only tests compiling on the TravisCI Linux virtual machine. Compiling may fail with different compilers and on different hosts.</p>
+<p>To check if simple programs compile for a large set of microcontrollers call</p>
+<div class="code"><pre><span></span>scons check=devices
+</pre></div>
+
+
+<p>The test programs that are compiled are located in <code>xpcc/release/tests</code> and differ for each platform.</p>
+<p>To compile all examples from <code>xpcc/examples</code>, run</p>
+<div class="code"><pre><span></span>scons check=examples
+</pre></div>
+
+
+<p>This does <strong>not</strong> include actually running the examples.</p>
+<p>To compile device checks and examples simply run</p>
+<div class="code"><pre><span></span>scons check
+</pre></div>
+
+
+<h2 id="unit-tests-on-hosted">Unit tests on hosted<a class="headerlink" href="#unit-tests-on-hosted" title="Permanent link">#</a></h2>
+<p>Some parts of xpcc which do not access hardware directly (like communication protocols, mathematical and logical functions) are tested with a xpcc specific unit test framework.</p>
+<p>Tests can be found in the <code>test</code> direcotry of each component, e.g. <code>xpcc/src/xpcc/math/filter/test</code>. These test check for logic errors in the components. They are compiled for the targed <code>hosted</code> (your computer) and run to check the expected result against a predifined and expected result. The test coverage of these tests vary.</p>
+<p>Every new software component is expected to have these checks in place when contributed to xpcc.</p>
+<p>Unit tests for hosted can be run with</p>
+<div class="code"><pre><span></span>scons unittest
+</pre></div>
+
+
+<h2 id="unit-tests-on-target">Unit tests on target<a class="headerlink" href="#unit-tests-on-target" title="Permanent link">#</a></h2>
+<p>A very unique feature of the xpcc unit test framework is that the unit tests can be run on the target platform. This matters because in most cases xpcc is used for cross compiling and the target platform differs at least in one of the following features:</p>
+<ul>
+<li>compiler</li>
+<li>gcc/clang for x86 vs. arm-none-eabi-gcc vs. avr-gcc</li>
+<li>word size</li>
+<li>64 bits vs. 8 bits or 32 bits</li>
+<li>presence of a FPU</li>
+<li>i7 vs. AVR vs. ARM Cortex-M4f</li>
+</ul>
+<p>To cross-compile the set of unit tests for STM32 run</p>
+<div class="code"><pre><span></span>scons unittest target=stm32
+</pre></div>
+
+
+<p>This will create a binary <code>xpcc/build/unittest_stm32/executable.elf</code> that can be manually programmed to STM32 F4 Discovery board. After reset, the unit tests are run and the result of the test is echoed to the serial console (USART2 in case of the STM32 F4 Discovery Board, see runner.cpp for details). The test runner is created from <code>xpcc/templates/unittest/runner_stm32.cpp.in</code> and located in <code>xpcc/build/unittest_stm32/runner.cpp</code></p>
+<p>These tests are not automatically run and must therefore be run and interpreted manually from time to time.</p>
+<p>All platform and hardware drivers still lack these kind of tests, including external stimuli and waveform verification.</p>
+<div class="code"><pre><span></span>scons unittest target=atmega
+scons unittest target=atxmega
+</pre></div>
+
+
+<h2 id="conclusions-and-outlook">Conclusions and Outlook<a class="headerlink" href="#conclusions-and-outlook" title="Permanent link">#</a></h2>
+<p>xpcc has a varity of testing strategies in place, is being used on a regular basis by Roboterclub Aachen e. V., receives updates and bug fixes frequently and test coverage is constantly improved.</p>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../qtcreator/" title="Qt Creator">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Qt Creator
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../../reference/api/" title="API reference">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                API reference
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>

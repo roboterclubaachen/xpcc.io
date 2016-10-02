@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['rangecheck',['RangeCheck',['../structxpcc_1_1vl6180.html#aa8529fac039a02acac5187073229af7c',1,'xpcc::vl6180']]],
+  ['rangestatus',['RangeStatus',['../structxpcc_1_1vl6180.html#aa7af21fc82521e9d6202d15b5aefe33d',1,'xpcc::vl6180']]],
+  ['region',['Region',['../classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ae2abb7e5ceeaa024431a4db124a8f46a',1,'xpcc::stm32::fsmc::NorSram']]],
+  ['register',['Register',['../classxpcc_1_1_mcp4922.html#a57f88db5fdae273b35abed4a6d3bc096',1,'xpcc::Mcp4922::Register()'],['../structxpcc_1_1hmc6343.html#a146c694383efb74107fe4feb19d6f75f',1,'xpcc::hmc6343::Register()'],['../structxpcc_1_1l3gd20.html#a7de6f2c683f3dcb6a0e91ccece82be47',1,'xpcc::l3gd20::Register()'],['../structxpcc_1_1lis3dsh.html#a02c4aae6d594b34f93ee3ea030b33e11',1,'xpcc::lis3dsh::Register()'],['../structxpcc_1_1lsm303a.html#a283c68fa71147d80a2a428c4426d6f2b',1,'xpcc::lsm303a::Register()'],['../structxpcc_1_1adns9800.html#ae3c5e0777688871b312d9af5c8fb3833',1,'xpcc::adns9800::Register()'],['../structxpcc_1_1vl6180.html#aab66d38554cbe7afdf16f009e0940a5b',1,'xpcc::vl6180::Register()'],['../group__mcp2515.html#gae2e716657a43e2aba93b77d048d90b51',1,'xpcc::mcp2515::Register()']]],
+  ['register16',['Register16',['../structxpcc_1_1hmc6343.html#a49d2a5db1c646f371ae6932c65d79d91',1,'xpcc::hmc6343']]],
+  ['registeraddress',['RegisterAddress',['../structxpcc_1_1tcs3414.html#a7a68c75ed04a60bb998397e5f7a87324',1,'xpcc::tcs3414::RegisterAddress()'],['../classxpcc_1_1_mcp23s08.html#a555755959e90e6a82611b6a03c25abdb',1,'xpcc::Mcp23s08::RegisterAddress()']]],
+  ['remoterequestfilter',['RemoteRequestFilter',['../classxpcc_1_1lpc_1_1_can_filter.html#ad164f6fdc0c5b26bd28b1e77101ad074',1,'xpcc::lpc::CanFilter::RemoteRequestFilter()'],['../classxpcc_1_1stm32_1_1_can_filter.html#aa1688e3a34e1fb86b42e4a896e3f4c4c',1,'xpcc::stm32::CanFilter::RemoteRequestFilter()']]],
+  ['remoterequeststatus',['RemoteRequestStatus',['../classxpcc_1_1lpc_1_1_can_filter.html#afe9b1393e9f29a08928ed224a809ac19',1,'xpcc::lpc::CanFilter::RemoteRequestStatus()'],['../classxpcc_1_1stm32_1_1_can_filter.html#a5fcc5b6671bfd0f221bd8de168ead4d8',1,'xpcc::stm32::CanFilter::RemoteRequestStatus()']]],
+  ['resolution',['Resolution',['../classxpcc_1_1lpc_1_1_adc_automatic_burst.html#a5bdb5d058e157e58999b80135aafe901',1,'xpcc::lpc::AdcAutomaticBurst::Resolution()'],['../structxpcc_1_1ds1631.html#a0b5db0b7800864b40492a331746333f1',1,'xpcc::ds1631::Resolution()'],['../structxpcc_1_1tmp175.html#aec54a812d16db008695d6bd562938a18',1,'xpcc::tmp175::Resolution()']]],
+  ['response',['Response',['../group__xpcc__comm.html#gac82fa14e79906dd2443ec4e3fb49bef6',1,'xpcc']]],
+  ['romcommand',['RomCommand',['../group__wire.html#ga18c5ac90389c6f27d08281c78c227fa2',1,'xpcc::one_wire']]],
+  ['rxb0ctrl',['RXB0CTRL',['../group__mcp2515.html#ga0933772e1cca70207fa535568e90a79d',1,'xpcc::mcp2515']]],
+  ['rxb1ctrl',['RXB1CTRL',['../group__mcp2515.html#ga5255ae28f455c1aefb8452aa43fe0df2',1,'xpcc::mcp2515']]],
+  ['rxbndlc',['RXBnDLC',['../group__mcp2515.html#ga5dad9ab7d014ee3e9212445b0a8ff4e2',1,'xpcc::mcp2515']]],
+  ['rxbnsidl',['RXBnSIDL',['../group__mcp2515.html#ga3aa0db6228517eab3734688afb98d28c',1,'xpcc::mcp2515']]],
+  ['rxstatus',['RxStatus',['../group__mcp2515.html#gac7ed30ce273b312ec0fcdcbfed9e6bf3',1,'xpcc::mcp2515']]]
+];

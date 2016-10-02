@@ -1,0 +1,28 @@
+var classxpcc_1_1_hmc6343 =
+[
+    [ "Hmc6343", "classxpcc_1_1_hmc6343.html#a62c6fe7a919e0459629afb91438a85de", null ],
+    [ "readOperationMode", "classxpcc_1_1_hmc6343.html#a8095f69fc3cabbf674879536e3a45767", null ],
+    [ "setMeasurementRate", "classxpcc_1_1_hmc6343.html#a705dd8ac533a236992cd7ba8f72ec0ed", null ],
+    [ "setDeviationAngle", "classxpcc_1_1_hmc6343.html#a389f637f10570fe135fd2d6f51c2b7a8", null ],
+    [ "setVariationAngle", "classxpcc_1_1_hmc6343.html#a112f544caa564ee4e5ed9c4d4f120b25", null ],
+    [ "setIIR_Filter", "classxpcc_1_1_hmc6343.html#a681954c56820fe2004cd6d1228102837", null ],
+    [ "getDeviceId", "classxpcc_1_1_hmc6343.html#a17298d0565619e7b945f604b36b9e782", null ],
+    [ "getIIR_Filter", "classxpcc_1_1_hmc6343.html#a2629fe00650c7277e10b507d88db5bd1", null ],
+    [ "setOrientation", "classxpcc_1_1_hmc6343.html#a440e0bc5a18878b2b4f99864e18123d8", null ],
+    [ "enterRunMode", "classxpcc_1_1_hmc6343.html#ada8a7c03872b6da30da7819fbae753ff", null ],
+    [ "enterStandbyMode", "classxpcc_1_1_hmc6343.html#a2d6152aad535ba724551ab2043760442", null ],
+    [ "enterSleepMode", "classxpcc_1_1_hmc6343.html#aa70dff321733f34ee1d66bb9a6f7b308", null ],
+    [ "exitSleepMode", "classxpcc_1_1_hmc6343.html#a32322d22dc78a724e585391324714e7e", null ],
+    [ "enterUserCalibrationMode", "classxpcc_1_1_hmc6343.html#a375aa3f45c35e61d14df2619ccbe12cd", null ],
+    [ "exitUserCalibrationMode", "classxpcc_1_1_hmc6343.html#a04023055c659d7d8c2c418b9e1f45fdd", null ],
+    [ "resetProcessor", "classxpcc_1_1_hmc6343.html#a29b9637a927189c367b6cc5b08f62c06", null ],
+    [ "readAcceleration", "classxpcc_1_1_hmc6343.html#a4942ecf84057963be7e278bb425c3aad", null ],
+    [ "readMagneticField", "classxpcc_1_1_hmc6343.html#ac8531104d7e819528b98b743e2aff478", null ],
+    [ "readHeading", "classxpcc_1_1_hmc6343.html#ad4b3fccbb270a3c6036c6e062f0f4d0c", null ],
+    [ "readTilt", "classxpcc_1_1_hmc6343.html#a1cad9bac06445c1f7420b60bc142197a", null ],
+    [ "writeRegister", "classxpcc_1_1_hmc6343.html#a4131dcd0a6d75ab0801ae518668efbe1", null ],
+    [ "writeRegister", "classxpcc_1_1_hmc6343.html#abd19707c0d7fd45f2ed66b032e7bc8bb", null ],
+    [ "readRegister", "classxpcc_1_1_hmc6343.html#aafacaf1b7aad2e6212eebeec7e4ca5fc", null ],
+    [ "readRegister", "classxpcc_1_1_hmc6343.html#a968787711fdd2f1ad9c8b8ef45d1b489", null ],
+    [ "getData", "classxpcc_1_1_hmc6343.html#a1030fc90e7ad761a375ccbfdee55d4fc", null ]
+];

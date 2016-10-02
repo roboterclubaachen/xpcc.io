@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Device files - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/reference/device-files/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/reference/device-files/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/reference/device-files//../../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../None">
+    <link rel="icon" type="image/x-icon" href="../../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../../assets/fonts/icon.eot?52m981');
+      	src: url('../../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script src="../../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Reference <i class="icon icon-link"></i>
+              
+            
+          </span>
+        
+        Device files
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Why use xpcc?" href="../../why-use-xpcc/">
+      Why use xpcc?
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Installation" href="../../installation/">
+      Installation
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Getting started" href="../../guide/getting-started/">
+      Getting started
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Qt Creator" href="../../guide/qtcreator/">
+      Qt Creator
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Testing" href="../../guide/testing/">
+      Testing
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Build system" href="../build-system/">
+      Build system
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="Device files" href="./">
+      Device files
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Device Identifier" href="#device-identifier">
+                Device Identifier
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Naming Scheme" href="#naming-scheme">
+                Naming Scheme
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="File Format" href="#file-format">
+                File Format
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Driver Files" href="#driver-files">
+                Driver Files
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Generator" href="#generator">
+                Generator
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="device-files">Device Files<a class="headerlink" href="#device-files" title="Permanent link">#</a></h1>
+<p>The device file describes the device metadata and peripheral tree in XML.
+Information from one device can be extracted by providing the device identifier.</p>
+<h2 id="device-identifier">Device Identifier<a class="headerlink" href="#device-identifier" title="Permanent link">#</a></h2>
+<p>The device identifier is the canonical representation of the device name within the device file.
+It consists out of the following elements with examples for device names <em>stm32f407vg</em> and <em>atmega328p</em>:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>STM32</th>
+<th>AVR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>platform</td>
+<td>stm32</td>
+<td>avr</td>
+</tr>
+<tr>
+<td>family</td>
+<td>f4</td>
+<td>atmega</td>
+</tr>
+<tr>
+<td>name</td>
+<td>407</td>
+<td>328</td>
+</tr>
+<tr>
+<td>type</td>
+<td></td>
+<td>p</td>
+</tr>
+<tr>
+<td>pin-id</td>
+<td>v</td>
+<td></td>
+</tr>
+<tr>
+<td>size-id</td>
+<td>g</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<p>Notice that type and pin-id have different interpretations on the STM32 and AVR platform, which reflects in the device file format.</p>
+<h2 id="naming-scheme">Naming Scheme<a class="headerlink" href="#naming-scheme" title="Permanent link">#</a></h2>
+<p>All device files can be currently found in the <code>xpcc/architecture/platform/devices/</code>, with the naming schemes dependend on architecture.
+Examples include:</p>
+<ul>
+<li>avr:<ul>
+<li>AT90: <code>at90</code> + <code>sizes-type</code><ul>
+<li><code>at9032_64_128-can.xml</code> for <strong>AT90CAN(32|64|128)</strong></li>
+</ul>
+</li>
+<li>ATtiny, ATmega: <code>atmega</code> + <code>sizes-types</code><ul>
+<li><code>atmega48_88_168_328-a_none_p_pa.xml</code> for <strong>ATMEGA(48|88|169|328)(a|p|pa)?</strong></li>
+</ul>
+</li>
+<li>ATxmega: <code>xmega</code> + <code>sizes-package-types</code><ul>
+<li><code>xmega64_128-a1-none_u.xml</code> for <strong>ATXMEGA(64|128)A1(U)?</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>stm32:<ul>
+<li>STM32F: <code>stm32f</code> + <code>names-pins-sizes</code><ul>
+<li><code>stm32f405_407_415_417-i_r_v_z-e_g.xml</code> for <strong>STM32F(405|407|415|417)(I|R|V|Z)(E|G)</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="file-format">File Format<a class="headerlink" href="#file-format" title="Permanent link">#</a></h2>
+<p>The device files encode information about one or several very similar devices using a tree representation.
+The device tree root declares its device scope using OR'ed device identifier elements.</p>
+<p>Here is the <em>ATmega328</em> device family as an example:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;device</span> <span class="na">platform=</span><span class="s">&quot;avr&quot;</span> <span class="na">family=</span><span class="s">&quot;atmega&quot;</span> <span class="na">name=</span><span class="s">&quot;48|88|168|328&quot;</span> <span class="na">size_id=</span><span class="s">&quot;4|8|16|32&quot;</span> <span class="na">type=</span><span class="s">&quot;a|none|p|pa&quot;</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/device&gt;</span>
+</pre></div>
+
+
+<p>This looks very similar for the <em>STM32F407</em> device family:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;device</span> <span class="na">platform=</span><span class="s">&quot;stm32&quot;</span> <span class="na">family=</span><span class="s">&quot;f4&quot;</span> <span class="na">name=</span><span class="s">&quot;405|407|415|417&quot;</span> <span class="na">pin_id=</span><span class="s">&quot;i|r|v|z&quot;</span> <span class="na">size_id=</span><span class="s">&quot;e|g&quot;</span><span class="nt">&gt;</span>
+  ...
+<span class="nt">&lt;/device&gt;</span>
+</pre></div>
+
+
+<h3 id="available-elements">Available Elements<a class="headerlink" href="#available-elements" title="Permanent link">#</a></h3>
+<p>Inside the device tag, the following elements describe the device:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>flash</td>
+<td>size of available non-volatile memory in bytes</td>
+</tr>
+<tr>
+<td>ram</td>
+<td>size of available volatile memory in bytes</td>
+</tr>
+<tr>
+<td>eeprom</td>
+<td>size of available eeprom in bytes (avr-only)</td>
+</tr>
+<tr>
+<td>linkerscript</td>
+<td>name of linkerscript (cortex-m-only)</td>
+</tr>
+<tr>
+<td>core</td>
+<td>name of CPU core</td>
+</tr>
+<tr>
+<td>mcu</td>
+<td>avrdude name of device (avr-only)</td>
+</tr>
+<tr>
+<td>pin-count</td>
+<td>number of pins on device</td>
+</tr>
+<tr>
+<td>header</td>
+<td>required device header(s)</td>
+</tr>
+<tr>
+<td>define</td>
+<td>required device define(s)</td>
+</tr>
+<tr>
+<td>driver</td>
+<td>a peripheral driver implementation</td>
+</tr>
+</tbody>
+</table>
+<p>For example, all devices in the STM32F407 family have 192kB of RAM:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;ram&gt;</span>196608<span class="nt">&lt;/ram&gt;</span>
+</pre></div>
+
+
+<p>However, each element may also declare its device scope by including device identifier attributes.
+To distinguish filterable device identifier attributes from declaration attributes, they must be prefixed with <code>device-</code>.</p>
+<p>For the ATmega328 family several RAM sizes exist depending on device name:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;ram</span> <span class="na">device-name=</span><span class="s">&quot;48&quot;</span><span class="nt">&gt;</span>512<span class="nt">&lt;/ram&gt;</span>
+<span class="nt">&lt;ram</span> <span class="na">device-name=</span><span class="s">&quot;88|168&quot;</span><span class="nt">&gt;</span>1024<span class="nt">&lt;/ram&gt;</span>
+<span class="nt">&lt;ram</span> <span class="na">device-name=</span><span class="s">&quot;328&quot;</span><span class="nt">&gt;</span>2048<span class="nt">&lt;/ram&gt;</span>
+</pre></div>
+
+
+<p>You are even able to use the value of these elements to further limit the scope of new elements.</p>
+<p>An example of this can be seen in the core driver file (discussed later), which uses the core element as device-scope:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;template</span> <span class="na">core=</span><span class="s">&quot;cortex-m3|cortex-m4|cortex-m4f&quot;</span><span class="nt">&gt;</span>hard_fault_handler.cpp.in<span class="nt">&lt;/template&gt;</span>
+</pre></div>
+
+
+<p>As the device file is declarative, the filtering engine will resolve all dependencies recursively and throw an error in case of unresolved elements or circular referencing.</p>
+<h3 id="available-drivers">Available Drivers<a class="headerlink" href="#available-drivers" title="Permanent link">#</a></h3>
+<p>The driver elements link the device hardware peripheral with a software implementation, which are found in <code>xpcc/architecture/platform/driver/</code>.
+Each driver is divided into several hardware dependend implementations.</p>
+<p>A selection of the most important drivers are:</p>
+<div class="code"><pre><span></span>driver
+|-- adc
+|-- can
+|-- clock
+|-- fsmc
+|-- gpio
+|   |-- at90_tiny_mega
+|   |-- generic
+|   `-- stm32
+|-- i2c
+|-- spi
+|   |-- at90_tiny_mega
+|   |-- at90_tiny_mega_uart
+|   |-- generic
+|   |-- stm32
+|   `-- stm32_uart
+|-- timer
+`-- uart
+</pre></div>
+
+
+<p>Notice the <code>generic</code> folders. These are available for all platforms and are automatically included.</p>
+<p>Also, notice how there exist two implementations for <strong>spi</strong> for the <strong>stm32</strong> and <strong>at90_tiny_mega</strong> platform.
+One is for using the dedicated SPI hardware, and the other is for the UART hardware in SPI mode, however, both conform to the same SPI interface:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;spi&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span> <span class="na">instances=</span><span class="s">&quot;1,2,3&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;spi&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32_uart&quot;</span> <span class="na">instances=</span><span class="s">&quot;1,2,3,4,5,6&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+
+
+<p>Of course, drivers may also declare device scope. For the STM32F407 family, the FSMC is not available for pin-id <code>R</code> (=64 pins):</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">device-pin-id=</span><span class="s">&quot;i|v|z&quot;</span> <span class="na">type=</span><span class="s">&quot;fsmc&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+
+
+<p>Any childen of a driver element will be available inside the driver instance template. Except for the reserved name <code>parameter</code>, there are no limitations on data structure or naming.</p>
+<p>For example, the GPIO driver needs to know which pins are available for the requested device (with the <code>gpio</code> element), and what alternate functions to connect to them (with the <code>af</code> element).</p>
+<p>This information is encoded as driver element children (here for the ATmega328 device family):</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;gpio&quot;</span> <span class="na">name=</span><span class="s">&quot;at90_tiny_mega&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;gpio</span> <span class="na">port=</span><span class="s">&quot;B&quot;</span> <span class="na">id=</span><span class="s">&quot;0&quot;</span> <span class="na">pcint=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  ...
+  <span class="nt">&lt;gpio</span> <span class="na">port=</span><span class="s">&quot;D&quot;</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span> <span class="na">pcint=</span><span class="s">&quot;17&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">peripheral=</span><span class="s">&quot;Uart0&quot;</span> <span class="na">type=</span><span class="s">&quot;out&quot;</span> <span class="na">name=</span><span class="s">&quot;Txd&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/gpio&gt;</span>
+  <span class="nt">&lt;gpio</span> <span class="na">port=</span><span class="s">&quot;D&quot;</span> <span class="na">id=</span><span class="s">&quot;2&quot;</span> <span class="na">pcint=</span><span class="s">&quot;18&quot;</span> <span class="na">extint=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+  ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>Of course, device scope may also be declared for individual pins and even alternate functions (here for the STM32F407 device family):</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;gpio&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span><span class="nt">&gt;</span>
+  ...
+  <span class="nt">&lt;gpio</span> <span class="na">device-pin-id=</span><span class="s">&quot;i|v|z&quot;</span> <span class="na">port=</span><span class="s">&quot;E&quot;</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">id=</span><span class="s">&quot;12&quot;</span> <span class="na">peripheral=</span><span class="s">&quot;Fsmc&quot;</span> <span class="na">name=</span><span class="s">&quot;Nbl1&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/gpio&gt;</span>
+  <span class="nt">&lt;gpio</span> <span class="na">device-pin-id=</span><span class="s">&quot;i|v|z&quot;</span> <span class="na">port=</span><span class="s">&quot;E&quot;</span> <span class="na">id=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">id=</span><span class="s">&quot;12&quot;</span> <span class="na">peripheral=</span><span class="s">&quot;Fsmc&quot;</span> <span class="na">name=</span><span class="s">&quot;A23&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/gpio&gt;</span>
+  <span class="nt">&lt;gpio</span> <span class="na">device-pin-id=</span><span class="s">&quot;i|v|z&quot;</span> <span class="na">port=</span><span class="s">&quot;E&quot;</span> <span class="na">id=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">id=</span><span class="s">&quot;12&quot;</span> <span class="na">peripheral=</span><span class="s">&quot;Fsmc&quot;</span> <span class="na">name=</span><span class="s">&quot;A19&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/gpio&gt;</span>
+  <span class="nt">&lt;gpio</span> <span class="na">device-pin-id=</span><span class="s">&quot;i|v|z&quot;</span> <span class="na">port=</span><span class="s">&quot;E&quot;</span> <span class="na">id=</span><span class="s">&quot;4&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">id=</span><span class="s">&quot;12&quot;</span> <span class="na">peripheral=</span><span class="s">&quot;Fsmc&quot;</span> <span class="na">name=</span><span class="s">&quot;A20&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/gpio&gt;</span>
+  ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>This structure is then available as a dictionary inside the device driver template files.</p>
+<h2 id="driver-files">Driver Files<a class="headerlink" href="#driver-files" title="Permanent link">#</a></h2>
+<p>The device file only describes which folder contains the driver implementation and metadata for its implementation.
+It does not specify which files are part of the implementation, and how multiple instances of a driver are created.</p>
+<p>This is done using the <code>driver.xml</code> file inside each driver implemenation.
+For the <code>at90_tiny_mega</code> GPIO driver it contains:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;gpio&quot;</span> <span class="na">name=</span><span class="s">&quot;at90_tiny_mega&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;static&gt;</span>gpio_define.h<span class="nt">&lt;/static&gt;</span>
+    <span class="nt">&lt;template&gt;</span>gpio.hpp.in<span class="nt">&lt;/template&gt;</span>
+    ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>Here the elements stand for:</p>
+<ul>
+<li><code>&lt;static&gt;</code>: copy source file without modification,</li>
+<li><code>&lt;template&gt;</code>: generate source file <code>gpio.hpp</code> from <code>gpio.hpp.in</code> template with the device file GPIO data</li>
+</ul>
+<p>Let's look at how to generate several driver instances using a driver file.
+Here is the <code>at90_tiny_meta</code> UART driver file:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;uart&quot;</span> <span class="na">name=</span><span class="s">&quot;at90_tiny_mega&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;template</span> <span class="na">instances=</span><span class="s">&quot;0,1,2,3&quot;</span> <span class="na">out=</span><span class="s">&quot;uart{{id}}.hpp&quot;</span><span class="nt">&gt;</span>uart.hpp.in<span class="nt">&lt;/template&gt;</span>
+    ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>Here the driver file has the capability to generate the instances 0,1,2 and 3 of the UART classes, and write them into the format specified by the <code>out</code> attribute.
+The <code>instances</code> attribute can be used to generate different instances out of different template files as shown in the <code>stm32</code> UART driver file:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;uart&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;template</span> <span class="na">instances=</span><span class="s">&quot;1,2,3,6&quot;</span> <span class="na">out=</span><span class="s">&quot;usart_{{id}}.hpp&quot;</span><span class="nt">&gt;</span>uart.hpp.in<span class="nt">&lt;/template&gt;</span>
+    <span class="nt">&lt;template</span> <span class="na">instances=</span><span class="s">&quot;4,5&quot;</span> <span class="na">out=</span><span class="s">&quot;uart_{{id}}.hpp&quot;</span><span class="nt">&gt;</span>uart.hpp.in<span class="nt">&lt;/template&gt;</span>
+    ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>Note, that only the instances declared in the device file will actually be generated!</p>
+<p>So for the ATmega328, only UART instance 0 will be generated, since that has been declared in the device file:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;uart&quot;</span> <span class="na">name=</span><span class="s">&quot;at90_tiny_mega&quot;</span> <span class="na">instances=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+</pre></div>
+
+
+<h3 id="custom-elements">Custom elements<a class="headerlink" href="#custom-elements" title="Permanent link">#</a></h3>
+<p>In the driver file, custom device-scoped elements may be declared, as in the <code>at90_tiny_mega</code> GPIO driver file:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;gpio&quot;</span> <span class="na">name=</span><span class="s">&quot;at90_tiny_mega&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;notoggle</span> <span class="na">device-family=</span><span class="s">&quot;atmega&quot;</span> <span class="na">device-name=</span><span class="s">&quot;8|16|32|64|128|162|8515|8535&quot;</span><span class="nt">&gt;</span>True<span class="nt">&lt;/notoggle&gt;</span>
+    <span class="nt">&lt;notoggle</span> <span class="na">device-family=</span><span class="s">&quot;attiny&quot;</span> <span class="na">device-name=</span><span class="s">&quot;26&quot;</span><span class="nt">&gt;</span>True<span class="nt">&lt;/notoggle&gt;</span>
+    ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>Here the <code>notoggle</code> element will be added to the substitution dictionary only for the specified devices.</p>
+<h3 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h3>
+<p>In order to customize drivers further parameters may be declared.
+There are currently three types available:</p>
+<ul>
+<li><code>int</code>: has a minimum and a maximum value</li>
+<li><code>bool</code>: true/false</li>
+<li><code>enum</code>: semicolon-separated values</li>
+</ul>
+<p>All buffered UART implementations have two parameters named <code>tx_buffer</code> and <code>rx_buffer</code>, which are of type <code>int</code> and set the size of the atomic transmit and receive buffer.</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;uart&quot;</span> <span class="na">name=</span><span class="s">&quot;at90_tiny_mega&quot;</span><span class="nt">&gt;</span>
+    ...
+    <span class="nt">&lt;parameter</span> <span class="na">name=</span><span class="s">&quot;tx_buffer&quot;</span> <span class="na">type=</span><span class="s">&quot;int&quot;</span> <span class="na">min=</span><span class="s">&quot;1&quot;</span> <span class="na">max=</span><span class="s">&quot;254&quot;</span><span class="nt">&gt;</span>8<span class="nt">&lt;/parameter&gt;</span>
+    <span class="nt">&lt;parameter</span> <span class="na">name=</span><span class="s">&quot;rx_buffer&quot;</span> <span class="na">type=</span><span class="s">&quot;int&quot;</span> <span class="na">min=</span><span class="s">&quot;1&quot;</span> <span class="na">max=</span><span class="s">&quot;254&quot;</span><span class="nt">&gt;</span>4<span class="nt">&lt;/parameter&gt;</span>
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>Each UART instance receives their own two independent parameters with these default values.</p>
+<p>The <code>stm32</code> core driver features the other two types:</p>
+<div class="code"><pre><span></span><span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;core&quot;</span> <span class="na">name=</span><span class="s">&quot;cortex&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;parameter</span> <span class="na">name=</span><span class="s">&quot;allocator&quot;</span> <span class="na">type=</span><span class="s">&quot;enum&quot;</span> <span class="na">values=</span><span class="s">&quot;newlib;block_allocator&quot;</span><span class="nt">&gt;</span>
+        block_allocator
+    <span class="nt">&lt;/parameter&gt;</span>
+    <span class="nt">&lt;parameter</span> <span class="na">name=</span><span class="s">&quot;enable_gpio&quot;</span> <span class="na">type=</span><span class="s">&quot;bool&quot;</span><span class="nt">&gt;</span>true<span class="nt">&lt;/parameter&gt;</span>
+    ...
+<span class="nt">&lt;/driver&gt;</span>
+</pre></div>
+
+
+<p>These parameter may be overwritten in either the device file, or in the <code>project.cfg</code> in the section <code>[parameters]</code>, which follows the naming scheme <code>type.name.instance.parameter</code>:</p>
+<div class="code"><pre><span></span><span class="p">[</span><span class="n">parameters</span><span class="p">]</span>
+<span class="n">uart</span><span class="o">.</span><span class="n">at90_tiny_mega</span><span class="o">.</span><span class="mf">0.</span><span class="n">tx_buffer</span> <span class="o">=</span> <span class="mi">200</span>
+<span class="n">uart</span><span class="o">.</span><span class="n">at90_tiny_mega</span><span class="o">.</span><span class="mf">0.</span><span class="n">rx_buffer</span> <span class="o">=</span> <span class="mi">100</span>
+</pre></div>
+
+
+<h2 id="generator">Generator<a class="headerlink" href="#generator" title="Permanent link">#</a></h2>
+<p>We designed the device file format to use this form of XML to not only be human readable, but much more important, to be human-writeable.</p>
+<p>We decided to group multiple devices of the same functionality family into one device file, instead of providing one device file for each of these devices.</p>
+<p>This made accessing the devices files computationally more complex, since we have to evaluate the device-scope, however, it dramatically reduces redundancies and allows a much more natural description of devices in this language.</p>
+<p>While the first device files were still written manually, a device file generator soon became necessary to allow inclusion of many devices and to help with refactoring during API changes.</p>
+<p>This generator uses multiple manufacturer provided description files to extract data about multiple devices and compress them into one device file, while preserving readability and correctness.</p>
+<p>Further information about the device file generator can be found in the Readme at <code>/tools/device_file_generator</code>.</p>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../build-system/" title="Build system">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Build system
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>

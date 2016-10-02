@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Build system - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/reference/build-system/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/reference/build-system/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/reference/build-system//../../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../None">
+    <link rel="icon" type="image/x-icon" href="../../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../../assets/fonts/icon.eot?52m981');
+      	src: url('../../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script src="../../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Reference <i class="icon icon-link"></i>
+              
+            
+          </span>
+        
+        Build system
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Why use xpcc?" href="../../why-use-xpcc/">
+      Why use xpcc?
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Installation" href="../../installation/">
+      Installation
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Getting started" href="../../guide/getting-started/">
+      Getting started
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Qt Creator" href="../../guide/qtcreator/">
+      Qt Creator
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Testing" href="../../guide/testing/">
+      Testing
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="Build system" href="./">
+      Build system
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Build commands" href="#build-commands">
+                Build commands
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Project configuration" href="#project-configuration">
+                Project configuration
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Device files" href="../device-files/">
+      Device files
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="build-system">Build system<a class="headerlink" href="#build-system" title="Permanent link">#</a></h1>
+<p>xpcc uses the <a href="http://www.scons.org/">SCons build system</a> to generate, build and program your application.
+We've extended it with many utilities to allow a smooth integration of embedded tools.</p>
+<h2 id="build-commands">Build commands<a class="headerlink" href="#build-commands" title="Permanent link">#</a></h2>
+<p>You can use these command in all our examples to get a feel of how it works.</p>
+<h3 id="common">Common<a class="headerlink" href="#common" title="Permanent link">#</a></h3>
+<ul>
+<li><code>build</code>: Generates the HAL and compiles your program into an executable.</li>
+<li><code>size</code>: Displays the static Flash and RAM consumption.</li>
+<li><code>program</code>: Writes the executable onto your target.
+<!-- - <code>doc</code>: Generates the doxygen documentation for xpcc with your configuration. --></li>
+</ul>
+<p>By default <code>scons</code> executes <code>scons build size</code>.</p>
+<ul>
+<li><code>listing</code>: Decompiles your executable into an annotated assembly listing.</li>
+<li><code>symbols</code>: Displays the symbol table for your executable.</li>
+<li><code>-c</code>: Cleans the project's build files.</li>
+<li><code>verbose=1</code>: Makes the printout more verbose.</li>
+<li><code>optimization=[0,1,2,3,s]</code>: Forces compilation with specified optimization level. Can be used for debug builds.</li>
+</ul>
+<h3 id="avr-only">AVR only:<a class="headerlink" href="#avr-only" title="Permanent link">#</a></h3>
+<ul>
+<li><code>fuse</code>: Writes the fuse bits onto your target.</li>
+<li><code>eeprom</code>: Writes the EEPROM memory onto your target.</li>
+</ul>
+<h3 id="arm-cortex-m-only">ARM Cortex-M only:<a class="headerlink" href="#arm-cortex-m-only" title="Permanent link">#</a></h3>
+<ul>
+<li><code>debug</code>: Starts the GDB debug session of your current application in text UI mode.<br />
+           You must execute <code>openocd-debug</code> or <code>lpclink-debug</code> before running this command!</li>
+<li><code>openocd-debug</code>: Starts the OpenOCD debug server for your target.</li>
+<li><code>lpclink-debug</code>: Starts the LPC-Link debug server for your target.</li>
+<li><code>lpclink-init</code>: Initialize the LPC-Link with its proprietary firmware.</li>
+</ul>
+<h2 id="project-configuration">Project configuration<a class="headerlink" href="#project-configuration" title="Permanent link">#</a></h2>
+<p>Your <code>project.cfg</code> file contains configuration information for your target.
+For the device identify naming scheme, see the <a href="../../reference/device-files/#device-identifier">Device File reference</a>.</p>
+<div class="code"><pre><span></span><span class="k">[build]</span>
+<span class="c1"># use a predefined board config file from xpcc/architecture/platform/board/</span>
+<span class="c1"># it defines the configuration for a board, which you can overwrite here.</span>
+<span class="na">board</span> <span class="o">=</span> <span class="s">stm32f4_discovery</span>
+
+<span class="c1"># declare the name of your project. Default is enclosing folder name.</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">blinky</span>
+<span class="c1"># the target of your project, use the full name of the device here</span>
+<span class="na">device</span> <span class="o">=</span> <span class="s">stm32f407vg</span>
+<span class="c1"># AVR only: declare the clock frequency in Hz</span>
+<span class="na">clock</span> <span class="o">=</span> <span class="s">16000000</span>
+<span class="c1"># overwrite the default `./build/` folder path</span>
+<span class="na">buildpath</span> <span class="o">=</span> <span class="s">../../build/${name}</span>
+<span class="c1"># optimization level for compilation [0,1,2,3,s]</span>
+<span class="na">optimization</span> <span class="o">=</span> <span class="s">0</span>
+<span class="c1"># declare additional compilation flags for your project</span>
+<span class="na">ccflags</span> <span class="o">=</span> <span class="s">-Werror -Wall -Wextra</span>
+
+<span class="c1"># parametrize HAL drivers here, see section on Parameters</span>
+<span class="k">[parameters]</span>
+<span class="na">uart.stm32.3.tx_buffer</span> <span class="o">=</span> <span class="s">2048</span>
+<span class="na">uart.stm32.3.rx_buffer</span> <span class="o">=</span> <span class="s">256</span>
+
+<span class="c1"># AVR only: declare fuse bits for use with  $ scons fuse</span>
+<span class="k">[fusebits]</span>
+<span class="c1"># only the fuses declared here are written</span>
+<span class="na">efuse</span> <span class="o">=</span> <span class="s">0x41</span>
+<span class="na">hfuse</span> <span class="o">=</span> <span class="s">0x42</span>
+<span class="na">lfuse</span> <span class="o">=</span> <span class="s">0x43</span>
+
+<span class="c1"># AVR only: configure avrdude for  $ scons program</span>
+<span class="c1"># Consult the avrdude documentation for options.</span>
+<span class="k">[avrdude]</span>
+<span class="c1"># using the AVR ISP mk2 programmer</span>
+<span class="na">port</span> <span class="o">=</span> <span class="s">usb</span>
+<span class="na">programmer</span> <span class="o">=</span> <span class="s">avrispmkII</span>
+<span class="c1"># or using a serial bootloader</span>
+<span class="na">port</span> <span class="o">=</span> <span class="s">/dev/ttyUSB0</span>
+<span class="na">programmer</span> <span class="o">=</span> <span class="s">arduino</span>
+<span class="c1"># baudrate only required for serial bootloaders</span>
+<span class="na">baudrate</span> <span class="o">=</span> <span class="s">115200</span>
+
+<span class="c1"># ARM only: configure OpenOCD for  $ scons program</span>
+<span class="k">[openocd]</span>
+<span class="c1"># OpenOCD has predefined configs in its searchpaths</span>
+<span class="na">configfile</span> <span class="o">=</span> <span class="s">board/stm32f4discovery.cfg</span>
+<span class="c1"># but you can also use your own special config file</span>
+<span class="na">configfile</span> <span class="o">=</span> <span class="s">openocd.cfg</span>
+<span class="c1"># the commands to run on  $ scons program. Defaults are:</span>
+<span class="na">commands</span> <span class="o">=</span><span class="s"></span>
+<span class="s">    init</span>
+<span class="s">    reset halt</span>
+<span class="s">    flash write_image erase $SOURCE</span>
+<span class="s">    reset run</span>
+<span class="s">    shutdown</span>
+
+<span class="c1"># ARM only: configure Black Magic Probe for  $ scons program</span>
+<span class="k">[black_magic_probe]</span>
+<span class="c1"># using a serial port</span>
+<span class="na">port</span> <span class="o">=</span> <span class="s">/dev/ttyUSB0</span>
+
+<span class="c1"># LPC targets with LPC-Linkv2 programmer only</span>
+<span class="k">[lpclink]</span>
+<span class="c1"># base path of the lpcxpresso installation</span>
+<span class="c1"># Default on Linux: /opt/lpcxpresso/</span>
+<span class="c1"># Default on OS X: /Applications/lcpxpresso_*/ (first match)</span>
+<span class="na">basepath</span> <span class="o">=</span> <span class="s">../lpcxpresso</span>
+</pre></div>
+
+
+<h3 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h3>
+<p>In order to customize drivers further, driver parameters may be declared.
+These follow the naming scheme <code>type.name.instance.parameter</code> and are restrictive in the values they accept. Here is an overview of the available parameters.</p>
+<p>Set the software queue size for CAN messages for peripheral instance <code>N</code> in addition to the hardware queues:</p>
+<ul>
+<li><code>can.stm32.N.tx_buffer ∈ [0,254] = 32</code></li>
+<li><code>can.stm32.N.rx_buffer ∈ [0,254] = 32</code></li>
+</ul>
+<p>Sets the main stack size. Note that the linkerscript may increase this to satisfy alignment requirements, especially with the vector table mapped to RAM. Default size is <code>3kB - 32B</code>.</p>
+<ul>
+<li><code>core.cortex.0.main_stack_size ∈ [512, 8192] = 3040</code></li>
+</ul>
+<p>Places the vector table in RAM. When your stack and interrupt vector table reside in the <em>same</em> RAM section, this will <em>increase</em> interrupt response time! The default setting is the fastest setting.</p>
+<ul>
+<li><code>core.cortex.0.vector_table_in_ram ∈ bool = false (true on STM32F3/STM32F7)</code></li>
+</ul>
+<p>Enables the blinking LED inside the hard fault handler.
+Use this feature to easily identify a crashed processor!</p>
+<ul>
+<li><code>core.cortex.0.enable_hardfault_handler_led ∈ bool = false</code></li>
+<li><code>core.cortex.0.hardfault_handler_led_port ∈ {A,B,C,D,E,F,G,H,I,J,K}</code></li>
+<li><code>core.cortex.0.hardfault_handler_led_pin ∈ [0,15]</code></li>
+</ul>
+<p>Enables the serial logger inside the hard fault handler.
+Use <code>basic</code> for a minimal failure trace or <code>true</code> for a complete trace.
+You must provide the peripheral instance of the used serial port as well as a <code>XPCC_LOG_ERROR</code> output stream!</p>
+<ul>
+<li><code>core.cortex.0.enable_hardfault_handler_log ∈ {false,basic,true} = false</code></li>
+<li><code>core.cortex.0.hardfault_handler_uart ∈ [1,8]</code></li>
+</ul>
+<p>Sets the size of the transaction buffer for peripheral instance <code>N</code>.
+Increase this if you have many connected I2C slaves.</p>
+<ul>
+<li><code>i2c.stm32.N.transaction_buffer ∈ [1,100] = 8</code></li>
+</ul>
+<p>Forces the SPI driver on AVRs to poll for transfer completion rather than to delegate execution back to the main loop. Enabling this only makes sense for very high SPI frequencies.</p>
+<ul>
+<li><code>spi.at90_tiny_mega.0.busywait ∈ bool = false</code></li>
+</ul>
+<p>Set the software buffer for UART data for peripheral instance <code>N</code>.
+The size is limited on AVRs, due to atomicity requirements!</p>
+<ul>
+<li><code>uart.at90_tiny_mega.N.tx_buffer ∈ [1,254] = 64</code></li>
+<li>
+<p><code>uart.at90_tiny_mega.N.rx_buffer ∈ [1,254] = 8</code></p>
+</li>
+<li>
+<p><code>uart.lpc.0.tx_buffer ∈ [1,65534] = 250</code></p>
+</li>
+<li>
+<p><code>uart.lpc.0.rx_buffer ∈ [1,65534] = 16</code></p>
+</li>
+<li>
+<p><code>uart.stm32.N.tx_buffer ∈ [1,65534] = 250</code></p>
+</li>
+<li><code>uart.stm32.N.rx_buffer ∈ [1,65534] = 16</code></li>
+</ul>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../api/" title="API reference">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                API reference
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../device-files/" title="Device files">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Device files
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>

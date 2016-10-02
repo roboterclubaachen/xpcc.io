@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Getting started - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/guide/getting-started/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/guide/getting-started/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/guide/getting-started//../../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../None">
+    <link rel="icon" type="image/x-icon" href="../../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../../assets/fonts/icon.eot?52m981');
+      	src: url('../../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script src="../../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Guide <i class="icon icon-link"></i>
+              
+            
+          </span>
+        
+        Getting started
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Why use xpcc?" href="../../why-use-xpcc/">
+      Why use xpcc?
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Installation" href="../../installation/">
+      Installation
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="current" title="Getting started" href="./">
+      Getting started
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Examples" href="#examples">
+                Examples
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Your own project" href="#your-own-project">
+                Your own project
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Show me the basics" href="#show-me-the-basics">
+                Show me the basics
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Qt Creator" href="../qtcreator/">
+      Qt Creator
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Testing" href="../testing/">
+      Testing
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../../reference/api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Build system" href="../../reference/build-system/">
+      Build system
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Device files" href="../../reference/device-files/">
+      Device files
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="getting-started">Getting started<a class="headerlink" href="#getting-started" title="Permanent link">#</a></h1>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h2>
+<p>The best way for you to quickly learn about xpcc's APIs is to look at and experiment with <a href="https://github.com/roboterclubaachen/xpcc/tree/develop/examples">our examples</a>, especially if you have a development board that xpcc <a href="../../#supported-hardware">supports out-of-the-box</a>.
+Make sure you have <a href="../../installation">the toolchain installed</a>.</p>
+<p>Here are our favorite examples for our supported development boards:</p>
+<ul>
+<li>Arduino Uno:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/blink/main.cpp">Blinky</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/digital_read_serial/main.cpp">Button &amp; Serial</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/arduino_uno/basic/read_analog_voltage/main.cpp">Analog &amp; Serial</a>.</li>
+<li>NUCLEO-F103RB:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/nucleo_f103rb/blink/main.cpp">Blinky &amp; Serial</a>.</li>
+<li>STM32F072 Discovery:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/blink/main.cpp">Blinky</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/can/main.cpp">CAN</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f072_discovery/rotation/main.cpp">Gyroscope</a>.</li>
+<li>STM32F3 Discovery:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/blink/main.cpp">Blinky</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/can/main.cpp">CAN</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/accelerometer/main.cpp">Accelerometer</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f3_discovery/rotation/main.cpp">Gyroscope</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/tree/develop/examples/stm32f3_discovery/gdb">Debugging with GDB</a>.</li>
+<li>STM32F4 Discovery:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/blink/main.cpp">Blinky</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/can/main.cpp">CAN</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/accelerometer/main.cpp">Accelerometer</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/timer/main.cpp">Timer &amp; LED Animations</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/hard_fault/main.cpp">Debugging hard faults</a>.</li>
+<li>STM32F469 Discovery:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/blink/main.cpp">Blinky</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/display/main.cpp">Drawing on display</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/touchscreen/main.cpp">Touchscreen inputs</a>,
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f469_discovery/tlsf-allocator/main.cpp">Multi-heap with external 16MB memory</a></li>
+<li>STM32F769 Discovery:
+<a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f769i_discovery/blink/main.cpp">FPU with double precision</a></li>
+</ul>
+<p>Here are some additional examples of displays and sensors we like:</p>
+<ul>
+<li><a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/oled_display/main.cpp">SSD1306 OLED display</a>: Draws text and graphics onto I2C display.</li>
+<li><a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/barometer_bmp085_bmp180/main.cpp">BMP085/BMP180 barometer</a>: Reads atmospheric pressure and temperature from I2C sensor.</li>
+<li><a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/distance_vl6180/main.cpp">VL6180 time-of-flight distance sensor</a>: Reads distance and ambient light from I2C sensor.</li>
+<li><a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/colour_tcs3414/main.cpp">TCS3414 color sensor</a>: Reads RGB color from I2C sensor.</li>
+<li><a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/display/hd44780/main.cpp">HD44780 over I2C-GPIO expander</a>: Draws text via native GPIO port or I2C-GPIO expander port onto character display.</li>
+</ul>
+<p>Have a look at <a href="../../reference/build-system/#build-commands">the build system commands</a> to see how
+to compile and program your targets.</p>
+<h2 id="your-own-project">Your own project<a class="headerlink" href="#your-own-project" title="Permanent link">#</a></h2>
+<p>Start your own project by cloning <a href="https://github.com/roboterclubaachen/getting-started-with-xpcc">our <code>getting-started</code> project</a> from GitHub:</p>
+<div class="code"><pre><span></span>git clone --recursive https://github.com/roboterclubaachen/getting-started-with-xpcc.git
+<span class="nb">cd</span> getting-started-with-xpcc
+tree
+.
+├── LICENSE
+├── README.md
+├── hello-world
+│   ├── SConstruct
+│   ├── main.cpp
+│   └── project.cfg
+└── xpcc <span class="o">(</span>git submodule<span class="o">)</span>
+</pre></div>
+
+
+<p>The example contains the xpcc framework as a git submodule, a <code>SConstruct</code> file for <a href="../../reference/build-system/#build-commands">our build system</a>,
+a project configuration file and of course the source code:</p>
+<div class="code"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;xpcc/architecture/platform.hpp&gt;</span><span class="cp"></span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">Board</span><span class="o">::</span><span class="n">initialize</span><span class="p">();</span>
+    <span class="n">Board</span><span class="o">::</span><span class="n">Leds</span><span class="o">::</span><span class="n">setOutput</span><span class="p">();</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">Board</span><span class="o">::</span><span class="n">Leds</span><span class="o">::</span><span class="n">toggle</span><span class="p">();</span>
+        <span class="n">xpcc</span><span class="o">::</span><span class="n">delayMilliseconds</span><span class="p">(</span><span class="n">Board</span><span class="o">::</span><span class="n">Button</span><span class="o">::</span><span class="n">read</span><span class="p">()</span> <span class="o">?</span> <span class="mi">250</span> <span class="o">:</span> <span class="mi">500</span><span class="p">);</span>
+<span class="cp">#ifdef XPCC_BOARD_HAS_LOGGER</span>
+        <span class="k">static</span> <span class="kt">uint32_t</span> <span class="n">counter</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+        <span class="n">XPCC_LOG_INFO</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Loop counter: &quot;</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">counter</span><span class="o">++</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">xpcc</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="cp">#endif</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>You can change the development board for which you want to compile the example
+for in the <code>project.cfg</code> file:</p>
+<div class="code"><pre><span></span><span class="k">[build]</span>
+<span class="na">board</span> <span class="o">=</span> <span class="s">stm32f4_discovery</span>
+<span class="c1">#board = arduino_uno</span>
+<span class="c1">#board = nucleo_f103rb</span>
+<span class="c1">#board = stm32f072_discovery</span>
+<span class="c1">#board = stm32f1_discovery</span>
+<span class="c1">#board = stm32f3_discovery</span>
+<span class="c1">#board = stm32f429_discovery</span>
+<span class="c1">#board = stm32f469_discovery</span>
+<span class="c1">#board = stm32f7_discovery</span>
+</pre></div>
+
+
+<p>When you create you own project, you need to adapt the <code>xpccpath</code> inside the
+<code>SConstruct</code> to point to the location of the xpcc framework.
+Note that this allows you to use different versions of the xpcc frameworks
+(your own fork?) for your projects.</p>
+<div class="code"><pre><span></span><span class="c1"># path to the xpcc root directory (modify as needed!)</span>
+<span class="n">xpccpath</span> <span class="o">=</span> <span class="s1">&#39;../xpcc&#39;</span>
+<span class="c1"># execute the common SConstruct file</span>
+<span class="nb">execfile</span><span class="p">(</span><span class="n">xpccpath</span> <span class="o">+</span> <span class="s1">&#39;/scons/SConstruct&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<h2 id="show-me-the-basics">Show me the basics<a class="headerlink" href="#show-me-the-basics" title="Permanent link">#</a></h2>
+<p>All of this code works the same on all platforms, however, the pin and module
+names may need to be adapted.</p>
+<h3 id="gpio">GPIO<a class="headerlink" href="#gpio" title="Permanent link">#</a></h3>
+<div class="code"><pre><span></span><span class="k">using</span> <span class="n">Led</span> <span class="o">=</span> <span class="n">GpioOutputB0</span><span class="p">;</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">setOutput</span><span class="p">();</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">set</span><span class="p">();</span>    <span class="c1">// 1 instruction on AVR</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">reset</span><span class="p">();</span>  <span class="c1">// 3 instructions on Cortex-M</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">toggle</span><span class="p">();</span>
+
+<span class="k">using</span> <span class="n">Button</span> <span class="o">=</span> <span class="n">GpioInputB0</span><span class="p">;</span>
+<span class="n">Button</span><span class="o">::</span><span class="n">setInput</span><span class="p">(</span><span class="n">Gpio</span><span class="o">::</span><span class="n">InputType</span><span class="o">::</span><span class="n">PullUp</span><span class="p">);</span>
+<span class="kt">bool</span> <span class="n">state</span> <span class="o">=</span> <span class="n">Button</span><span class="o">::</span><span class="n">read</span><span class="p">();</span>
+</pre></div>
+
+
+<h3 id="buffered-uart">Buffered UART<a class="headerlink" href="#buffered-uart" title="Permanent link">#</a></h3>
+<div class="code"><pre><span></span><span class="k">using</span> <span class="n">Uart</span> <span class="o">=</span> <span class="n">Uart0</span><span class="p">;</span>
+<span class="c1">// configure and initialize UART to 115.2kBaud</span>
+<span class="n">GpioOutputD1</span><span class="o">::</span><span class="n">connect</span><span class="p">(</span><span class="n">Uart</span><span class="o">::</span><span class="n">Tx</span><span class="p">);</span>
+<span class="n">GpioInputD0</span><span class="o">::</span><span class="n">connect</span><span class="p">(</span><span class="n">Uart</span><span class="o">::</span><span class="n">Rx</span><span class="p">);</span>
+<span class="n">Uart</span><span class="o">::</span><span class="n">initialize</span><span class="o">&lt;</span><span class="n">systemClock</span><span class="p">,</span> <span class="mi">115200</span><span class="o">&gt;</span><span class="p">();</span>
+
+<span class="n">Uart</span><span class="o">::</span><span class="n">write</span><span class="p">(</span><span class="sc">&#39;H&#39;</span><span class="p">);</span>  <span class="c1">// Ohai there</span>
+<span class="n">Uart</span><span class="o">::</span><span class="n">write</span><span class="p">(</span><span class="sc">&#39;i&#39;</span><span class="p">);</span>
+
+<span class="kt">uint8_t</span> <span class="n">buffer</span><span class="p">;</span>
+<span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// create a simple loopback</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">Uart</span><span class="o">::</span><span class="n">read</span><span class="p">(</span><span class="n">buffer</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">Uart</span><span class="o">::</span><span class="n">write</span><span class="p">(</span><span class="n">buffer</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h3 id="iostream">IOStream<a class="headerlink" href="#iostream" title="Permanent link">#</a></h3>
+<div class="code"><pre><span></span><span class="k">using</span> <span class="n">Uart</span> <span class="o">=</span> <span class="n">Uart0</span><span class="p">;</span>
+<span class="c1">// Create a IODevice with the Uart</span>
+<span class="n">xpcc</span><span class="o">::</span><span class="n">IODeviceWrapper</span><span class="o">&lt;</span><span class="n">Uart</span><span class="o">&gt;</span> <span class="n">device</span><span class="p">;</span>
+<span class="n">xpcc</span><span class="o">::</span><span class="n">IOStream</span> <span class="n">stream</span><span class="p">(</span><span class="n">device</span><span class="p">);</span>
+
+<span class="n">GpioOutputD1</span><span class="o">::</span><span class="n">connect</span><span class="p">(</span><span class="n">Uart</span><span class="o">::</span><span class="n">Tx</span><span class="p">);</span>
+<span class="n">Uart</span><span class="o">::</span><span class="n">initialize</span><span class="o">&lt;</span><span class="n">systemClock</span><span class="p">,</span> <span class="mi">115200</span><span class="o">&gt;</span><span class="p">();</span>
+
+<span class="n">stream</span> <span class="o">&lt;&lt;</span> <span class="mi">42</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; is a nice number!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">xpcc</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+</pre></div>
+
+
+<h3 id="software-timers">Software Timers<a class="headerlink" href="#software-timers" title="Permanent link">#</a></h3>
+<div class="code"><pre><span></span><span class="k">using</span> <span class="n">Led</span> <span class="o">=</span> <span class="n">GpioOutputB0</span><span class="p">;</span>
+<span class="n">xpcc</span><span class="o">::</span><span class="n">Timeout</span> <span class="n">timeout</span><span class="p">(</span><span class="mi">10000</span><span class="p">);</span>   <span class="c1">// 10s timeout</span>
+<span class="n">xpcc</span><span class="o">::</span><span class="n">PeriodicTimer</span> <span class="n">timer</span><span class="p">(</span><span class="mi">250</span><span class="p">);</span> <span class="c1">// 250ms period</span>
+
+<span class="n">Led</span><span class="o">::</span><span class="n">setOutput</span><span class="p">(</span><span class="n">xpcc</span><span class="o">::</span><span class="n">Gpio</span><span class="o">::</span><span class="n">High</span><span class="p">);</span>
+
+<span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">timeout</span><span class="p">.</span><span class="n">execute</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">timer</span><span class="p">.</span><span class="n">stop</span><span class="p">();</span>
+        <span class="n">Led</span><span class="o">::</span><span class="n">reset</span><span class="p">();</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">timer</span><span class="p">.</span><span class="n">execute</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">Led</span><span class="o">::</span><span class="n">toggle</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Have a look at the <a href="https://github.com/roboterclubaachen/xpcc/tree/develop/examples"><code>xpcc/examples/</code> folder</a> for more advanced use cases.</p>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../../installation/" title="Installation">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Installation
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../qtcreator/" title="Qt Creator">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Qt Creator
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>

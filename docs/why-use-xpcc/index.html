@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Why use xpcc? - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/why-use-xpcc/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/why-use-xpcc/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/why-use-xpcc//../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../None">
+    <link rel="icon" type="image/x-icon" href="../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../assets/fonts/icon.eot?52m981');
+      	src: url('../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script src="../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        Why use xpcc?
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="current" title="Why use xpcc?" href="./">
+      Why use xpcc?
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Data-driven design" href="#data-driven-design">
+                Data-driven design
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Usable &amp; fast C++" href="#usable-fast-c">
+                Usable &amp; fast C++
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Static allocation" href="#static-allocation">
+                Static allocation
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Compile-time assertions" href="#compile-time-assertions">
+                Compile-time assertions
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Multitasking" href="#multitasking">
+                Multitasking
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Installation" href="../installation/">
+      Installation
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Getting started" href="../guide/getting-started/">
+      Getting started
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Qt Creator" href="../guide/qtcreator/">
+      Qt Creator
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Testing" href="../guide/testing/">
+      Testing
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../reference/api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Build system" href="../reference/build-system/">
+      Build system
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Device files" href="../reference/device-files/">
+      Device files
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="why-use-xpcc">Why use xpcc?<a class="headerlink" href="#why-use-xpcc" title="Permanent link">#</a></h1>
+<p><center>
+<img alt="" src="../images/rca_angulatus.jpg" />
+</center></p>
+<p>xpcc is tailored for the harsh requirements of the <a href="http://www.eurobot.org/">Eurobot competition</a>,
+where our robots need to run reliably and completely autonomously for the games
+duration. Furthermore, our robots started off running on AVRs, so xpcc also
+needs to be very efficient with its resources to be able to support these tiny
+microcontrollers.
+All in all, this means we need a really robust and safe foundation to build all
+our code upon.</p>
+<p>This foundation is xpcc.
+It runs very reliably and efficiently on AVR as well as ARM Cortex-M cores.
+Here are the reasons why.</p>
+<h2 id="data-driven-design">Data-driven design<a class="headerlink" href="#data-driven-design" title="Permanent link">#</a></h2>
+<p>The most unique thing about xpcc is how we generate our hardware abstraction
+layer (HAL) drivers.
+We have assembled the unique meta data of all of our targets, such as number
+and type of peripherals, pins, memories and interrupts.
+This way we know which devices are similar to each other even before opening the
+datasheet, and we can make informed decisions about what HAL drivers an entire
+<em>family</em> of devices requires, rather than going through this cumbersome process
+for each device individually.</p>
+<p>This dramatically reduces duplicated code, required a lot less porting effort
+and leads to much higher device coverage of our HAL drivers.
+By combining the specific device meta data with our driver templates, we
+collect the similarities and differences between device families in one common
+place, which makes it so much easier to reason about them.</p>
+<p>This extract from the <a href="https://github.com/roboterclubaachen/xpcc/blob/develop/src/xpcc/architecture/platform/devices/stm32/stm32f405_407_415_417-i_o_r_v_z-e_g.xml">STM32F407 device file</a> shows
+several types of peripheral drivers as well as additional information like
+instances and pin alternate functions:</p>
+<div class="code"><pre><span></span>...
+<span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;adc&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span> <span class="na">instances=</span><span class="s">&quot;1,2,3&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;clock&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;i2c&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span> <span class="na">instances=</span><span class="s">&quot;1,2,3&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;uart&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span> <span class="na">instances=</span><span class="s">&quot;1,2,3,4,5,6&quot;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;driver</span> <span class="na">type=</span><span class="s">&quot;gpio&quot;</span> <span class="na">name=</span><span class="s">&quot;stm32&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;gpio</span> <span class="na">port=</span><span class="s">&quot;A&quot;</span> <span class="na">id=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span> <span class="na">peripheral=</span><span class="s">&quot;Timer2&quot;</span> <span class="na">name=</span><span class="s">&quot;Channel1&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">id=</span><span class="s">&quot;8&quot;</span> <span class="na">peripheral=</span><span class="s">&quot;Uart4&quot;</span> <span class="na">name=</span><span class="s">&quot;Tx&quot;</span> <span class="na">type=</span><span class="s">&quot;out&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;af</span> <span class="na">peripheral=</span><span class="s">&quot;Adc1&quot;</span> <span class="na">name=</span><span class="s">&quot;Channel0&quot;</span> <span class="na">type=</span><span class="s">&quot;analog&quot;</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/gpio&gt;</span>
+  ...
+</pre></div>
+
+
+<p>This information is then passed to our <a href="https://github.com/roboterclubaachen/xpcc/tree/develop/src/xpcc/architecture/platform/driver">HAL drivers</a>, which use
+code generation tools, specifically the <a href="http://jinja.pocoo.org">Jinja2 template engine</a>, to
+generate the appropriate C++ code structures for the specified target:
+<center class="md"><svg class="diagram" xmlns="http://www.w3.org/2000/svg" height="192" width="552"><path d="M248 16v160M432 16v160M304 32h88m96 0h40M248 48h32m152 0h32M304 64h88m96 0h40M24 80h40m72 0h80m88 0h96m88 0h40M80 96h32m120 0h48m136 0h48M24 112h40m72 0h80m88 0h96m88 0h40m-224 16h88m96 0h40m-280 16h32m152 0h32m-160 16h88m96 0h40M304 32c-16.8 0-16 16-16 16m104-16c16.8 0 16 16 16 16m80-16c-16.8 0-16 16-16 16m56-16c16.8 0 16 16 16 16M304 64c-16.8 0-16-16-16-16m104 16c16.8 0 16-16 16-16m80 16c-16.8 0-16-16-16-16m56 16c16.8 0 16-16 16-16M24 80C7.2 80 8 96 8 96m56-16c16.8 0 16 16 16 16m56-16c-16.8 0-16 16-16 16m96-16c16.8 0 16 16 16 16m72-16c-16.8 0-16 16-16 16m112-16c16.8 0 16 16 16 16m72-16c-16.8 0-16 16-16 16m56-16c16.8 0 16 16 16 16M24 112C7.2 112 8 96 8 96m56 16c16.8 0 16-16 16-16m56 16c-16.8 0-16-16-16-16m96 16c16.8 0 16-16 16-16m72 16c-16.8 0-16-16-16-16m112 16c16.8 0 16-16 16-16m72 16c-16.8 0-16-16-16-16m56 16c16.8 0 16-16 16-16m-240 32c-16.8 0-16 16-16 16m104-16c16.8 0 16 16 16 16m80-16c-16.8 0-16 16-16 16m56-16c16.8 0 16 16 16 16m-240 16c-16.8 0-16-16-16-16m104 16c16.8 0 16-16 16-16m80 16c-16.8 0-16-16-16-16m56 16c16.8 0 16-16 16-16" fill="none"/><path d="M472 144l-12-5.6v11.2zm0-48l-12-5.6v11.2zm0-48l-12-5.6v11.2zm-184 96l-12-5.6v11.2zm0-48l-12-5.6v11.2zm0-48l-12-5.6v11.2zM120 96l-12-5.6v11.2z"/><g text-anchor="middle"><text x="336" y="4" transform="translate(8 16)">:</text><text x="496" y="4" transform="translate(8 16)">:</text><text x="296" y="36" transform="translate(8 16)">A</text><text x="304" y="36" transform="translate(8 16)">D</text><text x="312" y="36" transform="translate(8 16)">C</text><text x="328" y="36" transform="translate(8 16)">T</text><text x="336" y="36" transform="translate(8 16)">e</text><text x="344" y="36" transform="translate(8 16)">m</text><text x="352" y="36" transform="translate(8 16)">p</text><text x="360" y="36" transform="translate(8 16)">l</text><text x="368" y="36" transform="translate(8 16)">a</text><text x="376" y="36" transform="translate(8 16)">t</text><text x="384" y="36" transform="translate(8 16)">e</text><text x="480" y="36" transform="translate(8 16)">G</text><text x="488" y="36" transform="translate(8 16)">p</text><text x="496" y="36" transform="translate(8 16)">i</text><text x="504" y="36" transform="translate(8 16)">o</text><text x="512" y="36" transform="translate(8 16)">B</text><text x="520" y="36" transform="translate(8 16)">2</text><text x="16" y="84" transform="translate(8 16)">T</text><text x="24" y="84" transform="translate(8 16)">a</text><text x="32" y="84" transform="translate(8 16)">r</text><text x="40" y="84" transform="translate(8 16)">g</text><text x="48" y="84" transform="translate(8 16)">e</text><text x="56" y="84" transform="translate(8 16)">t</text><text x="128" y="84" transform="translate(8 16)">D</text><text x="136" y="84" transform="translate(8 16)">e</text><text x="144" y="84" transform="translate(8 16)">v</text><text x="152" y="84" transform="translate(8 16)">i</text><text x="160" y="84" transform="translate(8 16)">c</text><text x="168" y="84" transform="translate(8 16)">e</text><text x="184" y="84" transform="translate(8 16)">F</text><text x="192" y="84" transform="translate(8 16)">i</text><text x="200" y="84" transform="translate(8 16)">l</text><text x="208" y="84" transform="translate(8 16)">e</text><text x="296" y="84" transform="translate(8 16)">G</text><text x="304" y="84" transform="translate(8 16)">P</text><text x="312" y="84" transform="translate(8 16)">I</text><text x="320" y="84" transform="translate(8 16)">O</text><text x="336" y="84" transform="translate(8 16)">T</text><text x="344" y="84" transform="translate(8 16)">e</text><text x="352" y="84" transform="translate(8 16)">m</text><text x="360" y="84" transform="translate(8 16)">p</text><text x="368" y="84" transform="translate(8 16)">l</text><text x="376" y="84" transform="translate(8 16)">a</text><text x="384" y="84" transform="translate(8 16)">t</text><text x="392" y="84" transform="translate(8 16)">e</text><text x="480" y="84" transform="translate(8 16)">G</text><text x="488" y="84" transform="translate(8 16)">p</text><text x="496" y="84" transform="translate(8 16)">i</text><text x="504" y="84" transform="translate(8 16)">o</text><text x="512" y="84" transform="translate(8 16)">B</text><text x="520" y="84" transform="translate(8 16)">3</text><text x="296" y="132" transform="translate(8 16)">I</text><text x="304" y="132" transform="translate(8 16)">2</text><text x="312" y="132" transform="translate(8 16)">C</text><text x="328" y="132" transform="translate(8 16)">T</text><text x="336" y="132" transform="translate(8 16)">e</text><text x="344" y="132" transform="translate(8 16)">m</text><text x="352" y="132" transform="translate(8 16)">p</text><text x="360" y="132" transform="translate(8 16)">l</text><text x="368" y="132" transform="translate(8 16)">a</text><text x="376" y="132" transform="translate(8 16)">t</text><text x="384" y="132" transform="translate(8 16)">e</text><text x="480" y="132" transform="translate(8 16)">G</text><text x="488" y="132" transform="translate(8 16)">p</text><text x="496" y="132" transform="translate(8 16)">i</text><text x="504" y="132" transform="translate(8 16)">o</text><text x="512" y="132" transform="translate(8 16)">B</text><text x="520" y="132" transform="translate(8 16)">4</text><text x="336" y="164" transform="translate(8 16)">:</text><text x="496" y="164" transform="translate(8 16)">:</text></g></svg></center></p>
+<p>This treasure trove of information is available for <a href="https://github.com/roboterclubaachen/xpcc/tree/develop/src/xpcc/architecture/platform/devices">every AVR and STM32
+device</a> we support and gives us a high confidence
+in the quality of our HAL ports.</p>
+<h2 id="usable-fast-c">Usable &amp; fast C++<a class="headerlink" href="#usable-fast-c" title="Permanent link">#</a></h2>
+<p>xpcc's APIs are kept simple and fast by splitting up functionality into
+separate, small, static functions, which implement the same behavior on all
+platforms.
+Furthermore, with our code generation capabilities, we can hide the crazy
+implementation details of the hardware without compromising on performance.</p>
+<p>For example, on different AVRs, simple things like enabling the internal PullUp resistor,
+dealing with external interrupts or even just toggling a pin is done quite dissimilarly.
+Yet, using static inlined functions we can call GPIO functions at <a href="https://www.youtube.com/watch?v=ygE01sOhzz0"><em>ludicrous speed</em></a>,
+all without using even a single byte of static RAM:</p>
+<div class="code"><pre><span></span><span class="k">using</span> <span class="n">Led</span> <span class="o">=</span> <span class="n">GpioOutputB1</span><span class="p">;</span>   <span class="c1">// Generated by GPIO HAL driver using meta-data.</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">setOutput</span><span class="p">();</span>           <span class="c1">// Sets the pin to output on any platform.</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">set</span><span class="p">();</span>                 <span class="c1">// Literally 1 instruction on AVR.</span>
+<span class="n">Led</span><span class="o">::</span><span class="n">toggle</span><span class="p">();</span>              <span class="c1">// PORTA ^= 0x02;  or  PINA = 0x02;  if available.</span>
+
+<span class="k">using</span> <span class="n">Button</span> <span class="o">=</span> <span class="n">GpioInputA0</span><span class="p">;</span> <span class="c1">// All pins behave the same way.</span>
+<span class="n">Button</span><span class="o">::</span><span class="n">setInput</span><span class="p">(</span><span class="n">Gpio</span><span class="o">::</span><span class="n">InputType</span><span class="o">::</span><span class="n">PullUp</span><span class="p">);</span>  <span class="c1">// PORTA |= 0x01;  or  PUEA |= 0x01;</span>
+<span class="kt">bool</span> <span class="n">state</span> <span class="o">=</span> <span class="n">Button</span><span class="o">::</span><span class="n">read</span><span class="p">();</span>                <span class="c1">// (PINA &amp; 0x01)  or</span>
+<span class="n">Button</span><span class="o">::</span><span class="n">setInputTrigger</span><span class="p">(</span><span class="n">Gpio</span><span class="o">::</span><span class="n">InputTrigger</span><span class="o">::</span><span class="n">RisingEdge</span><span class="p">);</span>  <span class="c1">// Don&#39;t panic!</span>
+<span class="n">Button</span><span class="o">::</span><span class="n">enableExternalInterrupt</span><span class="p">();</span>          <span class="c1">// Something, something, EIMSK.</span>
+<span class="n">Button</span><span class="o">::</span><span class="n">acknowledgeExternalInterruptFlag</span><span class="p">();</span> <span class="c1">// don&#39;t worry, we will do it!</span>
+</pre></div>
+
+
+<p>You can use these GPIOs as building blocks for more complex drivers and
+peripherals and still maintain access speed without sacrificing usability:</p>
+<div class="code"><pre><span></span><span class="c1">// Create a hardware accelerated port of 4 bit width.</span>
+<span class="k">using</span> <span class="n">Port4</span> <span class="o">=</span> <span class="n">GpioPort</span><span class="o">&lt;</span> <span class="n">GpioC0</span><span class="p">,</span> <span class="mi">4</span> <span class="o">&gt;</span><span class="p">;</span>        <span class="c1">// MSB -&gt; C3, C2, C1, C0 &lt;- LSB</span>
+<span class="k">using</span> <span class="n">ReadWrite</span> <span class="o">=</span> <span class="n">GpioC4</span><span class="p">;</span>                   <span class="c1">// &quot;name&quot; your GPIOs.</span>
+<span class="k">using</span> <span class="n">Reset</span> <span class="o">=</span> <span class="n">GpioOutputC5</span><span class="p">;</span>
+<span class="k">using</span> <span class="n">Enable</span> <span class="o">=</span> <span class="n">GpioOutputC6</span><span class="p">;</span>
+
+<span class="c1">// Build a super fast character display driver using these inlined GPIOs.</span>
+<span class="n">xpcc</span><span class="o">::</span><span class="n">Hd44780</span><span class="o">&lt;</span><span class="n">Port4</span><span class="p">,</span> <span class="n">ReadWrite</span><span class="p">,</span> <span class="n">Reset</span><span class="p">,</span> <span class="n">Enable</span><span class="o">&gt;</span> <span class="n">display</span><span class="p">;</span>
+<span class="n">display</span><span class="p">.</span><span class="n">initialize</span><span class="p">();</span>   <span class="c1">// driver knows to initialize for a 4 bit bus!</span>
+<span class="n">display</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello World!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">xpcc</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>    <span class="c1">// Yes, ostreams. Deal with it.</span>
+</pre></div>
+
+
+<p>All other HAL drivers are build using these principles, which makes them easy
+to configure and use yet very fast without consuming a lot of resources.</p>
+<h2 id="static-allocation">Static allocation<a class="headerlink" href="#static-allocation" title="Permanent link">#</a></h2>
+<p>Nowhere in our HAL do we allocate memory dynamically – everything is either
+statically allocated or must explicitly be allocated by the user.
+This is a strong requirement to be able to run xpcc on AVRs, which have
+little if any memory to spare for dynamic allocations.</p>
+<p>We took great care to make sure this constraint remains usable, starting with
+configurable queue sizes for buffered UART to providing statically extensible
+I2C state machine for custom IC drivers.
+When we allocate static memory, we choose an appropriate size for its purpose.
+After all, just because you <em>can</em> use <code>int</code> doesn't mean you <em>should</em>.</p>
+<p>We transparently show you how much static memory your application is using,
+so you get an idea of how much certain functionality costs you in resources.
+This is the size of the accelerometer example on the STM32F4 discovery board:</p>
+<div class="code"><pre><span></span><span class="nb">cd</span> examples/stm32f4_discovery/accelerometer
+scons
+<span class="o">[</span>...<span class="o">]</span>
+Memory Usage
+------------
+Device: stm32f407vg
+
+Program:    <span class="m">5372</span> bytes <span class="o">(</span>0.5% used<span class="o">)</span>
+<span class="o">(</span>.data + .fastdata + .reset + .rodata + .text<span class="o">)</span>
+
+Data:       <span class="m">3380</span> bytes <span class="o">(</span>1.7% used<span class="o">)</span> <span class="o">=</span> <span class="m">308</span> bytes static <span class="o">(</span>0.2%<span class="o">)</span> + <span class="m">3072</span> bytes stack <span class="o">(</span>1.5%<span class="o">)</span>
+<span class="o">(</span>.bss + .data + .fastdata + .noinit + .stack<span class="o">)</span>
+
+Heap:     <span class="m">197324</span> bytes <span class="o">(</span>98.3% available<span class="o">)</span>
+<span class="o">(</span>.heap0 + .heap1 + .heap2 + .heap5<span class="o">)</span>
+</pre></div>
+
+
+<h2 id="compile-time-assertions">Compile-time assertions<a class="headerlink" href="#compile-time-assertions" title="Permanent link">#</a></h2>
+<p>xpcc stands out for its extensive use of static C++ classes and templates which
+is unusual in this field, but lends itself well to the static nature of
+embedded development.
+By combining modern C++11 features like <code>constexpr</code> functions with the meta-data
+inside our HAL drivers, we can add additional type checks and move certain
+computations into compile-time, with obvious speed and usability improvements.</p>
+<p>As an example, consider how xpcc connects GPIOs to peripherals and computes
+baudrates at compile time<sup id="fnref:baud"><a class="footnote-ref" href="#fn:baud" rel="footnote">1</a></sup>:</p>
+<div class="code"><pre><span></span><span class="c1">// The specific UART connect type is unique to this GPIO.</span>
+<span class="n">GpioA2</span><span class="o">::</span><span class="n">connect</span><span class="p">(</span><span class="n">Uart0</span><span class="o">::</span><span class="n">Tx</span><span class="p">);</span>
+<span class="n">GpioA3</span><span class="o">::</span><span class="n">connect</span><span class="p">(</span><span class="n">Uart0</span><span class="o">::</span><span class="n">Rx</span><span class="p">,</span> <span class="n">Gpio</span><span class="o">::</span><span class="n">InputType</span><span class="o">::</span><span class="n">PullUp</span><span class="p">);</span>
+<span class="c1">// Connecting a type to the wrong GPIO will simply _not compile_!</span>
+<span class="n">GpioA0</span><span class="o">::</span><span class="n">connect</span><span class="p">(</span><span class="n">Uart0</span><span class="o">::</span><span class="n">Tx</span><span class="p">);</span> <span class="err">⚡</span>   <span class="c1">// PA0 does not have this alternate function!</span>
+
+<span class="c1">// Enforce the UART baudrate with a 1% tolerance, otherwise compilation error!</span>
+<span class="n">Uart0</span><span class="o">::</span><span class="n">initialize</span><span class="o">&lt;</span><span class="n">systemClock</span><span class="p">,</span> <span class="mi">115200</span><span class="o">&gt;</span><span class="p">();</span>   <span class="c1">// prescalers computed at compile-time</span>
+</pre></div>
+
+
+<p>By moving these checks into compile time, xpcc can prevent predictable failures
+before the code ever makes it to the target, and remove the need for expensive
+computations at runtime altogether, which pays off especially on AVRs!
+Another interesting side effect is that your code <em>is</em> your documentation, with
+its correctness transparently enforced at compile-time.</p>
+<h2 id="multitasking">Multitasking<a class="headerlink" href="#multitasking" title="Permanent link">#</a></h2>
+<p>xpcc uses stackless cooperative multitasking, for which we have ported
+<a href="http://xpcc.io/api/group__protothread.html#details">protothreads</a> to C++ and extended them with <a href="http://xpcc.io/api/group__resumable.html#details">resumable functions</a>.
+This enables you to split up your application into separate tasks, and use
+synchronous APIs in all of them, without sacrificing overall responsiveness.
+This works on even the most resource restricted AVRs, since each task only
+requires 2 bytes!</p>
+<p>All our IC drivers are implemented using resumable functions, which can be
+called from within protothreads or explicitly blocking outside of them.
+Here is an example of <a href="https://github.com/roboterclubaachen/xpcc/blob/develop/examples/stm32f4_discovery/accelerometer/main.cpp">reading out the accelerometer</a>:</p>
+<div class="code"><pre><span></span><span class="k">class</span> <span class="nc">ReaderThread</span> <span class="o">:</span> <span class="k">public</span> <span class="n">xpcc</span><span class="o">::</span><span class="n">pt</span><span class="o">::</span><span class="n">Protothread</span>
+<span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="kt">bool</span> <span class="n">run</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">PT_BEGIN</span><span class="p">();</span>
+        <span class="c1">// The driver does several I2C transfer here to initialize and configure the</span>
+        <span class="c1">// external sensor. The CPU is free to do other things while this happens though.</span>
+        <span class="n">PT_CALL</span><span class="p">(</span><span class="n">accelerometer</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span><span class="n">accelerometer</span><span class="p">.</span><span class="n">Scale</span><span class="o">::</span><span class="n">G2</span><span class="p">));</span>
+
+        <span class="k">while</span> <span class="p">(</span><span class="nb">true</span><span class="p">)</span>    <span class="c1">// this feels quite similar to regular threads</span>
+        <span class="p">{</span>
+            <span class="c1">// this resumable function will defer execution back to other protothreads</span>
+            <span class="n">PT_CALL</span><span class="p">(</span><span class="n">accelerometer</span><span class="p">.</span><span class="n">readAcceleration</span><span class="p">());</span>
+
+            <span class="c1">// smooth out the acceleration data a little bit</span>
+            <span class="n">averageX</span><span class="p">.</span><span class="n">update</span><span class="p">(</span><span class="n">accelerometer</span><span class="p">.</span><span class="n">getData</span><span class="p">().</span><span class="n">getX</span><span class="p">());</span>
+            <span class="n">averageY</span><span class="p">.</span><span class="n">update</span><span class="p">(</span><span class="n">accelerometer</span><span class="p">.</span><span class="n">getData</span><span class="p">().</span><span class="n">getY</span><span class="p">());</span>
+
+            <span class="c1">// set the boards LEDs depending on the acceleration values</span>
+            <span class="n">LedUp</span><span class="o">::</span><span class="n">set</span><span class="p">(</span>   <span class="n">averageX</span><span class="p">.</span><span class="n">getValue</span><span class="p">()</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mf">0.2</span><span class="p">);</span>
+            <span class="n">LedDown</span><span class="o">::</span><span class="n">set</span><span class="p">(</span> <span class="n">averageX</span><span class="p">.</span><span class="n">getValue</span><span class="p">()</span> <span class="o">&gt;</span>  <span class="mf">0.2</span><span class="p">);</span>
+            <span class="n">LedLeft</span><span class="o">::</span><span class="n">set</span><span class="p">(</span> <span class="n">averageY</span><span class="p">.</span><span class="n">getValue</span><span class="p">()</span> <span class="o">&lt;</span> <span class="o">-</span><span class="mf">0.2</span><span class="p">);</span>
+            <span class="n">LedRight</span><span class="o">::</span><span class="n">set</span><span class="p">(</span><span class="n">averageY</span><span class="p">.</span><span class="n">getValue</span><span class="p">()</span> <span class="o">&gt;</span>  <span class="mf">0.2</span><span class="p">);</span>
+
+            <span class="c1">// defer back to other protothreads until the timer fires</span>
+            <span class="n">PT_WAIT_UNTIL</span><span class="p">(</span><span class="n">timer</span><span class="p">.</span><span class="n">execute</span><span class="p">());</span>
+        <span class="p">}</span>
+        <span class="n">PT_END</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="k">private</span><span class="o">:</span>
+    <span class="c1">// This accelerometer is connected via I2C.</span>
+    <span class="n">xpcc</span><span class="o">::</span><span class="n">Lis3dsh</span><span class="o">&lt;</span> <span class="n">xpcc</span><span class="o">::</span><span class="n">Lis3TransportI2c</span><span class="o">&lt;</span> <span class="n">I2cMaster</span> <span class="o">&gt;</span> <span class="o">&gt;</span> <span class="n">accelerometer</span><span class="p">;</span>
+    <span class="n">xpcc</span><span class="o">::</span><span class="n">PeriodicTimer</span> <span class="n">timer</span> <span class="o">=</span> <span class="n">xpcc</span><span class="o">::</span><span class="n">PeriodicTimer</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span> <span class="c1">// 5ms periodic timer.</span>
+    <span class="n">xpcc</span><span class="o">::</span><span class="n">filter</span><span class="o">::</span><span class="n">MovingAverage</span><span class="o">&lt;</span><span class="kt">float</span><span class="p">,</span> <span class="mi">25</span><span class="o">&gt;</span> <span class="n">averageX</span><span class="p">;</span>
+    <span class="n">xpcc</span><span class="o">::</span><span class="n">filter</span><span class="o">::</span><span class="n">MovingAverage</span><span class="o">&lt;</span><span class="kt">float</span><span class="p">,</span> <span class="mi">25</span><span class="o">&gt;</span> <span class="n">averageY</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="n">ReaderThread</span> <span class="n">reader</span><span class="p">;</span>    <span class="c1">// Protothread is statically allocated!</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="c1">// Execution entry point.</span>
+<span class="p">{</span>
+    <span class="k">while</span><span class="p">(</span><span class="nb">true</span><span class="p">)</span>
+    <span class="p">{</span>   <span class="c1">// the main loop with implicit round robin cooperative scheduling.</span>
+        <span class="n">reader</span><span class="p">.</span><span class="n">run</span><span class="p">();</span>
+        <span class="n">otherProtothreads</span><span class="p">.</span><span class="n">run</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:baud">
+<p><a href="http://blog.xpcc.io/2015/06/08/computing-and-asserting-baudrate-settings-at-compile-time/">Computing and Asserting Baudrate Settings at Compile Time</a>&#160;<a class="footnote-backref" href="#fnref:baud" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href=".." title="Home">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Home
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../installation/" title="Installation">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Installation
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>

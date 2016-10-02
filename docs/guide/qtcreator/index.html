@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Qt Creator - xpcc microcontroller framework</title>
+      
+      
+      
+        <link rel="canonical" href="http://docs.xpcc.io/guide/qtcreator/">
+      
+      
+        <meta name="author" content="Roboterclub Aachen e.V.">
+      
+    
+    <meta property="og:url" content="http://docs.xpcc.io/guide/qtcreator/">
+    <meta property="og:title" content="xpcc microcontroller framework">
+    <meta property="og:image" content="http://docs.xpcc.io/guide/qtcreator//../../images/logo.svg">
+    <meta name="apple-mobile-web-app-title" content="xpcc microcontroller framework">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../../images/logo.svg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../None">
+    <link rel="icon" type="image/x-icon" href="../../None">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../../assets/fonts/icon.eot?52m981');
+      	src: url('../../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../../assets/stylesheets/application-997e458b3e.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes-2d6c5d2926.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script src="../../assets/javascripts/modernizr-4a5cc7e01e.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-cyan">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Guide <i class="icon icon-link"></i>
+              
+            
+          </span>
+        
+        Qt Creator
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/RCA_eV" title="@RCA_eV on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/RoboterclubAachen" title="@RoboterclubAachen on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/RoboterclubAachen/xpcc" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../../images/logo.svg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          xpcc microcontroller framework
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+          <br>
+          RoboterclubAachen/xpcc
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-network">
+            
+            <a href="https://github.com/RoboterclubAachen/xpcc/network" target="_blank" title="Forks" data-action="forks">
+              <i class="icon icon-fork"></i> Forks
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/RoboterclubAachen/xpcc/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Why use xpcc?" href="../../why-use-xpcc/">
+      Why use xpcc?
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Installation" href="../../installation/">
+      Installation
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Guide</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Getting started" href="../getting-started/">
+      Getting started
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="Qt Creator" href="./">
+      Qt Creator
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Installation" href="#installation">
+                Installation
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Global setup" href="#global-setup">
+                Global setup
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="xpcc project setup" href="#xpcc-project-setup">
+                xpcc project setup
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Testing" href="../testing/">
+      Testing
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Reference</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="API reference" href="../../reference/api/">
+      API reference
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Build system" href="../../reference/build-system/">
+      Build system
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Device files" href="../../reference/device-files/">
+      Device files
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/RCA_eV" target="_blank" title="@RCA_eV on Twitter">
+                  @RCA_eV on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/RoboterclubAachen" target="_blank" title="@RoboterclubAachen on GitHub">
+                  @RoboterclubAachen on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <style scoped>img.latex-inline { vertical-align: middle; }</style>
+<style scoped>
+svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:center;stroke-linecap:round;stroke-width:1.5px;stroke:#000;fill:#000}.md
+svg.diagram .opendot{fill:#FFF}.md
+svg.diagram text{stroke:none}.md
+</style>
+<h1 id="qt-creator-integration">Qt Creator integration<a class="headerlink" href="#qt-creator-integration" title="Permanent link">#</a></h1>
+<p>This tutorial shows how to adapt the Qt Creator IDE for comfortable developing and debugging of xpcc projects on STM32 microcontrollers.</p>
+<p>This tutorial uses xpcc’s <code>hello-world</code> example project of <a href="https://github.com/roboterclubaachen/getting-started-with-xpcc">our <code>getting-started-with-xpcc</code> repository</a> for the STM32F4 Discovery board.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">#</a></h2>
+<p>Install <a href="https://www.qt.io/ide/">Qt Creator version 4.0 or above</a>.</p>
+<div class="code"><pre><span></span># On Fedora 22 and up
+sudo dnf install qtcreator
+# On OS X
+brew cask install qtcreator
+</pre></div>
+
+
+<h2 id="global-setup">Global setup<a class="headerlink" href="#global-setup" title="Permanent link">#</a></h2>
+<h3 id="enable-bare-metal-plugin">Enable Bare Metal plugin<a class="headerlink" href="#enable-bare-metal-plugin" title="Permanent link">#</a></h3>
+<p>OS X: <em>Qt Creator</em> → <em>About Plugins...</em><br />
+Linux: <em>Help</em> → <em>About Plugins...</em></p>
+<p><center><img alt="Enable BareMetal plugin" src="../../images/qt-creator-tutorial/enable-baremetal-plugin.png" /></center></p>
+<p>Enable the BareMetal plugin and restart Qt Creator.</p>
+<h3 id="code-style">Code Style<a class="headerlink" href="#code-style" title="Permanent link">#</a></h3>
+<p>OS X: <em>Qt Creator</em> → <em>Preferences...</em><br />
+Linux: Go to <em>Options</em> dialog: <em>Tools</em> → <em>Options...</em></p>
+<p>Go to Tab <em>C++</em>, create a copy of the <code>Qt [builtin]</code> code style, name it <code>xpcc</code> and click <em>Edit...</em>.
+<center><img alt="Code Style" src="../../images/qt-creator-tutorial/code-style.png" /></center>
+Set <em>Tab policy</em> to <code>Tabs only</code>, save and exit.</p>
+<h3 id="add-debugger">Add debugger<a class="headerlink" href="#add-debugger" title="Permanent link">#</a></h3>
+<p>In <em>Build &amp; Run</em> and sub-tab <em>Debuggers</em> click <em>Add</em> to add the <code>arm-none-eabi-gdb</code> debugger to Qt Creator:
+<center><img alt="Create new arm-none-eabi-gdb debugger" src="../../images/qt-creator-tutorial/add-arm-none-eabi-gdb.png" /></center>
+Qt Creator requires the debugger to support Python scripting. If you use the precompiled <a href="https://launchpad.net/gcc-arm-embedded">arm-none-eabi toolchain from ARM</a> you need to use <code>arm-none-eabi-gdb-py</code> here!</p>
+<p>For Linux distributions that ship the toolchain themselves and have Python scripting  enabled by default, you can use <code>/usr/bin/arm-none-eabi-gdb</code> (without the <code>-py</code>).</p>
+<h3 id="add-openocd-server">Add OpenOCD server<a class="headerlink" href="#add-openocd-server" title="Permanent link">#</a></h3>
+<p>Go to tab <em>Bare Metal</em> and select <em>Add</em> → <em>OpenOCD</em>.
+<!-- <center><img alt="Add new OpenOCD GDB server provider" src="../images/qt-creator-tutorial/add-openocd-provider.png" /></center> -->
+<center><img alt="OpenOCD GDB server provider settings" src="../../images/qt-creator-tutorial/openocd-provider-settings.png" /></center></p>
+<p>Use the following settings:</p>
+<ul>
+<li>Startup mode: <em>Startup in TCP/IP Mode</em></li>
+<li>Executable file: Path to OpenOCD binary: <code>/usr/local/bin/openocd</code> (OS X), or <code>/usr/bin/openocd</code> (Linux)</li>
+<li>Root scripts directory: Absolute path to OpenOCD script directory: <code>/usr/local/share/openocd/scripts</code> (OS X), or <code>/usr/share/openocd/scripts</code> (Linux)</li>
+<li>Configuration File: <code>board/stm32f4discovery.cfg</code></li>
+</ul>
+<p>If you want to use other targets, create an <em>OpenOCD provider</em>, <em>Device</em> and <em>Kit</em> for each or them.
+Have a look at the OpenOCD script directory to find a configuration file for your target.</p>
+<h3 id="add-target-device">Add target device<a class="headerlink" href="#add-target-device" title="Permanent link">#</a></h3>
+<p>For the next step go to the <em>Devices</em> tab and <em>Add...</em> a new <em>Bare Metal Device</em>.
+<!-- <center><img alt="Add a new device" src="../images/qt-creator-tutorial/add-bare-metal-device.png" /></center> -->
+Use the following settings:
+<center><img alt="Qt Creator device settings" src="../../images/qt-creator-tutorial/bare-metal-device-settings.png" /></center>
+Again, go to tab <em>Build &amp; Run</em>, sub-tab <em>Kits</em> and click <em>Add</em> to add a new so called Kit.
+<center><img alt="Settings for the STM32F4-DISCO Kit" src="../../images/qt-creator-tutorial/stm32f-kit-settings.png" /></center></p>
+<ul>
+<li>Device type: <em>Bare Metal Device</em></li>
+<li>Device: <em>STM32F4-DISCO</em> (the device we just created)</li>
+<li>Compiler: Irrelevant, we won't use it.</li>
+<li>Debugger: <em>arm-none-eabi-gdb</em></li>
+<li>Qt version: <em>None</em></li>
+</ul>
+<p>Click <em>Ok</em>.</p>
+<h2 id="xpcc-project-setup">xpcc project setup<a class="headerlink" href="#xpcc-project-setup" title="Permanent link">#</a></h2>
+<p>Check out the getting started repository:</p>
+<div class="code"><pre><span></span>git clone --recursive https://github.com/roboterclubaachen/getting-started-with-xpcc.git
+</pre></div>
+
+
+<p>Change to the project folder and run <code>scons qtcreator</code> to generate the Qt creator project files for the xpcc project:</p>
+<div class="code"><pre><span></span><span class="nb">cd</span> getting-started-with-xpcc/hello-world
+scons qtcreator
+
+scons: Reading SConscript files ...
+scons: <span class="k">done</span> reading SConscript files.
+scons: Building targets ...
+Template: <span class="s1">&#39;getting-started-with-xpcc/xpcc/templates/qtcreator/project.creator.in&#39;</span> to <span class="s1">&#39;hello-world.creator&#39;</span>
+Template: <span class="s1">&#39;getting-started-with-xpcc/xpcc/templates/qtcreator/project.config.in&#39;</span> to <span class="s1">&#39;hello-world.config&#39;</span>
+Template: <span class="s1">&#39;getting-started-with-xpcc/xpcc/templates/qtcreator/project.files.in&#39;</span> to <span class="s1">&#39;hello-world.files&#39;</span>
+Template: <span class="s1">&#39;getting-started-with-xpcc/xpcc/templates/qtcreator/project.includes.in&#39;</span> to <span class="s1">&#39;hello-world.includes&#39;</span>
+scons: <span class="k">done</span> building targets.
+</pre></div>
+
+
+<p>Open project with Qt Creator: <em>File</em> → <em>Open File or Project</em>
+<center><img alt="Select *.creator file" src="../../images/qt-creator-tutorial/open-creator-file.png" /></center>
+<center><img alt="The view should be like this" src="../../images/qt-creator-tutorial/qtcreator-1.png" /></center>
+Select the <em>Projects</em> view from the <em>Mode Selector</em> on the left side (<em>Window</em> → <em>Show Mode Selector</em> if not visible).</p>
+<p>First, click <em>Add Kit</em> → <em>STM32F4-DISCO</em>, then remove the created <em>Default</em> using the icon to the right of it: <em>Default</em> → <em>Remove Kit</em>.
+<center><img alt="Remove the desktop kit" src="../../images/qt-creator-tutorial/remove-desktop-kit.png" /></center></p>
+<p>Next go to the <em>Build Settings</em> and remove all existing <em>Build Steps</em> and <em>Clean Steps</em> and:</p>
+<ul>
+<li>add a new <em>Custom Process Step</em> build step with command <code>scons</code> and argument <code>program</code>.</li>
+<li>add a new <em>Custom Process Step</em> clean step with command <code>scons</code> and argument <code>-c</code>.</li>
+<li>add a custom <code>PATH</code> to the <em>System Environment</em>, if you need to.</li>
+</ul>
+<p><center><img alt="Qt Creator project build settings" src="../../images/qt-creator-tutorial/project-build-settings.png" /></center>
+Switch to <em>Run Settings</em> and select <em>Run on GDB server or hardware debugger</em> as <em>Run Configuration</em>. Select the *<em>.elf</em>-file as executable.
+<center><img alt="Qt creator project run settings" src="../../images/qt-creator-tutorial/project-run-settings.png" /></center></p>
+<p>Congratulations, you can now compile, program and debug your xpcc application comfortably in Qt Creator.</p>
+          <aside class="copyright" role="note">
+            
+              Copyright &copy 2016 Roboterclub Aachen e.V. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../getting-started/" title="Getting started">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Getting started
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../testing/" title="Testing">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Testing
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'RoboterclubAachen/xpcc';
+    </script>
+    <script src="../../assets/javascripts/application-153ebaf1fd.js"></script>
+    
+    
+  </body>
+</html>
