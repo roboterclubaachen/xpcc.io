@@ -93,6 +93,11 @@ commands =
 	reset run
 	shutdown
 
+# ARM only: configure Black Magic Probe for  $ scons program
+[black_magic_probe]
+# using a serial port
+port = /dev/ttyUSB0
+
 # LPC targets with LPC-Linkv2 programmer only
 [lpclink]
 # base path of the lpcxpresso installation
