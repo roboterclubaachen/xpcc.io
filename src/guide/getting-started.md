@@ -3,7 +3,7 @@
 ## Examples
 
 The best way for you to quickly learn about xpcc's APIs is to look at and experiment with [our examples][examples], especially if you have a development board that xpcc [supports out-of-the-box](../#supported-hardware).
-Make sure you have either our [virtual machine or the native toolchain installed](../installation).
+Make sure you have [the toolchain installed](../installation).
 
 Here are our favorite examples for our supported development boards:
 
@@ -61,7 +61,6 @@ tree
 .
 ├── LICENSE
 ├── README.md
-├── Vagrantfile
 ├── hello-world
 │   ├── SConstruct
 │   ├── main.cpp
@@ -69,9 +68,7 @@ tree
 └── xpcc (git submodule)
 ```
 
-The example contains the xpcc framework as a git submodule, a `Vagrantfile`
-to enable use of [our virtual machine](../installation/#virtual-machine),
-a `SConstruct` file for [our build system](../reference/build-system/#build-commands),
+The example contains the xpcc framework as a git submodule, a `SConstruct` file for [our build system](../reference/build-system/#build-commands),
 a project configuration file and of course the source code:
 
 ```cpp
