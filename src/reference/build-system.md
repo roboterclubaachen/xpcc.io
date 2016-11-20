@@ -20,6 +20,7 @@ By default `scons` executes `scons build size`.
 - `symbols`: Displays the symbol table for your executable.
 - `-c`: Cleans the project's build files.
 - `verbose=1`: Makes the printout more verbose.
+- `optimization=[0,1,2,3,s]`: Forces compilation with specified optimization level. Can be used for debug builds.
 
 
 ### AVR only:
@@ -54,6 +55,10 @@ device = stm32f407vg
 clock = 16000000
 # overwrite the default `./build/` folder path
 buildpath = ../../build/${name}
+# optimization level for compilation [0,1,2,3,s]
+optimization = 0
+# declare additional compilation flags for your project
+ccflags = -Werror -Wall -Wextra
 
 # parametrize HAL drivers here, see section on Parameters
 [parameters]
