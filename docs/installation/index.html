@@ -360,6 +360,7 @@ svg.diagram text{stroke:none}.md
 <li><a href="http://lxml.de/">python-lxml</a></li>
 <li><a href="http://www.stack.nl/~dimitri/doxygen">doxygen</a></li>
 </ul>
+<p>Note that xpcc requires C++11, so you need a reasonably new compiler (GCC &gt;4.9).</p>
 <h2 id="installing-on-linux">Installing on Linux<a class="headerlink" href="#installing-on-linux" title="Permanent link">#</a></h2>
 <p>For Ubuntu 14.04LTS, these commands install the basic build system:</p>
 <div class="code"><pre><span></span>sudo apt-get install python python-jinja2 scons git
@@ -392,15 +393,15 @@ pip install --user lxml
 
 <p>This installs <code>doxygen</code> without LaTeX support, which saves ~600MB of disk space.</p>
 <h2 id="installing-on-os-x">Installing on OS X<a class="headerlink" href="#installing-on-os-x" title="Permanent link">#</a></h2>
-<p>First install <a href="http://mxcl.github.com/homebrew/"><code>homebrew</code></a>, a great packet
+<p>First install <a href="https://brew.sh/"><code>homebrew</code></a>, a great packet
 manager for OS X, then use it to install the minimum build system:</p>
 <div class="code"><pre><span></span>brew install python scons git
 pip install --user jinja2
 </pre></div>
 
 
-<p>Install the AVR toochain:</p>
-<div class="code"><pre><span></span>brew tap larsimmisch/avr
+<p>Compile the <a href="http://github.com/osx-cross/homebrew-avr">AVR toolchain from source</a> (may take a while):</p>
+<div class="code"><pre><span></span>brew tap osx-cross/avr
 brew install avr-libc avrdude
 </pre></div>
 
