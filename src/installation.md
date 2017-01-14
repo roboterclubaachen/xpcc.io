@@ -13,6 +13,7 @@ To start actively developing on xpcc, you will also need these packages:
 - [python-lxml](http://lxml.de/)
 - [doxygen](http://www.stack.nl/~dimitri/doxygen)
 
+Note that xpcc requires C++11, so you need a reasonably new compiler (GCC >4.9).
 
 ## Installing on Linux
 
@@ -45,15 +46,15 @@ This installs `doxygen` without LaTeX support, which saves ~600MB of disk space.
 
 ## Installing on OS X
 
-First install [`homebrew`](http://mxcl.github.com/homebrew/), a great packet
+First install [`homebrew`](http://brew.sh/), a great packet
 manager for OS X, then use it to install the minimum build system:
 
 	brew install python scons git
 	pip install --user jinja2
 
-Install the AVR toochain:
+Compile the [AVR toolchain from source](http://github.com/osx-cross/homebrew-avr) (may take a while):
 
-	brew tap larsimmisch/avr
+	brew tap osx-cross/avr
 	brew install avr-libc avrdude
 
 And the ARM toolchain as well:
