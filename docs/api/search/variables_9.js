@@ -11,7 +11,6 @@ var searchData=
   ['memoryexternal',['MemoryExternal',['../group__memory__traits.html#ga0d88867c6d5e933db9befd3c88bf6a0c',1,'xpcc']]],
   ['memoryfastcode',['MemoryFastCode',['../group__memory__traits.html#gab0d5846621a913675ef0c8954d4d6baf',1,'xpcc']]],
   ['memoryfastdata',['MemoryFastData',['../group__memory__traits.html#ga0bc207b39c5d4c8b0625ef0afb42085f',1,'xpcc']]],
-  ['message',['message',['../classxpcc_1_1_zero_m_q_connector.html#a2bba4e74dcd62016aa01c5ba128468df',1,'xpcc::ZeroMQConnector']]],
   ['minute',['minute',['../classxpcc_1_1_date.html#ab7fe455ab93917a403b6ae6b9cbd6804',1,'xpcc::Date']]],
   ['month',['month',['../classxpcc_1_1_date.html#aa8e96e3a7eb20fb3f572fbd1279a5d62',1,'xpcc::Date']]]
 ];

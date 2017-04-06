@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"classxpcc_1_1_point_set2_d.html#ae268eedfdd0a88c5b187797b9e5d5103":[1,7,3,6,3],
+"classxpcc_1_1_point_set2_d.html#ae4b935d50a7637153537e7a7484402b1":[1,7,3,6,12],
+"classxpcc_1_1_point_set2_d.html#ae952347a5a33950b3576ce3c31b59ace":[1,7,3,6,17],
+"classxpcc_1_1_point_set2_d.html#ae99572be13e76b0b6d69cc10e70bfe4a":[1,7,3,6,0],
+"classxpcc_1_1_point_set2_d.html#aec365727ef0ef777c17d159a43d91fe1":[1,7,3,6,8],
+"classxpcc_1_1_polygon2_d.html":[1,7,3,7],
+"classxpcc_1_1_polygon2_d.html#a39b723d22e1c8b3a639fdf9810e42ebe":[1,7,3,7,7],
+"classxpcc_1_1_polygon2_d.html#a5added8cdb935cdcb31c356aefb14f0f":[1,7,3,7,3],
 "classxpcc_1_1_polygon2_d.html#a6fea158a1b02abf05e144a305f4db274":[1,7,3,7,2],
 "classxpcc_1_1_polygon2_d.html#a73182df0259b2e13381dfc51971f471a":[1,7,3,7,9],
 "classxpcc_1_1_polygon2_d.html#a7407113c0490bb842f94b70d5ab3c3c7":[1,7,3,7,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "classxpcc_1_1_spi_device.html#addeed2b88121e6d1388f357349d08667":[1,1,4,8,1,1],
 "classxpcc_1_1_spi_master.html":[1,1,4,8,2],
 "classxpcc_1_1_spi_ram.html":[1,5,6,2],
-"classxpcc_1_1_spi_ram.html#a3086ff92ebf3b1e94854482bc3440466":[1,5,6,2,3],
-"classxpcc_1_1_spi_ram.html#a403a729e701fbf90682552e686f9b7d4":[1,5,6,2,1],
-"classxpcc_1_1_spi_ram.html#a403a729e701fbf90682552e686f9b7d4a92716ebc81403170f760429c2a1d3b01":[1,5,6,2,1,0],
-"classxpcc_1_1_spi_ram.html#a403a729e701fbf90682552e686f9b7d4aae161644b5ef2ae52602462462ebe6f2":[1,5,6,2,1,1],
-"classxpcc_1_1_spi_ram.html#a403a729e701fbf90682552e686f9b7d4acd18d1ff958ac7649ceee139c0a49675":[1,5,6,2,1,3],
-"classxpcc_1_1_spi_ram.html#a403a729e701fbf90682552e686f9b7d4ad2d23b8e39f2ef6fee002abedfb4b8c0":[1,5,6,2,1,2],
-"classxpcc_1_1_spi_ram.html#a5b9cb7ca9710d7c8d34c3367603055ab":[1,5,6,2,0],
-"classxpcc_1_1_spi_ram.html#a5b9cb7ca9710d7c8d34c3367603055aba2dcb20c887d0b5d4f0eda871dbc673eb":[1,5,6,2,0,2],
-"classxpcc_1_1_spi_ram.html#a5b9cb7ca9710d7c8d34c3367603055aba48fdf313d513dbd2e67e22aa84ff341e":[1,5,6,2,0,0]
+"classxpcc_1_1_spi_ram.html#a3086ff92ebf3b1e94854482bc3440466":[1,5,6,2,3]
 };

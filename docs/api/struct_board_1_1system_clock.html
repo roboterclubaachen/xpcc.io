@@ -113,13 +113,19 @@ $(document).ready(function(){initNavTree('struct_board_1_1system_clock.html','')
 </div><!--header-->
 <div class="contents">
 
-<p>STM32F103RB running at 64MHz generated from the internal 8MHz crystal.  
+<p>STM32F031K6 running at 48MHz generated from the internal 8MHz crystal.  
  <a href="struct_board_1_1system_clock.html#details">More...</a></p>
 
 <p><code>#include &lt;xpcc/architecture/platform/board/stm32f769i_discovery/stm32f769i_discovery.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a428a5fcb2b9e7834a29a3a8932d42bd4"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>enable</b> ()</td></tr>
+<tr class="separator:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a428a5fcb2b9e7834a29a3a8932d42bd4"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>enable</b> ()</td></tr>
+<tr class="separator:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a428a5fcb2b9e7834a29a3a8932d42bd4"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>enable</b> ()</td></tr>
 <tr class="separator:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,33 +174,57 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:acf99d59f7f61ace1d5d691616a6de458"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf99d59f7f61ace1d5d691616a6de458"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Ahb</b></td></tr>
 <tr class="separator:acf99d59f7f61ace1d5d691616a6de458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31cd950f47b7981d5bbe5b60efa0b4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac31cd950f47b7981d5bbe5b60efa0b4c"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Apb</b></td></tr>
+<tr class="separator:ac31cd950f47b7981d5bbe5b60efa0b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1cac14e801a779e67e12f00d0d2c8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b1cac14e801a779e67e12f00d0d2c8a"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Adc1</b></td></tr>
+<tr class="separator:a6b1cac14e801a779e67e12f00d0d2c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f90d366f1e6a0237ae6180a0bf941b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f90d366f1e6a0237ae6180a0bf941b6"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi1</b></td></tr>
+<tr class="separator:a8f90d366f1e6a0237ae6180a0bf941b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a6e07a933c1484678f17e80b87ecc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12a6e07a933c1484678f17e80b87ecc2"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Usart1</b></td></tr>
+<tr class="separator:a12a6e07a933c1484678f17e80b87ecc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43dea06f22c2f689788f791f436e615d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43dea06f22c2f689788f791f436e615d"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>I2c1</b></td></tr>
+<tr class="separator:a43dea06f22c2f689788f791f436e615d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9fc1f977e9c5b018c9a6235fa5e6530"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9fc1f977e9c5b018c9a6235fa5e6530"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer1</b></td></tr>
+<tr class="separator:ab9fc1f977e9c5b018c9a6235fa5e6530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192c4b5bbeb3c36b86e7fa9e9a6157a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a192c4b5bbeb3c36b86e7fa9e9a6157a3"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer2</b></td></tr>
+<tr class="separator:a192c4b5bbeb3c36b86e7fa9e9a6157a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574389f700e3f2e48a754516cb2468a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a574389f700e3f2e48a754516cb2468a9"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer3</b></td></tr>
+<tr class="separator:a574389f700e3f2e48a754516cb2468a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed80305dfb33cd80c30a02220a67a33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ed80305dfb33cd80c30a02220a67a33"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer14</b></td></tr>
+<tr class="separator:a8ed80305dfb33cd80c30a02220a67a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10bcff2e656be6152a8d4de1be5d0ba6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10bcff2e656be6152a8d4de1be5d0ba6"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer16</b></td></tr>
+<tr class="separator:a10bcff2e656be6152a8d4de1be5d0ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa179a3a4a595d71430c5c7cf6c693ba7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa179a3a4a595d71430c5c7cf6c693ba7"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer17</b></td></tr>
+<tr class="separator:aa179a3a4a595d71430c5c7cf6c693ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1ca56602cbebecc162a2dbb6332b9d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1ca56602cbebecc162a2dbb6332b9d3"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Apb1</b></td></tr>
 <tr class="separator:aa1ca56602cbebecc162a2dbb6332b9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaed26b2096b88d85a3b8db5f5d4af548"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaed26b2096b88d85a3b8db5f5d4af548"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Apb2</b></td></tr>
 <tr class="separator:aaed26b2096b88d85a3b8db5f5d4af548"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b1cac14e801a779e67e12f00d0d2c8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b1cac14e801a779e67e12f00d0d2c8a"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Adc1</b></td></tr>
-<tr class="separator:a6b1cac14e801a779e67e12f00d0d2c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15b48e12552e58242d7195f540c5c18c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15b48e12552e58242d7195f540c5c18c"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Adc2</b></td></tr>
 <tr class="separator:a15b48e12552e58242d7195f540c5c18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a833c7fcd46bd2d417b771cca12be3647"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a833c7fcd46bd2d417b771cca12be3647"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Adc3</b></td></tr>
 <tr class="separator:a833c7fcd46bd2d417b771cca12be3647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f90d366f1e6a0237ae6180a0bf941b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f90d366f1e6a0237ae6180a0bf941b6"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi1</b></td></tr>
-<tr class="separator:a8f90d366f1e6a0237ae6180a0bf941b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf2c50e81fdc3fd05225a0cbb0ccbb4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8bf2c50e81fdc3fd05225a0cbb0ccbb4"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi2</b></td></tr>
 <tr class="separator:a8bf2c50e81fdc3fd05225a0cbb0ccbb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e7694c6164db654136071cbe31a6a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8e7694c6164db654136071cbe31a6a7"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi3</b></td></tr>
 <tr class="separator:ac8e7694c6164db654136071cbe31a6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12a6e07a933c1484678f17e80b87ecc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12a6e07a933c1484678f17e80b87ecc2"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Usart1</b></td></tr>
-<tr class="separator:a12a6e07a933c1484678f17e80b87ecc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64112ed2fbd6f64941ace80807ddc3a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af64112ed2fbd6f64941ace80807ddc3a"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Usart2</b></td></tr>
 <tr class="separator:af64112ed2fbd6f64941ace80807ddc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,9 +240,6 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a43c018ec2c02ba586e3653fdb16361a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43c018ec2c02ba586e3653fdb16361a1"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Can1</b></td></tr>
 <tr class="separator:a43c018ec2c02ba586e3653fdb16361a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43dea06f22c2f689788f791f436e615d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43dea06f22c2f689788f791f436e615d"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>I2c1</b></td></tr>
-<tr class="separator:a43dea06f22c2f689788f791f436e615d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88b7cab19a0a01345ee7f8574c78d2c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88b7cab19a0a01345ee7f8574c78d2c9"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>I2c2</b></td></tr>
 <tr class="separator:a88b7cab19a0a01345ee7f8574c78d2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,15 +249,6 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a806f59449d861e70661e85a324effb24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a806f59449d861e70661e85a324effb24"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Apb2Timer</b></td></tr>
 <tr class="separator:a806f59449d861e70661e85a324effb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9fc1f977e9c5b018c9a6235fa5e6530"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9fc1f977e9c5b018c9a6235fa5e6530"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer1</b></td></tr>
-<tr class="separator:ab9fc1f977e9c5b018c9a6235fa5e6530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a192c4b5bbeb3c36b86e7fa9e9a6157a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a192c4b5bbeb3c36b86e7fa9e9a6157a3"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer2</b></td></tr>
-<tr class="separator:a192c4b5bbeb3c36b86e7fa9e9a6157a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a574389f700e3f2e48a754516cb2468a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a574389f700e3f2e48a754516cb2468a9"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer3</b></td></tr>
-<tr class="separator:a574389f700e3f2e48a754516cb2468a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29e75637ffcc3508349395c7eccbffc1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29e75637ffcc3508349395c7eccbffc1"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer4</b></td></tr>
 <tr class="separator:a29e75637ffcc3508349395c7eccbffc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,21 +267,12 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a50095c4dafbc67a0dd7a8af7eee898a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50095c4dafbc67a0dd7a8af7eee898a8"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer15</b></td></tr>
 <tr class="separator:a50095c4dafbc67a0dd7a8af7eee898a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10bcff2e656be6152a8d4de1be5d0ba6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10bcff2e656be6152a8d4de1be5d0ba6"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer16</b></td></tr>
-<tr class="separator:a10bcff2e656be6152a8d4de1be5d0ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa179a3a4a595d71430c5c7cf6c693ba7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa179a3a4a595d71430c5c7cf6c693ba7"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer17</b></td></tr>
-<tr class="separator:aa179a3a4a595d71430c5c7cf6c693ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a256506d85fb9eb9370a633a20743d67f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a256506d85fb9eb9370a633a20743d67f"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Adc</b></td></tr>
 <tr class="separator:a256506d85fb9eb9370a633a20743d67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dd8d7c857eead4fcffbf7119de105cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dd8d7c857eead4fcffbf7119de105cd"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi4</b></td></tr>
 <tr class="separator:a7dd8d7c857eead4fcffbf7119de105cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a604c9e76127750e256f5a3838dcf544b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a604c9e76127750e256f5a3838dcf544b"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi5</b></td></tr>
-<tr class="separator:a604c9e76127750e256f5a3838dcf544b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a605fec19aa4a604774bb7d0368d000bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a605fec19aa4a604774bb7d0368d000bd"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Usart6</b></td></tr>
 <tr class="separator:a605fec19aa4a604774bb7d0368d000bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,6 +288,9 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a01a1b923dbd54a8da0447025002cc879"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01a1b923dbd54a8da0447025002cc879"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer11</b></td></tr>
 <tr class="separator:a01a1b923dbd54a8da0447025002cc879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604c9e76127750e256f5a3838dcf544b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a604c9e76127750e256f5a3838dcf544b"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi5</b></td></tr>
+<tr class="separator:a604c9e76127750e256f5a3838dcf544b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a174bc95b6600e5a06651e2dba88c5503"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a174bc95b6600e5a06651e2dba88c5503"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Spi6</b></td></tr>
 <tr class="separator:a174bc95b6600e5a06651e2dba88c5503"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,9 +312,6 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a14abd1db1c40a5b6c583d9329419328e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14abd1db1c40a5b6c583d9329419328e"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer13</b></td></tr>
 <tr class="separator:a14abd1db1c40a5b6c583d9329419328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ed80305dfb33cd80c30a02220a67a33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ed80305dfb33cd80c30a02220a67a33"></a>
-static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer14</b></td></tr>
-<tr class="separator:a8ed80305dfb33cd80c30a02220a67a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b94886378ce107bd4a722c99ca3461"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92b94886378ce107bd4a722c99ca3461"></a>
 static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><b>Frequency</b></td></tr>
 <tr class="separator:a92b94886378ce107bd4a722c99ca3461"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,11 +339,15 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <p>STM32F072 running at 48MHz generated from the internal 48MHz clock.</p>
 <p>STM32F429 running at 180MHz from the external 8MHz STLink clock.</p>
 <p>STM32F411RE running at 96MHz generated from the internal 16MHz crystal.</p>
+<p>STM32F401RE running at 84MHz generated from the internal 16MHz crystal.</p>
 <p>STM32F303K8 running at 64MHz generated from the internal 8MHz clock.</p>
+<p>STM32F103RB running at 64MHz generated from the internal 8MHz crystal.</p>
 <p>STM32F100 running at 24MHz generated from the external 8MHz crystal </p>
 </div><hr/>The documentation for this struct was generated from the following files:<ul>
+<li>nucleo_f031k6.hpp</li>
 <li>nucleo_f103rb.hpp</li>
 <li>nucleo_f303k8.hpp</li>
+<li>nucleo_f401re.hpp</li>
 <li>nucleo_f411re.hpp</li>
 <li>nucleo_f429zi.hpp</li>
 <li>stm32f072_discovery.hpp</li>
@@ -353,7 +366,7 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Board</b></li><li class="navelem"><a class="el" href="struct_board_1_1system_clock.html">systemClock</a></li>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:21 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:45 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -16,7 +16,7 @@ var searchData=
   ['readchannel',['readChannel',['../classxpcc_1_1_adc.html#a1dfc8a6eecc1f0c2b9dc78873c811076',1,'xpcc::Adc::readChannel()'],['../classxpcc_1_1_ad7280a.html#a8f110cff9342929b48a0a4922fa625e5',1,'xpcc::Ad7280a::readChannel()']]],
   ['readcomparatormode',['readComparatorMode',['../classxpcc_1_1_tmp102.html#a1ad8b47409dfcc89c283dffbbdb84d8f',1,'xpcc::Tmp102']]],
   ['readdata',['readData',['../classxpcc_1_1_spi_ram.html#a3086ff92ebf3b1e94854482bc3440466',1,'xpcc::SpiRam']]],
-  ['readdistance',['readDistance',['../classxpcc_1_1_vl6180.html#a6cbaa740d7046de158364d6a3e9575c6',1,'xpcc::Vl6180']]],
+  ['readdistance',['readDistance',['../classxpcc_1_1_vl53l0.html#a393c549390eb6045d1a8d66072fa554c',1,'xpcc::Vl53l0::readDistance()'],['../classxpcc_1_1_vl6180.html#a6cbaa740d7046de158364d6a3e9575c6',1,'xpcc::Vl6180::readDistance()']]],
   ['readfifostatus',['readFifoStatus',['../classxpcc_1_1_nrf24_phy.html#a73a25a33f4fc8a12c14b462fdf080f3f',1,'xpcc::Nrf24Phy']]],
   ['readfrombuffer',['readFromBuffer',['../classxpcc_1_1_at45db0x1d.html#a7f86fb1f7f87af33b00d34b73bddbdd1',1,'xpcc::At45db0x1d']]],
   ['readfrommemory',['readFromMemory',['../classxpcc_1_1_at45db0x1d.html#a9fe249bb60d5b8fc6366fb66b2aa4475',1,'xpcc::At45db0x1d']]],
@@ -68,6 +68,7 @@ var searchData=
   ['resume',['resume',['../classxpcc_1_1_a_d840x.html#a93f270aa2f22497183a54a7c90d93369',1,'xpcc::AD840x::resume()'],['../classxpcc_1_1_spi_ram.html#ae445525b5e93222844f6bcda3acb2d03',1,'xpcc::SpiRam::resume()']]],
   ['reusetxpayload',['reuseTxPayload',['../classxpcc_1_1_nrf24_phy.html#ab9894800b4fcb1dceff0a84960c94e00',1,'xpcc::Nrf24Phy']]],
   ['reverse',['reverse',['../classxpcc_1_1_angle.html#ab716e661c09f28d851b773d4edf4f7f2',1,'xpcc::Angle']]],
+  ['rget',['rget',['../classxpcc_1_1_bounded_deque.html#a50b453454ee6c4b2c9780b20baa7c3fd',1,'xpcc::BoundedDeque']]],
   ['round',['round',['../structxpcc_1_1_geometric_traits.html#a200de9efb4e1e87e83e5a01eee4b9563',1,'xpcc::GeometricTraits']]],
   ['run',['run',['../classxpcc_1_1rtos_1_1_thread.html#abf41cef53d48cd2293c755dda0ea144b',1,'xpcc::rtos::Thread::run()=0'],['../classxpcc_1_1rtos_1_1_thread.html#abf41cef53d48cd2293c755dda0ea144b',1,'xpcc::rtos::Thread::run()=0']]],
   ['runtransaction',['runTransaction',['../classxpcc_1_1_i2c_device.html#a6959a124c81aa2fa3ba7a4b043db4702',1,'xpcc::I2cDevice']]]

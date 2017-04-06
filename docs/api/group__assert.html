@@ -117,16 +117,22 @@ Macros</h2></td></tr>
 <tr class="memitem:ga8a3e17e2707972a55df6ee38d6fe2d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#ga8a3e17e2707972a55df6ee38d6fe2d83">xpcc_assert</a>(condition,  module,  location,  failure)</td></tr>
 <tr class="memdesc:ga8a3e17e2707972a55df6ee38d6fe2d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert a condition to be true with failure identifier.  <a href="#ga8a3e17e2707972a55df6ee38d6fe2d83">More...</a><br /></td></tr>
 <tr class="separator:ga8a3e17e2707972a55df6ee38d6fe2d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9cdc7cc42c106346d7036e27a854df22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#ga9cdc7cc42c106346d7036e27a854df22">xpcc_assert</a>(condition,  module,  location,  failure,  context)</td></tr>
+<tr class="memdesc:ga9cdc7cc42c106346d7036e27a854df22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert a condition to be true with failure identifier.  <a href="#ga9cdc7cc42c106346d7036e27a854df22">More...</a><br /></td></tr>
+<tr class="separator:ga9cdc7cc42c106346d7036e27a854df22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga40eb96aa4afcb2612e6aa25aa389799d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#ga40eb96aa4afcb2612e6aa25aa389799d">xpcc_assert_debug</a>(condition,  module,  location,  failure)</td></tr>
 <tr class="memdesc:ga40eb96aa4afcb2612e6aa25aa389799d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert a condition to be true with failure identifier.  <a href="#ga40eb96aa4afcb2612e6aa25aa389799d">More...</a><br /></td></tr>
 <tr class="separator:ga40eb96aa4afcb2612e6aa25aa389799d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga18a7be640d5d3f7bdceeb904bc5af55e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#ga18a7be640d5d3f7bdceeb904bc5af55e">xpcc_assert_debug</a>(condition,  module,  location,  failure,  context)</td></tr>
+<tr class="memdesc:ga18a7be640d5d3f7bdceeb904bc5af55e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert a condition to be true with failure identifier.  <a href="#ga18a7be640d5d3f7bdceeb904bc5af55e">More...</a><br /></td></tr>
+<tr class="separator:ga18a7be640d5d3f7bdceeb904bc5af55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gaed0004ddb2318d3364a1671e9b296705"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaed0004ddb2318d3364a1671e9b296705"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#gaed0004ddb2318d3364a1671e9b296705">xpcc::AssertionHandler</a> = Abandonment(*)(const char *module, const char *location, const char *failure)</td></tr>
-<tr class="memdesc:gaed0004ddb2318d3364a1671e9b296705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signature of the assertion handlers. <br /></td></tr>
-<tr class="separator:gaed0004ddb2318d3364a1671e9b296705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga988cd3b4cd071fe274541cc7c1254aa0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga988cd3b4cd071fe274541cc7c1254aa0"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#ga988cd3b4cd071fe274541cc7c1254aa0">xpcc::AssertionHandler</a> = Abandonment(*)(const char *module, const char *location, const char *failure, uintptr_t context)</td></tr>
+<tr class="memdesc:ga988cd3b4cd071fe274541cc7c1254aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signature of the assertion handlers. <br /></td></tr>
+<tr class="separator:ga988cd3b4cd071fe274541cc7c1254aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -143,9 +149,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab685d7ee0b21716167dc4a1425c68cce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#gab685d7ee0b21716167dc4a1425c68cce">xpcc_abandon</a> (const char *module, const char *location, const char *failure) <a class="el" href="group__platform.html#gab52a1bd815b06033615a759c93c77355">xpcc_weak</a></td></tr>
-<tr class="memdesc:gab685d7ee0b21716167dc4a1425c68cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwriteable abandonment handler for all targets.  <a href="#gab685d7ee0b21716167dc4a1425c68cce">More...</a><br /></td></tr>
-<tr class="separator:gab685d7ee0b21716167dc4a1425c68cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac9061133158ca125b2eb9d9e79100fef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__assert.html#gac9061133158ca125b2eb9d9e79100fef">xpcc_abandon</a> (const char *module, const char *location, const char *failure, uintptr_t context) <a class="el" href="group__platform.html#gab52a1bd815b06033615a759c93c77355">xpcc_weak</a></td></tr>
+<tr class="memdesc:gac9061133158ca125b2eb9d9e79100fef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overwriteable abandonment handler for all targets.  <a href="#gac9061133158ca125b2eb9d9e79100fef">More...</a><br /></td></tr>
+<tr class="separator:gac9061133158ca125b2eb9d9e79100fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Each assertion has the form <code><a class="el" href="group__assert.html#ga8a3e17e2707972a55df6ee38d6fe2d83" title="Assert a condition to be true with failure identifier. ">xpcc_assert(condition, module, location, failure)</a></code>, where the condition is a boolean and rest are strings, so that a simple string compare can be used to match for module, location or failure. For example, the identifier <code>"can", "init", "timeout"</code> describes a timeout failure in the CAN initializer function. The assert <code><a class="el" href="group__assert.html#ga40eb96aa4afcb2612e6aa25aa389799d" title="Assert a condition to be true with failure identifier. ">xpcc_assert_debug(condition, module, location, failure)</a></code> is only available on debug builds and is removed from the code for a release build.</p>
@@ -218,6 +224,54 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Assert a condition to be true with failure identifier and context.</p>
+<p>This assert is always included in the source code.</p>
+<dl class="section note"><dt>Note</dt><dd>On AVR targets the failure identifier string is placed in Flash memory! </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9cdc7cc42c106346d7036e27a854df22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define xpcc_assert</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">condition, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">module, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">location, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">failure, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">context&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assert a condition to be true with failure identifier and context.</p>
 <p>This assert is always included in the source code.</p>
 <dl class="section note"><dt>Note</dt><dd>On AVR targets the failure identifier string is placed in Flash memory! </dd></dl>
 
@@ -258,6 +312,54 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Assert a condition to be true with failure identifier and context.</p>
+<p>This assert is only included in the source code on debug builds!</p>
+<dl class="section note"><dt>Note</dt><dd>On AVR targets the strings are placed in Flash memory! </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga18a7be640d5d3f7bdceeb904bc5af55e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define xpcc_assert_debug</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">condition, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">module, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">location, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">failure, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">context&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assert a condition to be true with failure identifier and context.</p>
 <p>This assert is only included in the source code on debug builds!</p>
 <dl class="section note"><dt>Note</dt><dd>On AVR targets the strings are placed in Flash memory! </dd></dl>
 
@@ -296,7 +398,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gab685d7ee0b21716167dc4a1425c68cce"></a>
+<a class="anchor" id="gac9061133158ca125b2eb9d9e79100fef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -316,7 +418,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>failure</em>&#160;</td>
+          <td class="paramname"><em>failure</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uintptr_t&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -334,7 +442,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:21 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:45 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

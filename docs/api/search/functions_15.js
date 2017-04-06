@@ -4,5 +4,6 @@ var searchData=
   ['vector',['Vector',['../classxpcc_1_1_vector_3_01_t_00_012_01_4.html#a05be28408394d61362b36cb40f13597f',1,'xpcc::Vector&lt; T, 2 &gt;']]],
   ['verifydevice',['verifyDevice',['../classxpcc_1_1_software_one_wire_master.html#a11ad00e1a21e7ec8bd1d7c15cc1ef2a3',1,'xpcc::SoftwareOneWireMaster::verifyDevice(const uint8_t *rom)'],['../classxpcc_1_1_software_one_wire_master.html#a11ad00e1a21e7ec8bd1d7c15cc1ef2a3',1,'xpcc::SoftwareOneWireMaster::verifyDevice(const uint8_t *rom)']]],
   ['view',['View',['../classxpcc_1_1gui_1_1_view.html#a5b5d3597a028b3b0c003e9b8ece5958c',1,'xpcc::gui::View']]],
+  ['vl53l0',['Vl53l0',['../classxpcc_1_1_vl53l0.html#a493d95fb46e4743d48654cc29cdf1436',1,'xpcc::Vl53l0']]],
   ['vl6180',['Vl6180',['../classxpcc_1_1_vl6180.html#a50252a5cfdda3f6d5fe703a8b5f3b3d7',1,'xpcc::Vl6180']]]
 ];

@@ -106,13 +106,17 @@ $(document).ready(function(){initNavTree('classxpcc_1_1_zero_m_q_connector.html'
 <div class="header">
   <div class="summary">
 <a href="classxpcc_1_1_zero_m_q_connector-members.html">List of all members</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
-<div class="title">xpcc::ZeroMQConnector Class Reference</div>  </div>
+<div class="title">xpcc::ZeroMQConnector Class Reference<div class="ingroups"><a class="el" href="group__communication.html">Communication</a> &raquo; <a class="el" href="group__xpcc__comm.html">Cross Platform Component Communication (XPCC)</a> &raquo; <a class="el" href="group__backend.html">Backend</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>ZeroMQ communication backend for hosted.  
+ <a href="classxpcc_1_1_zero_m_q_connector.html#details">More...</a></p>
+
+<p><code>#include &lt;xpcc/communication/xpcc/backend/zeromq/connector.hpp&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for xpcc::ZeroMQConnector:</div>
 <div class="dyncontent">
@@ -124,37 +128,32 @@ Inheritance diagram for xpcc::ZeroMQConnector:</div>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html">ReceiveItem</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5234fe1fee59e5fb75e3f1e611b327d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5234fe1fee59e5fb75e3f1e611b327d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ZeroMQConnector</b> (std::string endpointIn, std::string endpointOut, <a class="el" href="classxpcc_1_1_zero_m_q_connector_base.html#ae58a11e9ba6204918bc0312f34723c05">Mode</a> mode=Mode::SubPush)</td></tr>
 <tr class="separator:ad5234fe1fee59e5fb75e3f1e611b327d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4911278882dc000b04876f30e8300aef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4911278882dc000b04876f30e8300aef"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a4911278882dc000b04876f30e8300aef">sendPacket</a> (const <a class="el" href="structxpcc_1_1_header.html">Header</a> &amp;header, <a class="el" href="classxpcc_1_1_smart_pointer.html">SmartPointer</a> payload)</td></tr>
-<tr class="memdesc:a4911278882dc000b04876f30e8300aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a Message. <br /></td></tr>
-<tr class="separator:a4911278882dc000b04876f30e8300aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a403aaa3c3fd7657c524b29435ddf4f1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a403aaa3c3fd7657c524b29435ddf4f1d"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a403aaa3c3fd7657c524b29435ddf4f1d">isPacketAvailable</a> () const </td></tr>
-<tr class="memdesc:a403aaa3c3fd7657c524b29435ddf4f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a new packet was received by the backend. <br /></td></tr>
-<tr class="separator:a403aaa3c3fd7657c524b29435ddf4f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f7d00e08a27abdeb9c8ed1b340f877"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae4f7d00e08a27abdeb9c8ed1b340f877"></a>
-virtual const <a class="el" href="structxpcc_1_1_header.html">Header</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#ae4f7d00e08a27abdeb9c8ed1b340f877">getPacketHeader</a> () const </td></tr>
-<tr class="memdesc:ae4f7d00e08a27abdeb9c8ed1b340f877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the packet. <br /></td></tr>
-<tr class="separator:ae4f7d00e08a27abdeb9c8ed1b340f877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad01ac41abed6d071ac7ba2477d4f34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ad01ac41abed6d071ac7ba2477d4f34"></a>
-virtual const <a class="el" href="classxpcc_1_1_smart_pointer.html">xpcc::SmartPointer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketPayload</b> () const </td></tr>
-<tr class="separator:a6ad01ac41abed6d071ac7ba2477d4f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bc52c2cb2f3871121ba21b7f4b3ffc2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7bc52c2cb2f3871121ba21b7f4b3ffc2"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>dropPacket</b> ()</td></tr>
-<tr class="separator:a7bc52c2cb2f3871121ba21b7f4b3ffc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fd091275a295d08e27d1c841204e8de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fd091275a295d08e27d1c841204e8de"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
-<tr class="separator:a0fd091275a295d08e27d1c841204e8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd08bd8a48e537bea471862fc1c811f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dd08bd8a48e537bea471862fc1c811f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a9dd08bd8a48e537bea471862fc1c811f">sendPacket</a> (const <a class="el" href="structxpcc_1_1_header.html">Header</a> &amp;header, <a class="el" href="classxpcc_1_1_smart_pointer.html">SmartPointer</a> payload) override</td></tr>
+<tr class="memdesc:a9dd08bd8a48e537bea471862fc1c811f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a Message. <br /></td></tr>
+<tr class="separator:a9dd08bd8a48e537bea471862fc1c811f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b21640c252b2b83429d34490a3e6df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12b21640c252b2b83429d34490a3e6df"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a12b21640c252b2b83429d34490a3e6df">isPacketAvailable</a> () const  override</td></tr>
+<tr class="memdesc:a12b21640c252b2b83429d34490a3e6df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a new packet was received by the backend. <br /></td></tr>
+<tr class="separator:a12b21640c252b2b83429d34490a3e6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b730336bb5ba975a45ff2797128517"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a65b730336bb5ba975a45ff2797128517"></a>
+virtual const <a class="el" href="structxpcc_1_1_header.html">Header</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a65b730336bb5ba975a45ff2797128517">getPacketHeader</a> () const  override</td></tr>
+<tr class="memdesc:a65b730336bb5ba975a45ff2797128517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the packet. <br /></td></tr>
+<tr class="separator:a65b730336bb5ba975a45ff2797128517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d67896893d9365a7f311667c2456865"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d67896893d9365a7f311667c2456865"></a>
+virtual const <a class="el" href="classxpcc_1_1_smart_pointer.html">xpcc::SmartPointer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketPayload</b> () const  override</td></tr>
+<tr class="separator:a4d67896893d9365a7f311667c2456865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5731d201c5611e1333e8aa289dd3793"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5731d201c5611e1333e8aa289dd3793"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>dropPacket</b> () override</td></tr>
+<tr class="separator:aa5731d201c5611e1333e8aa289dd3793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4956a3c202012af87365cf028abf9fde"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4956a3c202012af87365cf028abf9fde"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> () override</td></tr>
+<tr class="separator:a4956a3c202012af87365cf028abf9fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -167,16 +166,9 @@ zmqpp::socket&#160;</td><td class="memItemRight" valign="bottom"><b>socketIn</b>
 <tr class="memitem:a8677e124ff8fbeeeb74d995b226527d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8677e124ff8fbeeeb74d995b226527d4"></a>
 zmqpp::socket&#160;</td><td class="memItemRight" valign="bottom"><b>socketOut</b></td></tr>
 <tr class="separator:a8677e124ff8fbeeeb74d995b226527d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bba4e74dcd62016aa01c5ba128468df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2bba4e74dcd62016aa01c5ba128468df"></a>
-zmqpp::message&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a2bba4e74dcd62016aa01c5ba128468df">message</a></td></tr>
-<tr class="memdesc:a2bba4e74dcd62016aa01c5ba128468df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store one zmqpp message in backend. <br /></td></tr>
-<tr class="separator:a2bba4e74dcd62016aa01c5ba128468df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4a893c3cf78470c5ff862607cee57da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4a893c3cf78470c5ff862607cee57da"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isAvailable</b></td></tr>
-<tr class="separator:ac4a893c3cf78470c5ff862607cee57da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca9bef4ba39548c8c0b96bad6948d0c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca9bef4ba39548c8c0b96bad6948d0c6"></a>
-<a class="el" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html">ReceiveItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>receiveItem</b></td></tr>
-<tr class="separator:aca9bef4ba39548c8c0b96bad6948d0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967551aa0f8d845f111cb42473563c62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a967551aa0f8d845f111cb42473563c62"></a>
+<a class="el" href="classxpcc_1_1_zero_m_q_reader.html">ZeroMQReader</a>&#160;</td><td class="memItemRight" valign="bottom"><b>reader</b></td></tr>
+<tr class="separator:a967551aa0f8d845f111cb42473563c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -189,7 +181,11 @@ Additional Inherited Members</h2></td></tr>
  }<tr class="separator:ae58a11e9ba6204918bc0312f34723c05 inherit pub_types_classxpcc_1_1_zero_m_q_connector_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>strongly-typed </dd>
+<dd>
+Christopher Durand <a href="#" onclick="location.href='mai'+'lto:'+'chr'+'is'+'top'+'he'+'r.d'+'ur'+'and'+'@r'+'wth'+'-a'+'ach'+'en'+'.de'; return false;">chris<span style="display: none;">.nosp@m.</span>toph<span style="display: none;">.nosp@m.</span>er.du<span style="display: none;">.nosp@m.</span>rand<span style="display: none;">.nosp@m.</span>@rwth<span style="display: none;">.nosp@m.</span>-aac<span style="display: none;">.nosp@m.</span>hen.d<span style="display: none;">.nosp@m.</span>e</a> </dd></dl>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>zeromq/connector.hpp</li>
 </ul>
 </div><!-- contents -->
@@ -198,7 +194,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexpcc.html">xpcc</a></li><li class="navelem"><a class="el" href="classxpcc_1_1_zero_m_q_connector.html">ZeroMQConnector</a></li>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:24 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:47 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -15,6 +15,7 @@ var searchData=
   ['bufferedgraphicdisplay',['BufferedGraphicDisplay',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],
   ['bufferedgraphicdisplay_3c_20101_2c_2080_20_3e',['BufferedGraphicDisplay&lt; 101, 80 &gt;',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],
   ['bufferedgraphicdisplay_3c_20128_2c_2064_20_3e',['BufferedGraphicDisplay&lt; 128, 64 &gt;',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],
+  ['bufferedgraphicdisplay_3c_20128_2c_20height_20_3e',['BufferedGraphicDisplay&lt; 128, Height &gt;',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],
   ['bufferedgraphicdisplay_3c_20130_2c_20128_20_3e',['BufferedGraphicDisplay&lt; 130, 128 &gt;',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],
   ['bufferedgraphicdisplay_3c_20132_2c_20176_20_3e',['BufferedGraphicDisplay&lt; 132, 176 &gt;',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],
   ['bufferedgraphicdisplay_3c_20176_2c_20136_20_3e',['BufferedGraphicDisplay&lt; 176, 136 &gt;',['../classxpcc_1_1_buffered_graphic_display.html',1,'xpcc']]],

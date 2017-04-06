@@ -1,8 +1,8 @@
 var classxpcc_1_1bmp085data_1_1_data_base =
 [
-    [ "CALIBRATION_CALCULATED", "classxpcc_1_1bmp085data_1_1_data_base.html#a0ba8c5eeaa139381ca8ad72a16fe1b02a551aa0c911f82dee765b197d92bc4d9f", null ],
-    [ "TEMPERATURE_CALCULATED", "classxpcc_1_1bmp085data_1_1_data_base.html#a0ba8c5eeaa139381ca8ad72a16fe1b02a4cf35690c3ba632b15292cceeeb82547", null ],
-    [ "PRESSURE_CALCULATED", "classxpcc_1_1bmp085data_1_1_data_base.html#a0ba8c5eeaa139381ca8ad72a16fe1b02a7e21dcfd0416df42c757a69053cfc735", null ],
+    [ "CALIBRATION_CALCULATED", "classxpcc_1_1bmp085data_1_1_data_base.html#a499befa7d7a49df96a2547e50e0cba40a551aa0c911f82dee765b197d92bc4d9f", null ],
+    [ "TEMPERATURE_CALCULATED", "classxpcc_1_1bmp085data_1_1_data_base.html#a499befa7d7a49df96a2547e50e0cba40a4cf35690c3ba632b15292cceeeb82547", null ],
+    [ "PRESSURE_CALCULATED", "classxpcc_1_1bmp085data_1_1_data_base.html#a499befa7d7a49df96a2547e50e0cba40a7e21dcfd0416df42c757a69053cfc735", null ],
     [ "getCalibration", "classxpcc_1_1bmp085data_1_1_data_base.html#addc8c4d734f68b5e114d4ea1a4a358d4", null ],
     [ "rawTemperatureTouched", "classxpcc_1_1bmp085data_1_1_data_base.html#ad9540a0fc7dfb7df515ab029eff4df1c", null ],
     [ "rawPressureTouched", "classxpcc_1_1bmp085data_1_1_data_base.html#a5dbffb06c849b468012f82ebc9d437ea", null ],

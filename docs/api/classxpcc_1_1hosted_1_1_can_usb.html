@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>xpcc: xpcc::hosted::CanUsb Class Reference</title>
+<title>xpcc: xpcc::hosted::CanUsb&lt; SerialPort &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('classxpcc_1_1hosted_1_1_can_usb.html',
 <a href="classxpcc_1_1hosted_1_1_can_usb-members.html">List of all members</a> &#124;
 <a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">xpcc::hosted::CanUsb Class Reference</div>  </div>
+<div class="title">xpcc::hosted::CanUsb&lt; SerialPort &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,42 +117,45 @@ $(document).ready(function(){initNavTree('classxpcc_1_1hosted_1_1_can_usb.html',
 
 <p><code>#include &lt;xpcc/architecture/platform/driver/can/canusb/canusb.hpp&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for xpcc::hosted::CanUsb:</div>
+Inheritance diagram for xpcc::hosted::CanUsb&lt; SerialPort &gt;:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classxpcc_1_1hosted_1_1_can_usb.png" usemap="#xpcc::hosted::CanUsb_map" alt=""/>
-  <map id="xpcc::hosted::CanUsb_map" name="xpcc::hosted::CanUsb_map">
-<area href="classxpcc_1_1_can.html" alt="xpcc::Can" shape="rect" coords="0,56,132,80"/>
-<area href="classxpcc_1_1_peripheral.html" title="Peripheral class. " alt="xpcc::Peripheral" shape="rect" coords="0,0,132,24"/>
+  <img src="classxpcc_1_1hosted_1_1_can_usb.png" usemap="#xpcc::hosted::CanUsb&lt; SerialPort &gt;_map" alt=""/>
+  <map id="xpcc::hosted::CanUsb&lt; SerialPort &gt;_map" name="xpcc::hosted::CanUsb&lt; SerialPort &gt;_map">
+<area href="classxpcc_1_1_can.html" alt="xpcc::Can" shape="rect" coords="0,56,212,80"/>
+<area href="classxpcc_1_1_peripheral.html" title="Peripheral class. " alt="xpcc::Peripheral" shape="rect" coords="0,0,212,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aeb7f7bf29543af2622a8e51126eecdbb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb7f7bf29543af2622a8e51126eecdbb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> (std::string deviceName, unsigned int serialBaudRate, <a class="el" href="classxpcc_1_1_can.html#ac1620213e755b5768d5951e93d44a720">xpcc::Can::Bitrate</a> canBitrate=xpcc::Can::kBps125)</td></tr>
-<tr class="separator:aeb7f7bf29543af2622a8e51126eecdbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc682721ef9eebd258084068b949cbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accc682721ef9eebd258084068b949cbd"></a>
+<tr class="memitem:a3d435265d610cc1e408116f71045af3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d435265d610cc1e408116f71045af3b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CanUsb</b> (<a class="el" href="classxpcc_1_1hosted_1_1_serial_port.html">SerialPort</a> &amp;serialPort)</td></tr>
+<tr class="separator:a3d435265d610cc1e408116f71045af3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b96fa69a132efdf6e1c0ffd443dcda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54b96fa69a132efdf6e1c0ffd443dcda"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> (<a class="el" href="classxpcc_1_1_can.html#ac1620213e755b5768d5951e93d44a720">xpcc::Can::Bitrate</a> canBitrate=xpcc::Can::kBps125)</td></tr>
+<tr class="separator:a54b96fa69a132efdf6e1c0ffd443dcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c42a6f9967bb14d034461e9fe73b428"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8c42a6f9967bb14d034461e9fe73b428"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> ()</td></tr>
-<tr class="separator:accc682721ef9eebd258084068b949cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91fe241216b1522648e132ddf7e16c2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91fe241216b1522648e132ddf7e16c2c"></a>
+<tr class="separator:a8c42a6f9967bb14d034461e9fe73b428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0f82ee2cf3d44244fd6c94aa9ff847"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f0f82ee2cf3d44244fd6c94aa9ff847"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isMessageAvailable</b> ()</td></tr>
-<tr class="separator:a91fe241216b1522648e132ddf7e16c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30479ef0cba01c073b0e4792f50214e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac30479ef0cba01c073b0e4792f50214e"></a>
+<tr class="separator:a3f0f82ee2cf3d44244fd6c94aa9ff847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f51899e513513ff0644ccdabb977fe6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f51899e513513ff0644ccdabb977fe6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>getMessage</b> (<a class="el" href="structxpcc_1_1can_1_1_message.html">can::Message</a> &amp;message)</td></tr>
-<tr class="separator:ac30479ef0cba01c073b0e4792f50214e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93c039cf86fcbfec61c0162b4135bec7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93c039cf86fcbfec61c0162b4135bec7"></a>
+<tr class="separator:a1f51899e513513ff0644ccdabb977fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6004098198eeecb6d946279d4c7e90"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea6004098198eeecb6d946279d4c7e90"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isReadyToSend</b> ()</td></tr>
-<tr class="separator:a93c039cf86fcbfec61c0162b4135bec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f6498972ba1ad3c5fa1bba47683fbf1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f6498972ba1ad3c5fa1bba47683fbf1"></a>
+<tr class="separator:aea6004098198eeecb6d946279d4c7e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80d4f0ae1d73ddeee46f419b3148e0b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae80d4f0ae1d73ddeee46f419b3148e0b"></a>
 <a class="el" href="classxpcc_1_1_can.html#a16107bae38ba2a85ce09048e35ede50f">BusState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getBusState</b> ()</td></tr>
-<tr class="separator:a4f6498972ba1ad3c5fa1bba47683fbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae88281d582fb4f257c98dc4a8f95b989"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae88281d582fb4f257c98dc4a8f95b989"></a>
+<tr class="separator:ae80d4f0ae1d73ddeee46f419b3148e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a548a69427c1db258bebb13ab3e9066ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a548a69427c1db258bebb13ab3e9066ca"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>sendMessage</b> (const <a class="el" href="structxpcc_1_1can_1_1_message.html">can::Message</a> &amp;message)</td></tr>
-<tr class="separator:ae88281d582fb4f257c98dc4a8f95b989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cfca34c56fa48020699330bab6bb2fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6cfca34c56fa48020699330bab6bb2fe"></a>
+<tr class="separator:a548a69427c1db258bebb13ab3e9066ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7a971cedf1dbef5f006701a87fd577"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e7a971cedf1dbef5f006701a87fd577"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isOpen</b> ()</td></tr>
-<tr class="separator:a6cfca34c56fa48020699330bab6bb2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a3e7a971cedf1dbef5f006701a87fd577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -237,7 +240,10 @@ static <a class="el" href="classxpcc_1_1_can.html#a16107bae38ba2a85ce09048e35ede
 <tr class="separator:a6333658727bd8ed30333f0b0e3165d56 inherit pub_static_methods_classxpcc_1_1_peripheral"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section see"><dt>See also</dt><dd><a href="http://www.canusb.com/">http://www.canusb.com/</a> </dd>
+<div class="textblock"><h3>template&lt;typename SerialPort&gt;<br />
+class xpcc::hosted::CanUsb&lt; SerialPort &gt;</h3>
+
+<dl class="section see"><dt>See also</dt><dd><a href="http://www.canusb.com/">http://www.canusb.com/</a> </dd>
 <dd>
 <a href="http://www.can232.com/">http://www.can232.com/</a> </dd></dl>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
@@ -249,7 +255,7 @@ static <a class="el" href="classxpcc_1_1_can.html#a16107bae38ba2a85ce09048e35ede
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexpcc.html">xpcc</a></li><li class="navelem"><b>hosted</b></li><li class="navelem"><a class="el" href="classxpcc_1_1hosted_1_1_can_usb.html">CanUsb</a></li>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:24 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:48 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

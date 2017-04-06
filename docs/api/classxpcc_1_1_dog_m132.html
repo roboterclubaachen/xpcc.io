@@ -349,6 +349,13 @@ static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>getFontHeig
 <tr class="memitem:aa8dbed9c3fb51a7c0a941f298f70e08a inherit pub_static_methods_classxpcc_1_1_graphic_display"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8dbed9c3fb51a7c0a941f298f70e08a"></a>
 static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>getStringWidth</b> (const char *s, const <a class="el" href="classxpcc_1_1accessor_1_1_flash.html">xpcc::accessor::Flash</a>&lt; uint8_t &gt; *font)</td></tr>
 <tr class="separator:aa8dbed9c3fb51a7c0a941f298f70e08a inherit pub_static_methods_classxpcc_1_1_graphic_display"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classxpcc_1_1_buffered_graphic_display"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classxpcc_1_1_buffered_graphic_display')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classxpcc_1_1_buffered_graphic_display.html">xpcc::BufferedGraphicDisplay&lt; Width, Height &gt;</a></td></tr>
+<tr class="memitem:a53b5e0aa508a3f0d5badb6bb85fc7dd2 inherit pub_static_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53b5e0aa508a3f0d5badb6bb85fc7dd2"></a>
+static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayBufferWidth</b></td></tr>
+<tr class="separator:a53b5e0aa508a3f0d5badb6bb85fc7dd2 inherit pub_static_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827e83ddfaa45e58248b9182a4af541e inherit pub_static_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a827e83ddfaa45e58248b9182a4af541e"></a>
+static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>DisplayBufferHeight</b></td></tr>
+<tr class="separator:a827e83ddfaa45e58248b9182a4af541e inherit pub_static_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_classxpcc_1_1_i_o_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classxpcc_1_1_i_o_stream')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classxpcc_1_1_i_o_stream.html">xpcc::IOStream</a></td></tr>
 <tr class="memitem:abf5872f31d63925de4a1cbb624722e07 inherit pub_static_attribs_classxpcc_1_1_i_o_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abf5872f31d63925de4a1cbb624722e07"></a>
 static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><b>eof</b></td></tr>
@@ -435,9 +442,9 @@ A0&#160;</td><td class="memItemRight" valign="bottom"><b>a0</b></td></tr>
 Reset&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b></td></tr>
 <tr class="separator:a65e0456a44b286ec4495bc1eb3d2c95d inherit pro_attribs_classxpcc_1_1_st7565"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classxpcc_1_1_buffered_graphic_display"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classxpcc_1_1_buffered_graphic_display')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classxpcc_1_1_buffered_graphic_display.html">xpcc::BufferedGraphicDisplay&lt; Width, Height &gt;</a></td></tr>
-<tr class="memitem:a66a0b1039a5e809661d2947da9334419 inherit pro_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66a0b1039a5e809661d2947da9334419"></a>
-uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>buffer</b> [Width][Height/8]</td></tr>
-<tr class="separator:a66a0b1039a5e809661d2947da9334419 inherit pro_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe2e54d8570e0b52d9782794408bb5a0 inherit pro_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe2e54d8570e0b52d9782794408bb5a0"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>display_buffer</b> [DisplayBufferWidth][DisplayBufferHeight]</td></tr>
+<tr class="separator:abe2e54d8570e0b52d9782794408bb5a0 inherit pro_attribs_classxpcc_1_1_buffered_graphic_display"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classxpcc_1_1_graphic_display"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classxpcc_1_1_graphic_display')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classxpcc_1_1_graphic_display.html">xpcc::GraphicDisplay</a></td></tr>
 <tr class="memitem:ac05851329360834084f70e065c22fc04 inherit pro_attribs_classxpcc_1_1_graphic_display"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac05851329360834084f70e065c22fc04"></a>
 <a class="el" href="classxpcc_1_1_graphic_display_1_1_writer.html">Writer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>writer</b></td></tr>
@@ -499,7 +506,7 @@ template&lt;typename SPI , typename CS , typename A0 , typename Reset , bool Top
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexpcc.html">xpcc</a></li><li class="navelem"><a class="el" href="classxpcc_1_1_dog_m132.html">DogM132</a></li>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:22 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:45 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

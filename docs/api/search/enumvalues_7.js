@@ -22,7 +22,7 @@ var searchData=
   ['hr',['HR',['../structxpcc_1_1lsm303a.html#ae46272b809c40d87fda04118c11d6199afd4c638da5f85d025963f99fe90b1b1a',1,'xpcc::lsm303a']]],
   ['hse',['Hse',['../classxpcc_1_1stm32_1_1_clock_control.html#a5b7943b534853842fd172fff16252caea0d4974e80aab38d8022f8ede1bc341d9',1,'xpcc::stm32::ClockControl']]],
   ['hsi',['Hsi',['../classxpcc_1_1stm32_1_1_clock_control.html#a5b7943b534853842fd172fff16252caeaf64f870a6c6382171f97e8d8b691ff9d',1,'xpcc::stm32::ClockControl']]],
-  ['humidity_5fcalculated',['HUMIDITY_CALCULATED',['../structxpcc_1_1bme280data_1_1_data_base.html#a375b0a315017c21f1909434b64d7d268add2955312dc7c74919541d5ae940bce9',1,'xpcc::bme280data::DataBase']]],
+  ['humidity_5fcalculated',['HUMIDITY_CALCULATED',['../structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2add2955312dc7c74919541d5ae940bce9',1,'xpcc::bme280data::DataBase']]],
   ['hz190',['Hz190',['../structxpcc_1_1l3gd20.html#ad28482a94ba45a2a526080b978167402ae9d3ac8c6ff252a5c99215cf094c9d70',1,'xpcc::l3gd20']]],
   ['hz380',['Hz380',['../structxpcc_1_1l3gd20.html#ad28482a94ba45a2a526080b978167402a28c83785dd328a058aea1937a1c96751',1,'xpcc::l3gd20']]],
   ['hz760',['Hz760',['../structxpcc_1_1l3gd20.html#ad28482a94ba45a2a526080b978167402aad467e433ac7a27d677e1e6ec1e42061',1,'xpcc::l3gd20']]],

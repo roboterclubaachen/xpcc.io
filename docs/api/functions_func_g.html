@@ -158,10 +158,11 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classxpcc_1_1_generic_timestamp.html#a3abebd7b541c932beb74cde10ea570d5">xpcc::GenericTimestamp&lt; T &gt;</a>
 </li>
 <li>get()
-: <a class="el" href="structxpcc_1_1_configuration.html#a228d0261bee36398969b2d905d977a57">xpcc::Configuration&lt; Parent, Enum, Mask, Position &gt;</a>
+: <a class="el" href="classxpcc_1_1_bounded_deque.html#a391333d995d96f0d7ec8ea9e90d6e49e">xpcc::BoundedDeque&lt; T, N &gt;</a>
+, <a class="el" href="structxpcc_1_1_configuration.html#a228d0261bee36398969b2d905d977a57">xpcc::Configuration&lt; Parent, Enum, Mask, Position &gt;</a>
 , <a class="el" href="classxpcc_1_1gui_1_1_gui_view_stack.html#a01bdd4c66ff8deea95c4c102e1a16e70">xpcc::gui::GuiViewStack</a>
 , <a class="el" href="classxpcc_1_1_i_o_stream.html#a95a5dd04b4de588333fa706669ca6adc">xpcc::IOStream</a>
-, <a class="el" href="classxpcc_1_1_queue.html#a975de4f4684089135fc87aa159403f87">xpcc::Queue&lt; T, Container &gt;</a>
+, <a class="el" href="classxpcc_1_1_queue.html#adf6c9fea53aa053c3f377dd861521697">xpcc::Queue&lt; T, Container &gt;</a>
 , <a class="el" href="classxpcc_1_1_smart_pointer.html#a0911da2b2ee98b67c49c3bd7b96e9e05">xpcc::SmartPointer</a>
 , <a class="el" href="structxpcc_1_1_value.html#a1d74c386f17b8de594acdae38534f45d">xpcc::Value&lt; Parent, Width, Position &gt;</a>
 , <a class="el" href="classxpcc_1_1_view_stack.html#a86cd18412f27b69657b413526c067487">xpcc::ViewStack</a>
@@ -234,6 +235,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="classxpcc_1_1_lis302dl.html#ae47dbd182044ba027740f9ef17916678">xpcc::Lis302dl&lt; Transport &gt;</a>
 , <a class="el" href="classxpcc_1_1_lis3dsh.html#a22fbc6efa20aa5a01e2a095f2dda2feb">xpcc::Lis3dsh&lt; Transport &gt;</a>
 , <a class="el" href="classxpcc_1_1_lsm303a.html#a1e70f53450ecb38ceeb39a70c7110d8b">xpcc::Lsm303a&lt; I2cMaster &gt;</a>
+, <a class="el" href="classxpcc_1_1_vl53l0.html#ad77eba332a9ba2f102236f2c989cd634">xpcc::Vl53l0&lt; I2cMaster &gt;</a>
 , <a class="el" href="classxpcc_1_1_vl6180.html#ac656029ca190e42b844fdaf91b0ab17b">xpcc::Vl6180&lt; I2cMaster &gt;</a>
 </li>
 <li>getDataOrder()
@@ -257,7 +259,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classxpcc_1_1_view_stack.html#a3349dbfa59503e5450617386524d59ce">xpcc::ViewStack</a>
 </li>
 <li>getDistance()
-: <a class="el" href="structxpcc_1_1vl6180_1_1_data.html#a2f7ea4d41bb82e8f66d3338da50ef26e">xpcc::vl6180::Data</a>
+: <a class="el" href="structxpcc_1_1vl53l0_1_1_data.html#a323289df22b5c04aaa2de49eb07e668f">xpcc::vl53l0::Data</a>
+, <a class="el" href="structxpcc_1_1vl6180_1_1_data.html#a2f7ea4d41bb82e8f66d3338da50ef26e">xpcc::vl6180::Data</a>
 </li>
 <li>getDistanceTo()
 : <a class="el" href="classxpcc_1_1_line2_d.html#abf9cd9157f2579a8080e9f487cf54469">xpcc::Line2D&lt; T &gt;</a>
@@ -347,6 +350,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="structxpcc_1_1hmc58x3_1_1_data.html#ab21b578675b9cf1be7e9c371844e3de8">xpcc::hmc58x3::Data</a>
 , <a class="el" href="structxpcc_1_1hmc6343_1_1_data.html#a2151807a8da738da93ee568e0f0f3431">xpcc::hmc6343::Data</a>
 </li>
+<li>getMaxMeasurementTime()
+: <a class="el" href="classxpcc_1_1_vl53l0.html#abc6deef8aff2cfebb3c5d35d2b26bb61">xpcc::Vl53l0&lt; I2cMaster &gt;</a>
+</li>
 <li>getMaxPayload()
 : <a class="el" href="classxpcc_1_1_nrf24_phy.html#a2ca84f32afa1d6d29dec477a7c566449">xpcc::Nrf24Phy&lt; Spi, Csn, Ce &gt;</a>
 </li>
@@ -375,7 +381,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="classxpcc_1_1_backend_interface.html#a3a0b8535084fbbaba53dddb2b2add522">xpcc::BackendInterface</a>
 , <a class="el" href="classxpcc_1_1_can_connector.html#ad82a70b592bfdb17dca6e978f78f71a0">xpcc::CanConnector&lt; Driver &gt;</a>
 , <a class="el" href="classxpcc_1_1_tipc_connector.html#a5932c05080def0354296be517372af97">xpcc::TipcConnector</a>
-, <a class="el" href="classxpcc_1_1_zero_m_q_connector.html#ae4f7d00e08a27abdeb9c8ed1b340f877">xpcc::ZeroMQConnector</a>
+, <a class="el" href="classxpcc_1_1_zero_m_q_connector.html#a65b730336bb5ba975a45ff2797128517">xpcc::ZeroMQConnector</a>
 </li>
 <li>getPacketPayload()
 : <a class="el" href="classxpcc_1_1_tipc_connector.html#acd65aa0903415f9fe99c20e54b8eaac5">xpcc::TipcConnector</a>
@@ -537,7 +543,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:31 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:53 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

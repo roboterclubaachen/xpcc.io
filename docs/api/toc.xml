@@ -1781,14 +1781,16 @@
         <topic label="Assertions" href="group__assert.html">
           <topic label="XPCC_ASSERTION_HANDLER" href="group__assert.html#ga1d8bd45189e1cbc6d32b95c2bf85cb97"/>
           <topic label="xpcc_assert" href="group__assert.html#ga8a3e17e2707972a55df6ee38d6fe2d83"/>
+          <topic label="xpcc_assert" href="group__assert.html#ga9cdc7cc42c106346d7036e27a854df22"/>
           <topic label="xpcc_assert_debug" href="group__assert.html#ga40eb96aa4afcb2612e6aa25aa389799d"/>
-          <topic label="AssertionHandler" href="group__assert.html#gaed0004ddb2318d3364a1671e9b296705"/>
+          <topic label="xpcc_assert_debug" href="group__assert.html#ga18a7be640d5d3f7bdceeb904bc5af55e"/>
+          <topic label="AssertionHandler" href="group__assert.html#ga988cd3b4cd071fe274541cc7c1254aa0"/>
           <topic label="Abandonment" href="group__assert.html#ga9a202ea2e6bc29f5188f3a5c3906115a">
             <topic label="DontCare" href="group__assert.html#gga9a202ea2e6bc29f5188f3a5c3906115aa60a3629ef6a8f991f45d7a85f2458544"/>
             <topic label="Ignore" href="group__assert.html#gga9a202ea2e6bc29f5188f3a5c3906115aafd038fc7f319e48f3115d92bf5bdbef9"/>
             <topic label="Fail" href="group__assert.html#gga9a202ea2e6bc29f5188f3a5c3906115aaceaa0734f0b3c738120c67344d8f3ec1"/>
           </topic>
-          <topic label="xpcc_abandon" href="group__assert.html#gab685d7ee0b21716167dc4a1425c68cce"/>
+          <topic label="xpcc_abandon" href="group__assert.html#gac9061133158ca125b2eb9d9e79100fef"/>
         </topic>
         <topic label="Controller Area Network (CAN)" href="group__can.html">
           <topic label="Can" href="classxpcc_1_1_can.html">
@@ -2132,7 +2134,7 @@
             <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a49e2aabf030051119cb88c4e7d12bfb9"/>
             <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#af804df27a2608832c2a09d36096ba6f7"/>
             <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a96614d3ba9a626c9b32c68577554bb72"/>
-            <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a9e0bd8145c4fdeb37944758e83505518"/>
+            <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a4c1dddde91cdb4ecee8a850b1d4de302"/>
           </topic>
           <topic label="Configuration" href="structxpcc_1_1_configuration.html">
             <topic label="Configuration" href="structxpcc_1_1_configuration.html#a33e82b594c0143d24ac417e2bf63c5bf"/>
@@ -2574,6 +2576,36 @@
             <topic label="update" href="classxpcc_1_1_tipc_connector.html#a8de087abddb10352dee3e0b5bbae93e7"/>
             <topic label="sendPacket" href="classxpcc_1_1_tipc_connector.html#a76f7e663797f55fef9a43378d902937d"/>
           </topic>
+          <topic label="ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html">
+            <topic label="ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html#ad5234fe1fee59e5fb75e3f1e611b327d"/>
+            <topic label="~ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html#ad8342473c74376c8df9deb65c6f26ee8"/>
+            <topic label="sendPacket" href="classxpcc_1_1_zero_m_q_connector.html#a9dd08bd8a48e537bea471862fc1c811f"/>
+            <topic label="isPacketAvailable" href="classxpcc_1_1_zero_m_q_connector.html#a12b21640c252b2b83429d34490a3e6df"/>
+            <topic label="getPacketHeader" href="classxpcc_1_1_zero_m_q_connector.html#a65b730336bb5ba975a45ff2797128517"/>
+            <topic label="getPacketPayload" href="classxpcc_1_1_zero_m_q_connector.html#a4d67896893d9365a7f311667c2456865"/>
+            <topic label="dropPacket" href="classxpcc_1_1_zero_m_q_connector.html#aa5731d201c5611e1333e8aa289dd3793"/>
+            <topic label="update" href="classxpcc_1_1_zero_m_q_connector.html#a4956a3c202012af87365cf028abf9fde"/>
+            <topic label="context" href="classxpcc_1_1_zero_m_q_connector.html#a93f7e85aef9340361f3c9cda8fd3977d"/>
+            <topic label="socketIn" href="classxpcc_1_1_zero_m_q_connector.html#a937b3218e2a8ffa8e6c748d2b84d131c"/>
+            <topic label="socketOut" href="classxpcc_1_1_zero_m_q_connector.html#a8677e124ff8fbeeeb74d995b226527d4"/>
+            <topic label="reader" href="classxpcc_1_1_zero_m_q_connector.html#a967551aa0f8d845f111cb42473563c62"/>
+          </topic>
+          <topic label="Packet" href="structxpcc_1_1_zero_m_q_reader_1_1_packet.html">
+            <topic label="Packet" href="structxpcc_1_1_zero_m_q_reader_1_1_packet.html#a2a30a26df9906e6f22f1772790f3976b"/>
+            <topic label="header" href="structxpcc_1_1_zero_m_q_reader_1_1_packet.html#ad5d7b693f84c7b5f052e73221ba0048c"/>
+            <topic label="payload" href="structxpcc_1_1_zero_m_q_reader_1_1_packet.html#a3cb2f0cff68d27709b93a40c52ba27e6"/>
+          </topic>
+          <topic label="ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html">
+            <topic label="ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html#ac911c0df669ad316d5689e1804eb5f08"/>
+            <topic label="~ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html#a492cfe28c37b6b55f5e1fa6df78afd16"/>
+            <topic label="ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html#a7567d275133cb0b39dd016988bc160b5"/>
+            <topic label="operator=" href="classxpcc_1_1_zero_m_q_reader.html#a91f5a0d223bf5fd79a0e0eff27bf645d"/>
+            <topic label="start" href="classxpcc_1_1_zero_m_q_reader.html#a76f99d7fd74eb28828ec1484a174243e"/>
+            <topic label="stop" href="classxpcc_1_1_zero_m_q_reader.html#af37c7fb70ad6609dc88532e906e4d2ae"/>
+            <topic label="isPacketAvailable" href="classxpcc_1_1_zero_m_q_reader.html#aba5df65c12f110b256cccdd12f790881"/>
+            <topic label="getPacket" href="classxpcc_1_1_zero_m_q_reader.html#ac1dc2bb2b4eda641f3e6e4ff22ddc51b"/>
+            <topic label="dropPacket" href="classxpcc_1_1_zero_m_q_reader.html#a7ea837cc9c87d1d4fb02435f9fd09d01"/>
+          </topic>
           <topic label="(TIPC) Transparent Inter-Process Communication" href="group__tipc.html">
             <topic label="Header" href="structxpcc_1_1tipc_1_1_header.html">
               <topic label="DOMAIN_ID_UNDEFINED" href="structxpcc_1_1tipc_1_1_header.html#a67aa79f9eec3ed7357d650981c38f1e1a23c5d24a117117c2cf01ea4eac87942d"/>
@@ -2646,10 +2678,18 @@
         <topic label="clear" href="classxpcc_1_1_bounded_deque.html#afa56fa09f5ab18a6c2eeda8e67173158"/>
         <topic label="getFront" href="classxpcc_1_1_bounded_deque.html#aab18cf0f608383b1a719849b77afb5f2"/>
         <topic label="getFront" href="classxpcc_1_1_bounded_deque.html#a75408b721464f4df586e2a6e92734014"/>
+        <topic label="get" href="classxpcc_1_1_bounded_deque.html#a391333d995d96f0d7ec8ea9e90d6e49e"/>
+        <topic label="get" href="classxpcc_1_1_bounded_deque.html#aa0e175e9bec2bd15412344e44afe5f8e"/>
+        <topic label="operator[]" href="classxpcc_1_1_bounded_deque.html#a6b15bed4c9d6e3122e42cf45dd739ad6"/>
+        <topic label="operator[]" href="classxpcc_1_1_bounded_deque.html#a010f95f62807c8c225816af7dfc3a7f0"/>
+        <topic label="rget" href="classxpcc_1_1_bounded_deque.html#a50b453454ee6c4b2c9780b20baa7c3fd"/>
+        <topic label="rget" href="classxpcc_1_1_bounded_deque.html#a90a336134ba3e9533b38793d4baf29d7"/>
         <topic label="getBack" href="classxpcc_1_1_bounded_deque.html#a4e3f619cc20de62b076eed645faab79c"/>
         <topic label="getBack" href="classxpcc_1_1_bounded_deque.html#a77d22c7b33d591e07f0af092e36b3ac0"/>
         <topic label="append" href="classxpcc_1_1_bounded_deque.html#aaf31a5b67ebc144acbbab00b33656d28"/>
+        <topic label="appendOverwrite" href="classxpcc_1_1_bounded_deque.html#acec35598f10e247b96012986ac4b23d9"/>
         <topic label="prepend" href="classxpcc_1_1_bounded_deque.html#a4cdeee12310fd76e45a03d107be2a2df"/>
+        <topic label="prependOverwrite" href="classxpcc_1_1_bounded_deque.html#ad53bf4356666807136a2b2fb2e39c9f2"/>
         <topic label="removeBack" href="classxpcc_1_1_bounded_deque.html#aa6d63eacd20be99f69b11daf4d4f5603"/>
         <topic label="removeFront" href="classxpcc_1_1_bounded_deque.html#a46af3ea80511e3a027cd934f34907ed7"/>
         <topic label="begin" href="classxpcc_1_1_bounded_deque.html#ad2172c03971e1fe54c27965a4b196ffc"/>
@@ -3017,22 +3057,22 @@
           <topic label="lcdSettings" href="classxpcc_1_1_siemens_s65_common.html#ac188813dca9f27da5583339582bb3488"/>
         </topic>
         <topic label="Ssd1306" href="classxpcc_1_1_ssd1306.html">
-          <topic label="Ssd1306" href="classxpcc_1_1_ssd1306.html#a6fe2896b16d08aca842527f9bd12448c"/>
-          <topic label="pingBlocking" href="classxpcc_1_1_ssd1306.html#a3125a5b559632cc5a730be20fa628682"/>
-          <topic label="initializeBlocking" href="classxpcc_1_1_ssd1306.html#a63ac8b3f7a5683522b5ee71e342fd1e2"/>
-          <topic label="update" href="classxpcc_1_1_ssd1306.html#ae30a08127cdf5cf21fe4145e130f0960"/>
-          <topic label="isWritable" href="classxpcc_1_1_ssd1306.html#a8f6b344faa507b399e5e34f056cbdc48"/>
-          <topic label="initialize" href="classxpcc_1_1_ssd1306.html#a7f5ce249ea06a47d77115074668f9edc"/>
-          <topic label="writeDisplay" href="classxpcc_1_1_ssd1306.html#afbbfe8fa441e8fba9fcbaf07ad399b98"/>
-          <topic label="setDisplayMode" href="classxpcc_1_1_ssd1306.html#a2e77c8463f4e3506b7f0b6eaef9cda00"/>
-          <topic label="setContrast" href="classxpcc_1_1_ssd1306.html#a7db0cab155d1b9289bd5e2fdba2c15b2"/>
-          <topic label="setRotation" href="classxpcc_1_1_ssd1306.html#aef0f8e0974ecc59f51654f198b134d08"/>
-          <topic label="configureScroll" href="classxpcc_1_1_ssd1306.html#ac81cc7758bdd7af776b2351737e7a4c5"/>
-          <topic label="enableScroll" href="classxpcc_1_1_ssd1306.html#a85caea52c276c3d01ef1e08ceeff0d32"/>
-          <topic label="disableScroll" href="classxpcc_1_1_ssd1306.html#abac1e42775c1e7b98265197c5390e878"/>
-          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#aa43f74ca46362e18f44321dcde358785"/>
-          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a3c74f0018a618585be6bff4541a19e00"/>
-          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a22ec5760ec7d4c877a694774ef8007b9"/>
+          <topic label="Ssd1306" href="classxpcc_1_1_ssd1306.html#a5113e400aa2ef0596b753aa7c27b106d"/>
+          <topic label="pingBlocking" href="classxpcc_1_1_ssd1306.html#aac4a43f45c9f3b46ab23faa6e02b461c"/>
+          <topic label="initializeBlocking" href="classxpcc_1_1_ssd1306.html#aad88a6a7a16c90877336d937abbe36e3"/>
+          <topic label="update" href="classxpcc_1_1_ssd1306.html#a8269dd957a47c4074e7cc269482bc05b"/>
+          <topic label="isWritable" href="classxpcc_1_1_ssd1306.html#a511493c4b9034faee348f7b0668f7305"/>
+          <topic label="initialize" href="classxpcc_1_1_ssd1306.html#aedd344c38942fa6196543877510cf6e9"/>
+          <topic label="writeDisplay" href="classxpcc_1_1_ssd1306.html#aad724b286946e4c2aca609c97e6bb072"/>
+          <topic label="setDisplayMode" href="classxpcc_1_1_ssd1306.html#ad169e6b81a4f50cf147a3ce663a45905"/>
+          <topic label="setContrast" href="classxpcc_1_1_ssd1306.html#a112a648be1028442cf6422b0f8e704d3"/>
+          <topic label="setRotation" href="classxpcc_1_1_ssd1306.html#ac53b8c13ebb2396c43aa82f8602b09c5"/>
+          <topic label="configureScroll" href="classxpcc_1_1_ssd1306.html#a209523e37c1581f0bb034b7b245dcd61"/>
+          <topic label="enableScroll" href="classxpcc_1_1_ssd1306.html#ac4e5fd6baadac023e541a4be7f5214f1"/>
+          <topic label="disableScroll" href="classxpcc_1_1_ssd1306.html#a81c030614399b137f166a771c0d764a8"/>
+          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a20cf7a2d9d70ce69796c44fa62c2849b"/>
+          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#ad77b2420be2c98de459756e9c13c7402"/>
+          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a8f3474c236f85b2401fa23f15b344c83"/>
         </topic>
         <topic label="St7036" href="classxpcc_1_1_st7036.html">
           <topic label="St7036" href="classxpcc_1_1_st7036.html#af62d293b7cbd583ec81bbe93354df14e"/>
@@ -3793,6 +3833,18 @@
         </topic>
       </topic>
       <topic label="Position sensors" href="group__driver__position.html">
+        <topic label="Vl53l0" href="classxpcc_1_1_vl53l0.html">
+          <topic label="Vl53l0" href="classxpcc_1_1_vl53l0.html#a493d95fb46e4743d48654cc29cdf1436"/>
+          <topic label="ping" href="classxpcc_1_1_vl53l0.html#a7690693dc3320b0aee5424db103a8fa1"/>
+          <topic label="initialize" href="classxpcc_1_1_vl53l0.html#a6aed3c7b2a489c440beb381a8219aefe"/>
+          <topic label="setDeviceAddress" href="classxpcc_1_1_vl53l0.html#a6314ddf84c8d8f62c833f2adc0e43c2a"/>
+          <topic label="readDistance" href="classxpcc_1_1_vl53l0.html#a393c549390eb6045d1a8d66072fa554c"/>
+          <topic label="getRangeError" href="classxpcc_1_1_vl53l0.html#a25eaa22df8e039b5b9ad119558761185"/>
+          <topic label="updateRegister" href="classxpcc_1_1_vl53l0.html#aa3b72e103f5459a22c9232229b17096b"/>
+          <topic label="getData" href="classxpcc_1_1_vl53l0.html#ad77eba332a9ba2f102236f2c989cd634"/>
+          <topic label="setMaxMeasurementTime" href="classxpcc_1_1_vl53l0.html#a115072359ea63862b41f2fa7ec635ccf"/>
+          <topic label="getMaxMeasurementTime" href="classxpcc_1_1_vl53l0.html#abc6deef8aff2cfebb3c5d35d2b26bb61"/>
+        </topic>
         <topic label="Vl6180" href="classxpcc_1_1_vl6180.html">
           <topic label="Vl6180" href="classxpcc_1_1_vl6180.html#a50252a5cfdda3f6d5fe703a8b5f3b3d7"/>
           <topic label="ping" href="classxpcc_1_1_vl6180.html#a7c8597829fc80232846aa75553c27cf3"/>
@@ -4981,7 +5033,7 @@
           <topic label="setPixel" href="classxpcc_1_1_buffered_graphic_display.html#abda3c8c8c264d01b494b65f93754dc4b"/>
           <topic label="clearPixel" href="classxpcc_1_1_buffered_graphic_display.html#a353598d6769984a4e4fb2fe57e46d458"/>
           <topic label="getPixel" href="classxpcc_1_1_buffered_graphic_display.html#a4d1934411448299a6d37e3e230aa7215"/>
-          <topic label="buffer" href="classxpcc_1_1_buffered_graphic_display.html#a66a0b1039a5e809661d2947da9334419"/>
+          <topic label="display_buffer" href="classxpcc_1_1_buffered_graphic_display.html#abe2e54d8570e0b52d9782794408bb5a0"/>
         </topic>
         <topic label="Writer" href="classxpcc_1_1_character_display_1_1_writer.html">
           <topic label="Writer" href="classxpcc_1_1_character_display_1_1_writer.html#a46095de6897d013589dea346294e0fc3"/>
@@ -5499,53 +5551,53 @@
           <topic label="Result" href="group__tmp.html#a0b8288c3e1d14be4a75e6a90ee0fb0ce"/>
         </topic>
         <topic label="SameType" href="group__tmp.html#structxpcc_1_1tmp_1_1_same_type">
-          <topic label="value" href="group__tmp.html#a838488566bd3db212140cba7531d071baca17253c0aeefe215ca376ca6edcc125"/>
+          <topic label="value" href="group__tmp.html#a911a9a5b3a2568e93bfafc62d8a4220daca17253c0aeefe215ca376ca6edcc125"/>
         </topic>
         <topic label="SameType&lt; T, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_same_type_3_01_t_00_01_t_01_4">
-          <topic label="value" href="group__tmp.html#afb6ecbf95660c62dec0d6cb9ac0cba20a34cdcd581da56443fd89ba090c722676"/>
+          <topic label="value" href="group__tmp.html#aeb015fe8bd866fad457e3928a7b45767a34cdcd581da56443fd89ba090c722676"/>
         </topic>
         <topic label="Conversion" href="group__tmp.html#classxpcc_1_1tmp_1_1_conversion">
-          <topic label="exists" href="group__tmp.html#afb5c9051eaf23f2aecbce9c5691b491cadbe1485d1bf8da88be27937665aeded9"/>
-          <topic label="existsBothWays" href="group__tmp.html#afb5c9051eaf23f2aecbce9c5691b491ca161df622500b1bbb8536d50e6f8fbfbb"/>
-          <topic label="isSameType" href="group__tmp.html#afb5c9051eaf23f2aecbce9c5691b491caf375a24b327c462c7e6ad2bd8389b916"/>
+          <topic label="exists" href="group__tmp.html#aed3baba30bdbc8dee87c727a5ced63e5adbe1485d1bf8da88be27937665aeded9"/>
+          <topic label="existsBothWays" href="group__tmp.html#aed3baba30bdbc8dee87c727a5ced63e5a161df622500b1bbb8536d50e6f8fbfbb"/>
+          <topic label="isSameType" href="group__tmp.html#aed3baba30bdbc8dee87c727a5ced63e5af375a24b327c462c7e6ad2bd8389b916"/>
         </topic>
         <topic label="Conversion&lt; T, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01_t_01_4">
-          <topic label="exists" href="group__tmp.html#ad266cc479189076c6967a5f1cda7b1aca0bb412ba7982843dc7a44b904c3a75e5"/>
-          <topic label="existsBothWays" href="group__tmp.html#ad266cc479189076c6967a5f1cda7b1acad90b2d21182d0e0dab1888ca0a66c14d"/>
-          <topic label="isSameType" href="group__tmp.html#ad266cc479189076c6967a5f1cda7b1acafc49d53d39fcb440e62d95b3a127b749"/>
+          <topic label="exists" href="group__tmp.html#a4e31c9d6bb1cf9ffaf2d17ad7000133ea0bb412ba7982843dc7a44b904c3a75e5"/>
+          <topic label="existsBothWays" href="group__tmp.html#a4e31c9d6bb1cf9ffaf2d17ad7000133ead90b2d21182d0e0dab1888ca0a66c14d"/>
+          <topic label="isSameType" href="group__tmp.html#a4e31c9d6bb1cf9ffaf2d17ad7000133eafc49d53d39fcb440e62d95b3a127b749"/>
         </topic>
         <topic label="Conversion&lt; void, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01void_00_01_t_01_4">
-          <topic label="exists" href="group__tmp.html#a2b0af30f3e5eb5e11c63444e9279f2f2aeb82d423250098c01858da57fc26e6d8"/>
-          <topic label="existsBothWays" href="group__tmp.html#a2b0af30f3e5eb5e11c63444e9279f2f2a730999a8a8beec5d237ff6270843c398"/>
-          <topic label="isSameType" href="group__tmp.html#a2b0af30f3e5eb5e11c63444e9279f2f2a577dff6f4a992243b33687181ad7b9ff"/>
+          <topic label="exists" href="group__tmp.html#a390448c832e0614e1abc738134b69957aeb82d423250098c01858da57fc26e6d8"/>
+          <topic label="existsBothWays" href="group__tmp.html#a390448c832e0614e1abc738134b69957a730999a8a8beec5d237ff6270843c398"/>
+          <topic label="isSameType" href="group__tmp.html#a390448c832e0614e1abc738134b69957a577dff6f4a992243b33687181ad7b9ff"/>
         </topic>
         <topic label="Conversion&lt; T, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01void_01_4">
-          <topic label="exists" href="group__tmp.html#a5cd7cb9b61add871c53a3405a1b56b36a661b3b1fa4f23e978ed7b4550683a30c"/>
-          <topic label="existsBothWays" href="group__tmp.html#a5cd7cb9b61add871c53a3405a1b56b36ab935a062cf15b4a11c0731fdafb91b0d"/>
-          <topic label="isSameType" href="group__tmp.html#a5cd7cb9b61add871c53a3405a1b56b36ad0366f21bc8444f1649638394a5b7342"/>
+          <topic label="exists" href="group__tmp.html#ab301ab70cbf598868641be6c9d57c90fa661b3b1fa4f23e978ed7b4550683a30c"/>
+          <topic label="existsBothWays" href="group__tmp.html#ab301ab70cbf598868641be6c9d57c90fab935a062cf15b4a11c0731fdafb91b0d"/>
+          <topic label="isSameType" href="group__tmp.html#ab301ab70cbf598868641be6c9d57c90fad0366f21bc8444f1649638394a5b7342"/>
         </topic>
         <topic label="Conversion&lt; void, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01void_00_01void_01_4">
-          <topic label="exists" href="group__tmp.html#a74a909c79297c8886ab957d735bc32f7a5998815c8c4ceb5501cbb8054e1f485b"/>
-          <topic label="existsBothWays" href="group__tmp.html#a74a909c79297c8886ab957d735bc32f7ac8d158a9806ac487eb30975e50d82bc3"/>
-          <topic label="isSameType" href="group__tmp.html#a74a909c79297c8886ab957d735bc32f7ab6d4c0ced3ea03801c2cc3e2348776dc"/>
+          <topic label="exists" href="group__tmp.html#abd4332aed342f5252fdd9cf0901e52a9a5998815c8c4ceb5501cbb8054e1f485b"/>
+          <topic label="existsBothWays" href="group__tmp.html#abd4332aed342f5252fdd9cf0901e52a9ac8d158a9806ac487eb30975e50d82bc3"/>
+          <topic label="isSameType" href="group__tmp.html#abd4332aed342f5252fdd9cf0901e52a9ab6d4c0ced3ea03801c2cc3e2348776dc"/>
         </topic>
         <topic label="SuperSubclass" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass">
-          <topic label="value" href="group__tmp.html#a15ed5ef8a8f8086b4ddd6ff203850389a47a893c6102e34a2ab6a23b2983c1e39"/>
-          <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a5e1f556e12b8d1fe7571196b75299b12a2c538a59a15cc9049ab7b7619690d2b5"/>
+          <topic label="value" href="group__tmp.html#ad10c866fdbf291d2c5ff9d287a0bcd66a47a893c6102e34a2ab6a23b2983c1e39"/>
+          <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a90cb4fc0206f134c3c9f9f8ebc9e27e4a2c538a59a15cc9049ab7b7619690d2b5"/>
         </topic>
         <topic label="SuperSubclass&lt; void, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01void_01_4">
-          <topic label="value" href="group__tmp.html#af6b1453431e1309f49ffb744b276cd0da9138d1a4f43f6f84b2322383cf54c21f"/>
+          <topic label="value" href="group__tmp.html#a04610c051a308b2bc054ba1017171dd3a9138d1a4f43f6f84b2322383cf54c21f"/>
         </topic>
         <topic label="SuperSubclass&lt; void, U &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01_u_01_4">
-          <topic label="value" href="group__tmp.html#ae29abdb8fd6f6cf45e0fe8c9ca8c0842afdf46860bbf06470fcaf19c36c19c0dd"/>
-          <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a957422fff2481896a823b99575ec0000a6e57b9af15d2028cd60bcf025824d6eb"/>
+          <topic label="value" href="group__tmp.html#af4e70a813d3610cd0d411989353328bfafdf46860bbf06470fcaf19c36c19c0dd"/>
+          <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#ae3911d1978bbd8053946bf98dd0a26f6a6e57b9af15d2028cd60bcf025824d6eb"/>
         </topic>
         <topic label="SuperSubclass&lt; T, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01_t_00_01void_01_4">
-          <topic label="value" href="group__tmp.html#a2acb1df63051d58ac2ad88a2052daba8a51c7b1b4156facf55fecc21c95524685"/>
-          <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a49fe76df2dcd1795e75d381c9abe786ca6591136db21825d83fd3b3e7c1eb51a0"/>
+          <topic label="value" href="group__tmp.html#abe52e6604eac74ebb521e6428cf3f52aa51c7b1b4156facf55fecc21c95524685"/>
+          <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a299cd0cf563035e1550200e762504418a6591136db21825d83fd3b3e7c1eb51a0"/>
         </topic>
         <topic label="SuperSubclassStrict" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_strict">
-          <topic label="value" href="group__tmp.html#a4103a8c317cf1e48b39a18b35f3976a1a0616865b0a0b875ca7501c13492a4227"/>
+          <topic label="value" href="group__tmp.html#a578760d841d382f2c80ab714eb90f47da0616865b0a0b875ca7501c13492a4227"/>
         </topic>
         <topic label="EnableIfCondition" href="group__tmp.html#structxpcc_1_1tmp_1_1_enable_if_condition">
           <topic label="type" href="group__tmp.html#a43565a8ae070a416f4e5376d17baa451"/>
@@ -5553,7 +5605,7 @@
         <topic label="EnableIfCondition&lt; false, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_enable_if_condition_3_01false_00_01_t_01_4"/>
         <topic label="EnableIf" href="structxpcc_1_1tmp_1_1_enable_if.html"/>
         <topic label="STATIC_ASSERTION_FAILURE&lt; true &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_s_t_a_t_i_c___a_s_s_e_r_t_i_o_n___f_a_i_l_u_r_e_3_01true_01_4">
-          <topic label="value" href="group__tmp.html#af4ee09e6ba1bba18b662c76682123657af5e36f8619fd7812a280313a665a3bfa"/>
+          <topic label="value" href="group__tmp.html#a5dc9aac39c2f8c46ad8ba0b6f9d540e8af5e36f8619fd7812a280313a665a3bfa"/>
         </topic>
         <topic label="static_assert_test" href="group__tmp.html#structxpcc_1_1tmp_1_1static__assert__test"/>
         <topic label="tmp" href="namespacexpcc_1_1tmp.html"/>
@@ -5835,9 +5887,9 @@
             <topic label="calculateCalibratedHumidity" href="classxpcc_1_1bme280data_1_1_data.html#a37df18e4986c59ece61804151b9f6757"/>
           </topic>
           <topic label="DataBase" href="structxpcc_1_1bme280data_1_1_data_base.html">
-            <topic label="HUMIDITY_CALCULATED" href="structxpcc_1_1bme280data_1_1_data_base.html#a375b0a315017c21f1909434b64d7d268add2955312dc7c74919541d5ae940bce9"/>
-            <topic label="TEMPERATURE_CALCULATED" href="structxpcc_1_1bme280data_1_1_data_base.html#a375b0a315017c21f1909434b64d7d268a1f9f731ffe416aab52490a04333002e9"/>
-            <topic label="PRESSURE_CALCULATED" href="structxpcc_1_1bme280data_1_1_data_base.html#a375b0a315017c21f1909434b64d7d268aa046af6111380ac432031100c762e91d"/>
+            <topic label="HUMIDITY_CALCULATED" href="structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2add2955312dc7c74919541d5ae940bce9"/>
+            <topic label="TEMPERATURE_CALCULATED" href="structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2a1f9f731ffe416aab52490a04333002e9"/>
+            <topic label="PRESSURE_CALCULATED" href="structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2aa046af6111380ac432031100c762e91d"/>
             <topic label="getCalibration" href="structxpcc_1_1bme280data_1_1_data_base.html#a24d98c342d06f002797bb57db4aaedf8"/>
             <topic label="rawTemperatureTouched" href="structxpcc_1_1bme280data_1_1_data_base.html#a47f4556e340fc4d7d8ac0aaaab247e86"/>
             <topic label="rawPressureTouched" href="structxpcc_1_1bme280data_1_1_data_base.html#a2c8cf4c206aecf217f7c6966fbc12490"/>
@@ -5884,9 +5936,9 @@
             <topic label="calculateCalibratedPressure" href="classxpcc_1_1bmp085data_1_1_data.html#a034c7a46907ed97028e98c51eaf5148d"/>
           </topic>
           <topic label="DataBase" href="classxpcc_1_1bmp085data_1_1_data_base.html">
-            <topic label="CALIBRATION_CALCULATED" href="classxpcc_1_1bmp085data_1_1_data_base.html#a0ba8c5eeaa139381ca8ad72a16fe1b02a551aa0c911f82dee765b197d92bc4d9f"/>
-            <topic label="TEMPERATURE_CALCULATED" href="classxpcc_1_1bmp085data_1_1_data_base.html#a0ba8c5eeaa139381ca8ad72a16fe1b02a4cf35690c3ba632b15292cceeeb82547"/>
-            <topic label="PRESSURE_CALCULATED" href="classxpcc_1_1bmp085data_1_1_data_base.html#a0ba8c5eeaa139381ca8ad72a16fe1b02a7e21dcfd0416df42c757a69053cfc735"/>
+            <topic label="CALIBRATION_CALCULATED" href="classxpcc_1_1bmp085data_1_1_data_base.html#a499befa7d7a49df96a2547e50e0cba40a551aa0c911f82dee765b197d92bc4d9f"/>
+            <topic label="TEMPERATURE_CALCULATED" href="classxpcc_1_1bmp085data_1_1_data_base.html#a499befa7d7a49df96a2547e50e0cba40a4cf35690c3ba632b15292cceeeb82547"/>
+            <topic label="PRESSURE_CALCULATED" href="classxpcc_1_1bmp085data_1_1_data_base.html#a499befa7d7a49df96a2547e50e0cba40a7e21dcfd0416df42c757a69053cfc735"/>
             <topic label="getCalibration" href="classxpcc_1_1bmp085data_1_1_data_base.html#addc8c4d734f68b5e114d4ea1a4a358d4"/>
             <topic label="rawTemperatureTouched" href="classxpcc_1_1bmp085data_1_1_data_base.html#ad9540a0fc7dfb7df515ab029eff4df1c"/>
             <topic label="rawPressureTouched" href="classxpcc_1_1bmp085data_1_1_data_base.html#a5dbffb06c849b468012f82ebc9d437ea"/>
@@ -6232,16 +6284,16 @@
         </topic>
         <topic label="hosted">
           <topic label="CanUsb" href="classxpcc_1_1hosted_1_1_can_usb.html">
-            <topic label="CanUsb" href="classxpcc_1_1hosted_1_1_can_usb.html#a58ec331e1eab7abc9a6ab3562a2684cc"/>
-            <topic label="~CanUsb" href="classxpcc_1_1hosted_1_1_can_usb.html#af84d9189a06c0f69b7472c485e357764"/>
-            <topic label="open" href="classxpcc_1_1hosted_1_1_can_usb.html#aeb7f7bf29543af2622a8e51126eecdbb"/>
-            <topic label="close" href="classxpcc_1_1hosted_1_1_can_usb.html#accc682721ef9eebd258084068b949cbd"/>
-            <topic label="isMessageAvailable" href="classxpcc_1_1hosted_1_1_can_usb.html#a91fe241216b1522648e132ddf7e16c2c"/>
-            <topic label="getMessage" href="classxpcc_1_1hosted_1_1_can_usb.html#ac30479ef0cba01c073b0e4792f50214e"/>
-            <topic label="isReadyToSend" href="classxpcc_1_1hosted_1_1_can_usb.html#a93c039cf86fcbfec61c0162b4135bec7"/>
-            <topic label="getBusState" href="classxpcc_1_1hosted_1_1_can_usb.html#a4f6498972ba1ad3c5fa1bba47683fbf1"/>
-            <topic label="sendMessage" href="classxpcc_1_1hosted_1_1_can_usb.html#ae88281d582fb4f257c98dc4a8f95b989"/>
-            <topic label="isOpen" href="classxpcc_1_1hosted_1_1_can_usb.html#a6cfca34c56fa48020699330bab6bb2fe"/>
+            <topic label="CanUsb" href="classxpcc_1_1hosted_1_1_can_usb.html#a3d435265d610cc1e408116f71045af3b"/>
+            <topic label="~CanUsb" href="classxpcc_1_1hosted_1_1_can_usb.html#a9dc9f4d5731af73a77882deb135ffc75"/>
+            <topic label="open" href="classxpcc_1_1hosted_1_1_can_usb.html#a54b96fa69a132efdf6e1c0ffd443dcda"/>
+            <topic label="close" href="classxpcc_1_1hosted_1_1_can_usb.html#a8c42a6f9967bb14d034461e9fe73b428"/>
+            <topic label="isMessageAvailable" href="classxpcc_1_1hosted_1_1_can_usb.html#a3f0f82ee2cf3d44244fd6c94aa9ff847"/>
+            <topic label="getMessage" href="classxpcc_1_1hosted_1_1_can_usb.html#a1f51899e513513ff0644ccdabb977fe6"/>
+            <topic label="isReadyToSend" href="classxpcc_1_1hosted_1_1_can_usb.html#aea6004098198eeecb6d946279d4c7e90"/>
+            <topic label="getBusState" href="classxpcc_1_1hosted_1_1_can_usb.html#ae80d4f0ae1d73ddeee46f419b3148e0b"/>
+            <topic label="sendMessage" href="classxpcc_1_1hosted_1_1_can_usb.html#a548a69427c1db258bebb13ab3e9066ca"/>
+            <topic label="isOpen" href="classxpcc_1_1hosted_1_1_can_usb.html#a3e7a971cedf1dbef5f006701a87fd577"/>
           </topic>
           <topic label="SerialInterface" href="classxpcc_1_1hosted_1_1_serial_interface.html">
             <topic label="SerialInterface" href="classxpcc_1_1hosted_1_1_serial_interface.html#afffbed61f1677ed14e3d394e71c78077"/>
@@ -7162,11 +7214,13 @@
             <topic label="FsmcD7" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_d7.html"/>
             <topic label="FsmcD8" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_d8.html"/>
             <topic label="FsmcD9" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_d9.html"/>
+            <topic label="FsmcInt" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_int.html"/>
             <topic label="FsmcInt2" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_int2.html"/>
             <topic label="FsmcInt3" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_int3.html"/>
             <topic label="FsmcIntr" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_intr.html"/>
             <topic label="FsmcNbl0" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nbl0.html"/>
             <topic label="FsmcNbl1" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nbl1.html"/>
+            <topic label="FsmcNce" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce.html"/>
             <topic label="FsmcNce2" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce2.html"/>
             <topic label="FsmcNce3" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce3.html"/>
             <topic label="FsmcNce4" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce4.html"/>
@@ -9027,29 +9081,29 @@
         </topic>
         <topic label="tmp" href="namespacexpcc_1_1tmp.html">
           <topic label="Conversion" href="group__tmp.html#classxpcc_1_1tmp_1_1_conversion">
-            <topic label="exists" href="group__tmp.html#afb5c9051eaf23f2aecbce9c5691b491cadbe1485d1bf8da88be27937665aeded9"/>
-            <topic label="existsBothWays" href="group__tmp.html#afb5c9051eaf23f2aecbce9c5691b491ca161df622500b1bbb8536d50e6f8fbfbb"/>
-            <topic label="isSameType" href="group__tmp.html#afb5c9051eaf23f2aecbce9c5691b491caf375a24b327c462c7e6ad2bd8389b916"/>
+            <topic label="exists" href="group__tmp.html#aed3baba30bdbc8dee87c727a5ced63e5adbe1485d1bf8da88be27937665aeded9"/>
+            <topic label="existsBothWays" href="group__tmp.html#aed3baba30bdbc8dee87c727a5ced63e5a161df622500b1bbb8536d50e6f8fbfbb"/>
+            <topic label="isSameType" href="group__tmp.html#aed3baba30bdbc8dee87c727a5ced63e5af375a24b327c462c7e6ad2bd8389b916"/>
           </topic>
           <topic label="Conversion&lt; T, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01_t_01_4">
-            <topic label="exists" href="group__tmp.html#ad266cc479189076c6967a5f1cda7b1aca0bb412ba7982843dc7a44b904c3a75e5"/>
-            <topic label="existsBothWays" href="group__tmp.html#ad266cc479189076c6967a5f1cda7b1acad90b2d21182d0e0dab1888ca0a66c14d"/>
-            <topic label="isSameType" href="group__tmp.html#ad266cc479189076c6967a5f1cda7b1acafc49d53d39fcb440e62d95b3a127b749"/>
+            <topic label="exists" href="group__tmp.html#a4e31c9d6bb1cf9ffaf2d17ad7000133ea0bb412ba7982843dc7a44b904c3a75e5"/>
+            <topic label="existsBothWays" href="group__tmp.html#a4e31c9d6bb1cf9ffaf2d17ad7000133ead90b2d21182d0e0dab1888ca0a66c14d"/>
+            <topic label="isSameType" href="group__tmp.html#a4e31c9d6bb1cf9ffaf2d17ad7000133eafc49d53d39fcb440e62d95b3a127b749"/>
           </topic>
           <topic label="Conversion&lt; T, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01void_01_4">
-            <topic label="exists" href="group__tmp.html#a5cd7cb9b61add871c53a3405a1b56b36a661b3b1fa4f23e978ed7b4550683a30c"/>
-            <topic label="existsBothWays" href="group__tmp.html#a5cd7cb9b61add871c53a3405a1b56b36ab935a062cf15b4a11c0731fdafb91b0d"/>
-            <topic label="isSameType" href="group__tmp.html#a5cd7cb9b61add871c53a3405a1b56b36ad0366f21bc8444f1649638394a5b7342"/>
+            <topic label="exists" href="group__tmp.html#ab301ab70cbf598868641be6c9d57c90fa661b3b1fa4f23e978ed7b4550683a30c"/>
+            <topic label="existsBothWays" href="group__tmp.html#ab301ab70cbf598868641be6c9d57c90fab935a062cf15b4a11c0731fdafb91b0d"/>
+            <topic label="isSameType" href="group__tmp.html#ab301ab70cbf598868641be6c9d57c90fad0366f21bc8444f1649638394a5b7342"/>
           </topic>
           <topic label="Conversion&lt; void, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01void_00_01_t_01_4">
-            <topic label="exists" href="group__tmp.html#a2b0af30f3e5eb5e11c63444e9279f2f2aeb82d423250098c01858da57fc26e6d8"/>
-            <topic label="existsBothWays" href="group__tmp.html#a2b0af30f3e5eb5e11c63444e9279f2f2a730999a8a8beec5d237ff6270843c398"/>
-            <topic label="isSameType" href="group__tmp.html#a2b0af30f3e5eb5e11c63444e9279f2f2a577dff6f4a992243b33687181ad7b9ff"/>
+            <topic label="exists" href="group__tmp.html#a390448c832e0614e1abc738134b69957aeb82d423250098c01858da57fc26e6d8"/>
+            <topic label="existsBothWays" href="group__tmp.html#a390448c832e0614e1abc738134b69957a730999a8a8beec5d237ff6270843c398"/>
+            <topic label="isSameType" href="group__tmp.html#a390448c832e0614e1abc738134b69957a577dff6f4a992243b33687181ad7b9ff"/>
           </topic>
           <topic label="Conversion&lt; void, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01void_00_01void_01_4">
-            <topic label="exists" href="group__tmp.html#a74a909c79297c8886ab957d735bc32f7a5998815c8c4ceb5501cbb8054e1f485b"/>
-            <topic label="existsBothWays" href="group__tmp.html#a74a909c79297c8886ab957d735bc32f7ac8d158a9806ac487eb30975e50d82bc3"/>
-            <topic label="isSameType" href="group__tmp.html#a74a909c79297c8886ab957d735bc32f7ab6d4c0ced3ea03801c2cc3e2348776dc"/>
+            <topic label="exists" href="group__tmp.html#abd4332aed342f5252fdd9cf0901e52a9a5998815c8c4ceb5501cbb8054e1f485b"/>
+            <topic label="existsBothWays" href="group__tmp.html#abd4332aed342f5252fdd9cf0901e52a9ac8d158a9806ac487eb30975e50d82bc3"/>
+            <topic label="isSameType" href="group__tmp.html#abd4332aed342f5252fdd9cf0901e52a9ab6d4c0ced3ea03801c2cc3e2348776dc"/>
           </topic>
           <topic label="EnableIf" href="structxpcc_1_1tmp_1_1_enable_if.html"/>
           <topic label="EnableIfCondition" href="group__tmp.html#structxpcc_1_1tmp_1_1_enable_if_condition">
@@ -9058,10 +9112,10 @@
           <topic label="EnableIfCondition&lt; false, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_enable_if_condition_3_01false_00_01_t_01_4"/>
           <topic label="NullType" href="group__tmp.html#classxpcc_1_1tmp_1_1_null_type"/>
           <topic label="SameType" href="group__tmp.html#structxpcc_1_1tmp_1_1_same_type">
-            <topic label="value" href="group__tmp.html#a838488566bd3db212140cba7531d071baca17253c0aeefe215ca376ca6edcc125"/>
+            <topic label="value" href="group__tmp.html#a911a9a5b3a2568e93bfafc62d8a4220daca17253c0aeefe215ca376ca6edcc125"/>
           </topic>
           <topic label="SameType&lt; T, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_same_type_3_01_t_00_01_t_01_4">
-            <topic label="value" href="group__tmp.html#afb6ecbf95660c62dec0d6cb9ac0cba20a34cdcd581da56443fd89ba090c722676"/>
+            <topic label="value" href="group__tmp.html#aeb015fe8bd866fad457e3928a7b45767a34cdcd581da56443fd89ba090c722676"/>
           </topic>
           <topic label="Select" href="group__tmp.html#structxpcc_1_1tmp_1_1_select">
             <topic label="Result" href="group__tmp.html#a697ed2d3fe127860a9f79226b8d33f54"/>
@@ -9072,25 +9126,25 @@
           <topic label="static_assert_test" href="group__tmp.html#structxpcc_1_1tmp_1_1static__assert__test"/>
           <topic label="STATIC_ASSERTION_FAILURE" href="namespacexpcc_1_1tmp.html#structxpcc_1_1tmp_1_1_s_t_a_t_i_c___a_s_s_e_r_t_i_o_n___f_a_i_l_u_r_e"/>
           <topic label="STATIC_ASSERTION_FAILURE&lt; true &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_s_t_a_t_i_c___a_s_s_e_r_t_i_o_n___f_a_i_l_u_r_e_3_01true_01_4">
-            <topic label="value" href="group__tmp.html#af4ee09e6ba1bba18b662c76682123657af5e36f8619fd7812a280313a665a3bfa"/>
+            <topic label="value" href="group__tmp.html#a5dc9aac39c2f8c46ad8ba0b6f9d540e8af5e36f8619fd7812a280313a665a3bfa"/>
           </topic>
           <topic label="SuperSubclass" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass">
-            <topic label="value" href="group__tmp.html#a15ed5ef8a8f8086b4ddd6ff203850389a47a893c6102e34a2ab6a23b2983c1e39"/>
-            <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a5e1f556e12b8d1fe7571196b75299b12a2c538a59a15cc9049ab7b7619690d2b5"/>
+            <topic label="value" href="group__tmp.html#ad10c866fdbf291d2c5ff9d287a0bcd66a47a893c6102e34a2ab6a23b2983c1e39"/>
+            <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a90cb4fc0206f134c3c9f9f8ebc9e27e4a2c538a59a15cc9049ab7b7619690d2b5"/>
           </topic>
           <topic label="SuperSubclass&lt; T, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01_t_00_01void_01_4">
-            <topic label="value" href="group__tmp.html#a2acb1df63051d58ac2ad88a2052daba8a51c7b1b4156facf55fecc21c95524685"/>
-            <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a49fe76df2dcd1795e75d381c9abe786ca6591136db21825d83fd3b3e7c1eb51a0"/>
+            <topic label="value" href="group__tmp.html#abe52e6604eac74ebb521e6428cf3f52aa51c7b1b4156facf55fecc21c95524685"/>
+            <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a299cd0cf563035e1550200e762504418a6591136db21825d83fd3b3e7c1eb51a0"/>
           </topic>
           <topic label="SuperSubclass&lt; void, U &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01_u_01_4">
-            <topic label="value" href="group__tmp.html#ae29abdb8fd6f6cf45e0fe8c9ca8c0842afdf46860bbf06470fcaf19c36c19c0dd"/>
-            <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#a957422fff2481896a823b99575ec0000a6e57b9af15d2028cd60bcf025824d6eb"/>
+            <topic label="value" href="group__tmp.html#af4e70a813d3610cd0d411989353328bfafdf46860bbf06470fcaf19c36c19c0dd"/>
+            <topic label="dontUseWithIncompleteTypes" href="group__tmp.html#ae3911d1978bbd8053946bf98dd0a26f6a6e57b9af15d2028cd60bcf025824d6eb"/>
           </topic>
           <topic label="SuperSubclass&lt; void, void &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01void_01_4">
-            <topic label="value" href="group__tmp.html#af6b1453431e1309f49ffb744b276cd0da9138d1a4f43f6f84b2322383cf54c21f"/>
+            <topic label="value" href="group__tmp.html#a04610c051a308b2bc054ba1017171dd3a9138d1a4f43f6f84b2322383cf54c21f"/>
           </topic>
           <topic label="SuperSubclassStrict" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_strict">
-            <topic label="value" href="group__tmp.html#a4103a8c317cf1e48b39a18b35f3976a1a0616865b0a0b875ca7501c13492a4227"/>
+            <topic label="value" href="group__tmp.html#a578760d841d382f2c80ab714eb90f47da0616865b0a0b875ca7501c13492a4227"/>
           </topic>
         </topic>
         <topic label="TypeId">
@@ -9564,10 +9618,18 @@
           <topic label="clear" href="classxpcc_1_1_bounded_deque.html#afa56fa09f5ab18a6c2eeda8e67173158"/>
           <topic label="getFront" href="classxpcc_1_1_bounded_deque.html#aab18cf0f608383b1a719849b77afb5f2"/>
           <topic label="getFront" href="classxpcc_1_1_bounded_deque.html#a75408b721464f4df586e2a6e92734014"/>
+          <topic label="get" href="classxpcc_1_1_bounded_deque.html#a391333d995d96f0d7ec8ea9e90d6e49e"/>
+          <topic label="get" href="classxpcc_1_1_bounded_deque.html#aa0e175e9bec2bd15412344e44afe5f8e"/>
+          <topic label="operator[]" href="classxpcc_1_1_bounded_deque.html#a6b15bed4c9d6e3122e42cf45dd739ad6"/>
+          <topic label="operator[]" href="classxpcc_1_1_bounded_deque.html#a010f95f62807c8c225816af7dfc3a7f0"/>
+          <topic label="rget" href="classxpcc_1_1_bounded_deque.html#a50b453454ee6c4b2c9780b20baa7c3fd"/>
+          <topic label="rget" href="classxpcc_1_1_bounded_deque.html#a90a336134ba3e9533b38793d4baf29d7"/>
           <topic label="getBack" href="classxpcc_1_1_bounded_deque.html#a4e3f619cc20de62b076eed645faab79c"/>
           <topic label="getBack" href="classxpcc_1_1_bounded_deque.html#a77d22c7b33d591e07f0af092e36b3ac0"/>
           <topic label="append" href="classxpcc_1_1_bounded_deque.html#aaf31a5b67ebc144acbbab00b33656d28"/>
+          <topic label="appendOverwrite" href="classxpcc_1_1_bounded_deque.html#acec35598f10e247b96012986ac4b23d9"/>
           <topic label="prepend" href="classxpcc_1_1_bounded_deque.html#a4cdeee12310fd76e45a03d107be2a2df"/>
+          <topic label="prependOverwrite" href="classxpcc_1_1_bounded_deque.html#ad53bf4356666807136a2b2fb2e39c9f2"/>
           <topic label="removeBack" href="classxpcc_1_1_bounded_deque.html#aa6d63eacd20be99f69b11daf4d4f5603"/>
           <topic label="removeFront" href="classxpcc_1_1_bounded_deque.html#a46af3ea80511e3a027cd934f34907ed7"/>
           <topic label="begin" href="classxpcc_1_1_bounded_deque.html#ad2172c03971e1fe54c27965a4b196ffc"/>
@@ -9586,7 +9648,7 @@
           <topic label="setPixel" href="classxpcc_1_1_buffered_graphic_display.html#abda3c8c8c264d01b494b65f93754dc4b"/>
           <topic label="clearPixel" href="classxpcc_1_1_buffered_graphic_display.html#a353598d6769984a4e4fb2fe57e46d458"/>
           <topic label="getPixel" href="classxpcc_1_1_buffered_graphic_display.html#a4d1934411448299a6d37e3e230aa7215"/>
-          <topic label="buffer" href="classxpcc_1_1_buffered_graphic_display.html#a66a0b1039a5e809661d2947da9334419"/>
+          <topic label="display_buffer" href="classxpcc_1_1_buffered_graphic_display.html#abe2e54d8570e0b52d9782794408bb5a0"/>
         </topic>
         <topic label="Button" href="classxpcc_1_1_button.html">
         </topic>
@@ -9946,7 +10008,7 @@
           <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a49e2aabf030051119cb88c4e7d12bfb9"/>
           <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#af804df27a2608832c2a09d36096ba6f7"/>
           <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a96614d3ba9a626c9b32c68577554bb72"/>
-          <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a9e0bd8145c4fdeb37944758e83505518"/>
+          <topic label="FlagsGroup" href="structxpcc_1_1_flags_group_3_01_t_8_8_8_01_4.html#a4c1dddde91cdb4ecee8a850b1d4de302"/>
         </topic>
         <topic label="FlagsOperators" href="structxpcc_1_1_flags_operators.html">
           <topic label="EnumType" href="structxpcc_1_1_flags_operators.html#acf3e7988c89b5a464e075d20d6334d33"/>
@@ -10724,6 +10786,31 @@
           <topic label="cs2" href="classxpcc_1_1_ks0108.html#a7c6746d7815c392fa4c6aed0c3494b03"/>
           <topic label="port" href="classxpcc_1_1_ks0108.html#a7ecf3d4c2b45756973790982895238f1"/>
         </topic>
+        <topic label="L3gd20" href="classxpcc_1_1_l3gd20.html">
+          <topic label="L3gd20" href="classxpcc_1_1_l3gd20.html#a998aded6dc3002a6891811379775c8e6"/>
+          <topic label="configureBlocking" href="classxpcc_1_1_l3gd20.html#aa40e3bc6259bacaa5b781ee84be1f20f"/>
+          <topic label="configure" href="classxpcc_1_1_l3gd20.html#adcaed2e8c33fed4b3074630f25674c75"/>
+          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#a39888e7a07614f0a147edd2fce05fad9"/>
+          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#aa8de55481612cf11bab13559696c395a"/>
+          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#a85f8aebeaf45f5124307c2544a5ae92d"/>
+          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#a1878881d399d2c489b3eded66cd61391"/>
+          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#ab39a4bb42c22a736fcf4b4dc32956cd2"/>
+          <topic label="updateFifoControl" href="classxpcc_1_1_l3gd20.html#ad6adef0fdeb121ea80112d957605a37f"/>
+          <topic label="updateInterruptConfiguration" href="classxpcc_1_1_l3gd20.html#a4d83b2d30dd5de6e19c910dd5b26c44b"/>
+          <topic label="readRotation" href="classxpcc_1_1_l3gd20.html#a29f8e142bb0cd81ab4f1ce9b68e3eaab"/>
+          <topic label="getControl1" href="classxpcc_1_1_l3gd20.html#a77a2e255dd74462113adea0f667c27a1"/>
+          <topic label="getControl2" href="classxpcc_1_1_l3gd20.html#a65abf78e237c84a77c7bd6daf8834a59"/>
+          <topic label="getControl3" href="classxpcc_1_1_l3gd20.html#abffa8a1850d7826e856a1fe101e435a8"/>
+          <topic label="getControl4" href="classxpcc_1_1_l3gd20.html#a47232461e4ac8560a0f7563eafb389b6"/>
+          <topic label="getControl5" href="classxpcc_1_1_l3gd20.html#a0689f6cd2b6f4b68a395ae45785b2995"/>
+          <topic label="getReference" href="classxpcc_1_1_l3gd20.html#ad7424e9145055a154e01e08e045013f7"/>
+          <topic label="getFifoControl" href="classxpcc_1_1_l3gd20.html#af6ccd290ee9f6fdb138431cbe8e85b27"/>
+          <topic label="getIntConfig" href="classxpcc_1_1_l3gd20.html#a09988204be9a868728d2cfb82c882198"/>
+          <topic label="getStatus" href="classxpcc_1_1_l3gd20.html#a201948a9e3a6bf48f1e4432e7366e441"/>
+          <topic label="getFifoSource" href="classxpcc_1_1_l3gd20.html#a15183be81bf3649026cbb996aeb8dffa"/>
+          <topic label="getIntSource" href="classxpcc_1_1_l3gd20.html#ab8eeb19cfde533bd2b7083d89ba9e1b9"/>
+          <topic label="getData" href="classxpcc_1_1_l3gd20.html#afce0951de8974905892ba668a03a2267"/>
+        </topic>
         <topic label="l3gd20" href="structxpcc_1_1l3gd20.html">
           <topic label="Data" href="structxpcc_1_1l3gd20_1_1_data.html">
             <topic label="Data" href="structxpcc_1_1l3gd20_1_1_data.html#a943cef13950c62601b362e1ac7bda383"/>
@@ -10886,31 +10973,6 @@
             <topic label="Dps500" href="structxpcc_1_1l3gd20.html#aaddadf731a419840b988dcd0c96ad0ffa6265c8b55f7c3fbb5c99189a0e49fc1c"/>
             <topic label="Dps2000" href="structxpcc_1_1l3gd20.html#aaddadf731a419840b988dcd0c96ad0ffaac5400d21ab962355dea342049b9699a"/>
           </topic>
-        </topic>
-        <topic label="L3gd20" href="classxpcc_1_1_l3gd20.html">
-          <topic label="L3gd20" href="classxpcc_1_1_l3gd20.html#a998aded6dc3002a6891811379775c8e6"/>
-          <topic label="configureBlocking" href="classxpcc_1_1_l3gd20.html#aa40e3bc6259bacaa5b781ee84be1f20f"/>
-          <topic label="configure" href="classxpcc_1_1_l3gd20.html#adcaed2e8c33fed4b3074630f25674c75"/>
-          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#a39888e7a07614f0a147edd2fce05fad9"/>
-          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#aa8de55481612cf11bab13559696c395a"/>
-          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#a85f8aebeaf45f5124307c2544a5ae92d"/>
-          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#a1878881d399d2c489b3eded66cd61391"/>
-          <topic label="updateControl" href="classxpcc_1_1_l3gd20.html#ab39a4bb42c22a736fcf4b4dc32956cd2"/>
-          <topic label="updateFifoControl" href="classxpcc_1_1_l3gd20.html#ad6adef0fdeb121ea80112d957605a37f"/>
-          <topic label="updateInterruptConfiguration" href="classxpcc_1_1_l3gd20.html#a4d83b2d30dd5de6e19c910dd5b26c44b"/>
-          <topic label="readRotation" href="classxpcc_1_1_l3gd20.html#a29f8e142bb0cd81ab4f1ce9b68e3eaab"/>
-          <topic label="getControl1" href="classxpcc_1_1_l3gd20.html#a77a2e255dd74462113adea0f667c27a1"/>
-          <topic label="getControl2" href="classxpcc_1_1_l3gd20.html#a65abf78e237c84a77c7bd6daf8834a59"/>
-          <topic label="getControl3" href="classxpcc_1_1_l3gd20.html#abffa8a1850d7826e856a1fe101e435a8"/>
-          <topic label="getControl4" href="classxpcc_1_1_l3gd20.html#a47232461e4ac8560a0f7563eafb389b6"/>
-          <topic label="getControl5" href="classxpcc_1_1_l3gd20.html#a0689f6cd2b6f4b68a395ae45785b2995"/>
-          <topic label="getReference" href="classxpcc_1_1_l3gd20.html#ad7424e9145055a154e01e08e045013f7"/>
-          <topic label="getFifoControl" href="classxpcc_1_1_l3gd20.html#af6ccd290ee9f6fdb138431cbe8e85b27"/>
-          <topic label="getIntConfig" href="classxpcc_1_1_l3gd20.html#a09988204be9a868728d2cfb82c882198"/>
-          <topic label="getStatus" href="classxpcc_1_1_l3gd20.html#a201948a9e3a6bf48f1e4432e7366e441"/>
-          <topic label="getFifoSource" href="classxpcc_1_1_l3gd20.html#a15183be81bf3649026cbb996aeb8dffa"/>
-          <topic label="getIntSource" href="classxpcc_1_1_l3gd20.html#ab8eeb19cfde533bd2b7083d89ba9e1b9"/>
-          <topic label="getData" href="classxpcc_1_1_l3gd20.html#afce0951de8974905892ba668a03a2267"/>
         </topic>
         <topic label="Line2D" href="classxpcc_1_1_line2_d.html">
           <topic label="WideType" href="classxpcc_1_1_line2_d.html#ab9a2732b303f4ca1323134e0cfb8673d"/>
@@ -11490,6 +11552,30 @@
           <topic label="operator!=" href="classxpcc_1_1_location2_d.html#a54d8cd2789ddddae5951c2df3922a60b"/>
           <topic label="operator&lt;&lt;" href="classxpcc_1_1_location2_d.html#a2539c5f16ca41078027c6233c5926ae8"/>
         </topic>
+        <topic label="Lsm303a" href="classxpcc_1_1_lsm303a.html">
+          <topic label="Lsm303a" href="classxpcc_1_1_lsm303a.html#a42e083063851e4786e4a6ad62a70cbd7"/>
+          <topic label="configureBlocking" href="classxpcc_1_1_lsm303a.html#a4d684d889ad037503f96638c2b484dc7"/>
+          <topic label="configure" href="classxpcc_1_1_lsm303a.html#af6804f3f7e9933a918a2ccf6d5398c40"/>
+          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a20faae0c74ab8e92832e7648a3ef0c92"/>
+          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a9d9f1076fcc0162cce408b3b1ef34027"/>
+          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a16b7f761b11f0987d1819e4201528496"/>
+          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#affc73a29036c3355a85eff683a5e5d0c"/>
+          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a0dddf73f8cac53312d7eafdaf1d3749f"/>
+          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a7866700210cbe950e3badeb742f5d8b7"/>
+          <topic label="updateFifoControl" href="classxpcc_1_1_lsm303a.html#a28df71bdb08738586c3261e6c82dabf5"/>
+          <topic label="readAcceleration" href="classxpcc_1_1_lsm303a.html#ace82f0e31737ac226ededda24d252c5b"/>
+          <topic label="getControl1" href="classxpcc_1_1_lsm303a.html#a14ce11d6161ec6113ab8b081a344198a"/>
+          <topic label="getControl2" href="classxpcc_1_1_lsm303a.html#af0fa0411862296dc806e7c5818ae563e"/>
+          <topic label="getControl3" href="classxpcc_1_1_lsm303a.html#aa152e352ee8b0ff422a1b8bca43fb140"/>
+          <topic label="getControl4" href="classxpcc_1_1_lsm303a.html#a95d4c96df808cb608d9c25e5b9ec2abc"/>
+          <topic label="getControl5" href="classxpcc_1_1_lsm303a.html#a399517b18441105621b830d3c0a48ab5"/>
+          <topic label="getControl6" href="classxpcc_1_1_lsm303a.html#acefc4f4a25f3ad4b1af28d97c1d706e2"/>
+          <topic label="getReference" href="classxpcc_1_1_lsm303a.html#ab84d4c08acb431305e01e9b7e873641b"/>
+          <topic label="getFifoControl" href="classxpcc_1_1_lsm303a.html#a18ded90f2c930afdc652e997a20e0a82"/>
+          <topic label="getStatus" href="classxpcc_1_1_lsm303a.html#a57a3db5ab3a5e605f865b82bb13fa016"/>
+          <topic label="getFifoSource" href="classxpcc_1_1_lsm303a.html#a0372308200505b75bf59669929af39e4"/>
+          <topic label="getData" href="classxpcc_1_1_lsm303a.html#a1e70f53450ecb38ceeb39a70c7110d8b"/>
+        </topic>
         <topic label="lsm303a" href="structxpcc_1_1lsm303a.html">
           <topic label="Data" href="structxpcc_1_1lsm303a_1_1_data.html">
             <topic label="Data" href="structxpcc_1_1lsm303a_1_1_data.html#a77beaf7b2099a1f742c7f28dac27296a"/>
@@ -11690,30 +11776,6 @@
             <topic label="G8" href="structxpcc_1_1lsm303a.html#abe8cb40d290902b0fe91949474e7b7c0ae034278428deb1ad937eb98f2ad0217a"/>
             <topic label="G16" href="structxpcc_1_1lsm303a.html#abe8cb40d290902b0fe91949474e7b7c0a25fa5c4afe8f64eb6d5018a27c6dcaad"/>
           </topic>
-        </topic>
-        <topic label="Lsm303a" href="classxpcc_1_1_lsm303a.html">
-          <topic label="Lsm303a" href="classxpcc_1_1_lsm303a.html#a42e083063851e4786e4a6ad62a70cbd7"/>
-          <topic label="configureBlocking" href="classxpcc_1_1_lsm303a.html#a4d684d889ad037503f96638c2b484dc7"/>
-          <topic label="configure" href="classxpcc_1_1_lsm303a.html#af6804f3f7e9933a918a2ccf6d5398c40"/>
-          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a20faae0c74ab8e92832e7648a3ef0c92"/>
-          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a9d9f1076fcc0162cce408b3b1ef34027"/>
-          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a16b7f761b11f0987d1819e4201528496"/>
-          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#affc73a29036c3355a85eff683a5e5d0c"/>
-          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a0dddf73f8cac53312d7eafdaf1d3749f"/>
-          <topic label="updateControl" href="classxpcc_1_1_lsm303a.html#a7866700210cbe950e3badeb742f5d8b7"/>
-          <topic label="updateFifoControl" href="classxpcc_1_1_lsm303a.html#a28df71bdb08738586c3261e6c82dabf5"/>
-          <topic label="readAcceleration" href="classxpcc_1_1_lsm303a.html#ace82f0e31737ac226ededda24d252c5b"/>
-          <topic label="getControl1" href="classxpcc_1_1_lsm303a.html#a14ce11d6161ec6113ab8b081a344198a"/>
-          <topic label="getControl2" href="classxpcc_1_1_lsm303a.html#af0fa0411862296dc806e7c5818ae563e"/>
-          <topic label="getControl3" href="classxpcc_1_1_lsm303a.html#aa152e352ee8b0ff422a1b8bca43fb140"/>
-          <topic label="getControl4" href="classxpcc_1_1_lsm303a.html#a95d4c96df808cb608d9c25e5b9ec2abc"/>
-          <topic label="getControl5" href="classxpcc_1_1_lsm303a.html#a399517b18441105621b830d3c0a48ab5"/>
-          <topic label="getControl6" href="classxpcc_1_1_lsm303a.html#acefc4f4a25f3ad4b1af28d97c1d706e2"/>
-          <topic label="getReference" href="classxpcc_1_1_lsm303a.html#ab84d4c08acb431305e01e9b7e873641b"/>
-          <topic label="getFifoControl" href="classxpcc_1_1_lsm303a.html#a18ded90f2c930afdc652e997a20e0a82"/>
-          <topic label="getStatus" href="classxpcc_1_1_lsm303a.html#a57a3db5ab3a5e605f865b82bb13fa016"/>
-          <topic label="getFifoSource" href="classxpcc_1_1_lsm303a.html#a0372308200505b75bf59669929af39e4"/>
-          <topic label="getData" href="classxpcc_1_1_lsm303a.html#a1e70f53450ecb38ceeb39a70c7110d8b"/>
         </topic>
         <topic label="LUDecomposition" href="classxpcc_1_1_l_u_decomposition.html">
         </topic>
@@ -12229,27 +12291,6 @@
             <topic label="P7" href="structxpcc_1_1pca8574.html#aa0ef915f0e77dcd56617ad5b80e57a1ead8db410ef2444bf4b29cd8fbb9b698a3"/>
           </topic>
         </topic>
-        <topic label="pca9535" href="structxpcc_1_1pca9535.html">
-          <topic label="Pins" href="structxpcc_1_1pca9535.html#a36cb46b19d0d4891357c19064c495240"/>
-          <topic label="Pin" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007ba">
-            <topic label="P0_0" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa9e6e2149f6544d593988e77250ad6321"/>
-            <topic label="P0_1" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa44a2ade6266b855801b1c9bd0ef524bb"/>
-            <topic label="P0_2" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa807a081810aa990ad52f2dc5491eca77"/>
-            <topic label="P0_3" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa11f644cfc9ee1bbbb4c0610e1e904c2e"/>
-            <topic label="P0_4" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa6f0eb17a00cb6a2c33bebf5303d6623c"/>
-            <topic label="P0_5" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa489df6d05041dca05b20b73e71d6060a"/>
-            <topic label="P0_6" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa7a295dadf8e07e7fd5b7340c5212b883"/>
-            <topic label="P0_7" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa22d507b15861c0891b311c055470bd09"/>
-            <topic label="P1_0" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa3c9b1afdb04a37fd3ed3e93987d81dfb"/>
-            <topic label="P1_1" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa7bbdfc3579f7e7d9aaa7db713e4e9e51"/>
-            <topic label="P1_2" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baaf36967eb31a1dcbf5f5affa35f611e0c"/>
-            <topic label="P1_3" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baaf6aa3dfcbebef6be910066a4be0ebeb4"/>
-            <topic label="P1_4" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa605a91b834b7b2bf1749edcefe3482ee"/>
-            <topic label="P1_5" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa2581da34ad51ffac48766fda9667cefa"/>
-            <topic label="P1_6" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa894589080f6c620fab80958947e7e723"/>
-            <topic label="P1_7" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa350db1ff29cf4cf0dd983838c44cb947"/>
-          </topic>
-        </topic>
         <topic label="Pca9535" href="classxpcc_1_1_pca9535.html">
           <topic label="PortType" href="classxpcc_1_1_pca9535.html#a69cf1e72e85a85c0adffdf8847e5b48b"/>
           <topic label="P0_0" href="classxpcc_1_1_pca9535.html#a2f769b1b421925709a351ca84ccd763e"/>
@@ -12288,6 +12329,27 @@
           <topic label="getOutputs" href="classxpcc_1_1_pca9535.html#adc0a7eaa22a6d5ea9c002eb963ff971e"/>
           <topic label="getInputs" href="classxpcc_1_1_pca9535.html#aff48c1505c5af4851515f3cc2dc02d6d"/>
           <topic label="getPolarities" href="classxpcc_1_1_pca9535.html#a175125a10664e0bb33745c842f772e16"/>
+        </topic>
+        <topic label="pca9535" href="structxpcc_1_1pca9535.html">
+          <topic label="Pins" href="structxpcc_1_1pca9535.html#a36cb46b19d0d4891357c19064c495240"/>
+          <topic label="Pin" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007ba">
+            <topic label="P0_0" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa9e6e2149f6544d593988e77250ad6321"/>
+            <topic label="P0_1" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa44a2ade6266b855801b1c9bd0ef524bb"/>
+            <topic label="P0_2" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa807a081810aa990ad52f2dc5491eca77"/>
+            <topic label="P0_3" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa11f644cfc9ee1bbbb4c0610e1e904c2e"/>
+            <topic label="P0_4" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa6f0eb17a00cb6a2c33bebf5303d6623c"/>
+            <topic label="P0_5" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa489df6d05041dca05b20b73e71d6060a"/>
+            <topic label="P0_6" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa7a295dadf8e07e7fd5b7340c5212b883"/>
+            <topic label="P0_7" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa22d507b15861c0891b311c055470bd09"/>
+            <topic label="P1_0" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa3c9b1afdb04a37fd3ed3e93987d81dfb"/>
+            <topic label="P1_1" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa7bbdfc3579f7e7d9aaa7db713e4e9e51"/>
+            <topic label="P1_2" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baaf36967eb31a1dcbf5f5affa35f611e0c"/>
+            <topic label="P1_3" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baaf6aa3dfcbebef6be910066a4be0ebeb4"/>
+            <topic label="P1_4" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa605a91b834b7b2bf1749edcefe3482ee"/>
+            <topic label="P1_5" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa2581da34ad51ffac48766fda9667cefa"/>
+            <topic label="P1_6" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa894589080f6c620fab80958947e7e723"/>
+            <topic label="P1_7" href="structxpcc_1_1pca9535.html#a6eafdfff962a92f22077ff1f5ae007baa350db1ff29cf4cf0dd983838c44cb947"/>
+          </topic>
         </topic>
         <topic label="pca9685" href="structxpcc_1_1pca9685.html">
           <topic label="Register" href="structxpcc_1_1pca9685.html#a3b163c0cfa98f04323a021b010bd5f89">
@@ -12767,22 +12829,22 @@
           </topic>
         </topic>
         <topic label="Ssd1306" href="classxpcc_1_1_ssd1306.html">
-          <topic label="Ssd1306" href="classxpcc_1_1_ssd1306.html#a6fe2896b16d08aca842527f9bd12448c"/>
-          <topic label="pingBlocking" href="classxpcc_1_1_ssd1306.html#a3125a5b559632cc5a730be20fa628682"/>
-          <topic label="initializeBlocking" href="classxpcc_1_1_ssd1306.html#a63ac8b3f7a5683522b5ee71e342fd1e2"/>
-          <topic label="update" href="classxpcc_1_1_ssd1306.html#ae30a08127cdf5cf21fe4145e130f0960"/>
-          <topic label="isWritable" href="classxpcc_1_1_ssd1306.html#a8f6b344faa507b399e5e34f056cbdc48"/>
-          <topic label="initialize" href="classxpcc_1_1_ssd1306.html#a7f5ce249ea06a47d77115074668f9edc"/>
-          <topic label="writeDisplay" href="classxpcc_1_1_ssd1306.html#afbbfe8fa441e8fba9fcbaf07ad399b98"/>
-          <topic label="setDisplayMode" href="classxpcc_1_1_ssd1306.html#a2e77c8463f4e3506b7f0b6eaef9cda00"/>
-          <topic label="setContrast" href="classxpcc_1_1_ssd1306.html#a7db0cab155d1b9289bd5e2fdba2c15b2"/>
-          <topic label="setRotation" href="classxpcc_1_1_ssd1306.html#aef0f8e0974ecc59f51654f198b134d08"/>
-          <topic label="configureScroll" href="classxpcc_1_1_ssd1306.html#ac81cc7758bdd7af776b2351737e7a4c5"/>
-          <topic label="enableScroll" href="classxpcc_1_1_ssd1306.html#a85caea52c276c3d01ef1e08ceeff0d32"/>
-          <topic label="disableScroll" href="classxpcc_1_1_ssd1306.html#abac1e42775c1e7b98265197c5390e878"/>
-          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#aa43f74ca46362e18f44321dcde358785"/>
-          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a3c74f0018a618585be6bff4541a19e00"/>
-          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a22ec5760ec7d4c877a694774ef8007b9"/>
+          <topic label="Ssd1306" href="classxpcc_1_1_ssd1306.html#a5113e400aa2ef0596b753aa7c27b106d"/>
+          <topic label="pingBlocking" href="classxpcc_1_1_ssd1306.html#aac4a43f45c9f3b46ab23faa6e02b461c"/>
+          <topic label="initializeBlocking" href="classxpcc_1_1_ssd1306.html#aad88a6a7a16c90877336d937abbe36e3"/>
+          <topic label="update" href="classxpcc_1_1_ssd1306.html#a8269dd957a47c4074e7cc269482bc05b"/>
+          <topic label="isWritable" href="classxpcc_1_1_ssd1306.html#a511493c4b9034faee348f7b0668f7305"/>
+          <topic label="initialize" href="classxpcc_1_1_ssd1306.html#aedd344c38942fa6196543877510cf6e9"/>
+          <topic label="writeDisplay" href="classxpcc_1_1_ssd1306.html#aad724b286946e4c2aca609c97e6bb072"/>
+          <topic label="setDisplayMode" href="classxpcc_1_1_ssd1306.html#ad169e6b81a4f50cf147a3ce663a45905"/>
+          <topic label="setContrast" href="classxpcc_1_1_ssd1306.html#a112a648be1028442cf6422b0f8e704d3"/>
+          <topic label="setRotation" href="classxpcc_1_1_ssd1306.html#ac53b8c13ebb2396c43aa82f8602b09c5"/>
+          <topic label="configureScroll" href="classxpcc_1_1_ssd1306.html#a209523e37c1581f0bb034b7b245dcd61"/>
+          <topic label="enableScroll" href="classxpcc_1_1_ssd1306.html#ac4e5fd6baadac023e541a4be7f5214f1"/>
+          <topic label="disableScroll" href="classxpcc_1_1_ssd1306.html#a81c030614399b137f166a771c0d764a8"/>
+          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a20cf7a2d9d70ce69796c44fa62c2849b"/>
+          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#ad77b2420be2c98de459756e9c13c7402"/>
+          <topic label="writeCommand" href="classxpcc_1_1_ssd1306.html#a8f3474c236f85b2401fa23f15b344c83"/>
         </topic>
         <topic label="St7036" href="classxpcc_1_1_st7036.html">
           <topic label="St7036" href="classxpcc_1_1_st7036.html#af62d293b7cbd583ec81bbe93354df14e"/>
@@ -13338,21 +13400,164 @@
           <topic label="clearPixel" href="classxpcc_1_1_virtual_graphic_display.html#a39a651a420df8a92ba5663055346ef24"/>
           <topic label="getPixel" href="classxpcc_1_1_virtual_graphic_display.html#a2dc8a2dfdb7a7b841ed282b07a98b507"/>
         </topic>
-        <topic label="Vl6180" href="classxpcc_1_1_vl6180.html">
-          <topic label="Vl6180" href="classxpcc_1_1_vl6180.html#a50252a5cfdda3f6d5fe703a8b5f3b3d7"/>
-          <topic label="ping" href="classxpcc_1_1_vl6180.html#a7c8597829fc80232846aa75553c27cf3"/>
-          <topic label="initialize" href="classxpcc_1_1_vl6180.html#a118c595804903888754f24575c2f8b39"/>
-          <topic label="setDeviceAddress" href="classxpcc_1_1_vl6180.html#a520a59a2d7d7d4e8332f0afd15309bf3"/>
-          <topic label="setGain" href="classxpcc_1_1_vl6180.html#a8e1f25d95eefd1583885118fd83f8206"/>
-          <topic label="setIntegrationTime" href="classxpcc_1_1_vl6180.html#a2b77bcdf2f878325cf7fb4f543f37b6c"/>
-          <topic label="readDistance" href="classxpcc_1_1_vl6180.html#a6cbaa740d7046de158364d6a3e9575c6"/>
-          <topic label="readAmbientLight" href="classxpcc_1_1_vl6180.html#a5d7a734a6b7d5c8a4da7857be7e1a052"/>
-          <topic label="getRangeError" href="classxpcc_1_1_vl6180.html#a71b56e4b8bb3059ef74a4ece8e766d9e"/>
-          <topic label="getALS_Error" href="classxpcc_1_1_vl6180.html#a7a5daebdce51bd6f2a3e3e27dcc4b960"/>
-          <topic label="updateRegister" href="classxpcc_1_1_vl6180.html#a3c9a55742fe6b19676397ebb367da379"/>
-          <topic label="write" href="classxpcc_1_1_vl6180.html#ac377545c8032f1480acf0401e8955927"/>
-          <topic label="getData" href="classxpcc_1_1_vl6180.html#ac656029ca190e42b844fdaf91b0ab17b"/>
-          <topic label="read" href="classxpcc_1_1_vl6180.html#a86e8c0d2eec0c00984017e093a092c46"/>
+        <topic label="Vl53l0" href="classxpcc_1_1_vl53l0.html">
+          <topic label="Vl53l0" href="classxpcc_1_1_vl53l0.html#a493d95fb46e4743d48654cc29cdf1436"/>
+          <topic label="ping" href="classxpcc_1_1_vl53l0.html#a7690693dc3320b0aee5424db103a8fa1"/>
+          <topic label="initialize" href="classxpcc_1_1_vl53l0.html#a6aed3c7b2a489c440beb381a8219aefe"/>
+          <topic label="setDeviceAddress" href="classxpcc_1_1_vl53l0.html#a6314ddf84c8d8f62c833f2adc0e43c2a"/>
+          <topic label="readDistance" href="classxpcc_1_1_vl53l0.html#a393c549390eb6045d1a8d66072fa554c"/>
+          <topic label="getRangeError" href="classxpcc_1_1_vl53l0.html#a25eaa22df8e039b5b9ad119558761185"/>
+          <topic label="updateRegister" href="classxpcc_1_1_vl53l0.html#aa3b72e103f5459a22c9232229b17096b"/>
+          <topic label="getData" href="classxpcc_1_1_vl53l0.html#ad77eba332a9ba2f102236f2c989cd634"/>
+          <topic label="setMaxMeasurementTime" href="classxpcc_1_1_vl53l0.html#a115072359ea63862b41f2fa7ec635ccf"/>
+          <topic label="getMaxMeasurementTime" href="classxpcc_1_1_vl53l0.html#abc6deef8aff2cfebb3c5d35d2b26bb61"/>
+        </topic>
+        <topic label="vl53l0" href="structxpcc_1_1vl53l0.html">
+          <topic label="Data" href="structxpcc_1_1vl53l0_1_1_data.html">
+            <topic label="Data" href="structxpcc_1_1vl53l0_1_1_data.html#a0e1962e2d4416353229ccf67b061c9d3"/>
+            <topic label="getDistance" href="structxpcc_1_1vl53l0_1_1_data.html#a323289df22b5c04aaa2de49eb07e668f"/>
+            <topic label="isValid" href="structxpcc_1_1vl53l0_1_1_data.html#a017e9b92d29bfcd6a9f6c5f10b94e978"/>
+            <topic label="getRangeError" href="structxpcc_1_1vl53l0_1_1_data.html#a74d9f016c3c20080fe1d8b07e9c460fc"/>
+            <topic label="reset" href="structxpcc_1_1vl53l0_1_1_data.html#a8551725466c8839719c993b3e6ff09d0"/>
+            <topic label="Vl53l0" href="structxpcc_1_1vl53l0_1_1_data.html#a82edec2ff5140abd348c08822e906598"/>
+          </topic>
+          <topic label="TimeOverhead" href="structxpcc_1_1vl53l0_1_1_time_overhead.html">
+          </topic>
+          <topic label="Start_t" href="structxpcc_1_1vl53l0.html#a144af2170132a7e77ab424478da745f7"/>
+          <topic label="MeasurementSequenceStep_t" href="structxpcc_1_1vl53l0.html#a9983b30d414fda13825174cb503488af"/>
+          <topic label="InterruptConfig_t" href="structxpcc_1_1vl53l0.html#a53381e4ec0b0a72a9451bfd68162aa6f"/>
+          <topic label="InterruptClear_t" href="structxpcc_1_1vl53l0.html#ad44f53ddcae14b208e82a9baa59e57ea"/>
+          <topic label="GpioConfig_t" href="structxpcc_1_1vl53l0.html#a1fb7f0aa40e0d7088280200e462073dd"/>
+          <topic label="InterruptStatus_t" href="structxpcc_1_1vl53l0.html#a3f2118a25921005ced7707e3f12d73b5"/>
+          <topic label="RangeStatus_t" href="structxpcc_1_1vl53l0.html#a2d0bfbb611b43c103ed458a1f2ba03d7"/>
+          <topic label="RangeErrorCode_t" href="structxpcc_1_1vl53l0.html#ab3fdcb668921ab91d31392ddf272654c"/>
+          <topic label="MSRCConfig_t" href="structxpcc_1_1vl53l0.html#ab3e28e734192c1279dc715db0864dbd1"/>
+          <topic label="Control_t" href="structxpcc_1_1vl53l0.html#a9a40c20cbfdcd01d4f48aca3804e053e"/>
+          <topic label="Register" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985">
+            <topic label="SYSRANGE__START" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ab8920616e0f535a6b893397ccb9868c3"/>
+            <topic label="SYSTEM__THRESH_HIGH" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a3353a06cf5b95d8678d5c07b33dd0cf2"/>
+            <topic label="SYSTEM__THRESH_LOW" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a8fa63cd8c5de74ee2e42776ae8ae57e5"/>
+            <topic label="SYSTEM__SEQUENCE_CONFIG" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a8e60eec319c11617f31f5dac969b6052"/>
+            <topic label="SYSTEM__RANGE_CONFIG" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a4ef0f7cd9a0c7ef90a080f777808621d"/>
+            <topic label="SYSTEM__INTERMEASUREMENT_PERIOD" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a2e0599b76368f01f6989bc5c2d80187d"/>
+            <topic label="SYSTEM__INTERRUPT_CONFIG_GPIO" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a328bb9675e2be5d7950783ba02c1d5e9"/>
+            <topic label="SYSTEM__INTERRUPT_CLEAR" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a0721130255d593aed0abd2382cc187d2"/>
+            <topic label="SYSTEM__HISTOGRAM_BIN" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a780d17db35b22efae2555092ece2cc15"/>
+            <topic label="GPIO__HV_MUX_ACTIVE_HIGH" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a36977c7ef83db6b65fe9e3e9d3d65bb2"/>
+            <topic label="RESULT__INTERRUPT_STATUS" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985abfcb56dedafcf5be47a7a99b75478078"/>
+            <topic label="RESULT__RANGE_STATUS" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aab4ddcc10fc815eb5954b203fbc9e050"/>
+            <topic label="RESULT__RANGE_VALUE0" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a40832b541ff0451d62677cc665731bd7"/>
+            <topic label="RESULT__RANGE_VALUE1" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a0c7b2556367afc9e4c7c7fa8f9a2a2fa"/>
+            <topic label="RESULT__CORE_PAGE" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ad4143848c86b348af7ceee3b5d3c16d0"/>
+            <topic label="RESULT__CORE_AMBIENT_WINDOW_EVENTS_RTN" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a9ab144ce27c2f7699652daf7e28a6020"/>
+            <topic label="RESULT__CORE_RANGING_TOTAL_EVENTS_RTN" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a50868aab3cc17c1c599654ba4a96315c"/>
+            <topic label="RESULT__CORE_AMBIENT_WINDOW_EVENTS_REF" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a8e51aae2c2855ef519560a46e556b59c"/>
+            <topic label="RESULT__CORE_RANGING_TOTAL_EVENTS_REF" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a79c50b88e724260903049e6403ff9d6b"/>
+            <topic label="RESULT__PEAK_SIGNAL_RATE_REF" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a0b9921aa42f5cecaf0d5884d057aca29"/>
+            <topic label="ALGO__PART_TO_PART_RANGE_OFFSET_MM" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a54b374473697504c0b945b0e12f93290"/>
+            <topic label="ALGO__PHASECAL_CONFIG_TIMEOUT" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a3691255495ed99e392b42a6c00204beb"/>
+            <topic label="I2C_SLAVE__DEVICE_ADDRESS" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a51d1616996b237153adcac5d5f930ab8"/>
+            <topic label="MSRC__CONFIG_CONTROL" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a4afc26cacfa5fcce14f95b2becbbbeb6"/>
+            <topic label="MSRC__CONFIG_TIMEOUT_MACROP" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985afee79faae9afc40816b1b741386e285e"/>
+            <topic label="PRE_RANGE__CONFIG_MIN_SNR" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aa7b20446933a2b773d79e3bf13c9e07f"/>
+            <topic label="PRE_RANGE__CONFIG_VALID_PHASE_LOW" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a831942cc3170fd20ffa347f91208a2f4"/>
+            <topic label="PRE_RANGE__CONFIG_VALID_PHASE_HIGH" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ad93c8beb8aed2ba4d22d42a473c24c35"/>
+            <topic label="PRE_RANGE__MIN_COUNT_RATE_RTN_LIMIT" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a82ae90714ad40441dc348286d8272a61"/>
+            <topic label="PRE_RANGE__CONFIG_SIGMA_THRESH_HI" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a935a286d9d6028fdbea22f358eebdda1"/>
+            <topic label="PRE_RANGE__CONFIG_SIGMA_THRESH_LO" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ac684095c44f31286111e3d55f3142001"/>
+            <topic label="PRE_RANGE__CONFIG_VCSEL_PERIOD" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aad285955a1f9e7caf46dab6ea1fc62b2"/>
+            <topic label="PRE_RANGE__CONFIG_TIMEOUT_MACROP_HI" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a602133646cbf8ac389e0b0df230dd7e0"/>
+            <topic label="PRE_RANGE__CONFIG_TIMEOUT_MACROP_LO" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a8fa49b6148f31ac6caacc58008e5a097"/>
+            <topic label="FINAL_RANGE__CONFIG_MIN_SNR" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a38a7c644ee1aa54c2e47bd166e5e7d46"/>
+            <topic label="FINAL_RANGE__CONFIG_VALID_PHASE_LOW" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985abec055a8667c1fc50423a64e9eec1070"/>
+            <topic label="FINAL_RANGE__CONFIG_VALID_PHASE_HIGH" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a5a39def481751c372469655d5c0c4c56"/>
+            <topic label="FINAL_RANGE__CONFIG_MIN_COUNT_RATE_RTN_LIMIT" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ac1773fb641498a02e09c7e1727594699"/>
+            <topic label="FINAL_RANGE__CONFIG_VCSEL_PERIOD" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a9d655bf21bf27eb370892d31d1687448"/>
+            <topic label="FINAL_RANGE__CONFIG_TIMEOUT_MACROP_HI" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a190b47387aba0c99a75aa556ca44b084"/>
+            <topic label="FINAL_RANGE__CONFIG_TIMEOUT_MACROP_LO" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aed9483d83e00e7bbfcaedfbbecc47ca0"/>
+            <topic label="CROSSTALK_COMPENSATION__PEAK_RATE_MCPS" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a0ff6ed5791d2b936c435f8fa653130aa"/>
+            <topic label="HISTOGRAM__CONFIG_INITIAL_PHASE_SELECT" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985abc44c726ce1e39f73e89ab98e4c0dddf"/>
+            <topic label="HISTOGRAM__CONFIG_READOUT_CTRL" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a517285544631d4863669e82c6f2eff16"/>
+            <topic label="SOFT_RESET__GO2_SOFT_RESET_N" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ab54c84bb2eb1273cd2be79bbdbc110bc"/>
+            <topic label="IDENTIFICATION__MODEL_ID" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985acd737bb81670e50a1526f2a8915a9729"/>
+            <topic label="IDENTIFICATION__REVISION_ID" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a83f24bee84ec868ecddf38b23b8f3465"/>
+            <topic label="OSC__CALIBRATE_VAL" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a2f43d67aa9a6fd48b9d6d60e35d6bb42"/>
+            <topic label="GLOBAL__CONFIG_VCSEL_WIDTH" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a375cbacb641ff4f28cc3258b4803f29d"/>
+            <topic label="GLOBAL__CONFIG_SPAD_ENABLES_REF_0" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a3fe782f84dcac5597ec9d2669127b531"/>
+            <topic label="GLOBAL__CONFIG_SPAD_ENABLES_REF_1" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ac3ad1af831aae4ccfea1f8577ec4e0f5"/>
+            <topic label="GLOBAL__CONFIG_SPAD_ENABLES_REF_2" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a79f76c7fee6ebcdd7cfb152ebc5ff4f8"/>
+            <topic label="GLOBAL__CONFIG_SPAD_ENABLES_REF_3" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aabba849cf4f0a8f3daf64c5d9c2a7d38"/>
+            <topic label="GLOBAL__CONFIG_SPAD_ENABLES_REF_4" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ad33a22f35884d1ec64753566768a4a94"/>
+            <topic label="GLOBAL__CONFIG_SPAD_ENABLES_REF_5" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aec55cc9419d902a0cb29519daab8fb53"/>
+            <topic label="GLOBAL__CONFIG_REF_EN_START_SELECT" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985abcc0f941a6026cd6546ffdb950462147"/>
+            <topic label="DYNAMIC_SPAD__NUM_REQUESTED_REF_SPAD" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985aceec90b70fbdcb122e25dcc9396d02e4"/>
+            <topic label="DYNAMIC_SPAD__REF_EN_START_OFFSET" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a9285651f7dc0cb320d4c0ef0db965900"/>
+            <topic label="POWER_MANAGEMENT__GO1_POWER_FORCE" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985ab9533728316026916f206f7bfdfc2ddc"/>
+            <topic label="VHV__CONFIG_PAD_SCL_SDA__EXTSUP_HV" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a995961a851e05405cda3984d32a40a97"/>
+            <topic label="UNDOCUMENTED__I2C_MODE" href="structxpcc_1_1vl53l0.html#ad7ef8acba6619f66372d83287d62e985a790d95714c05610d08a311dea2a57273"/>
+          </topic>
+          <topic label="Start" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483">
+            <topic label="StartStop" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483aebefe6ac21fa40bbd2b3aa123133e2be"/>
+            <topic label="SingleShotMode" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483aee5e820500350ee98a80d1da4ea674ef"/>
+            <topic label="ContinuousMode" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483a9a186789c704a614d2f5b01d13d5b0ba"/>
+            <topic label="BackToBackMode" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483a8cc093d64836563b296056d6796432dc"/>
+            <topic label="TimedMode" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483aee3f718901879229bc480d30ec2f552d"/>
+            <topic label="HistogramMode" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483a1d6cf55d4ebaa940faece35038f5056f"/>
+            <topic label="VhvCalibrationMode" href="structxpcc_1_1vl53l0.html#a90bd54fe4b78bb08ba1726eb2e27f483a56135dc79cb81741ea6d02cf1e81a9df"/>
+          </topic>
+          <topic label="MeasurementSequenceStep" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75">
+            <topic label="TCC" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75afe75c39d4367d32897051621b01e5568"/>
+            <topic label="DSS" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75ae71f0182ed04206cb78bd7ceb2d9f4f3"/>
+            <topic label="MSRC" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75a39c19b38a4ff8a24b4fdbb8570426d1b"/>
+            <topic label="PreRange" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75a38e0656b9c83a26fcb7e86f260ca7a06"/>
+            <topic label="FinalRange" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75af88200cc35145b776b2bb5a7900fbc1a"/>
+            <topic label="VhvCalibration" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75a7af771aaf81bfc3cc9b17198861c36ff"/>
+            <topic label="PhaseCalibration" href="structxpcc_1_1vl53l0.html#abd88f62386c328deee6c9fe9596d3a75af3048e143065910d041b9e456cb81456"/>
+          </topic>
+          <topic label="InterruptConfig" href="structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969">
+            <topic label="Disabled" href="structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969ab9f5c797ebbf55adccdd8539a65a0241"/>
+            <topic label="LevelLow" href="structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969a28fb41c047bf9d5fb35e2c5a88407b40"/>
+            <topic label="LevelHigh" href="structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969afb399a4f3fcc67ccf6670a315243282d"/>
+            <topic label="OutOfWindow" href="structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969ac3e48c71e9e515361278e49f52892f8b"/>
+            <topic label="NewSampleReady" href="structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969a3b6552118a031f39c7332859715c4b46"/>
+          </topic>
+          <topic label="InterruptClear" href="structxpcc_1_1vl53l0.html#aa1c301d6490ceb42193b3d8243980600">
+            <topic label="Range" href="structxpcc_1_1vl53l0.html#aa1c301d6490ceb42193b3d8243980600a87ba2ecc8b6915e8bd6f5089918229fd"/>
+          </topic>
+          <topic label="GpioConfig" href="structxpcc_1_1vl53l0.html#a1def1814903da73f85fa19d76a56e7fd">
+            <topic label="InterruptPolarityHigh" href="structxpcc_1_1vl53l0.html#a1def1814903da73f85fa19d76a56e7fdafcd39ce6f0eb9d4b79fae02b35d32c96"/>
+          </topic>
+          <topic label="InterruptStatus" href="structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38">
+            <topic label="Disabled" href="structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38ab9f5c797ebbf55adccdd8539a65a0241"/>
+            <topic label="LevelLow" href="structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38a28fb41c047bf9d5fb35e2c5a88407b40"/>
+            <topic label="LevelHigh" href="structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38afb399a4f3fcc67ccf6670a315243282d"/>
+            <topic label="OutOfWindow" href="structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38ac3e48c71e9e515361278e49f52892f8b"/>
+            <topic label="NewSampleReady" href="structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38a3b6552118a031f39c7332859715c4b46"/>
+          </topic>
+          <topic label="RangeStatus" href="structxpcc_1_1vl53l0.html#ade1a627f1ca94ce459868406ee7c3520">
+            <topic label="DeviceReady" href="structxpcc_1_1vl53l0.html#ade1a627f1ca94ce459868406ee7c3520a4ef4fdc59dea1de89c2d8ef4addd528e"/>
+          </topic>
+          <topic label="RangeErrorCode" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8">
+            <topic label="NoError" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a70a47cae4eb221930f2663fd244369ea"/>
+            <topic label="VCSEL_ContinuityTest" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8ac16501a8c96fa874848617246d302d26"/>
+            <topic label="VCSEL_WatchdogTest" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a37508f7ad486b977f831cafe43cfc97c"/>
+            <topic label="VHV_NoValueFound" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a5dadb07b1e6af499f5cf4ecad24484cd"/>
+            <topic label="MSRC_NoTarget" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a8427eac0cbab946ecf9f2e38143d9f15"/>
+            <topic label="SNR_Check" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a034571739ae39dbd9deb9ed415c3cd39"/>
+            <topic label="RangePhaseCheck" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a08f3fb5b8dd5ce45fbc845bdc7cd844b"/>
+            <topic label="SigmaThresholdCheck" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a35e615b1996719822f949d35bc238249"/>
+            <topic label="TCC" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8afe75c39d4367d32897051621b01e5568"/>
+            <topic label="PhaseConsistency" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8ac00b5911b9cb9360dd2217efd63a5672"/>
+            <topic label="MinClip" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8aeeea5813d3c208c9fd713d26c9ad646c"/>
+            <topic label="RangeComplete" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8a0a0c6ec618ce8f176504ff7fc7ad0297"/>
+            <topic label="RangingAlgoUnderflow" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8ab31db2406ab319ce3a53d46ad129a7cf"/>
+            <topic label="RangingAlgoOverflow" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8ad0aa506ce847d841f5e842b46fd9b5da"/>
+            <topic label="RangeIgnoreThreshold" href="structxpcc_1_1vl53l0.html#ab7328c9d76fc31b8dca54a13eb02b1b8abaeedc37aa0d768ab5c7069345ee7545"/>
+          </topic>
+          <topic label="MSRCConfig" href="structxpcc_1_1vl53l0.html#aec4eb97e9ebc4afe62440bcf7ec5fb18">
+            <topic label="DisableRateCheck" href="structxpcc_1_1vl53l0.html#aec4eb97e9ebc4afe62440bcf7ec5fb18a69fef91bd6b7c5884cc85f3be55285b8"/>
+            <topic label="DisablePreRangeCheck" href="structxpcc_1_1vl53l0.html#aec4eb97e9ebc4afe62440bcf7ec5fb18abf325b15d399bf30c4fa250eab1c399e"/>
+          </topic>
         </topic>
         <topic label="vl6180" href="structxpcc_1_1vl6180.html">
           <topic label="Data" href="structxpcc_1_1vl6180_1_1_data.html">
@@ -13532,6 +13737,22 @@
             <topic label="PLL_Error" href="structxpcc_1_1vl6180.html#a8116e44c366e391c62ea3e35d1d838eda7e50d1edfe30a8da7ad7a480cda5e5b3"/>
           </topic>
         </topic>
+        <topic label="Vl6180" href="classxpcc_1_1_vl6180.html">
+          <topic label="Vl6180" href="classxpcc_1_1_vl6180.html#a50252a5cfdda3f6d5fe703a8b5f3b3d7"/>
+          <topic label="ping" href="classxpcc_1_1_vl6180.html#a7c8597829fc80232846aa75553c27cf3"/>
+          <topic label="initialize" href="classxpcc_1_1_vl6180.html#a118c595804903888754f24575c2f8b39"/>
+          <topic label="setDeviceAddress" href="classxpcc_1_1_vl6180.html#a520a59a2d7d7d4e8332f0afd15309bf3"/>
+          <topic label="setGain" href="classxpcc_1_1_vl6180.html#a8e1f25d95eefd1583885118fd83f8206"/>
+          <topic label="setIntegrationTime" href="classxpcc_1_1_vl6180.html#a2b77bcdf2f878325cf7fb4f543f37b6c"/>
+          <topic label="readDistance" href="classxpcc_1_1_vl6180.html#a6cbaa740d7046de158364d6a3e9575c6"/>
+          <topic label="readAmbientLight" href="classxpcc_1_1_vl6180.html#a5d7a734a6b7d5c8a4da7857be7e1a052"/>
+          <topic label="getRangeError" href="classxpcc_1_1_vl6180.html#a71b56e4b8bb3059ef74a4ece8e766d9e"/>
+          <topic label="getALS_Error" href="classxpcc_1_1_vl6180.html#a7a5daebdce51bd6f2a3e3e27dcc4b960"/>
+          <topic label="updateRegister" href="classxpcc_1_1_vl6180.html#a3c9a55742fe6b19676397ebb367da379"/>
+          <topic label="write" href="classxpcc_1_1_vl6180.html#ac377545c8032f1480acf0401e8955927"/>
+          <topic label="getData" href="classxpcc_1_1_vl6180.html#ac656029ca190e42b844fdaf91b0ab17b"/>
+          <topic label="read" href="classxpcc_1_1_vl6180.html#a86e8c0d2eec0c00984017e093a092c46"/>
+        </topic>
         <topic label="Xilinx" href="structxpcc_1_1_xilinx.html">
           <topic label="FpgaType" href="structxpcc_1_1_xilinx.html#a7a8cd15060367a6c1a91e3901e5fb5f0">
             <topic label="Spartan3XC3S50" href="structxpcc_1_1_xilinx.html#a7a8cd15060367a6c1a91e3901e5fb5f0a9babf3f2efdd0da69e3ca9d1015298a8"/>
@@ -13545,31 +13766,35 @@
         <topic label="XilinxSpartan6Parallel" href="classxpcc_1_1_xilinx_spartan6_parallel.html">
         </topic>
         <topic label="ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html">
-          <topic label="ReceiveItem" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html">
-            <topic label="ReceiveItem" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html#a891ec9a10de80036f0dc0833e35a0aae"/>
-            <topic label="header" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html#a5858864cdd912363c40722a15f8e0251"/>
-            <topic label="payload" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html#ab2d8604846b914f7c340269e6cb38c46"/>
-          </topic>
           <topic label="ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html#ad5234fe1fee59e5fb75e3f1e611b327d"/>
-          <topic label="~ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html#a98645fd4c5c2c7e84b83ed72414ef48f"/>
-          <topic label="sendPacket" href="classxpcc_1_1_zero_m_q_connector.html#a4911278882dc000b04876f30e8300aef"/>
-          <topic label="isPacketAvailable" href="classxpcc_1_1_zero_m_q_connector.html#a403aaa3c3fd7657c524b29435ddf4f1d"/>
-          <topic label="getPacketHeader" href="classxpcc_1_1_zero_m_q_connector.html#ae4f7d00e08a27abdeb9c8ed1b340f877"/>
-          <topic label="getPacketPayload" href="classxpcc_1_1_zero_m_q_connector.html#a6ad01ac41abed6d071ac7ba2477d4f34"/>
-          <topic label="dropPacket" href="classxpcc_1_1_zero_m_q_connector.html#a7bc52c2cb2f3871121ba21b7f4b3ffc2"/>
-          <topic label="update" href="classxpcc_1_1_zero_m_q_connector.html#a0fd091275a295d08e27d1c841204e8de"/>
+          <topic label="~ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html#ad8342473c74376c8df9deb65c6f26ee8"/>
+          <topic label="sendPacket" href="classxpcc_1_1_zero_m_q_connector.html#a9dd08bd8a48e537bea471862fc1c811f"/>
+          <topic label="isPacketAvailable" href="classxpcc_1_1_zero_m_q_connector.html#a12b21640c252b2b83429d34490a3e6df"/>
+          <topic label="getPacketHeader" href="classxpcc_1_1_zero_m_q_connector.html#a65b730336bb5ba975a45ff2797128517"/>
+          <topic label="getPacketPayload" href="classxpcc_1_1_zero_m_q_connector.html#a4d67896893d9365a7f311667c2456865"/>
+          <topic label="dropPacket" href="classxpcc_1_1_zero_m_q_connector.html#aa5731d201c5611e1333e8aa289dd3793"/>
+          <topic label="update" href="classxpcc_1_1_zero_m_q_connector.html#a4956a3c202012af87365cf028abf9fde"/>
           <topic label="context" href="classxpcc_1_1_zero_m_q_connector.html#a93f7e85aef9340361f3c9cda8fd3977d"/>
           <topic label="socketIn" href="classxpcc_1_1_zero_m_q_connector.html#a937b3218e2a8ffa8e6c748d2b84d131c"/>
           <topic label="socketOut" href="classxpcc_1_1_zero_m_q_connector.html#a8677e124ff8fbeeeb74d995b226527d4"/>
-          <topic label="message" href="classxpcc_1_1_zero_m_q_connector.html#a2bba4e74dcd62016aa01c5ba128468df"/>
-          <topic label="isAvailable" href="classxpcc_1_1_zero_m_q_connector.html#ac4a893c3cf78470c5ff862607cee57da"/>
-          <topic label="receiveItem" href="classxpcc_1_1_zero_m_q_connector.html#aca9bef4ba39548c8c0b96bad6948d0c6"/>
+          <topic label="reader" href="classxpcc_1_1_zero_m_q_connector.html#a967551aa0f8d845f111cb42473563c62"/>
         </topic>
         <topic label="ZeroMQConnectorBase" href="classxpcc_1_1_zero_m_q_connector_base.html">
           <topic label="Mode" href="classxpcc_1_1_zero_m_q_connector_base.html#ae58a11e9ba6204918bc0312f34723c05">
             <topic label="SubPush" href="classxpcc_1_1_zero_m_q_connector_base.html#ae58a11e9ba6204918bc0312f34723c05aae33bb35eee3fb88873a98d2c645c761"/>
             <topic label="PubPull" href="classxpcc_1_1_zero_m_q_connector_base.html#ae58a11e9ba6204918bc0312f34723c05a4c5754922d2133644c9dc2fb14e1164d"/>
           </topic>
+        </topic>
+        <topic label="ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html">
+          <topic label="ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html#ac911c0df669ad316d5689e1804eb5f08"/>
+          <topic label="~ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html#a492cfe28c37b6b55f5e1fa6df78afd16"/>
+          <topic label="ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html#a7567d275133cb0b39dd016988bc160b5"/>
+          <topic label="operator=" href="classxpcc_1_1_zero_m_q_reader.html#a91f5a0d223bf5fd79a0e0eff27bf645d"/>
+          <topic label="start" href="classxpcc_1_1_zero_m_q_reader.html#a76f99d7fd74eb28828ec1484a174243e"/>
+          <topic label="stop" href="classxpcc_1_1_zero_m_q_reader.html#af37c7fb70ad6609dc88532e906e4d2ae"/>
+          <topic label="isPacketAvailable" href="classxpcc_1_1_zero_m_q_reader.html#aba5df65c12f110b256cccdd12f790881"/>
+          <topic label="getPacket" href="classxpcc_1_1_zero_m_q_reader.html#ac1dc2bb2b4eda641f3e6e4ff22ddc51b"/>
+          <topic label="dropPacket" href="classxpcc_1_1_zero_m_q_reader.html#a7ea837cc9c87d1d4fb02435f9fd09d01"/>
         </topic>
       </topic>
     </topic>
@@ -13778,8 +14003,8 @@
         <topic label="xpcc::Communicator" href="classxpcc_1_1_communicator.html"/>
       </topic>
       <topic label="xpcc::BoundedDeque&lt; T, N &gt;::const_iterator" href="classxpcc_1_1_bounded_deque_1_1const__iterator.html"/>
-      <topic label="xpcc::DynamicArray&lt; T, Allocator &gt;::const_iterator" href="classxpcc_1_1_dynamic_array_1_1const__iterator.html"/>
       <topic label="xpcc::DoublyLinkedList&lt; T, Allocator &gt;::const_iterator" href="classxpcc_1_1_doubly_linked_list_1_1const__iterator.html"/>
+      <topic label="xpcc::DynamicArray&lt; T, Allocator &gt;::const_iterator" href="classxpcc_1_1_dynamic_array_1_1const__iterator.html"/>
       <topic label="xpcc::LinkedList&lt; T, Allocator &gt;::const_iterator" href="classxpcc_1_1_linked_list_1_1const__iterator.html"/>
       <topic label="xpcc::atomic::Container&lt; T &gt;" href="classxpcc_1_1atomic_1_1_container.html"/>
       <topic label="unittest::Controller" href="classunittest_1_1_controller.html"/>
@@ -13792,6 +14017,7 @@
       <topic label="xpcc::cortex::Core" href="classxpcc_1_1cortex_1_1_core.html"/>
       <topic label="unittest::CountType" href="classunittest_1_1_count_type.html"/>
       <topic label="xpcc::cortex::CycleCounter" href="classxpcc_1_1cortex_1_1_cycle_counter.html"/>
+      <topic label="xpcc::ft6x06::Data" href="structxpcc_1_1ft6x06_1_1_data.html"/>
       <topic label="xpcc::hmc58x3::Data" href="structxpcc_1_1hmc58x3_1_1_data.html"/>
       <topic label="xpcc::hmc6343::Data" href="structxpcc_1_1hmc6343_1_1_data.html"/>
       <topic label="xpcc::itg3200::Data" href="structxpcc_1_1itg3200_1_1_data.html"/>
@@ -13799,11 +14025,11 @@
       <topic label="xpcc::lis302dl::Data" href="structxpcc_1_1lis302dl_1_1_data.html"/>
       <topic label="xpcc::lis3dsh::Data" href="structxpcc_1_1lis3dsh_1_1_data.html"/>
       <topic label="xpcc::lsm303a::Data" href="structxpcc_1_1lsm303a_1_1_data.html"/>
+      <topic label="xpcc::vl53l0::Data" href="structxpcc_1_1vl53l0_1_1_data.html"/>
       <topic label="xpcc::vl6180::Data" href="structxpcc_1_1vl6180_1_1_data.html"/>
       <topic label="xpcc::hclax::Data" href="structxpcc_1_1hclax_1_1_data.html"/>
-      <topic label="xpcc::lm75::Data" href="structxpcc_1_1lm75_1_1_data.html"/>
       <topic label="xpcc::tmp102::Data" href="structxpcc_1_1tmp102_1_1_data.html"/>
-      <topic label="xpcc::ft6x06::Data" href="structxpcc_1_1ft6x06_1_1_data.html"/>
+      <topic label="xpcc::lm75::Data" href="structxpcc_1_1lm75_1_1_data.html"/>
       <topic label="xpcc::Tcs3414&lt; I2cMaster &gt;::Data.__unnamed__" href="group__driver__other.html#structxpcc_1_1_tcs3414_1_1_data_8____unnamed____"/>
       <topic label="xpcc::bme280data::DataBase" href="structxpcc_1_1bme280data_1_1_data_base.html">
         <topic label="xpcc::bme280data::Data" href="classxpcc_1_1bme280data_1_1_data.html"/>
@@ -13951,12 +14177,14 @@
       <topic label="xpcc::stm32::TypeId::FsmcD7" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_d7.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcD8" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_d8.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcD9" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_d9.html"/>
+      <topic label="xpcc::stm32::TypeId::FsmcInt" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_int.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcInt2" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_int2.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcInt3" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_int3.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcIntr" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_intr.html"/>
       <topic label="xpcc::stm32::fsmc::FsmcNand" href="classxpcc_1_1stm32_1_1fsmc_1_1_fsmc_nand.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcNbl0" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nbl0.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcNbl1" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nbl1.html"/>
+      <topic label="xpcc::stm32::TypeId::FsmcNce" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcNce2" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce2.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcNce3" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce3.html"/>
       <topic label="xpcc::stm32::TypeId::FsmcNce4" href="structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_nce4.html"/>
@@ -14568,9 +14796,9 @@
       <topic label="xpcc::ui::Indicator&lt; T &gt;" href="classxpcc_1_1ui_1_1_indicator.html"/>
       <topic label="xpcc::gui::InputEvent" href="classxpcc_1_1gui_1_1_input_event.html"/>
       <topic label="xpcc::amnb::Interface&lt; Device, PROBABILITY, TIMEOUT &gt;" href="classxpcc_1_1amnb_1_1_interface.html"/>
-      <topic label="xpcc::rpr::Interface&lt; Device, N &gt;" href="classxpcc_1_1rpr_1_1_interface.html"/>
       <topic label="xpcc::sab::Interface&lt; Device &gt;" href="classxpcc_1_1sab_1_1_interface.html"/>
       <topic label="xpcc::sab2::Interface&lt; Device, N &gt;" href="classxpcc_1_1sab2_1_1_interface.html"/>
+      <topic label="xpcc::rpr::Interface&lt; Device, N &gt;" href="classxpcc_1_1rpr_1_1_interface.html"/>
       <topic label="xpcc::stm32::InternalClock&lt; InputFrequency &gt;" href="classxpcc_1_1stm32_1_1_internal_clock.html"/>
       <topic label="xpcc::lpc::TypeId::InternalClock" href="structxpcc_1_1lpc_1_1_type_id_1_1_internal_clock.html"/>
       <topic label="xpcc::stm32::TypeId::InternalClock" href="structxpcc_1_1stm32_1_1_type_id_1_1_internal_clock.html"/>
@@ -14605,7 +14833,9 @@
           </topic>
           <topic label="xpcc::BufferedGraphicDisplay&lt; 128, 64 &gt;" href="classxpcc_1_1_buffered_graphic_display.html">
             <topic label="xpcc::Ks0108&lt; E, RW, RS, PIN_CS1, PIN_CS2, PORT &gt;" href="classxpcc_1_1_ks0108.html"/>
-            <topic label="xpcc::Ssd1306&lt; I2cMaster &gt;" href="classxpcc_1_1_ssd1306.html"/>
+          </topic>
+          <topic label="xpcc::BufferedGraphicDisplay&lt; 128, Height &gt;" href="classxpcc_1_1_buffered_graphic_display.html">
+            <topic label="xpcc::Ssd1306&lt; I2cMaster, Height &gt;" href="classxpcc_1_1_ssd1306.html"/>
           </topic>
           <topic label="xpcc::BufferedGraphicDisplay&lt; 130, 128 &gt;" href="classxpcc_1_1_buffered_graphic_display.html">
             <topic label="xpcc::Nokia6610&lt; SPI, CS, Reset, GE12 &gt;" href="classxpcc_1_1_nokia6610.html"/>
@@ -14684,8 +14914,8 @@
       <topic label="xpcc::lis3dsh" href="structxpcc_1_1lis3dsh.html">
         <topic label="xpcc::Lis3dsh&lt; Transport &gt;" href="classxpcc_1_1_lis3dsh.html"/>
       </topic>
-      <topic label="xpcc::amnb::Listener" href="structxpcc_1_1amnb_1_1_listener.html"/>
       <topic label="xpcc::rpr::Listener" href="structxpcc_1_1rpr_1_1_listener.html"/>
+      <topic label="xpcc::amnb::Listener" href="structxpcc_1_1amnb_1_1_listener.html"/>
       <topic label="xpcc::lm75" href="structxpcc_1_1lm75.html">
         <topic label="xpcc::Lm75&lt; I2cMaster &gt;" href="classxpcc_1_1_lm75.html">
           <topic label="xpcc::Tmp102&lt; I2cMaster &gt;" href="classxpcc_1_1_tmp102.html"/>
@@ -14762,11 +14992,14 @@
           <topic label="xpcc::Tcs3414&lt; I2cMaster &gt;" href="classxpcc_1_1_tcs3414.html"/>
           <topic label="xpcc::Vl6180&lt; I2cMaster &gt;" href="classxpcc_1_1_vl6180.html"/>
         </topic>
-        <topic label="xpcc::I2cDevice&lt; I2cMaster, 2, ssd1306::DataTransmissionAdapter &gt;" href="classxpcc_1_1_i2c_device.html">
-          <topic label="xpcc::Ssd1306&lt; I2cMaster &gt;" href="classxpcc_1_1_ssd1306.html"/>
+        <topic label="xpcc::I2cDevice&lt; I2cMaster, 2, ssd1306::DataTransmissionAdapter&lt; Height &gt; &gt;" href="classxpcc_1_1_i2c_device.html">
+          <topic label="xpcc::Ssd1306&lt; I2cMaster, Height &gt;" href="classxpcc_1_1_ssd1306.html"/>
         </topic>
         <topic label="xpcc::I2cDevice&lt; I2cMaster, 3 &gt;" href="classxpcc_1_1_i2c_device.html">
           <topic label="xpcc::Ft6x06&lt; I2cMaster &gt;" href="classxpcc_1_1_ft6x06.html"/>
+        </topic>
+        <topic label="xpcc::I2cDevice&lt; I2cMaster, 5 &gt;" href="classxpcc_1_1_i2c_device.html">
+          <topic label="xpcc::Vl53l0&lt; I2cMaster &gt;" href="classxpcc_1_1_vl53l0.html"/>
         </topic>
         <topic label="xpcc::I2cDevice&lt; I2cMaster, NestingLevels, Transaction &gt;" href="classxpcc_1_1_i2c_device.html"/>
       </topic>
@@ -14780,6 +15013,7 @@
       </topic>
       <topic label="xpcc::tmp::NullType" href="group__tmp.html#classxpcc_1_1tmp_1_1_null_type"/>
       <topic label="xpcc::Nrf24Data&lt; Nrf24Phy &gt;::Packet" href="structxpcc_1_1_nrf24_data_1_1_packet.html"/>
+      <topic label="xpcc::ZeroMQReader::Packet" href="structxpcc_1_1_zero_m_q_reader_1_1_packet.html"/>
       <topic label="xpcc::Pair&lt; T1, T2 &gt;" href="classxpcc_1_1_pair.html"/>
       <topic label="xpcc::Pid&lt; T, ScaleFactor &gt;::Parameter" href="structxpcc_1_1_pid_1_1_parameter.html"/>
       <topic label="xpcc::SCurveController&lt; T &gt;::Parameter" href="structxpcc_1_1_s_curve_controller_1_1_parameter.html"/>
@@ -14811,7 +15045,7 @@
           </topic>
         </topic>
         <topic label="xpcc::Can" href="classxpcc_1_1_can.html">
-          <topic label="xpcc::hosted::CanUsb" href="classxpcc_1_1hosted_1_1_can_usb.html"/>
+          <topic label="xpcc::hosted::CanUsb&lt; SerialPort &gt;" href="classxpcc_1_1hosted_1_1_can_usb.html"/>
           <topic label="xpcc::hosted::SocketCan" href="classxpcc_1_1hosted_1_1_socket_can.html"/>
           <topic label="xpcc::lpc::Can" href="classxpcc_1_1lpc_1_1_can.html"/>
           <topic label="xpcc::Mcp2515&lt; SPI, CS, INT &gt;" href="classxpcc_1_1_mcp2515.html"/>
@@ -14848,8 +15082,8 @@
         <topic label="xpcc::GpioInverted&lt; Pin &gt;" href="classxpcc_1_1_gpio_inverted.html"/>
         <topic label="xpcc::GpioInverted&lt; Pin &gt;" href="classxpcc_1_1_gpio_inverted.html"/>
       </topic>
-      <topic label="xpcc::stm32::Pll&lt; Input, OutputFrequency, UsbFrequency &gt;" href="classxpcc_1_1stm32_1_1_pll.html"/>
       <topic label="xpcc::stm32::TypeId::Pll" href="structxpcc_1_1stm32_1_1_type_id_1_1_pll.html"/>
+      <topic label="xpcc::stm32::Pll&lt; Input, OutputFrequency, UsbFrequency &gt;" href="classxpcc_1_1stm32_1_1_pll.html"/>
       <topic label="xpcc::lpc::TypeId::Pll" href="structxpcc_1_1lpc_1_1_type_id_1_1_pll.html"/>
       <topic label="xpcc::stm32::Pll&lt; ExternalClock&lt; InputFrequency &gt;, OutputFrequency, UsbFrequency &gt;" href="classxpcc_1_1stm32_1_1_pll_3_01_external_clock_3_01_input_frequency_01_4_00_01_output_frequency_00_01_usb_frequency_01_4.html"/>
       <topic label="xpcc::stm32::Pll&lt; ExternalCrystal&lt; InputFrequency &gt;, OutputFrequency, UsbFrequency &gt;" href="classxpcc_1_1stm32_1_1_pll_3_01_external_crystal_3_01_input_frequency_01_4_00_01_output_frequency_00_01_usb_frequency_01_4.html"/>
@@ -14883,7 +15117,6 @@
       <topic label="xpcc::allocator::Block&lt; T, BLOCKSIZE &gt;::rebind&lt; U &gt;" href="group__allocator.html#structxpcc_1_1allocator_1_1_block_1_1rebind"/>
       <topic label="xpcc::allocator::Dynamic&lt; T &gt;::rebind&lt; U &gt;" href="group__allocator.html#structxpcc_1_1allocator_1_1_dynamic_1_1rebind"/>
       <topic label="xpcc::allocator::Static&lt; T, N &gt;::rebind&lt; U &gt;" href="group__allocator.html#structxpcc_1_1allocator_1_1_static_1_1rebind"/>
-      <topic label="xpcc::ZeroMQConnector::ReceiveItem" href="classxpcc_1_1_zero_m_q_connector_1_1_receive_item.html"/>
       <topic label="xpcc::CanConnector&lt; Driver &gt;::ReceiveListItem" href="classxpcc_1_1_can_connector_1_1_receive_list_item.html"/>
       <topic label="xpcc::tipc::Receiver" href="classxpcc_1_1tipc_1_1_receiver.html"/>
       <topic label="xpcc::tipc::ReceiverSocket" href="classxpcc_1_1tipc_1_1_receiver_socket.html"/>
@@ -14903,8 +15136,8 @@
       </topic>
       <topic label="xpcc::ad7280a::RegisterValue" href="structxpcc_1_1ad7280a_1_1_register_value.html"/>
       <topic label="unittest::Reporter" href="classunittest_1_1_reporter.html"/>
-      <topic label="xpcc::sab::Response" href="classxpcc_1_1sab_1_1_response.html"/>
       <topic label="xpcc::amnb::Response" href="classxpcc_1_1amnb_1_1_response.html"/>
+      <topic label="xpcc::sab::Response" href="classxpcc_1_1sab_1_1_response.html"/>
       <topic label="xpcc::ResponseCallback" href="classxpcc_1_1_response_callback.html"/>
       <topic label="xpcc::ResponseHandle" href="classxpcc_1_1_response_handle.html"/>
       <topic label="xpcc::Resumable&lt; Functions &gt;" href="classxpcc_1_1_resumable.html"/>
@@ -14914,8 +15147,8 @@
       <topic label="xpcc::tmp::SameType&lt; T, U &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_same_type"/>
       <topic label="xpcc::tmp::SameType&lt; T, T &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_same_type_3_01_t_00_01_t_01_4"/>
       <topic label="xpcc::Saturated&lt; T &gt;" href="classxpcc_1_1_saturated.html"/>
-      <topic label="xpcc::Scheduler" href="classxpcc_1_1_scheduler.html"/>
       <topic label="xpcc::rtos::Scheduler" href="classxpcc_1_1rtos_1_1_scheduler.html"/>
+      <topic label="xpcc::Scheduler" href="classxpcc_1_1_scheduler.html"/>
       <topic label="xpcc::Scp1000&lt; Spi, Cs, Int &gt;" href="classxpcc_1_1_scp1000.html"/>
       <topic label="xpcc::ScrollableText" href="classxpcc_1_1_scrollable_text.html"/>
       <topic label="xpcc::SCurveController&lt; T &gt;" href="classxpcc_1_1_s_curve_controller.html"/>
@@ -15006,7 +15239,7 @@
       <topic label="xpcc::stm32::TypeId::SpiSlave6Simo" href="structxpcc_1_1stm32_1_1_type_id_1_1_spi_slave6_simo.html"/>
       <topic label="xpcc::stm32::TypeId::SpiSlave6Somi" href="structxpcc_1_1stm32_1_1_type_id_1_1_spi_slave6_somi.html"/>
       <topic label="xpcc::ssd1306" href="structxpcc_1_1ssd1306.html">
-        <topic label="xpcc::Ssd1306&lt; I2cMaster &gt;" href="classxpcc_1_1_ssd1306.html"/>
+        <topic label="xpcc::Ssd1306&lt; I2cMaster, Height &gt;" href="classxpcc_1_1_ssd1306.html"/>
       </topic>
       <topic label="xpcc::Stack&lt; T, Container &gt;" href="classxpcc_1_1_stack.html">
         <topic label="xpcc::BoundedStack&lt; T, N, Container &gt;" href="classxpcc_1_1_bounded_stack.html"/>
@@ -15036,19 +15269,19 @@
       <topic label="xpcc::tmp::SuperSubclassStrict&lt; T, U &gt;" href="group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_strict"/>
       <topic label="xpcc::stm32::fsmc::NorSram::SynchronousTiming" href="group__stm32f407vg__fsmc.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_synchronous_timing"/>
       <topic label="xpcc::stm32::TypeId::SystemClock" href="structxpcc_1_1stm32_1_1_type_id_1_1_system_clock.html"/>
+      <topic label="xpcc::avr::SystemClock" href="classxpcc_1_1avr_1_1_system_clock.html"/>
       <topic label="xpcc::stm32::SystemClock&lt; Input &gt;" href="classxpcc_1_1stm32_1_1_system_clock.html"/>
       <topic label="xpcc::lpc::TypeId::SystemClock" href="structxpcc_1_1lpc_1_1_type_id_1_1_system_clock.html"/>
       <topic label="Board::systemClock" href="struct_board_1_1system_clock.html"/>
-      <topic label="xpcc::avr::SystemClock" href="classxpcc_1_1avr_1_1_system_clock.html"/>
       <topic label="xpcc::stm32::SystemClock&lt; ExternalClock&lt; OutputFrequency &gt; &gt;" href="classxpcc_1_1stm32_1_1_system_clock_3_01_external_clock_3_01_output_frequency_01_4_01_4.html"/>
       <topic label="xpcc::stm32::SystemClock&lt; ExternalCrystal&lt; OutputFrequency &gt; &gt;" href="classxpcc_1_1stm32_1_1_system_clock_3_01_external_crystal_3_01_output_frequency_01_4_01_4.html"/>
       <topic label="xpcc::stm32::SystemClock&lt; InternalClock&lt; OutputFrequency &gt; &gt;" href="classxpcc_1_1stm32_1_1_system_clock_3_01_internal_clock_3_01_output_frequency_01_4_01_4.html"/>
       <topic label="xpcc::stm32::SystemClock&lt; Pll&lt; Input, OutputFrequency, UsbFrequency &gt; &gt;" href="classxpcc_1_1stm32_1_1_system_clock_3_01_pll_3_01_input_00_01_output_frequency_00_01_usb_frequency_01_4_01_4.html"/>
       <topic label="xpcc::cortex::SysTickTimer" href="classxpcc_1_1cortex_1_1_sys_tick_timer.html"/>
-      <topic label="xpcc::Scheduler::Task" href="classxpcc_1_1_scheduler_1_1_task.html"/>
       <topic label="xpcc::Task" href="classxpcc_1_1_task.html">
         <topic label="xpcc::CommunicatableTask" href="classxpcc_1_1_communicatable_task.html"/>
       </topic>
+      <topic label="xpcc::Scheduler::Task" href="classxpcc_1_1_scheduler_1_1_task.html"/>
       <topic label="xpcc::tcs3414" href="structxpcc_1_1tcs3414.html">
         <topic label="xpcc::Tcs3414&lt; I2cMaster &gt;" href="classxpcc_1_1_tcs3414.html"/>
       </topic>
@@ -15057,6 +15290,7 @@
       <topic label="xpcc::TftMemoryBus8Bit" href="classxpcc_1_1_tft_memory_bus8_bit.html"/>
       <topic label="xpcc::TftMemoryBus8BitGpio&lt; PORT, CS, RD, WR, CD &gt;" href="classxpcc_1_1_tft_memory_bus8_bit_gpio.html"/>
       <topic label="xpcc::rtos::Thread" href="classxpcc_1_1rtos_1_1_thread.html"/>
+      <topic label="xpcc::vl53l0::TimeOverhead" href="structxpcc_1_1vl53l0_1_1_time_overhead.html"/>
       <topic label="xpcc::stm32::TypeId::Timer10Channel1" href="structxpcc_1_1stm32_1_1_type_id_1_1_timer10_channel1.html"/>
       <topic label="xpcc::stm32::TypeId::Timer11Channel1" href="structxpcc_1_1stm32_1_1_type_id_1_1_timer11_channel1.html"/>
       <topic label="xpcc::stm32::TypeId::Timer12Channel1" href="structxpcc_1_1stm32_1_1_type_id_1_1_timer12_channel1.html"/>
@@ -15129,13 +15363,13 @@
       <topic label="xpcc::TLC594X&lt; CHANNELS, Spi, Xlat, Vprog, Xerr &gt;" href="classxpcc_1_1_t_l_c594_x.html"/>
       <topic label="xpcc::Tolerance" href="classxpcc_1_1_tolerance.html"/>
       <topic label="xpcc::ft6x06::touch_t" href="structxpcc_1_1ft6x06_1_1touch__t.html"/>
-      <topic label="xpcc::tipc::Transmitter" href="classxpcc_1_1tipc_1_1_transmitter.html"/>
       <topic label="xpcc::amnb::Transmitter" href="classxpcc_1_1amnb_1_1_transmitter.html">
         <topic label="xpcc::amnb::Node&lt; Interface &gt;" href="classxpcc_1_1amnb_1_1_node.html"/>
       </topic>
       <topic label="xpcc::rpr::Transmitter" href="classxpcc_1_1rpr_1_1_transmitter.html">
         <topic label="xpcc::rpr::Node&lt; Interface &gt;" href="classxpcc_1_1rpr_1_1_node.html"/>
       </topic>
+      <topic label="xpcc::tipc::Transmitter" href="classxpcc_1_1tipc_1_1_transmitter.html"/>
       <topic label="xpcc::sab::Transmitter" href="classxpcc_1_1sab_1_1_transmitter.html">
         <topic label="xpcc::sab::Slave&lt; Interface &gt;" href="classxpcc_1_1sab_1_1_slave.html"/>
       </topic>
@@ -15150,8 +15384,8 @@
       <topic label="xpcc::stm32::TypeId::Uart1Cts" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart1_cts.html"/>
       <topic label="xpcc::stm32::TypeId::Uart1De" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart1_de.html"/>
       <topic label="xpcc::stm32::TypeId::Uart1Rts" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart1_rts.html"/>
-      <topic label="xpcc::stm32::TypeId::Uart1Rx" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart1_rx.html"/>
       <topic label="xpcc::lpc::TypeId::Uart1Rx" href="structxpcc_1_1lpc_1_1_type_id_1_1_uart1_rx.html"/>
+      <topic label="xpcc::stm32::TypeId::Uart1Rx" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart1_rx.html"/>
       <topic label="xpcc::stm32::TypeId::Uart1Tx" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart1_tx.html"/>
       <topic label="xpcc::lpc::TypeId::Uart1Tx" href="structxpcc_1_1lpc_1_1_type_id_1_1_uart1_tx.html"/>
       <topic label="xpcc::stm32::TypeId::Uart2Ck" href="structxpcc_1_1stm32_1_1_type_id_1_1_uart2_ck.html"/>
@@ -15249,6 +15483,9 @@
         <topic label="xpcc::CommunicatingViewStack" href="classxpcc_1_1_communicating_view_stack.html"/>
         <topic label="xpcc::gui::GuiViewStack" href="classxpcc_1_1gui_1_1_gui_view_stack.html"/>
       </topic>
+      <topic label="xpcc::vl53l0" href="structxpcc_1_1vl53l0.html">
+        <topic label="xpcc::Vl53l0&lt; I2cMaster &gt;" href="classxpcc_1_1_vl53l0.html"/>
+      </topic>
       <topic label="xpcc::vl6180" href="structxpcc_1_1vl6180.html">
         <topic label="xpcc::Vl6180&lt; I2cMaster &gt;" href="classxpcc_1_1_vl6180.html"/>
       </topic>
@@ -15278,6 +15515,7 @@
       <topic label="xpcc::ZeroMQConnectorBase" href="classxpcc_1_1_zero_m_q_connector_base.html">
         <topic label="xpcc::ZeroMQConnector" href="classxpcc_1_1_zero_m_q_connector.html"/>
       </topic>
+      <topic label="xpcc::ZeroMQReader" href="classxpcc_1_1_zero_m_q_reader.html"/>
     </topic>
     <topic label="Class Members" href="functions.html">
       <topic label="All" href="functions.html">

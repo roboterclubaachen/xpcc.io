@@ -145,9 +145,8 @@ constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href=
 <tr class="memdesc:a92ec8cc1f33614e59aa0bd7987c215a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor initializes <code>value</code> to zero. <br /></td></tr>
 <tr class="separator:a92ec8cc1f33614e59aa0bd7987c215a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a19af6528da6a133b61e1b74c1a56977a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19af6528da6a133b61e1b74c1a56977a"></a>
-constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxpcc_1_1_register.html#a19af6528da6a133b61e1b74c1a56977a">operator bool</a> () const </td></tr>
-<tr class="memdesc:a19af6528da6a133b61e1b74c1a56977a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if <code>value</code> is non-zero. <br /></td></tr>
+<tr class="memitem:a19af6528da6a133b61e1b74c1a56977a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxpcc_1_1_register.html#a19af6528da6a133b61e1b74c1a56977a">operator bool</a> () const </td></tr>
+<tr class="memdesc:a19af6528da6a133b61e1b74c1a56977a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if <code>value</code> is non-zero.  <a href="#a19af6528da6a133b61e1b74c1a56977a">More...</a><br /></td></tr>
 <tr class="separator:a19af6528da6a133b61e1b74c1a56977a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63055a8f6f3e5b47c329457036a0bb2b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a63055a8f6f3e5b47c329457036a0bb2b"></a>
 constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxpcc_1_1_register.html#a63055a8f6f3e5b47c329457036a0bb2b">operator!</a> () const </td></tr>
@@ -197,7 +196,39 @@ struct xpcc::Register&lt; T &gt;</h3>
 </dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__register.html#gac82600d3b4d79b80e601b8e03f4d3efb" title="Register class with 8-bit wide underlying type. ">Register8</a>, <a class="el" href="group__register.html#gaf50110b5b40521dc0dc10cee6f3fe7ea" title="Register class with 16-bit wide underlying type. ">Register16</a>, <a class="el" href="group__register.html#ga13f6ff67091cdf706220bb3283342dbf" title="Register class with 32-bit wide underlying type. ">Register32</a></dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Niklas Hauser </dd></dl>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a19af6528da6a133b61e1b74c1a56977a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structxpcc_1_1_register.html">xpcc::Register</a>&lt; T &gt;::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The compiler will allow implicit conversions to bool in the following contexts:</p><ul>
+<li>conditions of if, while, for, do-while statements</li>
+<li>logical operators (&amp;&amp;, ||)</li>
+<li>negation (operator !)</li>
+<li>static_assert </li>
+</ul>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>register.hpp</li>
 </ul>
 </div><!-- contents -->
@@ -206,7 +237,7 @@ struct xpcc::Register&lt; T &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexpcc.html">xpcc</a></li><li class="navelem"><a class="el" href="structxpcc_1_1_register.html">Register</a></li>
-    <li class="footer">Generated on Sun Nov 20 2016 22:41:23 for xpcc by
+    <li class="footer">Generated on Thu Apr 6 2017 23:40:47 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

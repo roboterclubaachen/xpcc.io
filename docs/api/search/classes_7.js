@@ -9,7 +9,7 @@ var searchData=
   ['header',['Header',['../group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_header',1,'xpcc::Nrf24Data']]],
   ['hmc5843',['hmc5843',['../structxpcc_1_1hmc5843.html',1,'xpcc::hmc5843'],['../classxpcc_1_1_hmc5843.html',1,'xpcc::Hmc5843&lt; I2cMaster &gt;']]],
   ['hmc5883',['hmc5883',['../structxpcc_1_1hmc5883.html',1,'xpcc::hmc5883'],['../classxpcc_1_1_hmc5883.html',1,'xpcc::Hmc5883&lt; I2cMaster &gt;']]],
-  ['hmc58x3',['Hmc58x3',['../classxpcc_1_1_hmc58x3.html',1,'xpcc::Hmc58x3&lt; I2cMaster &gt;'],['../structxpcc_1_1hmc58x3.html',1,'xpcc::hmc58x3']]],
+  ['hmc58x3',['hmc58x3',['../structxpcc_1_1hmc58x3.html',1,'xpcc::hmc58x3'],['../classxpcc_1_1_hmc58x3.html',1,'xpcc::Hmc58x3&lt; I2cMaster &gt;']]],
   ['hmc6343',['Hmc6343',['../classxpcc_1_1_hmc6343.html',1,'xpcc::Hmc6343&lt; I2cMaster &gt;'],['../structxpcc_1_1hmc6343.html',1,'xpcc::hmc6343']]],
   ['hsvt',['HsvT',['../classxpcc_1_1color_1_1_hsv_t.html',1,'xpcc::color']]]
 ];

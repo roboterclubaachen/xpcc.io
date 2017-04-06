@@ -6,6 +6,7 @@ var searchData=
   ['zeromatrix',['zeroMatrix',['../classxpcc_1_1_matrix.html#ac8151d252570ed6eeb44bf2754c13bf0',1,'xpcc::Matrix']]],
   ['zeromqconnector',['ZeroMQConnector',['../classxpcc_1_1_zero_m_q_connector.html',1,'xpcc']]],
   ['zeromqconnectorbase',['ZeroMQConnectorBase',['../classxpcc_1_1_zero_m_q_connector_base.html',1,'xpcc']]],
+  ['zeromqreader',['ZeroMQReader',['../classxpcc_1_1_zero_m_q_reader.html',1,'xpcc']]],
   ['zeropercent',['ZeroPercent',['../classxpcc_1_1_tolerance.html#a9fa50d6ba8c13450658c31089730affc',1,'xpcc::Tolerance']]],
   ['zh',['ZH',['../structxpcc_1_1l3gd20.html#ab3d9d7972f2d5051ad2a8cb61464b500a2f360b70e0ecf402694429fac3a9255d',1,'xpcc::l3gd20::ZH()'],['../structxpcc_1_1lis302dl.html#a446f06a828a1f4e2f969f776acf478a2a2f360b70e0ecf402694429fac3a9255d',1,'xpcc::lis302dl::ZH()'],['../structxpcc_1_1lsm303a.html#a3f452ba845958f770d37273271a4e5eca2f360b70e0ecf402694429fac3a9255d',1,'xpcc::lsm303a::ZH()']]],
   ['zhie',['ZHIE',['../structxpcc_1_1l3gd20.html#a883d7187cac2bd42f98d50dd1a964140a8102890bf4c2292d963ced7365d9227c',1,'xpcc::l3gd20::ZHIE()'],['../structxpcc_1_1lis302dl.html#a5d84249b6775b7e43602a415ed555062a8102890bf4c2292d963ced7365d9227c',1,'xpcc::lis302dl::ZHIE()'],['../structxpcc_1_1lsm303a.html#af791a5a73d90d1f7d307d301d4a96076a8102890bf4c2292d963ced7365d9227c',1,'xpcc::lsm303a::ZHIE()']]],

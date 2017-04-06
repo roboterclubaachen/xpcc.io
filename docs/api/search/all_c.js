@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['l3gd20',['l3gd20',['../structxpcc_1_1l3gd20.html',1,'xpcc::l3gd20'],['../classxpcc_1_1_l3gd20.html',1,'xpcc::L3gd20&lt; Transport &gt;']]],
+  ['l3gd20',['L3gd20',['../classxpcc_1_1_l3gd20.html',1,'xpcc::L3gd20&lt; Transport &gt;'],['../structxpcc_1_1l3gd20.html',1,'xpcc::l3gd20']]],
   ['l3gd20',['L3gd20',['../classxpcc_1_1_l3gd20.html#a998aded6dc3002a6891811379775c8e6',1,'xpcc::L3gd20']]],
   ['label',['Label',['../classxpcc_1_1gui_1_1_label.html',1,'xpcc::gui']]],
   ['lagrange',['Lagrange',['../classxpcc_1_1interpolation_1_1_lagrange.html',1,'xpcc::interpolation']]],
@@ -15,8 +15,8 @@ var searchData=
   ['leftmostbit',['leftmostBit',['../group__math.html#ga27276df9ac7db1230fb33cfc041b2860',1,'xpcc']]],
   ['length',['length',['../structxpcc_1_1ui_1_1_key_frame.html#ae84eece7207c9e0624456ba128bc62d0',1,'xpcc::ui::KeyFrame']]],
   ['level',['Level',['../group__logger.html#ga0e669c355fdfbae96f31a0b6e4fa36ad',1,'xpcc::log']]],
-  ['levelhigh',['LevelHigh',['../structxpcc_1_1vl6180.html#a4c417bb49403a1c112412ebfda19daf3afb399a4f3fcc67ccf6670a315243282d',1,'xpcc::vl6180']]],
-  ['levellow',['LevelLow',['../structxpcc_1_1vl6180.html#a4c417bb49403a1c112412ebfda19daf3a28fb41c047bf9d5fb35e2c5a88407b40',1,'xpcc::vl6180']]],
+  ['levelhigh',['LevelHigh',['../structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969afb399a4f3fcc67ccf6670a315243282d',1,'xpcc::vl53l0::LevelHigh()'],['../structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38afb399a4f3fcc67ccf6670a315243282d',1,'xpcc::vl53l0::LevelHigh()'],['../structxpcc_1_1vl6180.html#a4c417bb49403a1c112412ebfda19daf3afb399a4f3fcc67ccf6670a315243282d',1,'xpcc::vl6180::LevelHigh()']]],
+  ['levellow',['LevelLow',['../structxpcc_1_1vl53l0.html#aa4da741d8d7713e61c1fc5140909f969a28fb41c047bf9d5fb35e2c5a88407b40',1,'xpcc::vl53l0::LevelLow()'],['../structxpcc_1_1vl53l0.html#a1a63ee348542e8e92f6ecf64ed10fd38a28fb41c047bf9d5fb35e2c5a88407b40',1,'xpcc::vl53l0::LevelLow()'],['../structxpcc_1_1vl6180.html#a4c417bb49403a1c112412ebfda19daf3a28fb41c047bf9d5fb35e2c5a88407b40',1,'xpcc::vl6180::LevelLow()']]],
   ['levelorientation',['LevelOrientation',['../structxpcc_1_1hmc6343.html#ae41be04813e9044ca4a39b01116093c0ae9a573f735c4280e6a6734c735a8768d',1,'xpcc::hmc6343']]],
   ['line2d',['Line2D',['../classxpcc_1_1_line2_d.html#aa9833a88f721b36717ac0026acf416e0',1,'xpcc::Line2D::Line2D()'],['../classxpcc_1_1_line2_d.html#a5d065cb45e8a0f665be1246249f82472',1,'xpcc::Line2D::Line2D(const Vector&lt; T, 2 &gt; &amp;point, const Vector&lt; T, 2 &gt; &amp;directionVector)']]],
   ['line2d',['Line2D',['../classxpcc_1_1_line2_d.html',1,'xpcc']]],
@@ -36,12 +36,12 @@ var searchData=
   ['lis3dsh',['lis3dsh',['../structxpcc_1_1lis3dsh.html',1,'xpcc::lis3dsh'],['../classxpcc_1_1_lis3dsh.html',1,'xpcc::Lis3dsh&lt; Transport &gt;']]],
   ['lis3transporti2c',['Lis3TransportI2c',['../classxpcc_1_1_lis3_transport_i2c.html',1,'xpcc']]],
   ['lis3transportspi',['Lis3TransportSpi',['../classxpcc_1_1_lis3_transport_spi.html',1,'xpcc']]],
-  ['listener',['Listener',['../structxpcc_1_1amnb_1_1_listener.html',1,'xpcc::amnb']]],
   ['listener',['Listener',['../structxpcc_1_1rpr_1_1_listener.html',1,'xpcc::rpr']]],
+  ['listener',['Listener',['../structxpcc_1_1amnb_1_1_listener.html',1,'xpcc::amnb']]],
   ['listenonly',['ListenOnly',['../classxpcc_1_1_can.html#a70d6bfc57a9d0f5ec505afa247e43709a3db5be2c0f1a2c52d4efc1d475551ba9',1,'xpcc::Can']]],
   ['listenonlyloopback',['ListenOnlyLoopBack',['../classxpcc_1_1_can.html#a70d6bfc57a9d0f5ec505afa247e43709a45987c21827015f2000fff5769b231a2',1,'xpcc::Can']]],
   ['llth2',['LLTH2',['../structxpcc_1_1lis3dsh.html#a0e79106d9accd66b124d1d0feb213cbba3a2787ac6e7be57d1713e27adb64c174',1,'xpcc::lis3dsh']]],
-  ['lm75',['lm75',['../structxpcc_1_1lm75.html',1,'xpcc::lm75'],['../classxpcc_1_1_lm75.html',1,'xpcc::Lm75&lt; I2cMaster &gt;']]],
+  ['lm75',['Lm75',['../classxpcc_1_1_lm75.html',1,'xpcc::Lm75&lt; I2cMaster &gt;'],['../structxpcc_1_1lm75.html',1,'xpcc::lm75']]],
   ['lm75',['Lm75',['../classxpcc_1_1_lm75.html#acf25af478db3ab766573699911fbb1fd',1,'xpcc::Lm75']]],
   ['lnth1',['LNTH1',['../structxpcc_1_1lis3dsh.html#a0e79106d9accd66b124d1d0feb213cbba6841d10487d3363bb0ebfff355f5a774',1,'xpcc::lis3dsh']]],
   ['lnth2',['LNTH2',['../structxpcc_1_1lis3dsh.html#a0e79106d9accd66b124d1d0feb213cbbacac42d192e8fcafdf0f00d48f9d083fb',1,'xpcc::lis3dsh']]],
@@ -65,7 +65,7 @@ var searchData=
   ['lpen',['LPen',['../structxpcc_1_1lsm303a.html#a5def114cbe0669ffc442b3b4914f7dc5ad029929128c319c813a97c4b29b6b30b',1,'xpcc::lsm303a']]],
   ['lrth1',['LRTH1',['../structxpcc_1_1lis3dsh.html#a0e79106d9accd66b124d1d0feb213cbba09751774a771c88c3833c90d27fc46e8',1,'xpcc::lis3dsh']]],
   ['lrth2',['LRTH2',['../structxpcc_1_1lis3dsh.html#a0e79106d9accd66b124d1d0feb213cbbaf9eedc4ae69b18864c328487b0137d6e',1,'xpcc::lis3dsh']]],
-  ['lsm303a',['lsm303a',['../structxpcc_1_1lsm303a.html',1,'xpcc::lsm303a'],['../classxpcc_1_1_lsm303a.html',1,'xpcc::Lsm303a&lt; I2cMaster &gt;']]],
+  ['lsm303a',['Lsm303a',['../classxpcc_1_1_lsm303a.html',1,'xpcc::Lsm303a&lt; I2cMaster &gt;'],['../structxpcc_1_1lsm303a.html',1,'xpcc::lsm303a']]],
   ['lsm303a',['Lsm303a',['../classxpcc_1_1_lsm303a.html#a42e083063851e4786e4a6ad62a70cbd7',1,'xpcc::Lsm303a']]],
   ['ludecomposition',['LUDecomposition',['../classxpcc_1_1_l_u_decomposition.html',1,'xpcc']]]
 ];

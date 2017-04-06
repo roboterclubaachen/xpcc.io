@@ -64,6 +64,36 @@ var group__backend =
       [ "update", "classxpcc_1_1_tipc_connector.html#a8de087abddb10352dee3e0b5bbae93e7", null ],
       [ "sendPacket", "classxpcc_1_1_tipc_connector.html#a76f7e663797f55fef9a43378d902937d", null ]
     ] ],
+    [ "ZeroMQConnector", "classxpcc_1_1_zero_m_q_connector.html", [
+      [ "ZeroMQConnector", "classxpcc_1_1_zero_m_q_connector.html#ad5234fe1fee59e5fb75e3f1e611b327d", null ],
+      [ "~ZeroMQConnector", "classxpcc_1_1_zero_m_q_connector.html#ad8342473c74376c8df9deb65c6f26ee8", null ],
+      [ "sendPacket", "classxpcc_1_1_zero_m_q_connector.html#a9dd08bd8a48e537bea471862fc1c811f", null ],
+      [ "isPacketAvailable", "classxpcc_1_1_zero_m_q_connector.html#a12b21640c252b2b83429d34490a3e6df", null ],
+      [ "getPacketHeader", "classxpcc_1_1_zero_m_q_connector.html#a65b730336bb5ba975a45ff2797128517", null ],
+      [ "getPacketPayload", "classxpcc_1_1_zero_m_q_connector.html#a4d67896893d9365a7f311667c2456865", null ],
+      [ "dropPacket", "classxpcc_1_1_zero_m_q_connector.html#aa5731d201c5611e1333e8aa289dd3793", null ],
+      [ "update", "classxpcc_1_1_zero_m_q_connector.html#a4956a3c202012af87365cf028abf9fde", null ],
+      [ "context", "classxpcc_1_1_zero_m_q_connector.html#a93f7e85aef9340361f3c9cda8fd3977d", null ],
+      [ "socketIn", "classxpcc_1_1_zero_m_q_connector.html#a937b3218e2a8ffa8e6c748d2b84d131c", null ],
+      [ "socketOut", "classxpcc_1_1_zero_m_q_connector.html#a8677e124ff8fbeeeb74d995b226527d4", null ],
+      [ "reader", "classxpcc_1_1_zero_m_q_connector.html#a967551aa0f8d845f111cb42473563c62", null ]
+    ] ],
+    [ "Packet", "structxpcc_1_1_zero_m_q_reader_1_1_packet.html", [
+      [ "Packet", "structxpcc_1_1_zero_m_q_reader_1_1_packet.html#a2a30a26df9906e6f22f1772790f3976b", null ],
+      [ "header", "structxpcc_1_1_zero_m_q_reader_1_1_packet.html#ad5d7b693f84c7b5f052e73221ba0048c", null ],
+      [ "payload", "structxpcc_1_1_zero_m_q_reader_1_1_packet.html#a3cb2f0cff68d27709b93a40c52ba27e6", null ]
+    ] ],
+    [ "ZeroMQReader", "classxpcc_1_1_zero_m_q_reader.html", [
+      [ "ZeroMQReader", "classxpcc_1_1_zero_m_q_reader.html#ac911c0df669ad316d5689e1804eb5f08", null ],
+      [ "~ZeroMQReader", "classxpcc_1_1_zero_m_q_reader.html#a492cfe28c37b6b55f5e1fa6df78afd16", null ],
+      [ "ZeroMQReader", "classxpcc_1_1_zero_m_q_reader.html#a7567d275133cb0b39dd016988bc160b5", null ],
+      [ "operator=", "classxpcc_1_1_zero_m_q_reader.html#a91f5a0d223bf5fd79a0e0eff27bf645d", null ],
+      [ "start", "classxpcc_1_1_zero_m_q_reader.html#a76f99d7fd74eb28828ec1484a174243e", null ],
+      [ "stop", "classxpcc_1_1_zero_m_q_reader.html#af37c7fb70ad6609dc88532e906e4d2ae", null ],
+      [ "isPacketAvailable", "classxpcc_1_1_zero_m_q_reader.html#aba5df65c12f110b256cccdd12f790881", null ],
+      [ "getPacket", "classxpcc_1_1_zero_m_q_reader.html#ac1dc2bb2b4eda641f3e6e4ff22ddc51b", null ],
+      [ "dropPacket", "classxpcc_1_1_zero_m_q_reader.html#a7ea837cc9c87d1d4fb02435f9fd09d01", null ]
+    ] ],
     [ "(TIPC) Transparent Inter-Process Communication", "group__tipc.html", "group__tipc" ],
     [ "operator<<", "group__backend.html#gae607c84f8e96aae062e3c12b86ce316f", null ]
 ];
