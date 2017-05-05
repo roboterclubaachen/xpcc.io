@@ -19,7 +19,7 @@ Note that xpcc requires C++11, so you need a reasonably new compiler (GCC >4.9).
 
 For Ubuntu 14.04LTS, these commands install the basic build system:
 
-	sudo apt-get install python python-jinja2 scons git
+	sudo apt-get install python python-pip python-jinja2 scons git
 
 Install the AVR toochain:
 
