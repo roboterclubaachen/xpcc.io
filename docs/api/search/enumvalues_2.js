@@ -4,6 +4,8 @@ var searchData=
   ['ccr_5fcap0fe',['CCR_CAP0FE',['../namespacexpcc_1_1lpc.html#a63dac55b16a58c27d0d0e4b00132ffffac4e5290b466b1b29c3c5b60604098dad',1,'xpcc::lpc']]],
   ['ccr_5fcap0i',['CCR_CAP0I',['../namespacexpcc_1_1lpc.html#a63dac55b16a58c27d0d0e4b00132ffffaae76eb13c2482666a5e8d9981c99b8d0',1,'xpcc::lpc']]],
   ['ccr_5fcap0re',['CCR_CAP0RE',['../namespacexpcc_1_1lpc.html#a63dac55b16a58c27d0d0e4b00132ffffa1576f57ee8bccaf46ccd54c399d92c0a',1,'xpcc::lpc']]],
+  ['cdatahigh',['CDATAHIGH',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba705463a299a6ec2bbefee59d6cde771e',1,'xpcc::tcs3472']]],
+  ['cdatalow',['CDATALOW',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebaabd49eeed6b719203801cf9241e2c053',1,'xpcc::tcs3472']]],
   ['centeraligned1',['CenterAligned1',['../classxpcc_1_1stm32_1_1_general_purpose_timer.html#a72674bc2c138d8d5d7cda5a923207855af76a56532351c9a91c6409443a82a30e',1,'xpcc::stm32::GeneralPurposeTimer']]],
   ['centeraligned2',['CenterAligned2',['../classxpcc_1_1stm32_1_1_general_purpose_timer.html#a72674bc2c138d8d5d7cda5a923207855a753a9038215335c58a6533c44c63ea09',1,'xpcc::stm32::GeneralPurposeTimer']]],
   ['centeraligned3',['CenterAligned3',['../classxpcc_1_1stm32_1_1_general_purpose_timer.html#a72674bc2c138d8d5d7cda5a923207855a94b3dbd534312288e9106a20e0c318e2',1,'xpcc::stm32::GeneralPurposeTimer']]],

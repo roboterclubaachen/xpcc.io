@@ -138,8 +138,8 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b></td></t
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This module implements counting semaphores on top of protothreads. Semaphores are a synchronization primitive that provide two operations: <a class="el" href="classxpcc_1_1pt_1_1_semaphore.html#a1f6873f28cf4aeac06f642712f62a41d" title="Acquire the semaphore. ">acquire()</a> and <a class="el" href="classxpcc_1_1pt_1_1_semaphore.html#ac936a6f743c9ef7f98701818e852193f" title="Release the semaphore. ">release()</a>. Sometimes these operations are also called <code>wait</code> and <code>signal</code>. The <a class="el" href="classxpcc_1_1pt_1_1_semaphore.html#a1f6873f28cf4aeac06f642712f62a41d" title="Acquire the semaphore. ">acquire()</a> operation checks the semaphore counter and "blocks" the thread if the counter is zero. The <a class="el" href="classxpcc_1_1pt_1_1_semaphore.html#ac936a6f743c9ef7f98701818e852193f" title="Release the semaphore. ">release()</a> operation increases the semaphore counter but does not block. If another thread has blocked waiting for the semaphore that is signalled, the blocked thread will become runnable again.</p>
-<p>This class can for example be used for resouce limiting or credit tracking:</p>
-<p>Resouce limit:</p><ul>
+<p>This class can for example be used for resource limiting or credit tracking:</p>
+<p>Resource limit:</p><ul>
 <li><code>initial</code> = number of resources</li>
 <li><a class="el" href="classxpcc_1_1pt_1_1_semaphore.html#a1f6873f28cf4aeac06f642712f62a41d" title="Acquire the semaphore. ">acquire()</a> to gain access to a resource</li>
 <li><a class="el" href="classxpcc_1_1pt_1_1_semaphore.html#ac936a6f743c9ef7f98701818e852193f" title="Release the semaphore. ">release()</a> to release the resource</li>
@@ -243,7 +243,7 @@ uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b></td></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacexpcc.html">xpcc</a></li><li class="navelem"><b>pt</b></li><li class="navelem"><a class="el" href="classxpcc_1_1pt_1_1_semaphore.html">Semaphore</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 23:40:48 for xpcc by
+    <li class="footer">Generated on Fri May 5 2017 22:29:39 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

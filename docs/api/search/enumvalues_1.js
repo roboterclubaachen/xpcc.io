@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['bdatahigh',['BDATAHIGH',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba63e734e38dbcd61e7587c3f264fad159',1,'xpcc::tcs3472']]],
+  ['bdatalow',['BDATALOW',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba0a9736bb1a7123ed218cf8a41ae628cf',1,'xpcc::tcs3472']]],
   ['bdu',['BDU',['../structxpcc_1_1l3gd20.html#ab498602a08d608f3a233c72ac90251c4a3087aad1bee701908c4f821ebad860c6',1,'xpcc::l3gd20::BDU()'],['../structxpcc_1_1lis3dsh.html#a21c8afb2b8c965908685e4950f27d059a3087aad1bee701908c4f821ebad860c6',1,'xpcc::lis3dsh::BDU()'],['../structxpcc_1_1lsm303a.html#ae46272b809c40d87fda04118c11d6199a3087aad1bee701908c4f821ebad860c6',1,'xpcc::lsm303a::BDU()']]],
   ['bits10',['Bits10',['../structxpcc_1_1ds1631.html#a0b5db0b7800864b40492a331746333f1a88d0722c9291a76dda496c3af70a0836',1,'xpcc::ds1631::Bits10()'],['../structxpcc_1_1tmp175.html#aec54a812d16db008695d6bd562938a18a88d0722c9291a76dda496c3af70a0836',1,'xpcc::tmp175::Bits10()']]],
   ['bits11',['Bits11',['../structxpcc_1_1ds1631.html#a0b5db0b7800864b40492a331746333f1a11ba3b9b19dc2aec4d42ec4ade2aba07',1,'xpcc::ds1631::Bits11()'],['../structxpcc_1_1tmp175.html#aec54a812d16db008695d6bd562938a18a11ba3b9b19dc2aec4d42ec4ade2aba07',1,'xpcc::tmp175::Bits11()']]],

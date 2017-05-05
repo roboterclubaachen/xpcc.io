@@ -116,10 +116,16 @@ $(document).ready(function(){initNavTree('struct_board_1_1system_clock.html','')
 <p>STM32F031K6 running at 48MHz generated from the internal 8MHz crystal.  
  <a href="struct_board_1_1system_clock.html#details">More...</a></p>
 
-<p><code>#include &lt;xpcc/architecture/platform/board/stm32f769i_discovery/stm32f769i_discovery.hpp&gt;</code></p>
+<p><code>#include &lt;xpcc/architecture/platform/board/stm32l476_discovery/stm32l476_discovery.hpp&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a428a5fcb2b9e7834a29a3a8932d42bd4"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>enable</b> ()</td></tr>
+<tr class="separator:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a428a5fcb2b9e7834a29a3a8932d42bd4"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>enable</b> ()</td></tr>
+<tr class="separator:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a428a5fcb2b9e7834a29a3a8932d42bd4"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>enable</b> ()</td></tr>
 <tr class="separator:a428a5fcb2b9e7834a29a3a8932d42bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -312,6 +318,12 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a14abd1db1c40a5b6c583d9329419328e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14abd1db1c40a5b6c583d9329419328e"></a>
 static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Timer13</b></td></tr>
 <tr class="separator:a14abd1db1c40a5b6c583d9329419328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6d461dbab9ce3217270b8db6a39c93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb6d461dbab9ce3217270b8db6a39c93"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Usart4</b></td></tr>
+<tr class="separator:acb6d461dbab9ce3217270b8db6a39c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c19673756f6f4f3107047bd49f3cc2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c19673756f6f4f3107047bd49f3cc2e"></a>
+static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>Usart5</b></td></tr>
+<tr class="separator:a4c19673756f6f4f3107047bd49f3cc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b94886378ce107bd4a722c99ca3461"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92b94886378ce107bd4a722c99ca3461"></a>
 static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><b>Frequency</b></td></tr>
 <tr class="separator:a92b94886378ce107bd4a722c99ca3461"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,6 +349,7 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <p>supplied by the on-board st-link</p>
 <p>STM32F103 running at 72MHz generated from the external 8MHz crystal.</p>
 <p>STM32F072 running at 48MHz generated from the internal 48MHz clock.</p>
+<p>STM32L4 running at 48MHz generated from the internal Multispeed oscillator.</p>
 <p>STM32F429 running at 180MHz from the external 8MHz STLink clock.</p>
 <p>STM32F411RE running at 96MHz generated from the internal 16MHz crystal.</p>
 <p>STM32F401RE running at 84MHz generated from the internal 16MHz crystal.</p>
@@ -350,6 +363,7 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <li>nucleo_f401re.hpp</li>
 <li>nucleo_f411re.hpp</li>
 <li>nucleo_f429zi.hpp</li>
+<li>nucleo_l476rg.hpp</li>
 <li>stm32f072_discovery.hpp</li>
 <li>stm32f103c8t6_blue_pill.hpp</li>
 <li>stm32f1_discovery.hpp</li>
@@ -359,6 +373,7 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <li>stm32f4_discovery.hpp</li>
 <li>stm32f746g_discovery.hpp</li>
 <li>stm32f769i_discovery.hpp</li>
+<li>stm32l476_discovery.hpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -366,7 +381,7 @@ static constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>Board</b></li><li class="navelem"><a class="el" href="struct_board_1_1system_clock.html">systemClock</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 23:40:45 for xpcc by
+    <li class="footer">Generated on Fri May 5 2017 22:29:36 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

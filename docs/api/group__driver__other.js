@@ -82,12 +82,63 @@ var group__driver__other =
       [ "initialize", "classxpcc_1_1_tcs3414.html#a66902f64da3e21b6b54c858a86449fdd", null ],
       [ "configure", "classxpcc_1_1_tcs3414.html#a8f25825dda1b9af63c2f448c282ae50f", null ]
     ] ],
+    [ "Data.__unnamed__", "group__driver__other.html#structxpcc_1_1_tcs3472_1_1_data_8____unnamed____", [
+      [ "clear", "group__driver__other.html#a01bc6f8efa4202821e95f4fdf6298b30", null ],
+      [ "red", "group__driver__other.html#abda9643ac6601722a28f238714274da4", null ],
+      [ "green", "group__driver__other.html#a9f27410725ab8cc8854a2769c7a516b8", null ],
+      [ "blue", "group__driver__other.html#a48d6215903dff56238e52e8891380c8f", null ]
+    ] ],
+    [ "tcs3472", "structxpcc_1_1tcs3472.html", [
+      [ "UnderlyingType", "structxpcc_1_1tcs3472.html#a3ef7e794003e0c8970465b6540e7f33b", null ],
+      [ "Rgb", "structxpcc_1_1tcs3472.html#ac2852064dea9f76fbf4fee9d03a20865", null ],
+      [ "Gain", "structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7", [
+        [ "X1", "structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7abb7f5ae6220c9828e5ec91faf054197c", null ],
+        [ "X4", "structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7a7d71ed2af4cc5c6a8380324d9bc4a45f", null ],
+        [ "X16", "structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7a8566d518618cc93194d9e7688e2dafa2", null ],
+        [ "X64", "structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7af0851da0e02bf22830828822f578dc8f", null ],
+        [ "DEFAULT", "structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7a5b39c8b553c821e7cddc6da64b5bd2ee", null ]
+      ] ],
+      [ "IntegrationTime", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3e", [
+        [ "MSEC_2", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ead27b4dff93acabd01f2b0cdb48e7cf20", null ],
+        [ "MSEC_24", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea2f791a36d82b0102afcdf952a7560836", null ],
+        [ "MSEC_101", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea01ed152f1ec68064f14f5b79eb45edd7", null ],
+        [ "MSEC_154", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea117c36310b50816b734bf5f73c3e057d", null ],
+        [ "MSEC_700", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea0bd422886bb873a43bbfe61ff07510bd", null ],
+        [ "DEFAULT", "structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea5b39c8b553c821e7cddc6da64b5bd2ee", null ]
+      ] ],
+      [ "RegisterAddress", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eb", [
+        [ "ENABLE", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebab332708e4304e13c9b424e7465254954", null ],
+        [ "TIMING", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba8f9e1889c89e42901ab7c0a033a3347c", null ],
+        [ "ID", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebab718adec73e04ce3ec720dd11a06a308", null ],
+        [ "GAIN", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba0803331e7c3fe03c1938ac408faaa0cc", null ],
+        [ "LOW_THRESH_LOW_BYTE", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebae4c103ee6b29010def4ee2ceca338904", null ],
+        [ "LOW_THRESH_HIGH_BYTE", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba9743494d7655f857f8d2bec66ff0187d", null ],
+        [ "HIGH_THRESH_LOW_BYTE", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba7786bf76ad6671b960d374f257c4bdc3", null ],
+        [ "HIGH_THRESH_HIGH_BYTE", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba94fb9053331bc4a94579dd5a0236b39e", null ],
+        [ "CDATALOW", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebaabd49eeed6b719203801cf9241e2c053", null ],
+        [ "CDATAHIGH", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba705463a299a6ec2bbefee59d6cde771e", null ],
+        [ "RDATALOW", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba8c0980c5e57b2bca92a048d36fc66c9b", null ],
+        [ "RDATAHIGH", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba3edaf457d6740121350cd2e2fcf371ca", null ],
+        [ "GDATALOW", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebab3285c5cc2526fada89f34dff4decf5a", null ],
+        [ "GDATAHIGH", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba341a4d90fbbe4a83e6dd737abb2845cb", null ],
+        [ "BDATALOW", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba0a9736bb1a7123ed218cf8a41ae628cf", null ],
+        [ "BDATAHIGH", "structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba63e734e38dbcd61e7587c3f264fad159", null ]
+      ] ]
+    ] ],
+    [ "Tcs3472", "classxpcc_1_1_tcs3472.html", [
+      [ "Tcs3472", "classxpcc_1_1_tcs3472.html#a37e21d9b5224a97a7da1eb0c93ec72ac", null ],
+      [ "initializeBlocking", "classxpcc_1_1_tcs3472.html#aef91f1dd880f40fd265261935f870fe9", null ],
+      [ "setGain", "classxpcc_1_1_tcs3472.html#af1b4f021b9da99d086dd801a528d5e14", null ],
+      [ "refreshAllColors", "classxpcc_1_1_tcs3472.html#a2b7b3aa6664066b3ce6a2646c5868623", null ],
+      [ "initialize", "classxpcc_1_1_tcs3472.html#a09472f58f3c6e9c6e22ac9fcc249cdeb", null ],
+      [ "configure", "classxpcc_1_1_tcs3472.html#ab985686724d5be72ba2abdc10248b2d0", null ]
+    ] ],
     [ "XilinxSpartan3", "classxpcc_1_1_xilinx_spartan3.html", null ],
     [ "WritePageState", "group__driver__other.html#structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state", [
-      [ "CONFIG_ONGOING", "group__driver__other.html#a514b18bc699ee422572a92dd7763a36ca5697a716582a3da502cb1fc9942b7b3b", null ],
-      [ "CONFIG_DONE", "group__driver__other.html#a514b18bc699ee422572a92dd7763a36ca9f46c569e88a40d6aec55861cbe1141a", null ],
-      [ "CONFIG_CRC_ERROR", "group__driver__other.html#a514b18bc699ee422572a92dd7763a36cad11d512c2780bfa9c16f1be05ac1e8a0", null ],
-      [ "state", "group__driver__other.html#ab3feee2251c6dca978526b1fb4f92e80", null ]
+      [ "CONFIG_ONGOING", "group__driver__other.html#a042aff763c56b1a72c1ee4564b6a6e22a5697a716582a3da502cb1fc9942b7b3b", null ],
+      [ "CONFIG_DONE", "group__driver__other.html#a042aff763c56b1a72c1ee4564b6a6e22a9f46c569e88a40d6aec55861cbe1141a", null ],
+      [ "CONFIG_CRC_ERROR", "group__driver__other.html#a042aff763c56b1a72c1ee4564b6a6e22ad11d512c2780bfa9c16f1be05ac1e8a0", null ],
+      [ "state", "group__driver__other.html#a2b28a83c992864300e7649042565110d", null ]
     ] ],
     [ "XilinxSpartan6Parallel", "classxpcc_1_1_xilinx_spartan6_parallel.html", null ],
     [ "AD840x", "classxpcc_1_1_a_d840x.html", null ],

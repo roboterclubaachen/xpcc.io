@@ -12,7 +12,7 @@ var searchData=
   ['linkedlist_3c_20receivelistitem_20_3e',['LinkedList&lt; ReceiveListItem &gt;',['../classxpcc_1_1_linked_list.html',1,'xpcc']]],
   ['linkedlist_3c_20sendlistitem_20_3e',['LinkedList&lt; SendListItem &gt;',['../classxpcc_1_1_linked_list.html',1,'xpcc']]],
   ['lis302dl',['Lis302dl',['../classxpcc_1_1_lis302dl.html',1,'xpcc::Lis302dl&lt; Transport &gt;'],['../structxpcc_1_1lis302dl.html',1,'xpcc::lis302dl']]],
-  ['lis3dsh',['lis3dsh',['../structxpcc_1_1lis3dsh.html',1,'xpcc::lis3dsh'],['../classxpcc_1_1_lis3dsh.html',1,'xpcc::Lis3dsh&lt; Transport &gt;']]],
+  ['lis3dsh',['Lis3dsh',['../classxpcc_1_1_lis3dsh.html',1,'xpcc::Lis3dsh&lt; Transport &gt;'],['../structxpcc_1_1lis3dsh.html',1,'xpcc::lis3dsh']]],
   ['lis3transporti2c',['Lis3TransportI2c',['../classxpcc_1_1_lis3_transport_i2c.html',1,'xpcc']]],
   ['lis3transportspi',['Lis3TransportSpi',['../classxpcc_1_1_lis3_transport_spi.html',1,'xpcc']]],
   ['listener',['Listener',['../structxpcc_1_1rpr_1_1_listener.html',1,'xpcc::rpr']]],

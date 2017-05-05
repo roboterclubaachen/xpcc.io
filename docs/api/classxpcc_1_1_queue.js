@@ -2,6 +2,7 @@ var classxpcc_1_1_queue =
 [
     [ "Size", "classxpcc_1_1_queue.html#a22b626c9cea492425dee0907fb84c5b6", null ],
     [ "isEmpty", "classxpcc_1_1_queue.html#a7296b92894bc9194d69ba4c9e7e9bfe1", null ],
+    [ "isNotEmpty", "classxpcc_1_1_queue.html#a0a00326720420d3c4da6f075accc57e9", null ],
     [ "isFull", "classxpcc_1_1_queue.html#a99aa56777018397c3f2e553c997f5016", null ],
     [ "isNotFull", "classxpcc_1_1_queue.html#ab1dbf6b0f30237cd70bb6010d0f19da2", null ],
     [ "getSize", "classxpcc_1_1_queue.html#a082e365e1bbf2e7c16a2b524dc37eec3", null ],

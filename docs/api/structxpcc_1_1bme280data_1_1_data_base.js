@@ -1,8 +1,8 @@
 var structxpcc_1_1bme280data_1_1_data_base =
 [
-    [ "HUMIDITY_CALCULATED", "structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2add2955312dc7c74919541d5ae940bce9", null ],
-    [ "TEMPERATURE_CALCULATED", "structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2a1f9f731ffe416aab52490a04333002e9", null ],
-    [ "PRESSURE_CALCULATED", "structxpcc_1_1bme280data_1_1_data_base.html#a9d661435b01aa124a6bb31b2123eaed2aa046af6111380ac432031100c762e91d", null ],
+    [ "HUMIDITY_CALCULATED", "structxpcc_1_1bme280data_1_1_data_base.html#a5497a921cd460c8a4156a46b75f4a98eadd2955312dc7c74919541d5ae940bce9", null ],
+    [ "TEMPERATURE_CALCULATED", "structxpcc_1_1bme280data_1_1_data_base.html#a5497a921cd460c8a4156a46b75f4a98ea1f9f731ffe416aab52490a04333002e9", null ],
+    [ "PRESSURE_CALCULATED", "structxpcc_1_1bme280data_1_1_data_base.html#a5497a921cd460c8a4156a46b75f4a98eaa046af6111380ac432031100c762e91d", null ],
     [ "getCalibration", "structxpcc_1_1bme280data_1_1_data_base.html#a24d98c342d06f002797bb57db4aaedf8", null ],
     [ "rawTemperatureTouched", "structxpcc_1_1bme280data_1_1_data_base.html#a47f4556e340fc4d7d8ac0aaaab247e86", null ],
     [ "rawPressureTouched", "structxpcc_1_1bme280data_1_1_data_base.html#a2c8cf4c206aecf217f7c6966fbc12490", null ],

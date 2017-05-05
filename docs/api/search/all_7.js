@@ -1,8 +1,10 @@
 var searchData=
 [
   ['ga',['GA',['../classxpcc_1_1_mcp4922.html#a57f88db5fdae273b35abed4a6d3bc096a6591404651030ca167eb7b748fe6d5f6',1,'xpcc::Mcp4922']]],
-  ['gain',['Gain',['../structxpcc_1_1tcs3414.html#a924ab7f1e0d183a6620c0d2a67d65005',1,'xpcc::tcs3414::Gain()'],['../structxpcc_1_1tcs3414.html#a7a68c75ed04a60bb998397e5f7a87324a0803331e7c3fe03c1938ac408faaa0cc',1,'xpcc::tcs3414::GAIN()']]],
+  ['gain',['Gain',['../structxpcc_1_1tcs3414.html#a924ab7f1e0d183a6620c0d2a67d65005',1,'xpcc::tcs3414::Gain()'],['../structxpcc_1_1tcs3472.html#a1b67f6dade085c45f707ef8d9e886bd7',1,'xpcc::tcs3472::Gain()'],['../structxpcc_1_1tcs3414.html#a7a68c75ed04a60bb998397e5f7a87324a0803331e7c3fe03c1938ac408faaa0cc',1,'xpcc::tcs3414::GAIN()'],['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba0803331e7c3fe03c1938ac408faaa0cc',1,'xpcc::tcs3472::GAIN()']]],
   ['gated',['Gated',['../classxpcc_1_1stm32_1_1_advanced_control_timer.html#a448afa503886f4e8a97f692188fad5f7ae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::AdvancedControlTimer::Gated()'],['../classxpcc_1_1stm32_1_1_timer10.html#a68d9ded632d80532ed97b3cc842c83d1ae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer10::Gated()'],['../classxpcc_1_1stm32_1_1_timer11.html#a14e2f9b73612844d4665dd21b3c912edae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer11::Gated()'],['../classxpcc_1_1stm32_1_1_timer12.html#adccf2bf00be651db905132384151a862ae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer12::Gated()'],['../classxpcc_1_1stm32_1_1_timer13.html#aaf46acbbea213f28dd28e6d8eac7babcae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer13::Gated()'],['../classxpcc_1_1stm32_1_1_timer14.html#a2dcbd0f08b989594c136b40061572002ae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer14::Gated()'],['../classxpcc_1_1stm32_1_1_timer2.html#a1d4e32bf5a35822f5a27dc1aba31f908ae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer2::Gated()'],['../classxpcc_1_1stm32_1_1_timer3.html#aeca19e1c6d2cff700bcc2cf5c92cb0ceae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer3::Gated()'],['../classxpcc_1_1stm32_1_1_timer4.html#a761b37652fa8c5d0b0c04b8816b6905bae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer4::Gated()'],['../classxpcc_1_1stm32_1_1_timer5.html#ab23f5d429a9510e9d511e3dc4b5c36ceae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer5::Gated()'],['../classxpcc_1_1stm32_1_1_timer9.html#ac98134e7d03aab6f4dbe1bf61084836fae33f92b6ec382adfd412624ff0c83644',1,'xpcc::stm32::Timer9::Gated()']]],
+  ['gdatahigh',['GDATAHIGH',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba341a4d90fbbe4a83e6dd737abb2845cb',1,'xpcc::tcs3472']]],
+  ['gdatalow',['GDATALOW',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebab3285c5cc2526fada89f34dff4decf5a',1,'xpcc::tcs3472']]],
   ['generalpurposetimer',['GeneralPurposeTimer',['../classxpcc_1_1stm32_1_1_general_purpose_timer.html',1,'xpcc::stm32']]],
   ['genericperiodictimer',['GenericPeriodicTimer',['../classxpcc_1_1_generic_periodic_timer.html',1,'xpcc']]],
   ['genericperiodictimer',['GenericPeriodicTimer',['../classxpcc_1_1_generic_periodic_timer.html#a0bd9d91f101dd3205fa905a398df92e5',1,'xpcc::GenericPeriodicTimer']]],
@@ -375,8 +377,8 @@ var searchData=
   ['gpiooutpute9',['GpioOutputE9',['../structxpcc_1_1stm32_1_1_gpio_output_e9.html',1,'xpcc::stm32']]],
   ['gpiooutputh0',['GpioOutputH0',['../structxpcc_1_1stm32_1_1_gpio_output_h0.html',1,'xpcc::stm32']]],
   ['gpiooutputh1',['GpioOutputH1',['../structxpcc_1_1stm32_1_1_gpio_output_h1.html',1,'xpcc::stm32']]],
-  ['gpioport',['GpioPort',['../classxpcc_1_1_gpio_port.html',1,'xpcc']]],
   ['gpioport',['GpioPort',['../classxpcc_1_1stm32_1_1_gpio_port.html',1,'xpcc::stm32']]],
+  ['gpioport',['GpioPort',['../classxpcc_1_1_gpio_port.html',1,'xpcc']]],
   ['gpiounused',['GpioUnused',['../classxpcc_1_1_gpio_unused.html',1,'xpcc']]],
   ['graphicdisplay',['GraphicDisplay',['../classxpcc_1_1_graphic_display.html',1,'xpcc']]],
   ['graphics',['Graphics',['../group__graphics.html',1,'']]],

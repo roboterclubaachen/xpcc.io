@@ -4,6 +4,7 @@ var classxpcc_1_1_bounded_deque =
     [ "Size", "classxpcc_1_1_bounded_deque.html#abd924a92b459c268385eab4c1658de7b", null ],
     [ "BoundedDeque", "classxpcc_1_1_bounded_deque.html#abbcc154c06e00991bf14c97bd5cb8017", null ],
     [ "isEmpty", "classxpcc_1_1_bounded_deque.html#a1dceceec79920d5adceaa2db6740f121", null ],
+    [ "isNotEmpty", "classxpcc_1_1_bounded_deque.html#ac155a9f1d14e7b54cd2291207b461d14", null ],
     [ "isFull", "classxpcc_1_1_bounded_deque.html#a98edcb3a4df5c006ffac76c6e510c445", null ],
     [ "isNotFull", "classxpcc_1_1_bounded_deque.html#a6e8a03ce6beccd1c7c749ad2e848ff98", null ],
     [ "getSize", "classxpcc_1_1_bounded_deque.html#a3a3d18a6c4c7ed31e6388778fa3ea51e", null ],

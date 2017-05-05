@@ -117,6 +117,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_tcs3414.html">xpcc::Tcs3414&lt; I2cMaster &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TCS3414 Digital Color Sensors.  <a href="classxpcc_1_1_tcs3414.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:structxpcc_1_1_tcs3472_1_1_data_8____unnamed____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__driver__other.html#structxpcc_1_1_tcs3472_1_1_data_8____unnamed____">xpcc::Tcs3472&lt; I2cMaster &gt;::Data.__unnamed__</a></td></tr>
+<tr class="separator:structxpcc_1_1_tcs3472_1_1_data_8____unnamed____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxpcc_1_1tcs3472.html">xpcc::tcs3472</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings to configure the ams digital color sensor family tcs34721, -13, -15, 17.  <a href="structxpcc_1_1tcs3472.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_tcs3472.html">xpcc::Tcs3472&lt; I2cMaster &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tcs3472X Digital Color Sensors.  <a href="classxpcc_1_1_tcs3472.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxpcc_1_1_xilinx_spartan3.html">xpcc::XilinxSpartan3&lt; Cclk, Din, ProgB, InitB, Done, DataSource &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure an <a class="el" href="structxpcc_1_1_xilinx.html">Xilinx</a> Spartan 3 series FPGA in Slave Serial mode.  <a href="classxpcc_1_1_xilinx_spartan3.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +199,48 @@ clear</td>
 
 </div>
 </div>
+<a name="structxpcc_1_1_tcs3472_1_1_data_8____unnamed____" id="structxpcc_1_1_tcs3472_1_1_data_8____unnamed____"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct xpcc::Tcs3472::Data.__unnamed__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><h3>template&lt;typename I2cMaster&gt;<br />
+struct xpcc::Tcs3472&lt; I2cMaster &gt;::Data.__unnamed__</h3>
+
+</div><table class="fieldtable">
+<tr><th colspan="3">Class Members</th></tr>
+<tr><td class="fieldtype">
+<a class="anchor" id="a01bc6f8efa4202821e95f4fdf6298b30"></a>uint16_t_LOW_HIGH</td>
+<td class="fieldname">
+clear</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a class="anchor" id="abda9643ac6601722a28f238714274da4"></a>uint16_t_LOW_HIGH</td>
+<td class="fieldname">
+red</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a class="anchor" id="a9f27410725ab8cc8854a2769c7a516b8"></a>uint16_t_LOW_HIGH</td>
+<td class="fieldname">
+green</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a class="anchor" id="a48d6215903dff56238e52e8891380c8f"></a>uint16_t_LOW_HIGH</td>
+<td class="fieldname">
+blue</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state" id="structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state"></a>
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +256,7 @@ struct xpcc::XilinxSpartan6Parallel&lt; Cclk, DataLow, DataHigh, ProgB, InitB, D
 </div><table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a class="anchor" id="a514b18bc699ee422572a92dd7763a36c"></a></td>
+<a class="anchor" id="a042aff763c56b1a72c1ee4564b6a6e22"></a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
@@ -215,7 +265,7 @@ __unnamed__</td>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a class="anchor" id="ab3feee2251c6dca978526b1fb4f92e80"></a>enum <a class="el" href="group__driver__other.html#structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state">WritePageState</a></td>
+<a class="anchor" id="a2b28a83c992864300e7649042565110d"></a>enum <a class="el" href="group__driver__other.html#structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state">WritePageState</a></td>
 <td class="fieldname">
 state</td>
 <td class="fielddoc">
@@ -254,7 +304,7 @@ state</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 6 2017 23:40:45 for xpcc by
+    <li class="footer">Generated on Fri May 5 2017 22:29:36 for xpcc by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

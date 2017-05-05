@@ -17,6 +17,7 @@ var group__container =
       [ "Size", "classxpcc_1_1_bounded_deque.html#abd924a92b459c268385eab4c1658de7b", null ],
       [ "BoundedDeque", "classxpcc_1_1_bounded_deque.html#abbcc154c06e00991bf14c97bd5cb8017", null ],
       [ "isEmpty", "classxpcc_1_1_bounded_deque.html#a1dceceec79920d5adceaa2db6740f121", null ],
+      [ "isNotEmpty", "classxpcc_1_1_bounded_deque.html#ac155a9f1d14e7b54cd2291207b461d14", null ],
       [ "isFull", "classxpcc_1_1_bounded_deque.html#a98edcb3a4df5c006ffac76c6e510c445", null ],
       [ "isNotFull", "classxpcc_1_1_bounded_deque.html#a6e8a03ce6beccd1c7c749ad2e848ff98", null ],
       [ "getSize", "classxpcc_1_1_bounded_deque.html#a3a3d18a6c4c7ed31e6388778fa3ea51e", null ],
@@ -224,6 +225,7 @@ var group__container =
     [ "Queue", "classxpcc_1_1_queue.html", [
       [ "Size", "classxpcc_1_1_queue.html#a22b626c9cea492425dee0907fb84c5b6", null ],
       [ "isEmpty", "classxpcc_1_1_queue.html#a7296b92894bc9194d69ba4c9e7e9bfe1", null ],
+      [ "isNotEmpty", "classxpcc_1_1_queue.html#a0a00326720420d3c4da6f075accc57e9", null ],
       [ "isFull", "classxpcc_1_1_queue.html#a99aa56777018397c3f2e553c997f5016", null ],
       [ "isNotFull", "classxpcc_1_1_queue.html#ab1dbf6b0f30237cd70bb6010d0f19da2", null ],
       [ "getSize", "classxpcc_1_1_queue.html#a082e365e1bbf2e7c16a2b524dc37eec3", null ],

@@ -55,6 +55,11 @@ var searchData=
   ['mode_5fd',['MODE_D',['../classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a7eef2ee926cc90664bebae8369565935abc8042ee1d6259c0b44251c0ec4e09ac',1,'xpcc::stm32::fsmc::NorSram']]],
   ['modeselect',['ModeSelect',['../structxpcc_1_1vl6180.html#a90c358f5c24a01943e919698207a3a1fa54a783dc9c601a8e5b86ad03c4398e9d',1,'xpcc::vl6180']]],
   ['msec_5f100',['MSEC_100',['../structxpcc_1_1tcs3414.html#ae078745ac0e486834ed4a95fbb24ab11a21198118aa88764b53032b1ab9c7f95a',1,'xpcc::tcs3414']]],
+  ['msec_5f101',['MSEC_101',['../structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea01ed152f1ec68064f14f5b79eb45edd7',1,'xpcc::tcs3472']]],
   ['msec_5f12',['MSEC_12',['../structxpcc_1_1tcs3414.html#ae078745ac0e486834ed4a95fbb24ab11a552357ae9765301bec1db798b6a2a6eb',1,'xpcc::tcs3414']]],
-  ['msec_5f400',['MSEC_400',['../structxpcc_1_1tcs3414.html#ae078745ac0e486834ed4a95fbb24ab11a57144bdb3e5d0cb7d8d43313c2d45716',1,'xpcc::tcs3414']]]
+  ['msec_5f154',['MSEC_154',['../structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea117c36310b50816b734bf5f73c3e057d',1,'xpcc::tcs3472']]],
+  ['msec_5f2',['MSEC_2',['../structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ead27b4dff93acabd01f2b0cdb48e7cf20',1,'xpcc::tcs3472']]],
+  ['msec_5f24',['MSEC_24',['../structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea2f791a36d82b0102afcdf952a7560836',1,'xpcc::tcs3472']]],
+  ['msec_5f400',['MSEC_400',['../structxpcc_1_1tcs3414.html#ae078745ac0e486834ed4a95fbb24ab11a57144bdb3e5d0cb7d8d43313c2d45716',1,'xpcc::tcs3414']]],
+  ['msec_5f700',['MSEC_700',['../structxpcc_1_1tcs3472.html#a28754c654aa46860d09a8e4ca85aed3ea0bd422886bb873a43bbfe61ff07510bd',1,'xpcc::tcs3472']]]
 ];

@@ -11,7 +11,7 @@ var searchData=
   ['onepercent',['OnePercent',['../classxpcc_1_1_tolerance.html#acf79d800af75bd669226ec247259b7ef',1,'xpcc::Tolerance']]],
   ['onremove',['onRemove',['../classxpcc_1_1_abstract_view.html#a26fd3e9d545bc88f3825ae3b1054263b',1,'xpcc::AbstractView']]],
   ['opcode',['Opcode',['../classxpcc_1_1_at45db0x1d.html#a86b0a35c694e9b591a9a27b9c052ced3',1,'xpcc::At45db0x1d']]],
-  ['open',['OPEN',['../structxpcc_1_1itg3200.html#af14284afe01aa93bc07e3645261c83f2aa38bd5138bf35514df41a1795ebbf5c3',1,'xpcc::itg3200::OPEN()'],['../classxpcc_1_1hosted_1_1_serial_interface.html#a8ea17c349d8236bc127c3764b2796c15',1,'xpcc::hosted::SerialInterface::open()']]],
+  ['open',['open',['../classxpcc_1_1hosted_1_1_serial_interface.html#a8ea17c349d8236bc127c3764b2796c15',1,'xpcc::hosted::SerialInterface::open()'],['../structxpcc_1_1itg3200.html#af14284afe01aa93bc07e3645261c83f2aa38bd5138bf35514df41a1795ebbf5c3',1,'xpcc::itg3200::OPEN()']]],
   ['opendrain',['OpenDrain',['../structxpcc_1_1stm32_1_1_gpio.html#aa496536c307dc0f5f516c78ec2927deea8df1809fc704fe02606f58b4ba2a6c99',1,'xpcc::stm32::Gpio']]],
   ['opennextscreen',['openNextScreen',['../classxpcc_1_1_choice_menu.html#ada78ebf9a556dbd48bff56bda377767c',1,'xpcc::ChoiceMenu']]],
   ['operation',['Operation',['../structxpcc_1_1_i2c.html#a54be9f699506dbba632d0eb587c81d8e',1,'xpcc::I2c']]],

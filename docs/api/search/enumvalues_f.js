@@ -6,6 +6,8 @@ var searchData=
   ['rangeignore',['RangeIgnore',['../structxpcc_1_1vl6180.html#aa8529fac039a02acac5187073229af7cad9558f996e4e92e94eda29b3c2d339c1',1,'xpcc::vl6180']]],
   ['raw_5fdata_5frdy',['RAW_DATA_RDY',['../structxpcc_1_1itg3200.html#a20da87c05d584694dc5085da90716edbab66d909b40ec051d6b822bd74426ba61',1,'xpcc::itg3200']]],
   ['raw_5frdy_5fen',['RAW_RDY_EN',['../structxpcc_1_1itg3200.html#af14284afe01aa93bc07e3645261c83f2a47ead0b18b7d815cf252bc9280cd9c9c',1,'xpcc::itg3200']]],
+  ['rdatahigh',['RDATAHIGH',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba3edaf457d6740121350cd2e2fcf371ca',1,'xpcc::tcs3472']]],
+  ['rdatalow',['RDATALOW',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6eba8c0980c5e57b2bca92a048d36fc66c9b',1,'xpcc::tcs3472']]],
   ['rdy',['RDY',['../structxpcc_1_1hmc58x3.html#a5e93f71b475c31f8cfa6b26243386afaaa668ed2e5c2094adede3bb5a070e8068',1,'xpcc::hmc58x3']]],
   ['read',['Read',['../structxpcc_1_1_i2c.html#a54be9f699506dbba632d0eb587c81d8ea7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'xpcc::I2c::Read()'],['../structxpcc_1_1_i2c.html#a0a9188ce55a85c353f46f69e50e75345a7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'xpcc::I2c::Read()']]],
   ['recalibrate',['Recalibrate',['../structxpcc_1_1vl6180.html#a28bc5aefa584a47672ed220238842c2ba5b9031715c9b43f2bae09e7dc67a9040',1,'xpcc::vl6180']]],

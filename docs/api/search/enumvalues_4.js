@@ -19,6 +19,7 @@ var searchData=
   ['emr_5femc3_5f1',['EMR_EMC3_1',['../namespacexpcc_1_1lpc.html#a6e7e4e8d9b744a1a3889bc65d0f51627ac8ccd271bad44bbde176ce3c8d761512',1,'xpcc::lpc']]],
   ['en_5faa',['EN_AA',['../structxpcc_1_1_nrf24_register.html#a4e55b6fe723da36de893bddba2832755a5484362db868e3f35fceb5c81c03437c',1,'xpcc::Nrf24Register']]],
   ['en_5frx_5faddr',['EN_RX_ADDR',['../structxpcc_1_1_nrf24_register.html#a4e55b6fe723da36de893bddba2832755a2b8205c0a5b8a417819a7e69841b67ae',1,'xpcc::Nrf24Register']]],
+  ['enable',['ENABLE',['../structxpcc_1_1tcs3472.html#a0eb5b18b6bd719fd97d065caefcfe6ebab332708e4304e13c9b424e7465254954',1,'xpcc::tcs3472']]],
   ['enablecursor',['EnableCursor',['../classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0a99a0b8e0b0748b3c47dda118a3f4d4fa',1,'xpcc::CharacterDisplay']]],
   ['enablecursorblink',['EnableCursorBlink',['../classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0a35fd544613db4d2b17346ad0de30e1fe',1,'xpcc::CharacterDisplay']]],
   ['enabled',['Enabled',['../classxpcc_1_1stm32_1_1_dma_base.html#a7c112619f7775af5d3baee2ffdf45757a00d23a76e43b46dae9ec7aa9dcbebb32',1,'xpcc::stm32::DmaBase']]],
