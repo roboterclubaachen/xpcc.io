@@ -350,6 +350,7 @@ svg.diagram{display:block;font-family:'Ubuntu Mono';font-size:14px;text-align:ce
 svg.diagram .opendot{fill:#FFF}.md
 svg.diagram text{stroke:none}.md
 </style>
+<p>Make sure you have gone through the <a href="http://xpcc.io/installation/">Installation guide</a> so you have the necessary toolchain installed.</p>
 <h1 id="qt-creator-integration">Qt Creator integration<a class="headerlink" href="#qt-creator-integration" title="Permanent link">#</a></h1>
 <p>This tutorial shows how to adapt the Qt Creator IDE for comfortable developing and debugging of xpcc projects on STM32 microcontrollers.</p>
 <p>This tutorial uses xpcc’s <code>hello-world</code> example project of <a href="https://github.com/roboterclubaachen/getting-started-with-xpcc">our <code>getting-started-with-xpcc</code> repository</a> for the STM32F4 Discovery board.</p>
@@ -357,6 +358,8 @@ svg.diagram text{stroke:none}.md
 <p>Install <a href="https://www.qt.io/ide/">Qt Creator version 4.0 or above</a>.</p>
 <div class="code"><pre><span></span># On Fedora 22 and up
 sudo dnf install qtcreator
+# On Ubuntu 16.04
+sudo apt-get install qtcreator
 # On OS X
 brew cask install qtcreator
 </pre></div>
@@ -375,11 +378,23 @@ Linux: Go to <em>Options</em> dialog: <em>Tools</em> → <em>Options...</em></p>
 <center><img alt="Code Style" src="../../images/qt-creator-tutorial/code-style.png" /></center>
 Set <em>Tab policy</em> to <code>Tabs only</code>, save and exit.</p>
 <h3 id="add-debugger">Add debugger<a class="headerlink" href="#add-debugger" title="Permanent link">#</a></h3>
+<p>Refer to the <a href="http://xpcc.io/installation/">Installation guide</a> on how to install the arm-none-eabi toolchain.</p>
 <p>In <em>Build &amp; Run</em> and sub-tab <em>Debuggers</em> click <em>Add</em> to add the <code>arm-none-eabi-gdb</code> debugger to Qt Creator:
 <center><img alt="Create new arm-none-eabi-gdb debugger" src="../../images/qt-creator-tutorial/add-arm-none-eabi-gdb.png" /></center>
-Qt Creator requires the debugger to support Python scripting. If you use the precompiled <a href="https://launchpad.net/gcc-arm-embedded">arm-none-eabi toolchain from ARM</a> you need to use <code>arm-none-eabi-gdb-py</code> here!</p>
-<p>For Linux distributions that ship the toolchain themselves and have Python scripting  enabled by default, you can use <code>/usr/bin/arm-none-eabi-gdb</code> (without the <code>-py</code>).</p>
+Qt Creator requires the debugger to support Python scripting.</p>
+<p>If you use the precompiled <a href="https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads">arm-none-eabi toolchain from ARM</a> you need to use <code>arm-none-eabi-gdb-py</code> here!</p>
+<p>For Linux distributions that ship the toolchain themselves and have Python scripting enabled by default, you can use <code>/usr/bin/arm-none-eabi-gdb</code> (without the <code>-py</code>).</p>
 <h3 id="add-openocd-server">Add OpenOCD server<a class="headerlink" href="#add-openocd-server" title="Permanent link">#</a></h3>
+<p>If you have not installed OpenOCD yet, do so now:</p>
+<div class="code"><pre><span></span># On Fedora 22 and up
+sudo dnf install openocd
+# On Ubuntu 16.04
+sudo apt-get install openocd
+# On OS X
+brew install openocd --HEAD
+</pre></div>
+
+
 <p>Go to tab <em>Bare Metal</em> and select <em>Add</em> → <em>OpenOCD</em>.
 <!-- <center><img alt="Add new OpenOCD GDB server provider" src="../images/qt-creator-tutorial/add-openocd-provider.png" /></center> -->
 <center><img alt="OpenOCD GDB server provider settings" src="../../images/qt-creator-tutorial/openocd-provider-settings.png" /></center></p>
@@ -388,7 +403,7 @@ Qt Creator requires the debugger to support Python scripting. If you use the pre
 <li>Startup mode: <em>Startup in TCP/IP Mode</em></li>
 <li>Executable file: Path to OpenOCD binary: <code>/usr/local/bin/openocd</code> (OS X), or <code>/usr/bin/openocd</code> (Linux)</li>
 <li>Root scripts directory: Absolute path to OpenOCD script directory: <code>/usr/local/share/openocd/scripts</code> (OS X), or <code>/usr/share/openocd/scripts</code> (Linux)</li>
-<li>Configuration File: <code>board/stm32f4discovery.cfg</code></li>
+<li>Configuration File: <code>board/stm32f4discovery.cfg</code>, do not worry if the text field turns red.</li>
 </ul>
 <p>If you want to use other targets, create an <em>OpenOCD provider</em>, <em>Device</em> and <em>Kit</em> for each or them.
 Have a look at the OpenOCD script directory to find a configuration file for your target.</p>
@@ -415,6 +430,7 @@ Again, go to tab <em>Build &amp; Run</em>, sub-tab <em>Kits</em> and click <em>A
 
 <p>Change to the project folder and run <code>scons qtcreator</code> to generate the Qt creator project files for the xpcc project:</p>
 <div class="code"><pre><span></span><span class="nb">cd</span> getting-started-with-xpcc/hello-world
+scons
 scons qtcreator
 
 scons: Reading SConscript files ...

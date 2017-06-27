@@ -7,8 +7,8 @@ var group__animation =
       [ "Animation", "classxpcc_1_1ui_1_1_animation.html#a4893b5faff02a683958f133aaf69ef5f", null ],
       [ "attachCallback", "classxpcc_1_1ui_1_1_animation.html#a138e6e6deee2011dc3a472fb04a80c73", null ],
       [ "setValue", "classxpcc_1_1ui_1_1_animation.html#a323d847a6a94220d13e0c4e9fbd5e0bc", null ],
-      [ "getValue", "classxpcc_1_1ui_1_1_animation.html#ad7d62506f73f5caebeb290062d411847", null ],
-      [ "isAnimating", "classxpcc_1_1ui_1_1_animation.html#a2673bde6b69ede17c72ad8b3b150a6bb", null ],
+      [ "getValue", "classxpcc_1_1ui_1_1_animation.html#a76a0b6375b6b7a5e8a196eeb99a23dce", null ],
+      [ "isAnimating", "classxpcc_1_1ui_1_1_animation.html#ac1bb999902268cb8596da38a7e7f2623", null ],
       [ "stop", "classxpcc_1_1ui_1_1_animation.html#a4542a86e15651126b39f7d3f0893d54f", null ],
       [ "animateTo", "classxpcc_1_1ui_1_1_animation.html#af63483b4b1f29ac1a09d28767deecc72", null ],
       [ "update", "classxpcc_1_1ui_1_1_animation.html#a72922b4a5a7ecffe0c7320ee99451fde", null ]
@@ -20,7 +20,7 @@ var group__animation =
       [ "setRange", "classxpcc_1_1ui_1_1_indicator.html#a0a0f4636141055abfb779f921eaecadf", null ],
       [ "start", "classxpcc_1_1ui_1_1_indicator.html#a7ff7d3863080150c9943913504f9d5f3", null ],
       [ "stop", "classxpcc_1_1ui_1_1_indicator.html#ad0fda9553dc7469a8cd43aef35028240", null ],
-      [ "isAnimating", "classxpcc_1_1ui_1_1_indicator.html#ab30ee4e8bc303e939d78f75e49832248", null ],
+      [ "isAnimating", "classxpcc_1_1ui_1_1_indicator.html#a4f7830e0cc60bc8755c8ee675ad584fa", null ],
       [ "update", "classxpcc_1_1ui_1_1_indicator.html#a12a04196d7b6acf8bd814c9e3cb1e4e3", null ]
     ] ],
     [ "FastRamp", "classxpcc_1_1ui_1_1_fast_ramp.html", [
@@ -32,22 +32,22 @@ var group__animation =
       [ "stop", "classxpcc_1_1ui_1_1_fast_ramp.html#aac339f751634738d6a1b09340223bccb", null ]
     ] ],
     [ "KeyFrame", "structxpcc_1_1ui_1_1_key_frame.html", [
-      [ "KeyFrame", "structxpcc_1_1ui_1_1_key_frame.html#a0b1dbe9d5855cc16aabef946985231d6", null ],
+      [ "KeyFrame", "structxpcc_1_1ui_1_1_key_frame.html#abeab6a02f836b7f2c20bd5ff6456b25f", null ],
       [ "length", "structxpcc_1_1ui_1_1_key_frame.html#ae84eece7207c9e0624456ba128bc62d0", null ],
       [ "value", "structxpcc_1_1ui_1_1_key_frame.html#adcd579fa4fc975435cd9b69e2ec2592e", null ]
     ] ],
     [ "KeyFrameAnimation", "classxpcc_1_1ui_1_1_key_frame_animation.html", [
-      [ "KeyFrameAnimation", "classxpcc_1_1ui_1_1_key_frame_animation.html#abc7fe4ae4a31d6a37eb7223090337168", null ],
-      [ "KeyFrameAnimation", "classxpcc_1_1ui_1_1_key_frame_animation.html#a3bc27dfe3ecf5b5d50b4f26c3df19d23", null ],
+      [ "KeyFrameAnimation", "classxpcc_1_1ui_1_1_key_frame_animation.html#a23fca4571b131f42e6efceaa9eb6655f", null ],
+      [ "KeyFrameAnimation", "classxpcc_1_1ui_1_1_key_frame_animation.html#aa0ebf17ddb4730cd10bb1110ed8b4f4a", null ],
       [ "start", "classxpcc_1_1ui_1_1_key_frame_animation.html#a4ae0a95e2159e4307c9e527cb97fdd90", null ],
       [ "stop", "classxpcc_1_1ui_1_1_key_frame_animation.html#aef824ff7ce0aace7ced1354adeea30c3", null ],
       [ "cancel", "classxpcc_1_1ui_1_1_key_frame_animation.html#a1da874de029d944b151c0990651486bb", null ],
-      [ "isAnimating", "classxpcc_1_1ui_1_1_key_frame_animation.html#a48a1ab43dd8e275bbf6b888fa54d46f1", null ],
+      [ "isAnimating", "classxpcc_1_1ui_1_1_key_frame_animation.html#a925bcb3d2f9e948b76636b4a9f7f09b0", null ],
       [ "update", "classxpcc_1_1ui_1_1_key_frame_animation.html#a780a8f7a7109424de6782b6e26e6c9e7", null ],
-      [ "getKeyFrames", "classxpcc_1_1ui_1_1_key_frame_animation.html#ab9b1ebf075b4c6f2d3b7f7c509aed128", null ],
+      [ "getKeyFrames", "classxpcc_1_1ui_1_1_key_frame_animation.html#a16258890ec088e983265aebb96383b4d", null ],
       [ "setKeyFrames", "classxpcc_1_1ui_1_1_key_frame_animation.html#a2d91a3f0a455aa315ffcf7c2ab586c15", null ],
-      [ "getLength", "classxpcc_1_1ui_1_1_key_frame_animation.html#ad583cf1515f013638fa32d956b7e6f91", null ],
-      [ "getMode", "classxpcc_1_1ui_1_1_key_frame_animation.html#ac14c400bab69f3007c23f991b87a0afa", null ],
+      [ "getLength", "classxpcc_1_1ui_1_1_key_frame_animation.html#a896070e0d043f4dd3b518fb8b813aa5c", null ],
+      [ "getMode", "classxpcc_1_1ui_1_1_key_frame_animation.html#afefa834bcdfe9e2a269d5baca599cb68", null ],
       [ "setMode", "classxpcc_1_1ui_1_1_key_frame_animation.html#abc56cd10049d889a0f5b671830e06e9e", null ]
     ] ],
     [ "Pulse", "classxpcc_1_1ui_1_1_pulse.html", [
@@ -56,7 +56,7 @@ var group__animation =
       [ "setRange", "classxpcc_1_1ui_1_1_pulse.html#a35fbe25618366412f384cf58632fd6a9", null ],
       [ "start", "classxpcc_1_1ui_1_1_pulse.html#af4ce679a840f0730055fd1cac876cf0e", null ],
       [ "stop", "classxpcc_1_1ui_1_1_pulse.html#a5c457be9dea7f525cd1015000ced69fa", null ],
-      [ "isAnimating", "classxpcc_1_1ui_1_1_pulse.html#aca34d24017701b0d845a52523a93dbff", null ],
+      [ "isAnimating", "classxpcc_1_1ui_1_1_pulse.html#aafe0b6f988d9c40a64d7bc1f5b57526e", null ],
       [ "update", "classxpcc_1_1ui_1_1_pulse.html#a74920290306a0b4bc1e82aea7ddf0f07", null ]
     ] ],
     [ "Strobe", "classxpcc_1_1ui_1_1_strobe.html", [
@@ -67,7 +67,7 @@ var group__animation =
       [ "start", "classxpcc_1_1ui_1_1_strobe.html#a64c893e3d196f9fcac25dce8af8b4bbd", null ],
       [ "stop", "classxpcc_1_1ui_1_1_strobe.html#a2ba5dd0a7f0b9a7135db10b06961366b", null ],
       [ "cancel", "classxpcc_1_1ui_1_1_strobe.html#a89ef6bd21825838cefdd352cffa3b1f8", null ],
-      [ "isAnimating", "classxpcc_1_1ui_1_1_strobe.html#a809feaf875f82f4d02f6b92155bc271b", null ],
+      [ "isAnimating", "classxpcc_1_1ui_1_1_strobe.html#a279eeee64a37a79b242cb4430d9b2ee3", null ],
       [ "update", "classxpcc_1_1ui_1_1_strobe.html#a3b18cfd5d9d1acf1469e6c1e44c22937", null ]
     ] ]
 ];

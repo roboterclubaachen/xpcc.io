@@ -93,10 +93,10 @@ var group__driver__gpio =
       [ "reset", "classxpcc_1_1_pca8574.html#a9b709a4fde2185f00816ddb77483fa42", null ],
       [ "toggle", "classxpcc_1_1_pca8574.html#a1916898a3833418d5c56d96f29d3a12a", null ],
       [ "set", "classxpcc_1_1_pca8574.html#ada28360fef197f85cf530603b6c2752e", null ],
-      [ "isSet", "classxpcc_1_1_pca8574.html#a42e16779094cd3704cbde6d989f01a53", null ],
-      [ "getDirection", "classxpcc_1_1_pca8574.html#aa0e6c52f01cfb0865c4681fb37db3598", null ],
+      [ "isSet", "classxpcc_1_1_pca8574.html#aa9f5f82b0302b3410920f8fc6d9b12d2", null ],
+      [ "getDirection", "classxpcc_1_1_pca8574.html#a81301c887b89bb923dd31e2f04e7d36a", null ],
       [ "setInput", "classxpcc_1_1_pca8574.html#aa342e233cede3933cd1e0320026386d0", null ],
-      [ "read", "classxpcc_1_1_pca8574.html#abe37aec22fa2e6347ef97579ba32b4ed", null ],
+      [ "read", "classxpcc_1_1_pca8574.html#a9bd6c93650dcc5f83fd93f2c3b429b56", null ],
       [ "readInput", "classxpcc_1_1_pca8574.html#a43ad947a29cb1df6bd8b59044d5889ae", null ],
       [ "writePort", "classxpcc_1_1_pca8574.html#ae0f39eaaa80cb23d7367526aae8f186f", null ],
       [ "readPort", "classxpcc_1_1_pca8574.html#a2f33ad584ba0c9b7c6e7a885bebd7a6d", null ],
@@ -129,28 +129,28 @@ var group__driver__gpio =
       [ "reset", "classxpcc_1_1_pca9535.html#a51d99e4430a40c4e6b3f07464a188180", null ],
       [ "toggle", "classxpcc_1_1_pca9535.html#a760d674de82659d390754a29ec7ac838", null ],
       [ "set", "classxpcc_1_1_pca9535.html#aa9eb284cb297ce177bd3bb0a23579599", null ],
-      [ "isSet", "classxpcc_1_1_pca9535.html#aa8be14a9a40aa0f6faacd655674e00f7", null ],
-      [ "getDirection", "classxpcc_1_1_pca9535.html#a26871f80bfc98ec119752803a7b3747b", null ],
+      [ "isSet", "classxpcc_1_1_pca9535.html#a73e5be660d5e4e124a25e11a9bfb4f73", null ],
+      [ "getDirection", "classxpcc_1_1_pca9535.html#a274252daa55eef226a41e0406eb349c3", null ],
       [ "setInput", "classxpcc_1_1_pca9535.html#a2b8a52d8329c09cf467572f7332c3525", null ],
       [ "setInvertInput", "classxpcc_1_1_pca9535.html#aebb3a7ba593883dff1ee9f9865ca4ee6", null ],
       [ "resetInvertInput", "classxpcc_1_1_pca9535.html#a899ed1f4e2ca830e1f5d19348dd51352", null ],
-      [ "read", "classxpcc_1_1_pca9535.html#a0092eb607fa8087154a79c8abdfa6666", null ],
+      [ "read", "classxpcc_1_1_pca9535.html#ad5149f41021b13e3d38b50c9adb78dd4", null ],
       [ "readInput", "classxpcc_1_1_pca9535.html#aa108e7b2085fc4396edc5e2feb474d1e", null ],
       [ "writePort", "classxpcc_1_1_pca9535.html#a9ec051b824c15afd435293c7d3ad9096", null ],
       [ "readPort", "classxpcc_1_1_pca9535.html#a783619fe79ddef5a66cc842249811a46", null ],
-      [ "getDirections", "classxpcc_1_1_pca9535.html#ad641296ad0e2849986f38332bbd6a029", null ],
-      [ "getOutputs", "classxpcc_1_1_pca9535.html#adc0a7eaa22a6d5ea9c002eb963ff971e", null ],
-      [ "getInputs", "classxpcc_1_1_pca9535.html#aff48c1505c5af4851515f3cc2dc02d6d", null ],
-      [ "getPolarities", "classxpcc_1_1_pca9535.html#a175125a10664e0bb33745c842f772e16", null ]
+      [ "getDirections", "classxpcc_1_1_pca9535.html#aa51bfa581d1b455d9aea80451e5edeab", null ],
+      [ "getOutputs", "classxpcc_1_1_pca9535.html#a4efc7e323cd6bb5988aeedbb5b6fc194", null ],
+      [ "getInputs", "classxpcc_1_1_pca9535.html#a984d811255bb73c896b06ed86b9b3f1f", null ],
+      [ "getPolarities", "classxpcc_1_1_pca9535.html#a3a0d60e75f2606f22e1e51b0e2d5f006", null ]
     ] ],
     [ "ShiftRegisterInput", "classxpcc_1_1_shift_register_input.html", [
       [ "initialize", "classxpcc_1_1_shift_register_input.html#addde4e882021649f4b264baeb8bfd3b3", null ],
-      [ "operator[]", "classxpcc_1_1_shift_register_input.html#acac713e1030c78086adc053494c193f8", null ],
+      [ "operator[]", "classxpcc_1_1_shift_register_input.html#a66e0c45c756dda421807abe5dc786b04", null ],
       [ "operator[]", "classxpcc_1_1_shift_register_input.html#affc66fcf0e39b42e72b1cea1b8c2d6f3", null ],
       [ "update", "classxpcc_1_1_shift_register_input.html#afe0bdef6c8044696b9524f90d15b39a7", null ]
     ] ],
     [ "ShiftRegisterOutput", "classxpcc_1_1_shift_register_output.html", [
-      [ "operator[]", "classxpcc_1_1_shift_register_output.html#a5530c5c16f79f505a899564cc201c72b", null ],
+      [ "operator[]", "classxpcc_1_1_shift_register_output.html#a167ba939709e5da032f798d33a9a533f", null ],
       [ "operator[]", "classxpcc_1_1_shift_register_output.html#a97ef9511946212e8a80a6cd0c80b6f06", null ]
     ] ]
 ];

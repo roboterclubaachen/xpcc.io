@@ -16,35 +16,35 @@ var group__stm32f407vg__can =
         [ "ListenOnlyLoopBack", "classxpcc_1_1stm32_1_1_can2.html#a3c22ed9a1603601570ca390b188c36c5a45987c21827015f2000fff5769b231a2", null ]
       ] ]
     ] ],
-    [ "ExtendedIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier.html", [
-      [ "ExtendedIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier.html#a8c87cc66be922b20627bdd6dd9e8dfd3", null ]
-    ] ],
-    [ "ExtendedFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask.html", [
-      [ "ExtendedFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask.html#a312f00eaf16730b2d177db69f2cd904e", null ],
-      [ "operator uint32_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask.html#a3c7e8b06cd9cbecae7b161445a2ed6a2", null ]
-    ] ],
-    [ "StandardIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier.html", [
-      [ "StandardIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier.html#a74a3461d81f39d004f2aeeb2c6b6d0a8", null ]
-    ] ],
-    [ "StandardFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html", [
-      [ "StandardFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html#a51fb1321390ebddd7d74c311e48dfd46", null ],
-      [ "operator uint32_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html#a1544fe93133c55ee0fd1403adaa76378", null ]
-    ] ],
-    [ "ExtendedIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier_short.html", [
-      [ "ExtendedIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier_short.html#a621b20083b20b2e22021b0fef51ae3fc", null ]
-    ] ],
-    [ "ExtendedFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask_short.html", [
-      [ "ExtendedFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask_short.html#ad06c8bee4f74f713e1b27813ec4dfd9d", null ],
-      [ "operator uint16_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask_short.html#a5aba2d62b71b458ac1631ec953f9c4b6", null ]
-    ] ],
-    [ "StandardIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier_short.html", [
-      [ "StandardIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier_short.html#a057de947f8959ab726a1d3fadda06fed", null ]
-    ] ],
-    [ "StandardFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html", [
-      [ "StandardFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html#ac87108a43f603f824f9a6df72f66c486", null ],
-      [ "operator uint16_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html#a70dacb5ad7653f3f566c1130ced48d42", null ]
-    ] ],
     [ "CanFilter", "classxpcc_1_1stm32_1_1_can_filter.html", [
+      [ "ExtendedFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask.html", [
+        [ "ExtendedFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask.html#a312f00eaf16730b2d177db69f2cd904e", null ],
+        [ "operator uint32_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask.html#a03096aa68155ae0d3312c9b324e0cd7c", null ]
+      ] ],
+      [ "ExtendedFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask_short.html", [
+        [ "ExtendedFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask_short.html#ad06c8bee4f74f713e1b27813ec4dfd9d", null ],
+        [ "operator uint16_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_filter_mask_short.html#aaaa53d377630d77c6931ab23a8f8b515", null ]
+      ] ],
+      [ "ExtendedIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier.html", [
+        [ "ExtendedIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier.html#a8c87cc66be922b20627bdd6dd9e8dfd3", null ]
+      ] ],
+      [ "ExtendedIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier_short.html", [
+        [ "ExtendedIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_extended_identifier_short.html#a621b20083b20b2e22021b0fef51ae3fc", null ]
+      ] ],
+      [ "StandardFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html", [
+        [ "StandardFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html#a51fb1321390ebddd7d74c311e48dfd46", null ],
+        [ "operator uint32_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html#ad461d9bdd78496f2d0866199e520fa54", null ]
+      ] ],
+      [ "StandardFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html", [
+        [ "StandardFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html#ac87108a43f603f824f9a6df72f66c486", null ],
+        [ "operator uint16_t", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html#a37fee60bafcad65b7b0c6c7288600139", null ]
+      ] ],
+      [ "StandardIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier.html", [
+        [ "StandardIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier.html#a74a3461d81f39d004f2aeeb2c6b6d0a8", null ]
+      ] ],
+      [ "StandardIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier_short.html", [
+        [ "StandardIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier_short.html#a057de947f8959ab726a1d3fadda06fed", null ]
+      ] ],
       [ "Fifo", "classxpcc_1_1stm32_1_1_can_filter.html#abdd1c8a0528b0e5717889cd37f6c669b", [
         [ "FIFO0", "classxpcc_1_1stm32_1_1_can_filter.html#abdd1c8a0528b0e5717889cd37f6c669bac27e7726d6322dc018d96ef8897ee683", null ],
         [ "FIFO1", "classxpcc_1_1stm32_1_1_can_filter.html#abdd1c8a0528b0e5717889cd37f6c669bac1b2f4f2f9f1073f61ca22a41aaf3bc6", null ]

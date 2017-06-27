@@ -5,5 +5,6 @@ var searchData=
   ['device_20drivers',['Device drivers',['../group__driver.html',1,'']]],
   ['digital_2fanalog_20converters',['Digital/Analog Converters',['../group__driver__dac.html',1,'']]],
   ['displays',['Displays',['../group__driver__display.html',1,'']]],
+  ['ds1302',['DS1302',['../group__ds1302.html',1,'']]],
   ['dma',['DMA',['../group__stm32f407vg__dma.html',1,'']]]
 ];

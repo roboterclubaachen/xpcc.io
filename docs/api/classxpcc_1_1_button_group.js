@@ -13,7 +13,7 @@ var classxpcc_1_1_button_group =
       [ "ALL", "classxpcc_1_1_button_group.html#a5ab6ab92cc1bbb34ee431ec5e85b4443a413bc4f5e448b2bf02a57e138518dd08", null ]
     ] ],
     [ "ButtonGroup", "classxpcc_1_1_button_group.html#ae444915a84bf4d45abaa915450273703", null ],
-    [ "getState", "classxpcc_1_1_button_group.html#a3d6c692d4fbbd7f019779c812561cb94", null ],
+    [ "getState", "classxpcc_1_1_button_group.html#aa3cef6ff7d391454d8dfb628a0ef58fa", null ],
     [ "isReleased", "classxpcc_1_1_button_group.html#a543afb9661099587cbd62104958d5a1d", null ],
     [ "isPressed", "classxpcc_1_1_button_group.html#a650056c1955240d1785c3581176444e9", null ],
     [ "isRepeated", "classxpcc_1_1_button_group.html#a43f5b54a271461e2329755a8d2b9aeeb", null ],

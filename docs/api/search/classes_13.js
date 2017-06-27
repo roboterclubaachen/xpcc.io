@@ -11,5 +11,5 @@ var searchData=
   ['viewstack',['ViewStack',['../classxpcc_1_1_view_stack.html',1,'xpcc']]],
   ['virtualgraphicdisplay',['VirtualGraphicDisplay',['../classxpcc_1_1_virtual_graphic_display.html',1,'xpcc']]],
   ['vl53l0',['vl53l0',['../structxpcc_1_1vl53l0.html',1,'xpcc::vl53l0'],['../classxpcc_1_1_vl53l0.html',1,'xpcc::Vl53l0&lt; I2cMaster &gt;']]],
-  ['vl6180',['vl6180',['../structxpcc_1_1vl6180.html',1,'xpcc::vl6180'],['../classxpcc_1_1_vl6180.html',1,'xpcc::Vl6180&lt; I2cMaster &gt;']]]
+  ['vl6180',['Vl6180',['../classxpcc_1_1_vl6180.html',1,'xpcc::Vl6180&lt; I2cMaster &gt;'],['../structxpcc_1_1vl6180.html',1,'xpcc::vl6180']]]
 ];

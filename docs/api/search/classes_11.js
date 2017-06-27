@@ -1,10 +1,9 @@
 var searchData=
 [
   ['tabpanel',['TabPanel',['../classxpcc_1_1gui_1_1_tab_panel.html',1,'xpcc::gui']]],
-  ['task',['Task',['../classxpcc_1_1_scheduler_1_1_task.html',1,'xpcc::Scheduler']]],
-  ['task',['Task',['../classxpcc_1_1_task.html',1,'xpcc']]],
+  ['task',['Task',['../classxpcc_1_1_scheduler_1_1_task.html',1,'xpcc::Scheduler::Task'],['../classxpcc_1_1_task.html',1,'xpcc::Task']]],
   ['tcs3414',['Tcs3414',['../classxpcc_1_1_tcs3414.html',1,'xpcc::Tcs3414&lt; I2cMaster &gt;'],['../structxpcc_1_1tcs3414.html',1,'xpcc::tcs3414']]],
-  ['tcs3472',['Tcs3472',['../classxpcc_1_1_tcs3472.html',1,'xpcc::Tcs3472&lt; I2cMaster &gt;'],['../structxpcc_1_1tcs3472.html',1,'xpcc::tcs3472']]],
+  ['tcs3472',['tcs3472',['../structxpcc_1_1tcs3472.html',1,'xpcc::tcs3472'],['../classxpcc_1_1_tcs3472.html',1,'xpcc::Tcs3472&lt; I2cMaster &gt;']]],
   ['terminal',['Terminal',['../classxpcc_1_1pc_1_1_terminal.html',1,'xpcc::pc']]],
   ['testsuite',['TestSuite',['../classunittest_1_1_test_suite.html',1,'unittest']]],
   ['tftmemorybus16bit',['TftMemoryBus16Bit',['../classxpcc_1_1_tft_memory_bus16_bit.html',1,'xpcc']]],
@@ -107,13 +106,10 @@ var searchData=
   ['timer9channel2',['Timer9Channel2',['../structxpcc_1_1stm32_1_1_type_id_1_1_timer9_channel2.html',1,'xpcc::stm32::TypeId']]],
   ['tipcconnector',['TipcConnector',['../classxpcc_1_1_tipc_connector.html',1,'xpcc']]],
   ['tlc594x',['TLC594X',['../classxpcc_1_1_t_l_c594_x.html',1,'xpcc']]],
-  ['tmp102',['tmp102',['../structxpcc_1_1tmp102.html',1,'xpcc::tmp102'],['../classxpcc_1_1_tmp102.html',1,'xpcc::Tmp102&lt; I2cMaster &gt;']]],
-  ['tmp175',['tmp175',['../structxpcc_1_1tmp175.html',1,'xpcc::tmp175'],['../classxpcc_1_1_tmp175.html',1,'xpcc::Tmp175&lt; I2cMaster &gt;']]],
+  ['tmp102',['Tmp102',['../classxpcc_1_1_tmp102.html',1,'xpcc::Tmp102&lt; I2cMaster &gt;'],['../structxpcc_1_1tmp102.html',1,'xpcc::tmp102']]],
+  ['tmp175',['Tmp175',['../classxpcc_1_1_tmp175.html',1,'xpcc::Tmp175&lt; I2cMaster &gt;'],['../structxpcc_1_1tmp175.html',1,'xpcc::tmp175']]],
   ['tolerance',['Tolerance',['../classxpcc_1_1_tolerance.html',1,'xpcc']]],
   ['touch_5ft',['touch_t',['../structxpcc_1_1ft6x06_1_1touch__t.html',1,'xpcc::ft6x06']]],
-  ['transmitter',['Transmitter',['../classxpcc_1_1amnb_1_1_transmitter.html',1,'xpcc::amnb']]],
-  ['transmitter',['Transmitter',['../classxpcc_1_1tipc_1_1_transmitter.html',1,'xpcc::tipc']]],
-  ['transmitter',['Transmitter',['../classxpcc_1_1sab_1_1_transmitter.html',1,'xpcc::sab']]],
-  ['transmitter',['Transmitter',['../classxpcc_1_1rpr_1_1_transmitter.html',1,'xpcc::rpr']]],
+  ['transmitter',['Transmitter',['../classxpcc_1_1sab_1_1_transmitter.html',1,'xpcc::sab::Transmitter'],['../classxpcc_1_1tipc_1_1_transmitter.html',1,'xpcc::tipc::Transmitter'],['../classxpcc_1_1amnb_1_1_transmitter.html',1,'xpcc::amnb::Transmitter'],['../classxpcc_1_1rpr_1_1_transmitter.html',1,'xpcc::rpr::Transmitter']]],
   ['transmittersocket',['TransmitterSocket',['../classxpcc_1_1tipc_1_1_transmitter_socket.html',1,'xpcc::tipc']]]
 ];

@@ -1,6 +1,6 @@
 var structxpcc_1_1_spi =
 [
-    [ "ConfigurationHandler", "structxpcc_1_1_spi.html#afe5001896ae7f2d2a07d24b17c0dd928", null ],
+    [ "ConfigurationHandler", "structxpcc_1_1_spi.html#aa8c715419d2370d9feab964cd7da0c04", null ],
     [ "DataMode", "structxpcc_1_1_spi.html#a2e3c0bd1b2738a3a94e77997abb1992f", [
       [ "Mode0", "structxpcc_1_1_spi.html#a2e3c0bd1b2738a3a94e77997abb1992fa315436bae0e85636381fc939db06aee5", null ],
       [ "Mode1", "structxpcc_1_1_spi.html#a2e3c0bd1b2738a3a94e77997abb1992fa7a2ea225a084605104f8c39b3ae9657c", null ],

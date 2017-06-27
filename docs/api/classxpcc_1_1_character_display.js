@@ -1,5 +1,6 @@
 var classxpcc_1_1_character_display =
 [
+    [ "Writer", "classxpcc_1_1_character_display_1_1_writer.html", "classxpcc_1_1_character_display_1_1_writer" ],
     [ "Command", "classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0", [
       [ "ClearDisplay", "classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0a9a7b87e52c4767dbd6954c48782d738f", null ],
       [ "ResetCursor", "classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0a1a82b1d70eea710a28dbba0209dbd879", null ],

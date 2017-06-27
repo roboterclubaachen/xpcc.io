@@ -5,9 +5,9 @@ var group__gui =
       [ "ColorPalette", "classxpcc_1_1gui_1_1_color_palette.html#aa8737a86b88d32683c304e9806f3ab75", null ],
       [ "operator=", "classxpcc_1_1gui_1_1_color_palette.html#a2040705fca95a1ad5bc5e8015377777f", null ],
       [ "setColor", "classxpcc_1_1gui_1_1_color_palette.html#acfc6267f399f7804380fd871b8f82ba3", null ],
-      [ "getColor", "classxpcc_1_1gui_1_1_color_palette.html#aff3541d361ffbaf185809efb5040ce5a", null ],
+      [ "getColor", "classxpcc_1_1gui_1_1_color_palette.html#a10fa39f4c9ab62f6e8d81e4e28a1a724", null ],
       [ "operator[]", "classxpcc_1_1gui_1_1_color_palette.html#af089b95aad81fdc34ece194f864746cc", null ],
-      [ "getPointer", "classxpcc_1_1gui_1_1_color_palette.html#ad902f86c428701545602986876eac4a7", null ]
+      [ "getPointer", "classxpcc_1_1gui_1_1_color_palette.html#a28f50f85219073034376e8946bb49823", null ]
     ] ],
     [ "InputEvent", "classxpcc_1_1gui_1_1_input_event.html", [
       [ "Type", "classxpcc_1_1gui_1_1_input_event.html#aac9aa39d0d42b1de7580c75aae39f878", [
@@ -84,7 +84,7 @@ var group__gui =
       [ "activate", "classxpcc_1_1gui_1_1_string_rocker.html#a8e9a327526fa82959bbaf49fd2374f56", null ],
       [ "deactivate", "classxpcc_1_1gui_1_1_string_rocker.html#a79ec9e2a87c6d049fe97cea5f9c853fb", null ],
       [ "getValue", "classxpcc_1_1gui_1_1_string_rocker.html#a7e6b72827653133e010aacd2c481877e", null ],
-      [ "getId", "classxpcc_1_1gui_1_1_string_rocker.html#ac90c6f618c94b8d6f7371250b996a028", null ]
+      [ "getId", "classxpcc_1_1gui_1_1_string_rocker.html#affdceef8d50fe71fe72ae0c0415613d0", null ]
     ] ],
     [ "TabPanel", "classxpcc_1_1gui_1_1_tab_panel.html", [
       [ "TabPanel", "classxpcc_1_1gui_1_1_tab_panel.html#a56be49421fb9cf1af108b1b9b1d2dc92", null ],

@@ -1,7 +1,7 @@
 var group__i2c =
 [
     [ "I2c", "structxpcc_1_1_i2c.html", [
-      [ "ConfigurationHandler", "structxpcc_1_1_i2c.html#a96f6f5fa08fe23074952495eaa2efe28", null ],
+      [ "ConfigurationHandler", "structxpcc_1_1_i2c.html#a1e2ee33e8c5cba6b043367ff032c2e59", null ],
       [ "DetachCause", "structxpcc_1_1_i2c.html#a2c8a622eadc65b22eeffc58b1ea1e8fe", [
         [ "NormalStop", "structxpcc_1_1_i2c.html#a2c8a622eadc65b22eeffc58b1ea1e8fea391c51df2024fa2c540672812faaf879", null ],
         [ "ErrorCondition", "structxpcc_1_1_i2c.html#a2c8a622eadc65b22eeffc58b1ea1e8fea170dca6f1128c602c1ad7423e4e0f672", null ],
@@ -67,28 +67,28 @@ var group__i2c =
         [ "High", "classxpcc_1_1_i2c_master.html#a8334095ac3f913c0e044db1fe0f80f3da6672c21dfd6ee6faf8866b87342b9c82", null ]
       ] ]
     ] ],
-    [ "Starting", "structxpcc_1_1_i2c_transaction_1_1_starting.html", [
-      [ "Starting", "structxpcc_1_1_i2c_transaction_1_1_starting.html#a5f6ff356fdf897b9175333bde75fb474", null ],
-      [ "address", "structxpcc_1_1_i2c_transaction_1_1_starting.html#a341e91ed00b16c729efc586ca91c93eb", null ],
-      [ "next", "structxpcc_1_1_i2c_transaction_1_1_starting.html#a0d9dc6dfe4867c4c74de4d76e957c213", null ]
-    ] ],
-    [ "Writing", "structxpcc_1_1_i2c_transaction_1_1_writing.html", [
-      [ "Writing", "structxpcc_1_1_i2c_transaction_1_1_writing.html#a91a98ed32eaa91459c194f1a0d355b1a", null ],
-      [ "buffer", "structxpcc_1_1_i2c_transaction_1_1_writing.html#afff0ae8b30c62b9bc414e6413b01b5f2", null ],
-      [ "length", "structxpcc_1_1_i2c_transaction_1_1_writing.html#ae9cfb2906f10a2cd01321604dab7de35", null ],
-      [ "next", "structxpcc_1_1_i2c_transaction_1_1_writing.html#ab88ca96e4551d2e0729b0a048ab03846", null ]
-    ] ],
-    [ "Reading", "structxpcc_1_1_i2c_transaction_1_1_reading.html", [
-      [ "Reading", "structxpcc_1_1_i2c_transaction_1_1_reading.html#a533c90c6d320206e3c83cb64d739780e", null ],
-      [ "buffer", "structxpcc_1_1_i2c_transaction_1_1_reading.html#a23eabcd18afc267e07bf35eb0a38f284", null ],
-      [ "length", "structxpcc_1_1_i2c_transaction_1_1_reading.html#a242f1807d47620cd5ed8eaf8c9dcdddd", null ],
-      [ "next", "structxpcc_1_1_i2c_transaction_1_1_reading.html#ac4ee8f93b536ec03b2a95cd568e83481", null ]
-    ] ],
     [ "I2cTransaction", "classxpcc_1_1_i2c_transaction.html", [
+      [ "Reading", "structxpcc_1_1_i2c_transaction_1_1_reading.html", [
+        [ "Reading", "structxpcc_1_1_i2c_transaction_1_1_reading.html#a533c90c6d320206e3c83cb64d739780e", null ],
+        [ "buffer", "structxpcc_1_1_i2c_transaction_1_1_reading.html#a23eabcd18afc267e07bf35eb0a38f284", null ],
+        [ "length", "structxpcc_1_1_i2c_transaction_1_1_reading.html#a242f1807d47620cd5ed8eaf8c9dcdddd", null ],
+        [ "next", "structxpcc_1_1_i2c_transaction_1_1_reading.html#ac4ee8f93b536ec03b2a95cd568e83481", null ]
+      ] ],
+      [ "Starting", "structxpcc_1_1_i2c_transaction_1_1_starting.html", [
+        [ "Starting", "structxpcc_1_1_i2c_transaction_1_1_starting.html#a5f6ff356fdf897b9175333bde75fb474", null ],
+        [ "address", "structxpcc_1_1_i2c_transaction_1_1_starting.html#a341e91ed00b16c729efc586ca91c93eb", null ],
+        [ "next", "structxpcc_1_1_i2c_transaction_1_1_starting.html#a0d9dc6dfe4867c4c74de4d76e957c213", null ]
+      ] ],
+      [ "Writing", "structxpcc_1_1_i2c_transaction_1_1_writing.html", [
+        [ "Writing", "structxpcc_1_1_i2c_transaction_1_1_writing.html#a91a98ed32eaa91459c194f1a0d355b1a", null ],
+        [ "buffer", "structxpcc_1_1_i2c_transaction_1_1_writing.html#afff0ae8b30c62b9bc414e6413b01b5f2", null ],
+        [ "length", "structxpcc_1_1_i2c_transaction_1_1_writing.html#ae9cfb2906f10a2cd01321604dab7de35", null ],
+        [ "next", "structxpcc_1_1_i2c_transaction_1_1_writing.html#ab88ca96e4551d2e0729b0a048ab03846", null ]
+      ] ],
       [ "I2cTransaction", "classxpcc_1_1_i2c_transaction.html#a67f836bb353d09218bd2dede16ccafb9", null ],
       [ "setAddress", "classxpcc_1_1_i2c_transaction.html#a75afd89f80317613927157eff521f3cb", null ],
-      [ "getState", "classxpcc_1_1_i2c_transaction.html#a03c834449e3e07f64570086237a6d39b", null ],
-      [ "isBusy", "classxpcc_1_1_i2c_transaction.html#a85f9e0fca1026ca48585b7bbb95236c9", null ],
+      [ "getState", "classxpcc_1_1_i2c_transaction.html#a386f7e0a805810a8111a62e4e57c229e", null ],
+      [ "isBusy", "classxpcc_1_1_i2c_transaction.html#af39f49e27adc6cbcee967ce1c187afbe", null ],
       [ "configurePing", "classxpcc_1_1_i2c_transaction.html#a532854ec0f80eb0c8cc223f526d6f769", null ],
       [ "configureWriteRead", "classxpcc_1_1_i2c_transaction.html#a76f3fa7846b315f234a43b28c62a54e5", null ],
       [ "configureWrite", "classxpcc_1_1_i2c_transaction.html#ad74f75bbc6b6ba4f3c4cd9648635b663", null ],

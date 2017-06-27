@@ -1,6 +1,6 @@
 var structxpcc_1_1_i2c =
 [
-    [ "ConfigurationHandler", "structxpcc_1_1_i2c.html#a96f6f5fa08fe23074952495eaa2efe28", null ],
+    [ "ConfigurationHandler", "structxpcc_1_1_i2c.html#a1e2ee33e8c5cba6b043367ff032c2e59", null ],
     [ "DetachCause", "structxpcc_1_1_i2c.html#a2c8a622eadc65b22eeffc58b1ea1e8fe", [
       [ "NormalStop", "structxpcc_1_1_i2c.html#a2c8a622eadc65b22eeffc58b1ea1e8fea391c51df2024fa2c540672812faaf879", null ],
       [ "ErrorCondition", "structxpcc_1_1_i2c.html#a2c8a622eadc65b22eeffc58b1ea1e8fea170dca6f1128c602c1ad7423e4e0f672", null ],

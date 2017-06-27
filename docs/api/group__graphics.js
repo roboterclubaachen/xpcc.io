@@ -2,8 +2,8 @@ var group__graphics =
 [
     [ "BufferedGraphicDisplay", "classxpcc_1_1_buffered_graphic_display.html", [
       [ "~BufferedGraphicDisplay", "classxpcc_1_1_buffered_graphic_display.html#a471c0ebc52c59887c46477098522f3c8", null ],
-      [ "getWidth", "classxpcc_1_1_buffered_graphic_display.html#a1dc9ff827e9f198b4744a35c13d68116", null ],
-      [ "getHeight", "classxpcc_1_1_buffered_graphic_display.html#a3efc5c40ecc994796c420487b717ae9e", null ],
+      [ "getWidth", "classxpcc_1_1_buffered_graphic_display.html#a3d140f5ed168e0f71c7fdaa07080dc26", null ],
+      [ "getHeight", "classxpcc_1_1_buffered_graphic_display.html#a6e27b4cce968e65f0a8973d0eb1e28d7", null ],
       [ "clear", "classxpcc_1_1_buffered_graphic_display.html#a55729a9b5cd313886ca42ad29498c36c", null ],
       [ "drawImageRaw", "classxpcc_1_1_buffered_graphic_display.html#a2396ef36141759b2579558b20f6d17ab", null ],
       [ "drawHorizontalLine", "classxpcc_1_1_buffered_graphic_display.html#ae525b78a671d9bc318f605fa77ec7d58", null ],
@@ -12,13 +12,13 @@ var group__graphics =
       [ "getPixel", "classxpcc_1_1_buffered_graphic_display.html#a4d1934411448299a6d37e3e230aa7215", null ],
       [ "display_buffer", "classxpcc_1_1_buffered_graphic_display.html#abe2e54d8570e0b52d9782794408bb5a0", null ]
     ] ],
-    [ "Writer", "classxpcc_1_1_character_display_1_1_writer.html", [
-      [ "Writer", "classxpcc_1_1_character_display_1_1_writer.html#a46095de6897d013589dea346294e0fc3", null ],
-      [ "write", "classxpcc_1_1_character_display_1_1_writer.html#aebea58e9cf37dfd59ba7b9845fddd8c6", null ],
-      [ "flush", "classxpcc_1_1_character_display_1_1_writer.html#a4c02916bc4a8040b1ed8f227aa4e8cde", null ],
-      [ "read", "classxpcc_1_1_character_display_1_1_writer.html#aee75fc32b674d8970d16714fcd2f64f3", null ]
-    ] ],
     [ "CharacterDisplay", "classxpcc_1_1_character_display.html", [
+      [ "Writer", "classxpcc_1_1_character_display_1_1_writer.html", [
+        [ "Writer", "classxpcc_1_1_character_display_1_1_writer.html#a46095de6897d013589dea346294e0fc3", null ],
+        [ "write", "classxpcc_1_1_character_display_1_1_writer.html#aebea58e9cf37dfd59ba7b9845fddd8c6", null ],
+        [ "flush", "classxpcc_1_1_character_display_1_1_writer.html#a4c02916bc4a8040b1ed8f227aa4e8cde", null ],
+        [ "read", "classxpcc_1_1_character_display_1_1_writer.html#aee75fc32b674d8970d16714fcd2f64f3", null ]
+      ] ],
       [ "Command", "classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0", [
         [ "ClearDisplay", "classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0a9a7b87e52c4767dbd6954c48782d738f", null ],
         [ "ResetCursor", "classxpcc_1_1_character_display.html#a0f39ee990503a252e38a2ded7b2febd0a1a82b1d70eea710a28dbba0209dbd879", null ],
@@ -46,28 +46,21 @@ var group__graphics =
       [ "column", "classxpcc_1_1_character_display.html#ad2d9211cd6ade790647e5fc55329cb2b", null ],
       [ "line", "classxpcc_1_1_character_display.html#a22478619ebb2df603c63c4ff894bbd14", null ]
     ] ],
-    [ "Color", "classxpcc_1_1glcd_1_1_color.html", [
-      [ "Color", "classxpcc_1_1glcd_1_1_color.html#ac63d0c695f344cd3a8ae06308e88ddf1", null ],
-      [ "Color", "classxpcc_1_1glcd_1_1_color.html#a69236bea908ca158bebc491501deda3c", null ],
-      [ "Color", "classxpcc_1_1glcd_1_1_color.html#a17dc2e5f2efe0adaa5e8dc3fbb0a50c1", null ],
-      [ "getValue", "classxpcc_1_1glcd_1_1_color.html#aec68142117d0714098317c87b948b877", null ],
-      [ "operator==", "classxpcc_1_1glcd_1_1_color.html#a753c791363c729b8e913c2595a5d2dd4", null ]
-    ] ],
-    [ "Writer", "classxpcc_1_1_graphic_display_1_1_writer.html", [
-      [ "Writer", "classxpcc_1_1_graphic_display_1_1_writer.html#ae459703edd121abb7293173ae160c57a", null ],
-      [ "write", "classxpcc_1_1_graphic_display_1_1_writer.html#a70c09ba1e43cb7ee698a214d0aa4da38", null ],
-      [ "flush", "classxpcc_1_1_graphic_display_1_1_writer.html#a0b4a81a06ef182a33e2bc0780b9962e0", null ],
-      [ "read", "classxpcc_1_1_graphic_display_1_1_writer.html#a79d7bf17def1dd612c7a9fba7730d4cc", null ]
-    ] ],
     [ "GraphicDisplay", "classxpcc_1_1_graphic_display.html", [
+      [ "Writer", "classxpcc_1_1_graphic_display_1_1_writer.html", [
+        [ "Writer", "classxpcc_1_1_graphic_display_1_1_writer.html#ae459703edd121abb7293173ae160c57a", null ],
+        [ "write", "classxpcc_1_1_graphic_display_1_1_writer.html#a70c09ba1e43cb7ee698a214d0aa4da38", null ],
+        [ "flush", "classxpcc_1_1_graphic_display_1_1_writer.html#a0b4a81a06ef182a33e2bc0780b9962e0", null ],
+        [ "read", "classxpcc_1_1_graphic_display_1_1_writer.html#a79d7bf17def1dd612c7a9fba7730d4cc", null ]
+      ] ],
       [ "GraphicDisplay", "classxpcc_1_1_graphic_display.html#a8b0c8c5ffc9187b877efc95bb743a4df", null ],
       [ "~GraphicDisplay", "classxpcc_1_1_graphic_display.html#af2b8191843d6c4b18243306b5ea2c6ee", null ],
-      [ "getWidth", "classxpcc_1_1_graphic_display.html#a57801be4cefc09e48557ebb04debc6eb", null ],
-      [ "getHeight", "classxpcc_1_1_graphic_display.html#aa9b2bf026a66ef7202c4087fe43bfab6", null ],
+      [ "getWidth", "classxpcc_1_1_graphic_display.html#aaf37d1b5e9a5f4fffc1985becf2ddc53", null ],
+      [ "getHeight", "classxpcc_1_1_graphic_display.html#aa2fb1241965b009f2cef0ff7b4d28206", null ],
       [ "clear", "classxpcc_1_1_graphic_display.html#a36162f3d9576f28e8003b19a09aca98c", null ],
       [ "update", "classxpcc_1_1_graphic_display.html#a8026e322b12e7afa2e5e0c5bfe514941", null ],
       [ "setColor", "classxpcc_1_1_graphic_display.html#a288a7b7dd5e33431eb506342f48f7d4e", null ],
-      [ "getForegroundColor", "classxpcc_1_1_graphic_display.html#abbfe7900902e6f70eb9d35207f023ff3", null ],
+      [ "getForegroundColor", "classxpcc_1_1_graphic_display.html#a2ff86e1c14b850f3758c5c53c00ca9ac", null ],
       [ "setBackgroundColor", "classxpcc_1_1_graphic_display.html#acd026faee2a53e4156527ec676b3c1d6", null ],
       [ "drawPixel", "classxpcc_1_1_graphic_display.html#a465e1f8a48a1c65fda623079c3270d02", null ],
       [ "drawPixel", "classxpcc_1_1_graphic_display.html#a1cba8dab7972492a6517946502d47382", null ],
@@ -85,13 +78,13 @@ var group__graphics =
       [ "fillCircle", "classxpcc_1_1_graphic_display.html#a33b7e21083a231f634214cf0005674b1", null ],
       [ "setFont", "classxpcc_1_1_graphic_display.html#ad2399bd0b0cecce12fd1792d0a1e779e", null ],
       [ "setFont", "classxpcc_1_1_graphic_display.html#a0cde79f37d6e201c4d75e8d4407223d1", null ],
-      [ "getFontHeight", "classxpcc_1_1_graphic_display.html#af142bbeccabf16766be0f7af431b6c1c", null ],
-      [ "getStringWidth", "classxpcc_1_1_graphic_display.html#afda3aca8efc1dba463da1110d3fefc95", null ],
+      [ "getFontHeight", "classxpcc_1_1_graphic_display.html#a146611ceb4b5d2aa64e657c56fce4bbe", null ],
+      [ "getStringWidth", "classxpcc_1_1_graphic_display.html#a0085ce02669899ba1b81336e0ce2250c", null ],
       [ "setCursor", "classxpcc_1_1_graphic_display.html#ad301bae1251bce5b8a7ff3930c7fae54", null ],
       [ "setCursor", "classxpcc_1_1_graphic_display.html#ac64532dda1867da4d092f97840d70f45", null ],
       [ "setCursorX", "classxpcc_1_1_graphic_display.html#aab8bdb0535bb15c61eefa3621807ffe4", null ],
       [ "setCursorY", "classxpcc_1_1_graphic_display.html#a2bcc50d1d0fde8031a54fd3a2dd59273", null ],
-      [ "getCursor", "classxpcc_1_1_graphic_display.html#a743c0111afbb9105ceeae3d3807e1175", null ],
+      [ "getCursor", "classxpcc_1_1_graphic_display.html#a139865301cab0b7b2720953316483217", null ],
       [ "write", "classxpcc_1_1_graphic_display.html#abb0777c72eafcff4b3a6e2078c170182", null ],
       [ "drawCircle4", "classxpcc_1_1_graphic_display.html#aa1cfa980d81716b049208aec221c3ca5", null ],
       [ "drawHorizontalLine", "classxpcc_1_1_graphic_display.html#a20ddbbf4ac042977b0950fc8735de8d7", null ],
@@ -110,8 +103,8 @@ var group__graphics =
     [ "VirtualGraphicDisplay", "classxpcc_1_1_virtual_graphic_display.html", [
       [ "VirtualGraphicDisplay", "classxpcc_1_1_virtual_graphic_display.html#a72231f42c990c9565e82b28678e6775c", null ],
       [ "setDisplay", "classxpcc_1_1_virtual_graphic_display.html#ad7db8f2b43af22c1978f32672f83c5c7", null ],
-      [ "getWidth", "classxpcc_1_1_virtual_graphic_display.html#aa25f0251e7cbc023dabc782e6ef79c39", null ],
-      [ "getHeight", "classxpcc_1_1_virtual_graphic_display.html#acc4fe708768e34ef83945ea64e76c919", null ],
+      [ "getWidth", "classxpcc_1_1_virtual_graphic_display.html#a8f3229a1865ee7d860cea7dd18a20796", null ],
+      [ "getHeight", "classxpcc_1_1_virtual_graphic_display.html#aa6f83069371a5a8890034da69557d039", null ],
       [ "clear", "classxpcc_1_1_virtual_graphic_display.html#a714a7a67ea663bc424396642fa9dcd3d", null ],
       [ "update", "classxpcc_1_1_virtual_graphic_display.html#aecf7e5c7dab4adcf7aef9f342ba8aa13", null ],
       [ "setPixel", "classxpcc_1_1_virtual_graphic_display.html#a8596b2121f4d36a7cbb061d90a1447b2", null ],

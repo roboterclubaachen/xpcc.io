@@ -6,6 +6,7 @@ var modules =
     [ "Containers", "group__container.html", "group__container" ],
     [ "Debugging utilities", "group__debug.html", "group__debug" ],
     [ "Device drivers", "group__driver.html", "group__driver" ],
+    [ "DS1302", "group__ds1302.html", "group__ds1302" ],
     [ "IO-Classes", "group__io.html", "group__io" ],
     [ "Math", "group__math.html", "group__math" ],
     [ "Processing", "group__processing.html", "group__processing" ],

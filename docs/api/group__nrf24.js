@@ -63,25 +63,25 @@ var group__nrf24 =
         [ "Retransmit15", "classxpcc_1_1_nrf24_config.html#a65790dfaf7cfed0c659f114dfd2cdca1a807380aad3958a921b93aeb5de491761", null ]
       ] ]
     ] ],
-    [ "Payload", "group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_packet_1_1_payload", [
-      [ "data", "group__nrf24.html#a68ae1e166f02e9e855f6275339ac3985", null ],
-      [ "length", "group__nrf24.html#a6a953ae5a2667e5ec9dfa9b329717526", null ]
-    ] ],
     [ "Packet", "structxpcc_1_1_nrf24_data_1_1_packet.html", [
+      [ "Payload", "structxpcc_1_1_nrf24_data_1_1_packet.html#structxpcc_1_1_nrf24_data_1_1_packet_1_1_payload", [
+        [ "data", "structxpcc_1_1_nrf24_data_1_1_packet.html#a68ae1e166f02e9e855f6275339ac3985", null ],
+        [ "length", "structxpcc_1_1_nrf24_data_1_1_packet.html#a6a953ae5a2667e5ec9dfa9b329717526", null ]
+      ] ],
       [ "Packet", "structxpcc_1_1_nrf24_data_1_1_packet.html#a844722702e0492385919eecfe5427dc5", null ],
       [ "payload", "structxpcc_1_1_nrf24_data_1_1_packet.html#a86a59876bc9e37091e2c3fe7bd45acb1", null ],
       [ "dest", "structxpcc_1_1_nrf24_data_1_1_packet.html#a1ecd12ff06a50169a33850dcecba9f0a", null ],
       [ "src", "structxpcc_1_1_nrf24_data_1_1_packet.html#a8d4a575bd58b8ab20ad4b16ea75073b1", null ]
     ] ],
-    [ "Header", "group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_header", [
-      [ "src", "group__nrf24.html#a5bdd78cb1214f25bb5b33580b61d420f", null ],
-      [ "dest", "group__nrf24.html#afae268b88862e5f5f09c0b7b32bed5b0", null ]
-    ] ],
-    [ "Frame", "group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_frame", [
-      [ "header", "group__nrf24.html#a34d85febacb9bcea5f936c55e3b72295", null ],
-      [ "data", "group__nrf24.html#a8ea760892284becfbab92751adc233bf", null ]
-    ] ],
     [ "Nrf24Data", "classxpcc_1_1_nrf24_data.html", [
+      [ "Frame", "classxpcc_1_1_nrf24_data.html#structxpcc_1_1_nrf24_data_1_1_frame", [
+        [ "header", "classxpcc_1_1_nrf24_data.html#a34d85febacb9bcea5f936c55e3b72295", null ],
+        [ "data", "classxpcc_1_1_nrf24_data.html#a8ea760892284becfbab92751adc233bf", null ]
+      ] ],
+      [ "Header", "classxpcc_1_1_nrf24_data.html#structxpcc_1_1_nrf24_data_1_1_header", [
+        [ "src", "classxpcc_1_1_nrf24_data.html#a5bdd78cb1214f25bb5b33580b61d420f", null ],
+        [ "dest", "classxpcc_1_1_nrf24_data.html#afae268b88862e5f5f09c0b7b32bed5b0", null ]
+      ] ],
       [ "BaseAddress", "group__nrf24.html#ga6cf2e8a3efed4df83ba0d53f5f8790b5", null ],
       [ "Address", "group__nrf24.html#ga7ccdd6badc5e133a47ad2b5231d60bb2", null ],
       [ "Config", "classxpcc_1_1_nrf24_data.html#aaa45d822886be1edec9789785e82069c", null ],

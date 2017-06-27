@@ -105,6 +105,12 @@ var hierarchy =
     [ "xpcc::allocator::AllocatorBase< Widget * >", "classxpcc_1_1allocator_1_1_allocator_base.html", [
       [ "xpcc::allocator::Dynamic< Widget * >", "classxpcc_1_1allocator_1_1_dynamic.html", null ]
     ] ],
+    [ "xpcc::allocator::AllocatorBase< xpcc::AbstractView * >", "classxpcc_1_1allocator_1_1_allocator_base.html", [
+      [ "xpcc::allocator::Dynamic< xpcc::AbstractView * >", "classxpcc_1_1allocator_1_1_dynamic.html", null ]
+    ] ],
+    [ "xpcc::allocator::AllocatorBase< xpcc::gui::View * >", "classxpcc_1_1allocator_1_1_allocator_base.html", [
+      [ "xpcc::allocator::Dynamic< xpcc::gui::View * >", "classxpcc_1_1allocator_1_1_dynamic.html", null ]
+    ] ],
     [ "xpcc::allocator::AllocatorBase< xpcc::Vector< T, 2 > >", "classxpcc_1_1allocator_1_1_allocator_base.html", [
       [ "xpcc::allocator::Dynamic< xpcc::Vector< T, 2 > >", "classxpcc_1_1allocator_1_1_dynamic.html", null ]
     ] ],
@@ -124,7 +130,7 @@ var hierarchy =
     [ "xpcc::ArithmeticTraits< uint64_t >", "structxpcc_1_1_arithmetic_traits_3_01uint64__t_01_4.html", null ],
     [ "xpcc::ArithmeticTraits< unsigned char >", "structxpcc_1_1_arithmetic_traits_3_01unsigned_01char_01_4.html", null ],
     [ "xpcc::gui::AsyncEvent", "classxpcc_1_1gui_1_1_async_event.html", null ],
-    [ "xpcc::stm32::fsmc::NorSram::AsynchronousTiming", "group__stm32f407vg__fsmc.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_asynchronous_timing", null ],
+    [ "xpcc::stm32::fsmc::NorSram::AsynchronousTiming", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_asynchronous_timing", null ],
     [ "xpcc::At45db0x1d< Spi, Cs >", "classxpcc_1_1_at45db0x1d.html", null ],
     [ "xpcc::BackendInterface", "classxpcc_1_1_backend_interface.html", [
       [ "xpcc::CanConnector< Driver >", "classxpcc_1_1_can_connector.html", null ],
@@ -202,21 +208,24 @@ var hierarchy =
       [ "xpcc::CommunicatingView", "classxpcc_1_1_communicating_view.html", null ],
       [ "xpcc::Communicator", "classxpcc_1_1_communicator.html", null ]
     ] ],
+    [ "xpcc::ds1302::Config", "namespacexpcc.html#structxpcc_1_1ds1302_1_1_config", null ],
     [ "xpcc::BoundedDeque< T, N >::const_iterator", "classxpcc_1_1_bounded_deque_1_1const__iterator.html", null ],
     [ "xpcc::DoublyLinkedList< T, Allocator >::const_iterator", "classxpcc_1_1_doubly_linked_list_1_1const__iterator.html", null ],
     [ "xpcc::DynamicArray< T, Allocator >::const_iterator", "classxpcc_1_1_dynamic_array_1_1const__iterator.html", null ],
     [ "xpcc::LinkedList< T, Allocator >::const_iterator", "classxpcc_1_1_linked_list_1_1const__iterator.html", null ],
     [ "xpcc::atomic::Container< T >", "classxpcc_1_1atomic_1_1_container.html", null ],
     [ "unittest::Controller", "classunittest_1_1_controller.html", null ],
-    [ "xpcc::tmp::Conversion< T, U >", "group__tmp.html#classxpcc_1_1tmp_1_1_conversion", null ],
-    [ "xpcc::tmp::Conversion< T, T >", "group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01_t_01_4", null ],
-    [ "xpcc::tmp::Conversion< T, void >", "group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01void_01_4", null ],
-    [ "xpcc::tmp::Conversion< void, T >", "group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01void_00_01_t_01_4", null ],
-    [ "xpcc::tmp::Conversion< void, void >", "group__tmp.html#structxpcc_1_1tmp_1_1_conversion_3_01void_00_01void_01_4", null ],
+    [ "xpcc::tmp::Conversion< T, U >", "classxpcc_1_1tmp_1_1_conversion.html", null ],
+    [ "xpcc::tmp::Conversion< T, T >", "structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01_t_01_4.html", null ],
+    [ "xpcc::tmp::Conversion< T, void >", "structxpcc_1_1tmp_1_1_conversion_3_01_t_00_01void_01_4.html", null ],
+    [ "xpcc::tmp::Conversion< void, T >", "structxpcc_1_1tmp_1_1_conversion_3_01void_00_01_t_01_4.html", null ],
+    [ "xpcc::tmp::Conversion< void, void >", "structxpcc_1_1tmp_1_1_conversion_3_01void_00_01void_01_4.html", null ],
     [ "xpcc::ad7280a::ConversionValue", "structxpcc_1_1ad7280a_1_1_conversion_value.html", null ],
     [ "xpcc::cortex::Core", "classxpcc_1_1cortex_1_1_core.html", null ],
     [ "unittest::CountType", "classunittest_1_1_count_type.html", null ],
     [ "xpcc::cortex::CycleCounter", "classxpcc_1_1cortex_1_1_cycle_counter.html", null ],
+    [ "xpcc::tmp102::Data", "structxpcc_1_1tmp102_1_1_data.html", null ],
+    [ "xpcc::lm75::Data", "structxpcc_1_1lm75_1_1_data.html", null ],
     [ "xpcc::ft6x06::Data", "structxpcc_1_1ft6x06_1_1_data.html", null ],
     [ "xpcc::hmc58x3::Data", "structxpcc_1_1hmc58x3_1_1_data.html", null ],
     [ "xpcc::hmc6343::Data", "structxpcc_1_1hmc6343_1_1_data.html", null ],
@@ -228,10 +237,9 @@ var hierarchy =
     [ "xpcc::vl53l0::Data", "structxpcc_1_1vl53l0_1_1_data.html", null ],
     [ "xpcc::vl6180::Data", "structxpcc_1_1vl6180_1_1_data.html", null ],
     [ "xpcc::hclax::Data", "structxpcc_1_1hclax_1_1_data.html", null ],
-    [ "xpcc::lm75::Data", "structxpcc_1_1lm75_1_1_data.html", null ],
-    [ "xpcc::tmp102::Data", "structxpcc_1_1tmp102_1_1_data.html", null ],
-    [ "xpcc::Tcs3414< I2cMaster >::Data.__unnamed__", "group__driver__other.html#structxpcc_1_1_tcs3414_1_1_data_8____unnamed____", null ],
-    [ "xpcc::Tcs3472< I2cMaster >::Data.__unnamed__", "group__driver__other.html#structxpcc_1_1_tcs3472_1_1_data_8____unnamed____", null ],
+    [ "xpcc::ds1302::Data", "structxpcc_1_1ds1302_1_1_data.html", null ],
+    [ "xpcc::Tcs3472< I2cMaster >::Data.__unnamed__", "classxpcc_1_1_tcs3472.html#structxpcc_1_1_tcs3472_1_1_data_8____unnamed____", null ],
+    [ "xpcc::Tcs3414< I2cMaster >::Data.__unnamed__", "classxpcc_1_1_tcs3414.html#structxpcc_1_1_tcs3414_1_1_data_8____unnamed____", null ],
     [ "xpcc::bme280data::DataBase", "structxpcc_1_1bme280data_1_1_data_base.html", [
       [ "xpcc::bme280data::Data", "classxpcc_1_1bme280data_1_1_data.html", null ],
       [ "xpcc::bme280data::DataDouble", "classxpcc_1_1bme280data_1_1_data_double.html", null ]
@@ -269,6 +277,8 @@ var hierarchy =
     [ "xpcc::DoublyLinkedList< T, Allocator >", "classxpcc_1_1_doubly_linked_list.html", null ],
     [ "xpcc::DoublyLinkedList< ChoiceMenuEntry >", "classxpcc_1_1_doubly_linked_list.html", null ],
     [ "xpcc::DoublyLinkedList< MenuEntry >", "classxpcc_1_1_doubly_linked_list.html", null ],
+    [ "xpcc::ds1302", "namespacexpcc.html#structxpcc_1_1ds1302", null ],
+    [ "xpcc::Ds1302< PinSet >", "classxpcc_1_1_ds1302.html", null ],
     [ "xpcc::ds1631", "structxpcc_1_1ds1631.html", [
       [ "xpcc::Ds1631< I2cMaster >", "classxpcc_1_1_ds1631.html", null ]
     ] ],
@@ -280,7 +290,7 @@ var hierarchy =
     [ "xpcc::tmp::EnableIfCondition< Conditional::value, T >", "group__tmp.html", [
       [ "xpcc::tmp::EnableIf< Conditional, T >", "structxpcc_1_1tmp_1_1_enable_if.html", null ]
     ] ],
-    [ "xpcc::tmp::EnableIfCondition< false, T >", "group__tmp.html#structxpcc_1_1tmp_1_1_enable_if_condition_3_01false_00_01_t_01_4", null ],
+    [ "xpcc::tmp::EnableIfCondition< false, T >", "namespacexpcc_1_1tmp.html#structxpcc_1_1tmp_1_1_enable_if_condition_3_01false_00_01_t_01_4", null ],
     [ "xpcc::rpr::Error", "structxpcc_1_1rpr_1_1_error.html", null ],
     [ "xpcc::amnb::ErrorHandler", "structxpcc_1_1amnb_1_1_error_handler.html", null ],
     [ "xpcc::rpr::ErrorMessage", "structxpcc_1_1rpr_1_1_error_message.html", null ],
@@ -314,7 +324,7 @@ var hierarchy =
     [ "xpcc::accessor::Flash< xpcc::rpr::Error >", "classxpcc_1_1accessor_1_1_flash.html", null ],
     [ "xpcc::accessor::Flash< xpcc::rpr::Listener >", "classxpcc_1_1accessor_1_1_flash.html", null ],
     [ "xpcc::accessor::Flash< xpcc::sab::Action >", "classxpcc_1_1accessor_1_1_flash.html", null ],
-    [ "xpcc::Nrf24Data< Nrf24Phy >::Frame", "group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_frame", null ],
+    [ "xpcc::Nrf24Data< Nrf24Phy >::Frame", "classxpcc_1_1_nrf24_data.html#structxpcc_1_1_nrf24_data_1_1_frame", null ],
     [ "xpcc::stm32::Fsmc", "classxpcc_1_1stm32_1_1_fsmc.html", null ],
     [ "xpcc::stm32::TypeId::FsmcA0", "structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_a0.html", null ],
     [ "xpcc::stm32::TypeId::FsmcA1", "structxpcc_1_1stm32_1_1_type_id_1_1_fsmc_a1.html", null ],
@@ -410,7 +420,7 @@ var hierarchy =
     [ "xpcc::GenericPeriodicTimer< ::xpcc::Clock, ShortTimestamp >", "classxpcc_1_1_generic_periodic_timer.html", null ],
     [ "xpcc::GenericTimeout< Clock, TimestampType >", "classxpcc_1_1_generic_timeout.html", null ],
     [ "xpcc::GenericTimeout< ::xpcc::Clock, ShortTimestamp >", "classxpcc_1_1_generic_timeout.html", null ],
-    [ "xpcc::GenericTimeout< xpcc::amnb::xpcc::amnb::Clock >", "classxpcc_1_1_generic_timeout.html", null ],
+    [ "xpcc::GenericTimeout< xpcc::amnb::Clock >", "classxpcc_1_1_generic_timeout.html", null ],
     [ "xpcc::GenericTimeout< xpcc::Clock, TimestampType >", "classxpcc_1_1_generic_timeout.html", null ],
     [ "xpcc::GenericTimestamp< T >", "classxpcc_1_1_generic_timestamp.html", null ],
     [ "xpcc::GenericTimestamp< uint16_t >", "classxpcc_1_1_generic_timestamp.html", null ],
@@ -944,7 +954,7 @@ var hierarchy =
     [ "xpcc::Hd44780Base< DATA, RW, RS, E >", "classxpcc_1_1_hd44780_base.html", null ],
     [ "xpcc::Header", "structxpcc_1_1_header.html", null ],
     [ "xpcc::tipc::Header", "structxpcc_1_1tipc_1_1_header.html", null ],
-    [ "xpcc::Nrf24Data< Nrf24Phy >::Header", "group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_header", null ],
+    [ "xpcc::Nrf24Data< Nrf24Phy >::Header", "classxpcc_1_1_nrf24_data.html#structxpcc_1_1_nrf24_data_1_1_header", null ],
     [ "xpcc::hmc58x3", "structxpcc_1_1hmc58x3.html", [
       [ "xpcc::hmc5843", "structxpcc_1_1hmc5843.html", [
         [ "xpcc::Hmc5843< I2cMaster >", "classxpcc_1_1_hmc5843.html", null ]
@@ -1109,6 +1119,8 @@ var hierarchy =
     [ "xpcc::LinkedList< Entry >", "classxpcc_1_1_linked_list.html", null ],
     [ "xpcc::LinkedList< ReceiveListItem >", "classxpcc_1_1_linked_list.html", null ],
     [ "xpcc::LinkedList< SendListItem >", "classxpcc_1_1_linked_list.html", null ],
+    [ "xpcc::LinkedList< xpcc::AbstractView * >", "classxpcc_1_1_linked_list.html", null ],
+    [ "xpcc::LinkedList< xpcc::gui::View * >", "classxpcc_1_1_linked_list.html", null ],
     [ "xpcc::lis302dl", "structxpcc_1_1lis302dl.html", [
       [ "xpcc::Lis302dl< Transport >", "classxpcc_1_1_lis302dl.html", null ]
     ] ],
@@ -1205,8 +1217,8 @@ var hierarchy =
       ] ],
       [ "xpcc::I2cDevice< I2cMaster, NestingLevels, Transaction >", "classxpcc_1_1_i2c_device.html", null ]
     ] ],
-    [ "xpcc::DoublyLinkedList< T, Allocator >::Node", "group__container.html#structxpcc_1_1_doubly_linked_list_1_1_node", null ],
-    [ "xpcc::LinkedList< T, Allocator >::Node", "group__container.html#structxpcc_1_1_linked_list_1_1_node", null ],
+    [ "xpcc::DoublyLinkedList< T, Allocator >::Node", "classxpcc_1_1_doubly_linked_list.html#structxpcc_1_1_doubly_linked_list_1_1_node", null ],
+    [ "xpcc::LinkedList< T, Allocator >::Node", "classxpcc_1_1_linked_list.html#structxpcc_1_1_linked_list_1_1_node", null ],
     [ "xpcc::stm32::fsmc::NorSram", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html", null ],
     [ "xpcc::Nrf24Register", "structxpcc_1_1_nrf24_register.html", [
       [ "xpcc::Nrf24Config< Nrf24Phy >", "classxpcc_1_1_nrf24_config.html", null ],
@@ -1214,12 +1226,12 @@ var hierarchy =
       [ "xpcc::Nrf24Phy< Spi, Csn, Ce >", "classxpcc_1_1_nrf24_phy.html", null ]
     ] ],
     [ "xpcc::tmp::NullType", "group__tmp.html#classxpcc_1_1tmp_1_1_null_type", null ],
-    [ "xpcc::ZeroMQReader::Packet", "structxpcc_1_1_zero_m_q_reader_1_1_packet.html", null ],
     [ "xpcc::Nrf24Data< Nrf24Phy >::Packet", "structxpcc_1_1_nrf24_data_1_1_packet.html", null ],
+    [ "xpcc::ZeroMQReader::Packet", "structxpcc_1_1_zero_m_q_reader_1_1_packet.html", null ],
     [ "xpcc::Pair< T1, T2 >", "classxpcc_1_1_pair.html", null ],
     [ "xpcc::SCurveController< T >::Parameter", "structxpcc_1_1_s_curve_controller_1_1_parameter.html", null ],
     [ "xpcc::Pid< T, ScaleFactor >::Parameter", "structxpcc_1_1_pid_1_1_parameter.html", null ],
-    [ "xpcc::Nrf24Data< Nrf24Phy >::Packet::Payload", "group__nrf24.html#structxpcc_1_1_nrf24_data_1_1_packet_1_1_payload", null ],
+    [ "xpcc::Nrf24Data< Nrf24Phy >::Packet::Payload", "structxpcc_1_1_nrf24_data_1_1_packet.html#structxpcc_1_1_nrf24_data_1_1_packet_1_1_payload", null ],
     [ "xpcc::pca8574", "structxpcc_1_1pca8574.html", [
       [ "xpcc::Pca8574< I2cMaster >", "classxpcc_1_1_pca8574.html", null ]
     ] ],
@@ -1316,9 +1328,9 @@ var hierarchy =
     [ "xpcc::stm32::RandomNumberGenerator", "classxpcc_1_1stm32_1_1_random_number_generator.html", null ],
     [ "xpcc::Ray2D< T >", "classxpcc_1_1_ray2_d.html", null ],
     [ "xpcc::I2cTransaction::Reading", "structxpcc_1_1_i2c_transaction_1_1_reading.html", null ],
-    [ "xpcc::allocator::Block< T, BLOCKSIZE >::rebind< U >", "group__allocator.html#structxpcc_1_1allocator_1_1_block_1_1rebind", null ],
-    [ "xpcc::allocator::Dynamic< T >::rebind< U >", "group__allocator.html#structxpcc_1_1allocator_1_1_dynamic_1_1rebind", null ],
-    [ "xpcc::allocator::Static< T, N >::rebind< U >", "group__allocator.html#structxpcc_1_1allocator_1_1_static_1_1rebind", null ],
+    [ "xpcc::allocator::Block< T, BLOCKSIZE >::rebind< U >", "classxpcc_1_1allocator_1_1_block.html#structxpcc_1_1allocator_1_1_block_1_1rebind", null ],
+    [ "xpcc::allocator::Dynamic< T >::rebind< U >", "classxpcc_1_1allocator_1_1_dynamic.html#structxpcc_1_1allocator_1_1_dynamic_1_1rebind", null ],
+    [ "xpcc::allocator::Static< T, N >::rebind< U >", "classxpcc_1_1allocator_1_1_static.html#structxpcc_1_1allocator_1_1_static_1_1rebind", null ],
     [ "xpcc::CanConnector< Driver >::ReceiveListItem", "classxpcc_1_1_can_connector_1_1_receive_list_item.html", null ],
     [ "xpcc::tipc::Receiver", "classxpcc_1_1tipc_1_1_receiver.html", null ],
     [ "xpcc::tipc::ReceiverSocket", "classxpcc_1_1tipc_1_1_receiver_socket.html", null ],
@@ -1346,17 +1358,17 @@ var hierarchy =
     [ "xpcc::ResumableResult< T >", "structxpcc_1_1_resumable_result.html", null ],
     [ "xpcc::ui::RgbLed", "classxpcc_1_1ui_1_1_rgb_led.html", null ],
     [ "xpcc::color::RgbT< UnderlyingType >", "classxpcc_1_1color_1_1_rgb_t.html", null ],
-    [ "xpcc::tmp::SameType< T, U >", "group__tmp.html#structxpcc_1_1tmp_1_1_same_type", null ],
-    [ "xpcc::tmp::SameType< T, T >", "group__tmp.html#structxpcc_1_1tmp_1_1_same_type_3_01_t_00_01_t_01_4", null ],
+    [ "xpcc::tmp::SameType< T, U >", "structxpcc_1_1tmp_1_1_same_type.html", null ],
+    [ "xpcc::tmp::SameType< T, T >", "structxpcc_1_1tmp_1_1_same_type_3_01_t_00_01_t_01_4.html", null ],
     [ "xpcc::Saturated< T >", "classxpcc_1_1_saturated.html", null ],
-    [ "xpcc::Scheduler", "classxpcc_1_1_scheduler.html", null ],
     [ "xpcc::rtos::Scheduler", "classxpcc_1_1rtos_1_1_scheduler.html", null ],
+    [ "xpcc::Scheduler", "classxpcc_1_1_scheduler.html", null ],
     [ "xpcc::Scp1000< Spi, Cs, Int >", "classxpcc_1_1_scp1000.html", null ],
     [ "xpcc::ScrollableText", "classxpcc_1_1_scrollable_text.html", null ],
     [ "xpcc::SCurveController< T >", "classxpcc_1_1_s_curve_controller.html", null ],
     [ "xpcc::SCurveGenerator< T >", "classxpcc_1_1_s_curve_generator.html", null ],
     [ "xpcc::tmp::Select< flag, T, U >", "group__tmp.html#structxpcc_1_1tmp_1_1_select", null ],
-    [ "xpcc::tmp::Select< false, T, U >", "group__tmp.html#structxpcc_1_1tmp_1_1_select_3_01false_00_01_t_00_01_u_01_4", null ],
+    [ "xpcc::tmp::Select< false, T, U >", "namespacexpcc_1_1tmp.html#structxpcc_1_1tmp_1_1_select_3_01false_00_01_t_00_01_u_01_4", null ],
     [ "xpcc::pt::Semaphore", "classxpcc_1_1pt_1_1_semaphore.html", null ],
     [ "xpcc::rtos::SemaphoreBase", "classxpcc_1_1rtos_1_1_semaphore_base.html", [
       [ "xpcc::rtos::BinarySemaphore", "classxpcc_1_1rtos_1_1_binary_semaphore.html", null ],
@@ -1446,16 +1458,16 @@ var hierarchy =
     [ "xpcc::Stack< T, Container >", "classxpcc_1_1_stack.html", [
       [ "xpcc::BoundedStack< T, N, Container >", "classxpcc_1_1_bounded_stack.html", null ]
     ] ],
-    [ "xpcc::Stack< xpcc::gui::xpcc::gui::View *, xpcc::xpcc::LinkedList< xpcc::gui::xpcc::gui::View * > >", "classxpcc_1_1_stack.html", null ],
-    [ "xpcc::Stack< xpcc::xpcc::AbstractView *, xpcc::xpcc::LinkedList< xpcc::xpcc::AbstractView * > >", "classxpcc_1_1_stack.html", null ],
+    [ "xpcc::Stack< xpcc::AbstractView *, xpcc::LinkedList< xpcc::AbstractView * > >", "classxpcc_1_1_stack.html", null ],
+    [ "xpcc::Stack< xpcc::gui::View *, xpcc::LinkedList< xpcc::gui::View * > >", "classxpcc_1_1_stack.html", null ],
     [ "xpcc::stm32::CanFilter::StandardFilterMask", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask.html", null ],
     [ "xpcc::stm32::CanFilter::StandardFilterMaskShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_filter_mask_short.html", null ],
     [ "xpcc::stm32::CanFilter::StandardIdentifier", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier.html", null ],
     [ "xpcc::stm32::CanFilter::StandardIdentifierShort", "structxpcc_1_1stm32_1_1_can_filter_1_1_standard_identifier_short.html", null ],
     [ "xpcc::I2cTransaction::Starting", "structxpcc_1_1_i2c_transaction_1_1_starting.html", null ],
-    [ "xpcc::tmp::static_assert_test< x >", "group__tmp.html#structxpcc_1_1tmp_1_1static__assert__test", null ],
+    [ "xpcc::tmp::static_assert_test< x >", "namespacexpcc_1_1tmp.html#structxpcc_1_1tmp_1_1static__assert__test", null ],
     [ "xpcc::tmp::STATIC_ASSERTION_FAILURE< x >", "namespacexpcc_1_1tmp.html#structxpcc_1_1tmp_1_1_s_t_a_t_i_c___a_s_s_e_r_t_i_o_n___f_a_i_l_u_r_e", null ],
-    [ "xpcc::tmp::STATIC_ASSERTION_FAILURE< true >", "group__tmp.html#structxpcc_1_1tmp_1_1_s_t_a_t_i_c___a_s_s_e_r_t_i_o_n___f_a_i_l_u_r_e_3_01true_01_4", null ],
+    [ "xpcc::tmp::STATIC_ASSERTION_FAILURE< true >", "structxpcc_1_1tmp_1_1_s_t_a_t_i_c___a_s_s_e_r_t_i_o_n___f_a_i_l_u_r_e_3_01true_01_4.html", null ],
     [ "xpcc::stm32::Stm32F100PllSettings< InputFrequency, SystemFrequency, FixedDivideBy2 >", "classxpcc_1_1stm32_1_1_stm32_f100_pll_settings.html", null ],
     [ "xpcc::stm32::Stm32F2F4PllSettings< VCOOutputMinimum, InputFrequency, SystemFrequency, USBFrequency >", "classxpcc_1_1stm32_1_1_stm32_f2_f4_pll_settings.html", null ],
     [ "xpcc::stm32::Stm32F3PllSettings< InputFrequency, SystemFrequency, FixedDivideBy2 >", "classxpcc_1_1stm32_1_1_stm32_f3_pll_settings.html", null ],
@@ -1464,17 +1476,17 @@ var hierarchy =
       [ "xpcc::log::Prefix< T, STYLE >", "classxpcc_1_1log_1_1_prefix.html", null ],
       [ "xpcc::log::StdColour< TEXT, BACKGROUND, STYLE >", "classxpcc_1_1log_1_1_std_colour.html", null ]
     ] ],
-    [ "xpcc::tmp::SuperSubclass< T, U >", "group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass", null ],
-    [ "xpcc::tmp::SuperSubclass< T, void >", "group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01_t_00_01void_01_4", null ],
-    [ "xpcc::tmp::SuperSubclass< void, U >", "group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01_u_01_4", null ],
-    [ "xpcc::tmp::SuperSubclass< void, void >", "group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01void_01_4", null ],
-    [ "xpcc::tmp::SuperSubclassStrict< T, U >", "group__tmp.html#structxpcc_1_1tmp_1_1_super_subclass_strict", null ],
-    [ "xpcc::stm32::fsmc::NorSram::SynchronousTiming", "group__stm32f407vg__fsmc.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_synchronous_timing", null ],
+    [ "xpcc::tmp::SuperSubclass< T, U >", "structxpcc_1_1tmp_1_1_super_subclass.html", null ],
+    [ "xpcc::tmp::SuperSubclass< T, void >", "structxpcc_1_1tmp_1_1_super_subclass_3_01_t_00_01void_01_4.html", null ],
+    [ "xpcc::tmp::SuperSubclass< void, U >", "structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01_u_01_4.html", null ],
+    [ "xpcc::tmp::SuperSubclass< void, void >", "structxpcc_1_1tmp_1_1_super_subclass_3_01void_00_01void_01_4.html", null ],
+    [ "xpcc::tmp::SuperSubclassStrict< T, U >", "structxpcc_1_1tmp_1_1_super_subclass_strict.html", null ],
+    [ "xpcc::stm32::fsmc::NorSram::SynchronousTiming", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_synchronous_timing", null ],
     [ "xpcc::stm32::TypeId::SystemClock", "structxpcc_1_1stm32_1_1_type_id_1_1_system_clock.html", null ],
-    [ "xpcc::avr::SystemClock", "classxpcc_1_1avr_1_1_system_clock.html", null ],
     [ "Board::systemClock", "struct_board_1_1system_clock.html", null ],
-    [ "xpcc::stm32::SystemClock< Input >", "classxpcc_1_1stm32_1_1_system_clock.html", null ],
+    [ "xpcc::avr::SystemClock", "classxpcc_1_1avr_1_1_system_clock.html", null ],
     [ "xpcc::lpc::TypeId::SystemClock", "structxpcc_1_1lpc_1_1_type_id_1_1_system_clock.html", null ],
+    [ "xpcc::stm32::SystemClock< Input >", "classxpcc_1_1stm32_1_1_system_clock.html", null ],
     [ "xpcc::stm32::SystemClock< ExternalClock< OutputFrequency > >", "classxpcc_1_1stm32_1_1_system_clock_3_01_external_clock_3_01_output_frequency_01_4_01_4.html", null ],
     [ "xpcc::stm32::SystemClock< ExternalCrystal< OutputFrequency > >", "classxpcc_1_1stm32_1_1_system_clock_3_01_external_crystal_3_01_output_frequency_01_4_01_4.html", null ],
     [ "xpcc::stm32::SystemClock< InternalClock< OutputFrequency > >", "classxpcc_1_1stm32_1_1_system_clock_3_01_internal_clock_3_01_output_frequency_01_4_01_4.html", null ],
@@ -1578,10 +1590,10 @@ var hierarchy =
     [ "xpcc::TLC594X< CHANNELS, Spi, Xlat, Vprog, Xerr >", "classxpcc_1_1_t_l_c594_x.html", null ],
     [ "xpcc::Tolerance", "classxpcc_1_1_tolerance.html", null ],
     [ "xpcc::ft6x06::touch_t", "structxpcc_1_1ft6x06_1_1touch__t.html", null ],
-    [ "xpcc::tipc::Transmitter", "classxpcc_1_1tipc_1_1_transmitter.html", null ],
     [ "xpcc::sab::Transmitter", "classxpcc_1_1sab_1_1_transmitter.html", [
       [ "xpcc::sab::Slave< Interface >", "classxpcc_1_1sab_1_1_slave.html", null ]
     ] ],
+    [ "xpcc::tipc::Transmitter", "classxpcc_1_1tipc_1_1_transmitter.html", null ],
     [ "xpcc::amnb::Transmitter", "classxpcc_1_1amnb_1_1_transmitter.html", [
       [ "xpcc::amnb::Node< Interface >", "classxpcc_1_1amnb_1_1_node.html", null ]
     ] ],
@@ -1601,8 +1613,8 @@ var hierarchy =
     [ "xpcc::stm32::TypeId::Uart1Rts", "structxpcc_1_1stm32_1_1_type_id_1_1_uart1_rts.html", null ],
     [ "xpcc::stm32::TypeId::Uart1Rx", "structxpcc_1_1stm32_1_1_type_id_1_1_uart1_rx.html", null ],
     [ "xpcc::lpc::TypeId::Uart1Rx", "structxpcc_1_1lpc_1_1_type_id_1_1_uart1_rx.html", null ],
-    [ "xpcc::lpc::TypeId::Uart1Tx", "structxpcc_1_1lpc_1_1_type_id_1_1_uart1_tx.html", null ],
     [ "xpcc::stm32::TypeId::Uart1Tx", "structxpcc_1_1stm32_1_1_type_id_1_1_uart1_tx.html", null ],
+    [ "xpcc::lpc::TypeId::Uart1Tx", "structxpcc_1_1lpc_1_1_type_id_1_1_uart1_tx.html", null ],
     [ "xpcc::stm32::TypeId::Uart2Ck", "structxpcc_1_1stm32_1_1_type_id_1_1_uart2_ck.html", null ],
     [ "xpcc::stm32::TypeId::Uart2Cts", "structxpcc_1_1stm32_1_1_type_id_1_1_uart2_cts.html", null ],
     [ "xpcc::stm32::TypeId::Uart2De", "structxpcc_1_1stm32_1_1_type_id_1_1_uart2_de.html", null ],
@@ -1663,8 +1675,8 @@ var hierarchy =
       [ "xpcc::stm32::UsartHal3", "classxpcc_1_1stm32_1_1_usart_hal3.html", null ],
       [ "xpcc::stm32::UsartHal6", "classxpcc_1_1stm32_1_1_usart_hal6.html", null ]
     ] ],
-    [ "xpcc::xmega::UartBaudrate", "classxpcc_1_1xmega_1_1_uart_baudrate.html", null ],
     [ "xpcc::stm32::UartBaudrate", "classxpcc_1_1stm32_1_1_uart_baudrate.html", null ],
+    [ "xpcc::xmega::UartBaudrate", "classxpcc_1_1xmega_1_1_uart_baudrate.html", null ],
     [ "xpcc::stm32::TypeId::UartSpiMaster1Miso", "structxpcc_1_1stm32_1_1_type_id_1_1_uart_spi_master1_miso.html", null ],
     [ "xpcc::stm32::TypeId::UartSpiMaster1Mosi", "structxpcc_1_1stm32_1_1_type_id_1_1_uart_spi_master1_mosi.html", null ],
     [ "xpcc::stm32::TypeId::UartSpiMaster1Sck", "structxpcc_1_1stm32_1_1_type_id_1_1_uart_spi_master1_sck.html", null ],
@@ -1721,7 +1733,7 @@ var hierarchy =
         [ "xpcc::gui::TabPanel", "classxpcc_1_1gui_1_1_tab_panel.html", null ]
       ] ]
     ] ],
-    [ "xpcc::XilinxSpartan6Parallel< Cclk, DataLow, DataHigh, ProgB, InitB, Done, DataSource, Led0, Led1 >::WritePageState", "group__driver__other.html#structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state", null ],
+    [ "xpcc::XilinxSpartan6Parallel< Cclk, DataLow, DataHigh, ProgB, InitB, Done, DataSource, Led0, Led1 >::WritePageState", "structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state.html", null ],
     [ "xpcc::I2cTransaction::Writing", "structxpcc_1_1_i2c_transaction_1_1_writing.html", null ],
     [ "xpcc::Xilinx", "structxpcc_1_1_xilinx.html", [
       [ "xpcc::XilinxSpartan3< Cclk, Din, ProgB, InitB, Done, DataSource >", "classxpcc_1_1_xilinx_spartan3.html", null ],

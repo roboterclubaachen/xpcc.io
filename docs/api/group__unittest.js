@@ -2,8 +2,8 @@ var group__unittest =
 [
     [ "Controller", "classunittest_1_1_controller.html", [
       [ "setReporter", "classunittest_1_1_controller.html#ac971c08cc6a9543ce617e03914924333", null ],
-      [ "getReporter", "classunittest_1_1_controller.html#addb11067a8273c5fa785ad5814586937", null ],
-      [ "nextTestSuite", "classunittest_1_1_controller.html#abee7f0e0ecca6947de2160de7e01be37", null ]
+      [ "getReporter", "classunittest_1_1_controller.html#a8fa11f8e0928555b7490ed7b807a4e67", null ],
+      [ "nextTestSuite", "classunittest_1_1_controller.html#a5770d8c0b2f6ba39c6458aff8681b7ca", null ]
     ] ],
     [ "Reporter", "classunittest_1_1_reporter.html", [
       [ "Reporter", "classunittest_1_1_reporter.html#a5490ab9d47edf604fd110c5361af4758", null ],

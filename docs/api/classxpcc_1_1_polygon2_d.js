@@ -5,10 +5,10 @@ var classxpcc_1_1_polygon2_d =
     [ "Polygon2D", "classxpcc_1_1_polygon2_d.html#a6fea158a1b02abf05e144a305f4db274", null ],
     [ "operator=", "classxpcc_1_1_polygon2_d.html#a5added8cdb935cdcb31c356aefb14f0f", null ],
     [ "operator<<", "classxpcc_1_1_polygon2_d.html#ad8752987722d40ff6cab256630478a27", null ],
-    [ "intersects", "classxpcc_1_1_polygon2_d.html#ad815a69df97c81086fddc5488ffa9241", null ],
-    [ "intersects", "classxpcc_1_1_polygon2_d.html#ac45bb29afa805af44a3c49bafd5fcf8f", null ],
-    [ "intersects", "classxpcc_1_1_polygon2_d.html#a39b723d22e1c8b3a639fdf9810e42ebe", null ],
-    [ "intersects", "classxpcc_1_1_polygon2_d.html#a7407113c0490bb842f94b70d5ab3c3c7", null ],
-    [ "getIntersections", "classxpcc_1_1_polygon2_d.html#a73182df0259b2e13381dfc51971f471a", null ],
+    [ "intersects", "classxpcc_1_1_polygon2_d.html#ad8e1327ed890798baba1d8575708bd59", null ],
+    [ "intersects", "classxpcc_1_1_polygon2_d.html#a06bdec0f12807ba62a09decbc7a4cc74", null ],
+    [ "intersects", "classxpcc_1_1_polygon2_d.html#a7a6e26ddc343e6ee62e3a5b52f43c2b7", null ],
+    [ "intersects", "classxpcc_1_1_polygon2_d.html#a80f7c52e1656b4b5210477b640082efc", null ],
+    [ "getIntersections", "classxpcc_1_1_polygon2_d.html#ad17e8589d50d5e6432ca191eb7d05cbb", null ],
     [ "isInside", "classxpcc_1_1_polygon2_d.html#a95b16514f58b68ac90fc7ba11cb68095", null ]
 ];

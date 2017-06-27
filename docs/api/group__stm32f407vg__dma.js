@@ -1,23 +1,25 @@
 var group__stm32f407vg__dma =
 [
-    [ "Stream0", "classxpcc_1_1stm32_1_1_dma1_1_1_stream0.html", null ],
-    [ "Stream1", "classxpcc_1_1stm32_1_1_dma1_1_1_stream1.html", null ],
-    [ "Stream2", "classxpcc_1_1stm32_1_1_dma1_1_1_stream2.html", null ],
-    [ "Stream3", "classxpcc_1_1stm32_1_1_dma1_1_1_stream3.html", null ],
-    [ "Stream4", "classxpcc_1_1stm32_1_1_dma1_1_1_stream4.html", null ],
-    [ "Stream5", "classxpcc_1_1stm32_1_1_dma1_1_1_stream5.html", null ],
-    [ "Stream6", "classxpcc_1_1stm32_1_1_dma1_1_1_stream6.html", null ],
-    [ "Stream7", "classxpcc_1_1stm32_1_1_dma1_1_1_stream7.html", null ],
-    [ "Dma1", "classxpcc_1_1stm32_1_1_dma1.html", null ],
-    [ "Stream0", "classxpcc_1_1stm32_1_1_dma2_1_1_stream0.html", null ],
-    [ "Stream1", "classxpcc_1_1stm32_1_1_dma2_1_1_stream1.html", null ],
-    [ "Stream2", "classxpcc_1_1stm32_1_1_dma2_1_1_stream2.html", null ],
-    [ "Stream3", "classxpcc_1_1stm32_1_1_dma2_1_1_stream3.html", null ],
-    [ "Stream4", "classxpcc_1_1stm32_1_1_dma2_1_1_stream4.html", null ],
-    [ "Stream5", "classxpcc_1_1stm32_1_1_dma2_1_1_stream5.html", null ],
-    [ "Stream6", "classxpcc_1_1stm32_1_1_dma2_1_1_stream6.html", null ],
-    [ "Stream7", "classxpcc_1_1stm32_1_1_dma2_1_1_stream7.html", null ],
-    [ "Dma2", "classxpcc_1_1stm32_1_1_dma2.html", null ],
+    [ "Dma1", "classxpcc_1_1stm32_1_1_dma1.html", [
+      [ "Stream0", "classxpcc_1_1stm32_1_1_dma1_1_1_stream0.html", null ],
+      [ "Stream1", "classxpcc_1_1stm32_1_1_dma1_1_1_stream1.html", null ],
+      [ "Stream2", "classxpcc_1_1stm32_1_1_dma1_1_1_stream2.html", null ],
+      [ "Stream3", "classxpcc_1_1stm32_1_1_dma1_1_1_stream3.html", null ],
+      [ "Stream4", "classxpcc_1_1stm32_1_1_dma1_1_1_stream4.html", null ],
+      [ "Stream5", "classxpcc_1_1stm32_1_1_dma1_1_1_stream5.html", null ],
+      [ "Stream6", "classxpcc_1_1stm32_1_1_dma1_1_1_stream6.html", null ],
+      [ "Stream7", "classxpcc_1_1stm32_1_1_dma1_1_1_stream7.html", null ]
+    ] ],
+    [ "Dma2", "classxpcc_1_1stm32_1_1_dma2.html", [
+      [ "Stream0", "classxpcc_1_1stm32_1_1_dma2_1_1_stream0.html", null ],
+      [ "Stream1", "classxpcc_1_1stm32_1_1_dma2_1_1_stream1.html", null ],
+      [ "Stream2", "classxpcc_1_1stm32_1_1_dma2_1_1_stream2.html", null ],
+      [ "Stream3", "classxpcc_1_1stm32_1_1_dma2_1_1_stream3.html", null ],
+      [ "Stream4", "classxpcc_1_1stm32_1_1_dma2_1_1_stream4.html", null ],
+      [ "Stream5", "classxpcc_1_1stm32_1_1_dma2_1_1_stream5.html", null ],
+      [ "Stream6", "classxpcc_1_1stm32_1_1_dma2_1_1_stream6.html", null ],
+      [ "Stream7", "classxpcc_1_1stm32_1_1_dma2_1_1_stream7.html", null ]
+    ] ],
     [ "DmaBase", "classxpcc_1_1stm32_1_1_dma_base.html", [
       [ "Channel", "classxpcc_1_1stm32_1_1_dma_base.html#a0f6e72376ecfbbc3a0702080d36474b0", [
         [ "Channel0", "classxpcc_1_1stm32_1_1_dma_base.html#a0f6e72376ecfbbc3a0702080d36474b0aa103e02952aa83a69bdb843834d4b406", null ],

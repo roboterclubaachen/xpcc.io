@@ -1,9 +1,12 @@
 var classxpcc_1_1_i2c_transaction =
 [
+    [ "Reading", "structxpcc_1_1_i2c_transaction_1_1_reading.html", "structxpcc_1_1_i2c_transaction_1_1_reading" ],
+    [ "Starting", "structxpcc_1_1_i2c_transaction_1_1_starting.html", "structxpcc_1_1_i2c_transaction_1_1_starting" ],
+    [ "Writing", "structxpcc_1_1_i2c_transaction_1_1_writing.html", "structxpcc_1_1_i2c_transaction_1_1_writing" ],
     [ "I2cTransaction", "classxpcc_1_1_i2c_transaction.html#a67f836bb353d09218bd2dede16ccafb9", null ],
     [ "setAddress", "classxpcc_1_1_i2c_transaction.html#a75afd89f80317613927157eff521f3cb", null ],
-    [ "getState", "classxpcc_1_1_i2c_transaction.html#a03c834449e3e07f64570086237a6d39b", null ],
-    [ "isBusy", "classxpcc_1_1_i2c_transaction.html#a85f9e0fca1026ca48585b7bbb95236c9", null ],
+    [ "getState", "classxpcc_1_1_i2c_transaction.html#a386f7e0a805810a8111a62e4e57c229e", null ],
+    [ "isBusy", "classxpcc_1_1_i2c_transaction.html#af39f49e27adc6cbcee967ce1c187afbe", null ],
     [ "configurePing", "classxpcc_1_1_i2c_transaction.html#a532854ec0f80eb0c8cc223f526d6f769", null ],
     [ "configureWriteRead", "classxpcc_1_1_i2c_transaction.html#a76f3fa7846b315f234a43b28c62a54e5", null ],
     [ "configureWrite", "classxpcc_1_1_i2c_transaction.html#ad74f75bbc6b6ba4f3c4cd9648635b663", null ],

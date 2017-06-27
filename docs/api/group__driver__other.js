@@ -1,11 +1,5 @@
 var group__driver__other =
 [
-    [ "Data.__unnamed__", "group__driver__other.html#structxpcc_1_1_tcs3414_1_1_data_8____unnamed____", [
-      [ "green", "group__driver__other.html#a9f27410725ab8cc8854a2769c7a516b8", null ],
-      [ "red", "group__driver__other.html#abda9643ac6601722a28f238714274da4", null ],
-      [ "blue", "group__driver__other.html#a48d6215903dff56238e52e8891380c8f", null ],
-      [ "clear", "group__driver__other.html#a01bc6f8efa4202821e95f4fdf6298b30", null ]
-    ] ],
     [ "tcs3414", "structxpcc_1_1tcs3414.html", [
       [ "UnderlyingType", "structxpcc_1_1tcs3414.html#aaf960407c8ca742f0955e209079d4f08", null ],
       [ "Rgb", "structxpcc_1_1tcs3414.html#a714a090e5bf8e8e57c6b5205bc46e3ce", null ],
@@ -73,6 +67,12 @@ var group__driver__other =
       ] ]
     ] ],
     [ "Tcs3414", "classxpcc_1_1_tcs3414.html", [
+      [ "Data.__unnamed__", "classxpcc_1_1_tcs3414.html#structxpcc_1_1_tcs3414_1_1_data_8____unnamed____", [
+        [ "green", "classxpcc_1_1_tcs3414.html#a9f27410725ab8cc8854a2769c7a516b8", null ],
+        [ "red", "classxpcc_1_1_tcs3414.html#abda9643ac6601722a28f238714274da4", null ],
+        [ "blue", "classxpcc_1_1_tcs3414.html#a48d6215903dff56238e52e8891380c8f", null ],
+        [ "clear", "classxpcc_1_1_tcs3414.html#a01bc6f8efa4202821e95f4fdf6298b30", null ]
+      ] ],
       [ "Tcs3414", "classxpcc_1_1_tcs3414.html#a31b935c618868af3a916675e78d0dd50", null ],
       [ "initializeBlocking", "classxpcc_1_1_tcs3414.html#a216b0daf6dff793d53212fd9f1517492", null ],
       [ "setGain", "classxpcc_1_1_tcs3414.html#af2b88e4cf351696e712897df8bb85ab6", null ],
@@ -81,12 +81,6 @@ var group__driver__other =
       [ "refreshAllColors", "classxpcc_1_1_tcs3414.html#a5b2a2ba10cd66cdd49f2c864ea15fb51", null ],
       [ "initialize", "classxpcc_1_1_tcs3414.html#a66902f64da3e21b6b54c858a86449fdd", null ],
       [ "configure", "classxpcc_1_1_tcs3414.html#a8f25825dda1b9af63c2f448c282ae50f", null ]
-    ] ],
-    [ "Data.__unnamed__", "group__driver__other.html#structxpcc_1_1_tcs3472_1_1_data_8____unnamed____", [
-      [ "clear", "group__driver__other.html#a01bc6f8efa4202821e95f4fdf6298b30", null ],
-      [ "red", "group__driver__other.html#abda9643ac6601722a28f238714274da4", null ],
-      [ "green", "group__driver__other.html#a9f27410725ab8cc8854a2769c7a516b8", null ],
-      [ "blue", "group__driver__other.html#a48d6215903dff56238e52e8891380c8f", null ]
     ] ],
     [ "tcs3472", "structxpcc_1_1tcs3472.html", [
       [ "UnderlyingType", "structxpcc_1_1tcs3472.html#a3ef7e794003e0c8970465b6540e7f33b", null ],
@@ -126,6 +120,12 @@ var group__driver__other =
       ] ]
     ] ],
     [ "Tcs3472", "classxpcc_1_1_tcs3472.html", [
+      [ "Data.__unnamed__", "classxpcc_1_1_tcs3472.html#structxpcc_1_1_tcs3472_1_1_data_8____unnamed____", [
+        [ "clear", "classxpcc_1_1_tcs3472.html#a01bc6f8efa4202821e95f4fdf6298b30", null ],
+        [ "red", "classxpcc_1_1_tcs3472.html#abda9643ac6601722a28f238714274da4", null ],
+        [ "green", "classxpcc_1_1_tcs3472.html#a9f27410725ab8cc8854a2769c7a516b8", null ],
+        [ "blue", "classxpcc_1_1_tcs3472.html#a48d6215903dff56238e52e8891380c8f", null ]
+      ] ],
       [ "Tcs3472", "classxpcc_1_1_tcs3472.html#a37e21d9b5224a97a7da1eb0c93ec72ac", null ],
       [ "initializeBlocking", "classxpcc_1_1_tcs3472.html#aef91f1dd880f40fd265261935f870fe9", null ],
       [ "setGain", "classxpcc_1_1_tcs3472.html#af1b4f021b9da99d086dd801a528d5e14", null ],
@@ -134,13 +134,14 @@ var group__driver__other =
       [ "configure", "classxpcc_1_1_tcs3472.html#ab985686724d5be72ba2abdc10248b2d0", null ]
     ] ],
     [ "XilinxSpartan3", "classxpcc_1_1_xilinx_spartan3.html", null ],
-    [ "WritePageState", "group__driver__other.html#structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state", [
-      [ "CONFIG_ONGOING", "group__driver__other.html#a042aff763c56b1a72c1ee4564b6a6e22a5697a716582a3da502cb1fc9942b7b3b", null ],
-      [ "CONFIG_DONE", "group__driver__other.html#a042aff763c56b1a72c1ee4564b6a6e22a9f46c569e88a40d6aec55861cbe1141a", null ],
-      [ "CONFIG_CRC_ERROR", "group__driver__other.html#a042aff763c56b1a72c1ee4564b6a6e22ad11d512c2780bfa9c16f1be05ac1e8a0", null ],
-      [ "state", "group__driver__other.html#a2b28a83c992864300e7649042565110d", null ]
+    [ "XilinxSpartan6Parallel", "classxpcc_1_1_xilinx_spartan6_parallel.html", [
+      [ "WritePageState", "structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state.html", [
+        [ "CONFIG_ONGOING", "structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state.html#a042aff763c56b1a72c1ee4564b6a6e22a5697a716582a3da502cb1fc9942b7b3b", null ],
+        [ "CONFIG_DONE", "structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state.html#a042aff763c56b1a72c1ee4564b6a6e22a9f46c569e88a40d6aec55861cbe1141a", null ],
+        [ "CONFIG_CRC_ERROR", "structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state.html#a042aff763c56b1a72c1ee4564b6a6e22ad11d512c2780bfa9c16f1be05ac1e8a0", null ],
+        [ "state", "structxpcc_1_1_xilinx_spartan6_parallel_1_1_write_page_state.html#a2b28a83c992864300e7649042565110d", null ]
+      ] ]
     ] ],
-    [ "XilinxSpartan6Parallel", "classxpcc_1_1_xilinx_spartan6_parallel.html", null ],
     [ "AD840x", "classxpcc_1_1_a_d840x.html", null ],
     [ "Ft245", "classxpcc_1_1_ft245.html", null ],
     [ "Channel", "group__driver__other.html#ga4c936afae0f4c1ab27a131d65711d4ae", [

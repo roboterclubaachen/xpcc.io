@@ -15,10 +15,10 @@ var group__freertos =
     [ "QueueBase", "classxpcc_1_1rtos_1_1_queue_base.html", [
       [ "QueueBase", "classxpcc_1_1rtos_1_1_queue_base.html#a0d65b289773d1c0a54395d256c638685", null ],
       [ "~QueueBase", "classxpcc_1_1rtos_1_1_queue_base.html#ab5d9cd958e16152441a6785d08ecb3be", null ],
-      [ "getSize", "classxpcc_1_1rtos_1_1_queue_base.html#ad93a6d91a34a907ffc1bc3326ec5edd8", null ],
+      [ "getSize", "classxpcc_1_1rtos_1_1_queue_base.html#aa602c8a59aa0d82120b83d5e967edba2", null ],
       [ "append", "classxpcc_1_1rtos_1_1_queue_base.html#ae342e298c158bf0fd8ab5279fcfb58b8", null ],
       [ "prepend", "classxpcc_1_1rtos_1_1_queue_base.html#a051b2310b14374f084d5b83df1744349", null ],
-      [ "peek", "classxpcc_1_1rtos_1_1_queue_base.html#a60df029beeb913ae80a53136cc4269de", null ],
+      [ "peek", "classxpcc_1_1rtos_1_1_queue_base.html#ad88a21f40bb35e3c72d5f37ef2598e41", null ],
       [ "get", "classxpcc_1_1rtos_1_1_queue_base.html#a86a1402d07f32279de1084363fde0653", null ],
       [ "appendFromInterrupt", "classxpcc_1_1rtos_1_1_queue_base.html#a48358a6218141f83bd3cdcbd8f8cd583", null ],
       [ "prependFromInterrupt", "classxpcc_1_1rtos_1_1_queue_base.html#ac1ba924536fb042a34488c06e02a4c30", null ],
@@ -29,10 +29,10 @@ var group__freertos =
       [ "Queue", "classxpcc_1_1rtos_1_1_queue.html#a49e3bb75c6a7ba82a07c0dcf357c0633", null ],
       [ "~Queue", "classxpcc_1_1rtos_1_1_queue.html#afda319461c42c3f214beb6d16b8b4efd", null ],
       [ "Queue", "classxpcc_1_1rtos_1_1_queue.html#a344b28a5edb0ca1b308a0573bed2dd3b", null ],
-      [ "getSize", "classxpcc_1_1rtos_1_1_queue.html#ad936051bd068193a2986082caf51bb27", null ],
+      [ "getSize", "classxpcc_1_1rtos_1_1_queue.html#a4ca77ac7253539f19ce7cdb0e6f8668c", null ],
       [ "append", "classxpcc_1_1rtos_1_1_queue.html#a8585b8939384e24a134b4e0238216add", null ],
       [ "prepend", "classxpcc_1_1rtos_1_1_queue.html#aeb02c0e81e6de68c608f5abe0b0484ef", null ],
-      [ "peek", "classxpcc_1_1rtos_1_1_queue.html#aaf9313f43e87f424cd480e7e84061bf4", null ],
+      [ "peek", "classxpcc_1_1rtos_1_1_queue.html#a8916a78337bc426a4803fad19c0246a0", null ],
       [ "get", "classxpcc_1_1rtos_1_1_queue.html#ab6b644f728a9db19926e24baea460978", null ],
       [ "appendFromInterrupt", "classxpcc_1_1rtos_1_1_queue.html#a08f7891dabf3228896a1ab5e4e9127b2", null ],
       [ "prependFromInterrupt", "classxpcc_1_1rtos_1_1_queue.html#a8a5e76293b9088da7ead7232b60e8ecf", null ],
@@ -53,20 +53,20 @@ var group__freertos =
       [ "release", "classxpcc_1_1rtos_1_1_semaphore.html#a8fdb0fdbe13bd0ebbf5e14af625af662", null ],
       [ "releaseFromInterrupt", "classxpcc_1_1rtos_1_1_semaphore.html#a85240089ec174f99e138305436f12c89", null ]
     ] ],
-    [ "Lock", "classxpcc_1_1rtos_1_1_thread_1_1_lock.html", [
-      [ "Lock", "classxpcc_1_1rtos_1_1_thread_1_1_lock.html#a864790b4dbb62f97391e4c5c43d8abea", null ],
-      [ "~Lock", "classxpcc_1_1rtos_1_1_thread_1_1_lock.html#a7da3f35e8192af0337202bf39cb71889", null ]
-    ] ],
     [ "Thread", "classxpcc_1_1rtos_1_1_thread.html", [
+      [ "Lock", "classxpcc_1_1rtos_1_1_thread_1_1_lock.html", [
+        [ "Lock", "classxpcc_1_1rtos_1_1_thread_1_1_lock.html#a864790b4dbb62f97391e4c5c43d8abea", null ],
+        [ "~Lock", "classxpcc_1_1rtos_1_1_thread_1_1_lock.html#a7da3f35e8192af0337202bf39cb71889", null ]
+      ] ],
       [ "Lock", "classxpcc_1_1rtos_1_1_thread.html#a469d88e6ead0200286793207b5041d0f", null ],
       [ "Thread", "classxpcc_1_1rtos_1_1_thread.html#a76a170dedb6db5be245032171548e6bd", null ],
       [ "~Thread", "classxpcc_1_1rtos_1_1_thread.html#a1edf0913203cec0382f8556f7f64ba69", null ],
       [ "Thread", "classxpcc_1_1rtos_1_1_thread.html#aa596af82866c0eb46412ca5ff87bb1db", null ],
       [ "~Thread", "classxpcc_1_1rtos_1_1_thread.html#a1edf0913203cec0382f8556f7f64ba69", null ],
-      [ "getPriority", "classxpcc_1_1rtos_1_1_thread.html#aef9a60bae973bd13f95f7a4b5a5fc238", null ],
+      [ "getPriority", "classxpcc_1_1rtos_1_1_thread.html#ae14e320a732cca29bee7d921deb11804", null ],
       [ "setPriority", "classxpcc_1_1rtos_1_1_thread.html#a2af06f67fed12abd98647ba5632ad760", null ],
       [ "run", "classxpcc_1_1rtos_1_1_thread.html#abf41cef53d48cd2293c755dda0ea144b", null ],
-      [ "getPriority", "classxpcc_1_1rtos_1_1_thread.html#a7eca0171101542b55ac63c32174cc958", null ],
+      [ "getPriority", "classxpcc_1_1rtos_1_1_thread.html#ad104bcb21bc1a3802dfa6b50179e7ea4", null ],
       [ "setPriority", "classxpcc_1_1rtos_1_1_thread.html#a59bfb807d8614b19c99a97dc75865821", null ],
       [ "run", "classxpcc_1_1rtos_1_1_thread.html#abf41cef53d48cd2293c755dda0ea144b", null ],
       [ "Scheduler", "classxpcc_1_1rtos_1_1_thread.html#afb88c77ea5daaefa6c8fa6bc5b9aa5c1", null ]

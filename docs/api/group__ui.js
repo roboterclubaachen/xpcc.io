@@ -15,7 +15,7 @@ var group__ui =
         [ "ALL", "classxpcc_1_1_button_group.html#a5ab6ab92cc1bbb34ee431ec5e85b4443a413bc4f5e448b2bf02a57e138518dd08", null ]
       ] ],
       [ "ButtonGroup", "classxpcc_1_1_button_group.html#ae444915a84bf4d45abaa915450273703", null ],
-      [ "getState", "classxpcc_1_1_button_group.html#a3d6c692d4fbbd7f019779c812561cb94", null ],
+      [ "getState", "classxpcc_1_1_button_group.html#aa3cef6ff7d391454d8dfb628a0ef58fa", null ],
       [ "isReleased", "classxpcc_1_1_button_group.html#a543afb9661099587cbd62104958d5a1d", null ],
       [ "isPressed", "classxpcc_1_1_button_group.html#a650056c1955240d1785c3581176444e9", null ],
       [ "isRepeated", "classxpcc_1_1_button_group.html#a43f5b54a271461e2329755a8d2b9aeeb", null ],
@@ -33,11 +33,11 @@ var group__ui =
     ] ],
     [ "UnixTime", "classxpcc_1_1_unix_time.html", [
       [ "UnixTime", "classxpcc_1_1_unix_time.html#aa4fdc5faff748e7c20515fb9ead9f17c", null ],
-      [ "operator uint32_t", "classxpcc_1_1_unix_time.html#aff1a1114e2d7c717c4d353dd8cf9dbec", null ],
-      [ "toDate", "classxpcc_1_1_unix_time.html#aaf8db61dd07912789b836dc07054799c", null ]
+      [ "operator uint32_t", "classxpcc_1_1_unix_time.html#ab0b513855a7c3cf02c59e7481eec45fe", null ],
+      [ "toDate", "classxpcc_1_1_unix_time.html#a77b77725d8cf9d86af36f1cfd2933e45", null ]
     ] ],
     [ "Date", "classxpcc_1_1_date.html", [
-      [ "toUnixTimestamp", "classxpcc_1_1_date.html#a3dace23c53f745c1e017e2e24c615ffe", null ],
+      [ "toUnixTimestamp", "classxpcc_1_1_date.html#af7b4cfdc4534fbd9b69843b7d63d193f", null ],
       [ "second", "classxpcc_1_1_date.html#a7a5cf60c1964ed80db860fb31de0d228", null ],
       [ "minute", "classxpcc_1_1_date.html#ab7fe455ab93917a403b6ae6b9cbd6804", null ],
       [ "hour", "classxpcc_1_1_date.html#a4b39cc587f72a772b8aa03a269783d1d", null ],

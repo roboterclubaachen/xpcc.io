@@ -7,6 +7,6 @@ var classxpcc_1_1ui_1_1_strobe =
     [ "start", "classxpcc_1_1ui_1_1_strobe.html#a64c893e3d196f9fcac25dce8af8b4bbd", null ],
     [ "stop", "classxpcc_1_1ui_1_1_strobe.html#a2ba5dd0a7f0b9a7135db10b06961366b", null ],
     [ "cancel", "classxpcc_1_1ui_1_1_strobe.html#a89ef6bd21825838cefdd352cffa3b1f8", null ],
-    [ "isAnimating", "classxpcc_1_1ui_1_1_strobe.html#a809feaf875f82f4d02f6b92155bc271b", null ],
+    [ "isAnimating", "classxpcc_1_1ui_1_1_strobe.html#a279eeee64a37a79b242cb4430d9b2ee3", null ],
     [ "update", "classxpcc_1_1ui_1_1_strobe.html#a3b18cfd5d9d1acf1469e6c1e44c22937", null ]
 ];

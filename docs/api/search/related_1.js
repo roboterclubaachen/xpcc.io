@@ -1,7 +1,7 @@
 var searchData=
 [
+  ['operator_20_26',['operator &amp;',['../structxpcc_1_1_flags_operators.html#af242a1c559780336753e58183ca51104',1,'xpcc::FlagsOperators::operator &amp;()'],['../structxpcc_1_1_flags_operators.html#a587d5c947e1b1688cc8b8463d8104cfd',1,'xpcc::FlagsOperators::operator &amp;()'],['../structxpcc_1_1_flags_operators.html#ad2f92bd4fb96ddcbabc4f501b052a94a',1,'xpcc::FlagsOperators::operator &amp;()']]],
   ['operator_21_3d',['operator!=',['../structxpcc_1_1_flags_operators.html#a756878b7f29d2226ff2c4fd0b0716d42',1,'xpcc::FlagsOperators::operator!=()'],['../structxpcc_1_1_flags_operators.html#a7bea73f21e1b1a7a41e2104126caee0f',1,'xpcc::FlagsOperators::operator!=()']]],
-  ['operator_26',['operator&amp;',['../structxpcc_1_1_flags_operators.html#a0055457982bc6186ce072df5f52043e9',1,'xpcc::FlagsOperators::operator&amp;()'],['../structxpcc_1_1_flags_operators.html#aa15fc96077c8e2ccfbca834a7e7eab80',1,'xpcc::FlagsOperators::operator&amp;()'],['../structxpcc_1_1_flags_operators.html#a5e190d5dc8a034c90b225c0735357ce0',1,'xpcc::FlagsOperators::operator&amp;()']]],
   ['operator_2a',['operator*',['../classxpcc_1_1_vector_3_01_t_00_012_01_4.html#aefd21149e400d47cc32c97a1b85ef59d',1,'xpcc::Vector&lt; T, 2 &gt;']]],
   ['operator_2d',['operator-',['../classxpcc_1_1_saturated.html#ad3c1d1016da4a9f48ee8d357b4de3c8a',1,'xpcc::Saturated']]],
   ['operator_3c_3c',['operator&lt;&lt;',['../structxpcc_1_1_register.html#a0f260e509aed71042161a12a270d45c8',1,'xpcc::Register::operator&lt;&lt;()'],['../classxpcc_1_1_vector_3_01_t_00_012_01_4.html#aed86d4e7055e5e2247952cba3f905f6e',1,'xpcc::Vector&lt; T, 2 &gt;::operator&lt;&lt;()']]],

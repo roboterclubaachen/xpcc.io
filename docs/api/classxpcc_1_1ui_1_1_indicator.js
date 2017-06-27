@@ -6,6 +6,6 @@ var classxpcc_1_1ui_1_1_indicator =
     [ "setRange", "classxpcc_1_1ui_1_1_indicator.html#a0a0f4636141055abfb779f921eaecadf", null ],
     [ "start", "classxpcc_1_1ui_1_1_indicator.html#a7ff7d3863080150c9943913504f9d5f3", null ],
     [ "stop", "classxpcc_1_1ui_1_1_indicator.html#ad0fda9553dc7469a8cd43aef35028240", null ],
-    [ "isAnimating", "classxpcc_1_1ui_1_1_indicator.html#ab30ee4e8bc303e939d78f75e49832248", null ],
+    [ "isAnimating", "classxpcc_1_1ui_1_1_indicator.html#a4f7830e0cc60bc8755c8ee675ad584fa", null ],
     [ "update", "classxpcc_1_1ui_1_1_indicator.html#a12a04196d7b6acf8bd814c9e3cb1e4e3", null ]
 ];

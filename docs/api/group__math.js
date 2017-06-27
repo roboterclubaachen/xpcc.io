@@ -3,7 +3,7 @@ var group__math =
     [ "Saturated", "classxpcc_1_1_saturated.html", [
       [ "Saturated", "classxpcc_1_1_saturated.html#aa8c12c0a646449c4c27c96a73fc45ef0", null ],
       [ "Saturated", "classxpcc_1_1_saturated.html#a4e33eb32d57c9d4d435dc23f4ae6a1e2", null ],
-      [ "getValue", "classxpcc_1_1_saturated.html#a709d5787177e326fb2bc55dcb475b502", null ],
+      [ "getValue", "classxpcc_1_1_saturated.html#ad5e15b07ecefe9cf4515626c18016bc3", null ],
       [ "operator+=", "classxpcc_1_1_saturated.html#a468c112d6ff737f842f7fb3b09822a80", null ],
       [ "operator-=", "classxpcc_1_1_saturated.html#a124402c79f88e60a8add8409c28104d7", null ],
       [ "absolute", "classxpcc_1_1_saturated.html#ae13ec568e4b464339b5c69bee3757994", null ],

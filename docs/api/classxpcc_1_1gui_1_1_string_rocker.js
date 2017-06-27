@@ -6,5 +6,5 @@ var classxpcc_1_1gui_1_1_string_rocker =
     [ "activate", "classxpcc_1_1gui_1_1_string_rocker.html#a8e9a327526fa82959bbaf49fd2374f56", null ],
     [ "deactivate", "classxpcc_1_1gui_1_1_string_rocker.html#a79ec9e2a87c6d049fe97cea5f9c853fb", null ],
     [ "getValue", "classxpcc_1_1gui_1_1_string_rocker.html#a7e6b72827653133e010aacd2c481877e", null ],
-    [ "getId", "classxpcc_1_1gui_1_1_string_rocker.html#ac90c6f618c94b8d6f7371250b996a028", null ]
+    [ "getId", "classxpcc_1_1gui_1_1_string_rocker.html#affdceef8d50fe71fe72ae0c0415613d0", null ]
 ];

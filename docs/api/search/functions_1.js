@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['begin',['begin',['../classxpcc_1_1_doubly_linked_list.html#ae539d0076584c05a69b2ebf7865da8cd',1,'xpcc::DoublyLinkedList::begin()'],['../classxpcc_1_1_doubly_linked_list.html#ad4d662b638beff1e661e668bfac34ab2',1,'xpcc::DoublyLinkedList::begin() const '],['../classxpcc_1_1_dynamic_array.html#a948a1cf01e6916c5a011e9158d06a41a',1,'xpcc::DynamicArray::begin()'],['../classxpcc_1_1_dynamic_array.html#a90c8736ff5832b10e994a108ef8058bc',1,'xpcc::DynamicArray::begin() const '],['../classxpcc_1_1_linked_list.html#a404f8b4fcb1cf228440116c9e240bc53',1,'xpcc::LinkedList::begin()'],['../classxpcc_1_1_linked_list.html#a78b558b18a5967bd50904ca20345002a',1,'xpcc::LinkedList::begin() const ']]],
+  ['begin',['begin',['../classxpcc_1_1_doubly_linked_list.html#ae539d0076584c05a69b2ebf7865da8cd',1,'xpcc::DoublyLinkedList::begin()'],['../classxpcc_1_1_doubly_linked_list.html#a030b94a8852e729eef9cfbbb16aaf9c5',1,'xpcc::DoublyLinkedList::begin() const'],['../classxpcc_1_1_dynamic_array.html#a948a1cf01e6916c5a011e9158d06a41a',1,'xpcc::DynamicArray::begin()'],['../classxpcc_1_1_dynamic_array.html#a2148b0f855a4882f47e57ce2bf58af3e',1,'xpcc::DynamicArray::begin() const'],['../classxpcc_1_1_linked_list.html#a404f8b4fcb1cf228440116c9e240bc53',1,'xpcc::LinkedList::begin()'],['../classxpcc_1_1_linked_list.html#a145b624a6986ecd9737767ce06307ef9',1,'xpcc::LinkedList::begin() const']]],
   ['bin',['bin',['../classxpcc_1_1_i_o_stream.html#a8b542727f06c2ddcf93759c32ad371d8',1,'xpcc::IOStream::bin()'],['../group__io.html#gadb616d1b40fdff6cc8db8c5fc5173976',1,'xpcc::bin()']]],
   ['bitcount',['bitCount',['../group__math.html#ga52c5a2acd054c39f9e5219831c5d7112',1,'xpcc::bitCount(uint8_t n)'],['../group__math.html#gaba096bae304eaa8fafef30563c6f45dd',1,'xpcc::bitCount(uint16_t n)'],['../group__math.html#ga2d400b7e4b36bf9a3c026758c03af6e9',1,'xpcc::bitCount(uint32_t n)']]],
   ['bitreverse',['bitReverse',['../group__math.html#gac4cfb3ea7685f7b0ab57a74e78a9258f',1,'xpcc::bitReverse(uint8_t n)'],['../group__math.html#ga2a1624a838c6d1436095ecfa7e29f17a',1,'xpcc::bitReverse(uint16_t n)'],['../group__math.html#ga9a387da4e05c0f71e823c896549a3d9e',1,'xpcc::bitReverse(uint32_t n)']]],
@@ -15,5 +15,5 @@ var searchData=
   ['bscale',['bScale',['../classxpcc_1_1xmega_1_1_uart_baudrate.html#af74e3542137b8178a25fc7bbd3581c60',1,'xpcc::xmega::UartBaudrate']]],
   ['bsel',['bSel',['../classxpcc_1_1xmega_1_1_uart_baudrate.html#ae1940760956244d7ddf642401f6f222b',1,'xpcc::xmega::UartBaudrate']]],
   ['buttongroup',['ButtonGroup',['../classxpcc_1_1_button_group.html#ae444915a84bf4d45abaa915450273703',1,'xpcc::ButtonGroup']]],
-  ['bytesavailable',['bytesAvailable',['../classxpcc_1_1hosted_1_1_serial_interface.html#a997d4c44ec423a19e11340ff99499ad5',1,'xpcc::hosted::SerialInterface']]]
+  ['bytesavailable',['bytesAvailable',['../classxpcc_1_1hosted_1_1_serial_interface.html#afa61940da7d0796b9e2c7201d355c2ce',1,'xpcc::hosted::SerialInterface']]]
 ];

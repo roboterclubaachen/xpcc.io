@@ -1,5 +1,13 @@
 var classxpcc_1_1_nrf24_data =
 [
+    [ "Frame", "classxpcc_1_1_nrf24_data.html#structxpcc_1_1_nrf24_data_1_1_frame", [
+      [ "header", "classxpcc_1_1_nrf24_data.html#a34d85febacb9bcea5f936c55e3b72295", null ],
+      [ "data", "classxpcc_1_1_nrf24_data.html#a8ea760892284becfbab92751adc233bf", null ]
+    ] ],
+    [ "Header", "classxpcc_1_1_nrf24_data.html#structxpcc_1_1_nrf24_data_1_1_header", [
+      [ "src", "classxpcc_1_1_nrf24_data.html#a5bdd78cb1214f25bb5b33580b61d420f", null ],
+      [ "dest", "classxpcc_1_1_nrf24_data.html#afae268b88862e5f5f09c0b7b32bed5b0", null ]
+    ] ],
     [ "BaseAddress", "group__nrf24.html#ga6cf2e8a3efed4df83ba0d53f5f8790b5", null ],
     [ "Address", "group__nrf24.html#ga7ccdd6badc5e133a47ad2b5231d60bb2", null ],
     [ "Config", "classxpcc_1_1_nrf24_data.html#aaa45d822886be1edec9789785e82069c", null ],

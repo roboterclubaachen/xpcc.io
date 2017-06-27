@@ -5,6 +5,6 @@ var classxpcc_1_1ui_1_1_pulse =
     [ "setRange", "classxpcc_1_1ui_1_1_pulse.html#a35fbe25618366412f384cf58632fd6a9", null ],
     [ "start", "classxpcc_1_1ui_1_1_pulse.html#af4ce679a840f0730055fd1cac876cf0e", null ],
     [ "stop", "classxpcc_1_1ui_1_1_pulse.html#a5c457be9dea7f525cd1015000ced69fa", null ],
-    [ "isAnimating", "classxpcc_1_1ui_1_1_pulse.html#aca34d24017701b0d845a52523a93dbff", null ],
+    [ "isAnimating", "classxpcc_1_1ui_1_1_pulse.html#aafe0b6f988d9c40a64d7bc1f5b57526e", null ],
     [ "update", "classxpcc_1_1ui_1_1_pulse.html#a74920290306a0b4bc1e82aea7ddf0f07", null ]
 ];

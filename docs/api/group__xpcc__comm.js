@@ -19,14 +19,14 @@ var group__xpcc__comm =
       [ "~BackendInterface", "classxpcc_1_1_backend_interface.html#ab9491aa21eb406a8216251179b88fdbe", null ],
       [ "update", "classxpcc_1_1_backend_interface.html#a7c3854da5ae8e5051cd7ff2d74b22fc9", null ],
       [ "sendPacket", "classxpcc_1_1_backend_interface.html#ae0b877793ee63af70efd7ef7dfb138de", null ],
-      [ "isPacketAvailable", "classxpcc_1_1_backend_interface.html#a799eb57334d11737e6fb08cedcbffcaa", null ],
-      [ "getPacketHeader", "classxpcc_1_1_backend_interface.html#a3a0b8535084fbbaba53dddb2b2add522", null ],
-      [ "getPacketPayload", "classxpcc_1_1_backend_interface.html#a8fa9c09b67cdb7bbac07261ad3155fd2", null ],
+      [ "isPacketAvailable", "classxpcc_1_1_backend_interface.html#a7c9de149048bd3b5ccf408a4525fda75", null ],
+      [ "getPacketHeader", "classxpcc_1_1_backend_interface.html#a53efb10c7751f0233f25ae44784f43d7", null ],
+      [ "getPacketPayload", "classxpcc_1_1_backend_interface.html#abae8c33fbd5ca5ff7edb5fc8af4216b0", null ],
       [ "dropPacket", "classxpcc_1_1_backend_interface.html#a4aa4ac4bb8ae65545e33e87f02a19244", null ]
     ] ],
     [ "Communicatable", "classxpcc_1_1_communicatable.html", null ],
     [ "Communicator", "classxpcc_1_1_communicator.html", [
-      [ "getIdentifier", "classxpcc_1_1_communicator.html#a8dadb8af081ff28b3cc0929314e918e5", null ],
+      [ "getIdentifier", "classxpcc_1_1_communicator.html#a697395d2bbfc33059f926b4b239da12e", null ],
       [ "callAction", "classxpcc_1_1_communicator.html#a2d2c66a52913b7b689582ea186e2fde8", null ],
       [ "callAction", "classxpcc_1_1_communicator.html#a9f4eeb2d993bb8e6d3dcd5ddd90dc30f", null ],
       [ "callAction", "classxpcc_1_1_communicator.html#ae51a6194725481cd2673a1de0e861ce4", null ],
@@ -47,7 +47,7 @@ var group__xpcc__comm =
     [ "DynamicPostman", "classxpcc_1_1_dynamic_postman.html", [
       [ "DynamicPostman", "classxpcc_1_1_dynamic_postman.html#a797d1df8d092d2d06c2b779878294e2a", null ],
       [ "deliverPacket", "classxpcc_1_1_dynamic_postman.html#a10861441211803af0bf8c66824d4665f", null ],
-      [ "isComponentAvailable", "classxpcc_1_1_dynamic_postman.html#a0ed7a0bec370bf5e8d9632545e995b93", null ],
+      [ "isComponentAvailable", "classxpcc_1_1_dynamic_postman.html#a58b1b59250a7d5d574351e7b1f88455b", null ],
       [ "registerEventListener", "classxpcc_1_1_dynamic_postman.html#af5d2d5564fc31d317bc29d66bfcf09a3", null ],
       [ "registerEventListener", "classxpcc_1_1_dynamic_postman.html#ad97dbcc8b05e9bc436fc481bfeeed848", null ],
       [ "registerActionHandler", "classxpcc_1_1_dynamic_postman.html#a3fef2469a9066e3b06bfd9fdb7fc7779", null ],
@@ -65,7 +65,7 @@ var group__xpcc__comm =
         [ "NOT_IMPLEMENTED_YET_ERROR", "classxpcc_1_1_postman.html#aa440ccd20c324f7f6d429c792da04f43a6448e58e6d8b4848b784ee66ed70997e", null ]
       ] ],
       [ "deliverPacket", "classxpcc_1_1_postman.html#a6ac029a0ef8d6768b711b4ff868eccd9", null ],
-      [ "isComponentAvailable", "classxpcc_1_1_postman.html#a1b4415d88d4239b9a7750ff11147af57", null ]
+      [ "isComponentAvailable", "classxpcc_1_1_postman.html#a56d033f2ce76af94fc961629d7a6f5ff", null ]
     ] ],
     [ "ActionResult", "classxpcc_1_1_action_result.html", [
       [ "ActionResult", "classxpcc_1_1_action_result.html#a7b5f9b2c5f484e389ba832ea90da2c56", null ],
@@ -79,16 +79,16 @@ var group__xpcc__comm =
       [ "ResponseCallback", "classxpcc_1_1_response_callback.html#a4d16f35e54364a2bcc014e7af88c121d", null ],
       [ "ResponseCallback", "classxpcc_1_1_response_callback.html#a34f0a1e2d26a29a35b4498e3127b4abe", null ],
       [ "ResponseCallback", "classxpcc_1_1_response_callback.html#a56f79eb2533f0a9c741ebb3f43f3056b", null ],
-      [ "isCallable", "classxpcc_1_1_response_callback.html#a5c2c4bce899bc9715ccd10bd5c88e1dd", null ],
-      [ "call", "classxpcc_1_1_response_callback.html#a2aca88c94ff88e6ff6ecc9a605319807", null ],
+      [ "isCallable", "classxpcc_1_1_response_callback.html#aec694ee5c7aede7229181eb52895e317", null ],
+      [ "call", "classxpcc_1_1_response_callback.html#a314dcc04e697ad783e5eb296a992f3cc", null ],
       [ "component", "classxpcc_1_1_response_callback.html#acbd75a3b2fecbef8c9e211c5ae6fbbbc", null ],
       [ "function", "classxpcc_1_1_response_callback.html#a166429ecbae95a0fe188e09d85ee2001", null ]
     ] ],
     [ "ResponseHandle", "classxpcc_1_1_response_handle.html", [
       [ "ResponseHandle", "classxpcc_1_1_response_handle.html#a20961aaa5109afe9491a9344252a9bae", null ],
       [ "ResponseHandle", "classxpcc_1_1_response_handle.html#a91c90f66558bbed1d5ea075ff4558531", null ],
-      [ "getDestination", "classxpcc_1_1_response_handle.html#a4cb0f8344dde8e046ab00a219a80e0ed", null ],
-      [ "getIdentifier", "classxpcc_1_1_response_handle.html#a589f9620141be217f3c32da3681dcabe", null ],
+      [ "getDestination", "classxpcc_1_1_response_handle.html#a01a43f5eaab5f4806266b8f7554009b0", null ],
+      [ "getIdentifier", "classxpcc_1_1_response_handle.html#a5a39fab96a8d473eb39c42c1fd45ddfa", null ],
       [ "Communicator", "classxpcc_1_1_response_handle.html#ade690b78412fb1a6414ce3a7a81bfa32", null ],
       [ "destination", "classxpcc_1_1_response_handle.html#a7c2dc3e3f60f5a84c7140fb659d696d5", null ],
       [ "packetIdentifier", "classxpcc_1_1_response_handle.html#a2a8f020b4f6ce3fbc8115264d492c90a", null ]

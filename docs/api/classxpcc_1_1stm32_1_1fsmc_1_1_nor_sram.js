@@ -1,5 +1,19 @@
 var classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram =
 [
+    [ "AsynchronousTiming", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_asynchronous_timing", [
+      [ "readAddressSetup", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a35e09f22311a741d419a5e01cb706943", null ],
+      [ "readAddressHold", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a3c8b3a267020be0300543ad34cb75a2d", null ],
+      [ "readDataPhase", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a639f0a286904d9f662852a3bc3b1e698", null ],
+      [ "writeAddressSetup", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a78e13fe041d11be72bb4675a2ac9da5f", null ],
+      [ "writeAddressHold", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ac0d7500750c118fa3e9850a178c950d0", null ],
+      [ "writeDataPhase", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a6debb6088504b937692c2ff4f7ea8a3b", null ],
+      [ "busTurnAround", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a78f06aac9dd83d70d6444ce2d39b76b9", null ]
+    ] ],
+    [ "SynchronousTiming", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#structxpcc_1_1stm32_1_1fsmc_1_1_nor_sram_1_1_synchronous_timing", [
+      [ "busTurnAround", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ad4bf67b6f2167ea973a2f5f5742da169", null ],
+      [ "clockDivideRatio", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#a43d90a12e89f677bac105b44314d1eba", null ],
+      [ "dataLatency", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ac1b00bb3dc0159a8d86e398e0bc6f7c4", null ]
+    ] ],
     [ "Region", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ae2abb7e5ceeaa024431a4db124a8f46a", [
       [ "CHIP_SELECT_1", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ae2abb7e5ceeaa024431a4db124a8f46aa60f9fdd3e0cfff45195e8052b532e3af", null ],
       [ "CHIP_SELECT_2", "classxpcc_1_1stm32_1_1fsmc_1_1_nor_sram.html#ae2abb7e5ceeaa024431a4db124a8f46aa17a403802601c8c772166a89aa2d6eee", null ],
