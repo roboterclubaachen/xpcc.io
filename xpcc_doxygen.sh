@@ -1,21 +1,18 @@
 #!/usr/bin/env sh
 
+rm -r xpcc/build
+
 # build ATtiny85
-cd xpcc/examples/avr/gpio/basic/
-scons
+(cd xpcc/examples/avr/gpio/basic/ && scons)
 
 # build ATmega328p
-cd ../blinking/
-scons
+(cd xpcc/examples/avr/gpio/blinking/ && scons)
 
 # build the STM32F407
-cd ../../../stm32f4_discovery/blink/
-scons
+(cd xpcc/examples/stm32f4_discovery/blink/ && scons)
 
 # build the documenation
-cd ../../../
-scons doc
+(cd xpcc && scons doc)
 
 # copy the xpcc doc to the right place
-cd ../
 cp -r xpcc/doc/build/api docs/
