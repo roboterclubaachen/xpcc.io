@@ -76,8 +76,24 @@ To program and debug your ARM Cortex-M device, you need to install the latest
 
 ## Installing on Windows
 
-We're sorry, we do not have enough experience with Windows to provide
-honest support.
-[Pull requests welcome!](https://github.com/roboterclubaachen/xpcc/pulls)
+First thing you need is Python 2.7. On Windows it is strongly recommended to use a Python enviroment manager instead of plain Python/pip, e.g. Anaconda.
+
+### Installation with Anaconda
+First we create a new Python 2.7 enviroment and install all nescessary packages.
+
+    conda create --name xpcc python=2.7
+    activate xpcc
+    conda install -c conda-forge jinja2 scons git
+
+For now you will also need the following packages:
+
+    conda install -c conda-forge configparser future
+    
+For ARM development you will need the Windows 32-bit build of the [GNU Arm Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). The binary sources of this toolchain (.../bin) have to be added to your PATH variable.
+
+For programming and debugging ARM Cortex-M devices you will also need prebuild [OpenOCD binaries](http://gnutoolchains.com/arm-eabi/openocd/). The binary sources (.../bin) have to be added to your PATH variable as well.
+
+### Current bugs
+As for now, you cant use project and build paths, that contain non-ASCII characters (ä,ö, ...), since they are not parsed correctly.
 
 [examples]: https://github.com/roboterclubaachen/xpcc/tree/develop/examples
